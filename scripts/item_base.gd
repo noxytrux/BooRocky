@@ -9,3 +9,12 @@ enum ITEM_TYPE
 }
 
 @export var SelectedType = ITEM_TYPE.PAMPERS
+
+func IsPickable() -> bool:
+	return true 
+	
+func PickUp() -> void:
+	pass
+	
+func PutDown() -> void:
+	pass

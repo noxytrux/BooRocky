@@ -19,6 +19,9 @@ func TakeItem() -> ItemBase:
 	if(HoldItem == null):
 		return null
 	
+	if(!HoldItem.IsPickable()):
+		return null;
+		
 	var result = HoldItem
 	ItemAnchor.remove_child(HoldItem)
 	HoldItem = null
