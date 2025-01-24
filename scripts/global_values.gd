@@ -27,3 +27,41 @@ static func direction_to_str(dir: DIRECTION) -> String:
 		DIRECTION.DOWN:
 			return "down"
 	return "none"
+
+static func GetInputDirection(input_device: INPUT_DEVICE) -> Vector2:
+	match input_device:
+		GlobalValues.INPUT_DEVICE.WSAD:
+			return Input.get_vector("A", "D", "W", "S")
+		GlobalValues.INPUT_DEVICE.ARROWS:
+			return Input.get_vector("Left", "Right", "Up", "Down")
+		GlobalValues.INPUT_DEVICE.GAMEPAD1:
+			return Vector2(Input.get_joy_axis(0, JOY_AXIS_LEFT_X),
+				Input.get_joy_axis(0, JOY_AXIS_LEFT_Y))
+		GlobalValues.INPUT_DEVICE.GAMEPAD2:
+			return Vector2(Input.get_joy_axis(1, JOY_AXIS_LEFT_X),
+				Input.get_joy_axis(1, JOY_AXIS_LEFT_Y))
+	return Vector2.ZERO
+
+static func IsInputAction1Pressed(input_device: INPUT_DEVICE) -> bool:
+	match input_device:
+		GlobalValues.INPUT_DEVICE.WSAD:
+			return Input.is_action_pressed("Q")
+		GlobalValues.INPUT_DEVICE.ARROWS:
+			return Input.is_action_pressed("Dot")
+		GlobalValues.INPUT_DEVICE.GAMEPAD1:
+			return Input.is_joy_button_pressed(0, JOY_BUTTON_A)
+		GlobalValues.INPUT_DEVICE.GAMEPAD2:
+			return Input.is_joy_button_pressed(1, JOY_BUTTON_A)
+	return false
+
+static func IsInputAction2Pressed(input_device: INPUT_DEVICE) -> bool:
+	match input_device:
+		GlobalValues.INPUT_DEVICE.WSAD:
+			return Input.is_action_pressed("E")
+		GlobalValues.INPUT_DEVICE.ARROWS:
+			return Input.is_action_pressed("Slash")
+		GlobalValues.INPUT_DEVICE.GAMEPAD1:
+			return Input.is_joy_button_pressed(0, JOY_BUTTON_X)
+		GlobalValues.INPUT_DEVICE.GAMEPAD2:
+			return Input.is_joy_button_pressed(1, JOY_BUTTON_X)
+	return false
