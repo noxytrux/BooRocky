@@ -1,10 +1,11 @@
 extends Node
 
+# Elements will be removed from the beginning of this array.
 @onready var player_spawners = [
 	$PlayerSpawners/PlayerSpawner1, $PlayerSpawners/PlayerSpawner2,
 	$PlayerSpawners/PlayerSpawner3, $PlayerSpawners/PlayerSpawner4]
 
-# Index matches INPUT_DEVICE.
+# Index matches INPUT_DEVICE. Elements will be set to true.
 var player_per_input_device_spawned := [false, false, false, false]
 
 func process_spawning_player(input_device: GlobalValues.INPUT_DEVICE) -> void:
