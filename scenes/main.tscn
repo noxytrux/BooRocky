@@ -12,6 +12,21 @@ script = ExtResource("1_s540f")
 [node name="Camera2D" type="Camera2D" parent="."]
 
 [node name="Player" parent="." instance=ExtResource("2_grrq8")]
+color = Color(0.679969, 0.399265, 0.787527, 1)
+input_action_left = "PadLeft"
+input_action_right = "PadRight"
+input_action_up = "PadUp"
+input_action_down = "PadDown"
+input_action_1 = "PadButton1"
+input_action_2 = "PadButton2"
+
+[node name="Player2" parent="." instance=ExtResource("2_grrq8")]
+position = Vector2(241, 57)
+color = Color(0.886169, 0.316286, 0.240012, 1)
+input_action_left = "A"
+input_action_right = "D"
+input_action_up = "W"
+input_action_down = "S"
 
 [node name="Temporary obstacle" type="Node2D" parent="."]
 
