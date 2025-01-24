@@ -3321,10 +3321,11 @@ collision_mask = 32768
 position = Vector2(0, -27)
 
 [node name="DashCooldownTimer" type="Timer" parent="."]
-wait_time = 3.0
+wait_time = 0.5
 one_shot = true
 
 [node name="DashActiveTimer" type="Timer" parent="."]
+wait_time = 0.35
 one_shot = true
 
 [connection signal="timeout" from="DashCooldownTimer" to="." method="_on_dash_cooldown_timer_timeout"]
