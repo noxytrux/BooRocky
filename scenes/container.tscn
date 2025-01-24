@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=3 uid="uid://ipli60f82tfw"]
+[gd_scene load_steps=3 format=3 uid="uid://b6yx08dnl1u10"]
 
 [ext_resource type="Script" path="res://scripts/container.gd" id="1_u0m4p"]
 
@@ -6,6 +6,8 @@
 size = Vector2(129, 128)
 
 [node name="Container" type="StaticBody2D"]
+collision_layer = 32768
+collision_mask = 32768
 script = ExtResource("1_u0m4p")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]

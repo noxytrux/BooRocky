@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://cjtvph0ia7vjl" path="res://Assets/atlas_32x.png" id="2_i284k"]
 [ext_resource type="Texture2D" uid="uid://yakrpfebqq5w" path="res://Assets/market_atlas_32x.png" id="3_0h0ay"]
 [ext_resource type="PackedScene" uid="uid://d21g3qba2slgn" path="res://scenes/player.tscn" id="4_mgpyj"]
-[ext_resource type="PackedScene" path="res://scenes/container.tscn" id="5_xvupt"]
+[ext_resource type="PackedScene" uid="uid://b6yx08dnl1u10" path="res://scenes/container.tscn" id="5_xvupt"]
 [ext_resource type="PackedScene" uid="uid://dcjde67tyb40a" path="res://scenes/Items/Food.tscn" id="6_iitf7"]
 [ext_resource type="PackedScene" uid="uid://cgeyearammmm1" path="res://scenes/Items/Pampers.tscn" id="7_e67ip"]
 
@@ -19831,11 +19831,11 @@ tile_set = SubResource("TileSet_1aokw")
 [node name="Player" parent="." instance=ExtResource("4_mgpyj")]
 position = Vector2(1533, 708)
 scale = Vector2(1.5, 1.5)
-input_device = 1
 
 [node name="Player2" parent="." instance=ExtResource("4_mgpyj")]
 position = Vector2(96, 947)
 scale = Vector2(1.5, 1.5)
+input_device = 1
 cloth_color_modulate = Color(1, 0.12, 0.12, 1)
 
 [node name="Overlay" type="TileMapLayer" parent="."]

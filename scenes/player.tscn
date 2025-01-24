@@ -1,21 +1,21 @@
 [gd_scene load_steps=443 format=3 uid="uid://d21g3qba2slgn"]
 
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_uap0v"]
-[ext_resource type="Texture2D" uid="uid://duj8qv7wh1ufk" path="res://Assets/Characters/complete/separate/carry/char1_carry.png" id="2_njpmw"]
-[ext_resource type="Texture2D" uid="uid://cvvp4oa0hdwgq" path="res://Assets/Characters/complete/separate/pickup/char1_pickup.png" id="2_pne8s"]
-[ext_resource type="Texture2D" uid="uid://bk0b1wvcbbawf" path="res://Assets/Characters/complete/separate/walk/char1_walk.png" id="2_rlubb"]
-[ext_resource type="Texture2D" uid="uid://cxvbvoxu7vbry" path="res://Assets/Characters/complete/separate/walk/clothes/basic_walk.png" id="3_1wrso"]
-[ext_resource type="Texture2D" uid="uid://buyqnudis35lq" path="res://Assets/Characters/complete/separate/pickup/clothes/basic_pickup.png" id="4_7id22"]
-[ext_resource type="Texture2D" uid="uid://dq5g1wour4uy8" path="res://Assets/Characters/complete/separate/walk/clothes/pants_walk.png" id="4_gn84s"]
-[ext_resource type="Texture2D" uid="uid://b0h4ryn7fxq58" path="res://Assets/Characters/complete/separate/walk/clothes/shoes_walk.png" id="5_e852d"]
-[ext_resource type="Texture2D" uid="uid://dika0i4jacsas" path="res://Assets/Characters/complete/separate/carry/clothes/basic_carry.png" id="5_lk3al"]
-[ext_resource type="Texture2D" uid="uid://dlmfndrydgbq5" path="res://Assets/Characters/complete/separate/pickup/clothes/pants_pickup.png" id="6_7i53t"]
-[ext_resource type="Texture2D" uid="uid://bc7xbxp0ji0rt" path="res://Assets/Characters/complete/separate/walk/hair/braids_walk.png" id="6_k52bl"]
-[ext_resource type="Texture2D" uid="uid://dfcjlu20u7kgs" path="res://Assets/Characters/complete/separate/pickup/clothes/shoes_pickup.png" id="8_m207l"]
-[ext_resource type="Texture2D" uid="uid://doxqvnii6bcgr" path="res://Assets/Characters/complete/separate/carry/clothes/pants_carry.png" id="8_xjors"]
-[ext_resource type="Texture2D" uid="uid://d3o38x4r532w3" path="res://Assets/Characters/complete/separate/pickup/hair/braids_pickup.png" id="10_e512b"]
-[ext_resource type="Texture2D" uid="uid://br0nod13exvot" path="res://Assets/Characters/complete/separate/carry/clothes/shoes_carry.png" id="11_pnxww"]
-[ext_resource type="Texture2D" uid="uid://cibax3vfq0keh" path="res://Assets/Characters/complete/separate/carry/hair/braids_carry.png" id="14_ogahw"]
+[ext_resource type="Texture2D" uid="uid://duj8qv7wh1ufk" path="res://Assets/characters/complete/separate/carry/char1_carry.png" id="2_njpmw"]
+[ext_resource type="Texture2D" uid="uid://cvvp4oa0hdwgq" path="res://Assets/characters/complete/separate/pickup/char1_pickup.png" id="2_pne8s"]
+[ext_resource type="Texture2D" uid="uid://bk0b1wvcbbawf" path="res://Assets/characters/complete/separate/walk/char1_walk.png" id="2_rlubb"]
+[ext_resource type="Texture2D" uid="uid://cxvbvoxu7vbry" path="res://Assets/characters/complete/separate/walk/clothes/basic_walk.png" id="3_1wrso"]
+[ext_resource type="Texture2D" uid="uid://buyqnudis35lq" path="res://Assets/characters/complete/separate/pickup/clothes/basic_pickup.png" id="4_7id22"]
+[ext_resource type="Texture2D" uid="uid://dq5g1wour4uy8" path="res://Assets/characters/complete/separate/walk/clothes/pants_walk.png" id="4_gn84s"]
+[ext_resource type="Texture2D" uid="uid://b0h4ryn7fxq58" path="res://Assets/characters/complete/separate/walk/clothes/shoes_walk.png" id="5_e852d"]
+[ext_resource type="Texture2D" uid="uid://dika0i4jacsas" path="res://Assets/characters/complete/separate/carry/clothes/basic_carry.png" id="5_lk3al"]
+[ext_resource type="Texture2D" uid="uid://dlmfndrydgbq5" path="res://Assets/characters/complete/separate/pickup/clothes/pants_pickup.png" id="6_7i53t"]
+[ext_resource type="Texture2D" uid="uid://bc7xbxp0ji0rt" path="res://Assets/characters/complete/separate/walk/hair/braids_walk.png" id="6_k52bl"]
+[ext_resource type="Texture2D" uid="uid://dfcjlu20u7kgs" path="res://Assets/characters/complete/separate/pickup/clothes/shoes_pickup.png" id="8_m207l"]
+[ext_resource type="Texture2D" uid="uid://doxqvnii6bcgr" path="res://Assets/characters/complete/separate/carry/clothes/pants_carry.png" id="8_xjors"]
+[ext_resource type="Texture2D" uid="uid://d3o38x4r532w3" path="res://Assets/characters/complete/separate/pickup/hair/braids_pickup.png" id="10_e512b"]
+[ext_resource type="Texture2D" uid="uid://br0nod13exvot" path="res://Assets/characters/complete/separate/carry/clothes/shoes_carry.png" id="11_pnxww"]
+[ext_resource type="Texture2D" uid="uid://cibax3vfq0keh" path="res://Assets/characters/complete/separate/carry/hair/braids_carry.png" id="14_ogahw"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_f4aq1"]
 size = Vector2(35, 57)
@@ -3315,6 +3315,7 @@ autoplay = "walk_down"
 
 [node name="RayCast2D" type="RayCast2D" parent="."]
 target_position = Vector2(0, -100)
+collision_mask = 32768
 
 [node name="ItemAnchor" type="Node2D" parent="."]
 position = Vector2(0, -27)
