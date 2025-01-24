@@ -1,26 +1,29 @@
 [gd_scene load_steps=5 format=3 uid="uid://blf6fliqevoxr"]
 
-[ext_resource type="PackedScene" uid="uid://bh078iwnlpfq0" path="res://scenes/item_base.tscn" id="1_kwo7g"]
 [ext_resource type="PackedScene" uid="uid://ipli60f82tfw" path="res://scenes/container.tscn" id="2_2xiol"]
-[ext_resource type="Texture2D" uid="uid://cmw16x2pyoby7" path="res://icon.svg" id="2_imxfa"]
+[ext_resource type="PackedScene" uid="uid://wmxx4fyomn1h" path="res://scenes/Items/Drug.tscn" id="2_ovq7c"]
+[ext_resource type="PackedScene" uid="uid://dcjde67tyb40a" path="res://scenes/Items/Food.tscn" id="3_o3swo"]
 [ext_resource type="PackedScene" uid="uid://d21g3qba2slgn" path="res://scenes/player.tscn" id="3_p10gw"]
 
 [node name="Playground" type="Node2D"]
-
-[node name="Pampers" parent="." instance=ExtResource("1_kwo7g")]
 
 [node name="Container" parent="." node_paths=PackedStringArray("HoldItem") instance=ExtResource("2_2xiol")]
 position = Vector2(0, -253)
 HoldItem = NodePath("Drug")
 
-[node name="Drug" parent="Container" instance=ExtResource("1_kwo7g")]
-position = Vector2(313.5, 188)
-scale = Vector2(0.382813, 0.390625)
-texture = ExtResource("2_imxfa")
-flip_v = true
+[node name="Drug" parent="Container" instance=ExtResource("2_ovq7c")]
+position = Vector2(0, 253)
 
-[node name="Container2" parent="." instance=ExtResource("2_2xiol")]
+[node name="Container2" parent="." node_paths=PackedStringArray("HoldItem") instance=ExtResource("2_2xiol")]
 position = Vector2(186, -253)
+HoldItem = NodePath("Food")
+
+[node name="Food" parent="Container2" instance=ExtResource("3_o3swo")]
+position = Vector2(-186, 253)
+SelectedType = 2
+
+[node name="Container3" parent="." instance=ExtResource("2_2xiol")]
+position = Vector2(382, -251)
 
 [node name="Player" parent="." instance=ExtResource("3_p10gw")]
 motion_mode = 0
