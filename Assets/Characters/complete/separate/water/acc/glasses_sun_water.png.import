@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dsjojvbx8v17p"
-path="res://.godot/imported/glasses_sun_water.png-253c18cbda6606c8e6c1f4883019c35e.ctex"
+path="res://.godot/imported/glasses_sun_water.png-c34d87f0bd7231a75ac535bdb143c919.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/water/acc/glasses_sun_water.png"
-dest_files=["res://.godot/imported/glasses_sun_water.png-253c18cbda6606c8e6c1f4883019c35e.ctex"]
+source_file="res://Assets/characters/complete/separate/water/acc/glasses_sun_water.png"
+dest_files=["res://.godot/imported/glasses_sun_water.png-c34d87f0bd7231a75ac535bdb143c919.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://oummrchue5yc"
-path="res://.godot/imported/pants_fish.png-b806df2975865fb0cef46c139540f92a.ctex"
+path="res://.godot/imported/pants_fish.png-1ddd3eecf09a4209e960d2c1618c5753.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/fish/clothes/pants_fish.png"
-dest_files=["res://.godot/imported/pants_fish.png-b806df2975865fb0cef46c139540f92a.ctex"]
+source_file="res://Assets/characters/complete/separate/fish/clothes/pants_fish.png"
+dest_files=["res://.godot/imported/pants_fish.png-1ddd3eecf09a4209e960d2c1618c5753.ctex"]
 
 [params]
 

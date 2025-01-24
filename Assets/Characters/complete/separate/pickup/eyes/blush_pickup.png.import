@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://csp6n5ofuqigc"
-path="res://.godot/imported/blush_pickup.png-ee8d3590d7de459bd4b559db71693aa7.ctex"
+path="res://.godot/imported/blush_pickup.png-356b404b15a482805383a92f2f7e2424.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/pickup/eyes/blush_pickup.png"
-dest_files=["res://.godot/imported/blush_pickup.png-ee8d3590d7de459bd4b559db71693aa7.ctex"]
+source_file="res://Assets/characters/complete/separate/pickup/eyes/blush_pickup.png"
+dest_files=["res://.godot/imported/blush_pickup.png-356b404b15a482805383a92f2f7e2424.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dg67aiawtuv0j"
-path="res://.godot/imported/spacebuns_hurt.png-ae07712d16390357df256f94e8042172.ctex"
+path="res://.godot/imported/spacebuns_hurt.png-b5ca185b05282ce70db1d9062105c5ad.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/hurt/hair/spacebuns_hurt.png"
-dest_files=["res://.godot/imported/spacebuns_hurt.png-ae07712d16390357df256f94e8042172.ctex"]
+source_file="res://Assets/characters/complete/separate/hurt/hair/spacebuns_hurt.png"
+dest_files=["res://.godot/imported/spacebuns_hurt.png-b5ca185b05282ce70db1d9062105c5ad.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dw7lwivyx8gl1"
-path="res://.godot/imported/spaghetti_carry.png-df60f04f4e30a3b1a7fac4dd0a2351cb.ctex"
+path="res://.godot/imported/spaghetti_carry.png-7b2f4c3f62904aab905be6beb0dfc2a2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/carry/clothes/spaghetti_carry.png"
-dest_files=["res://.godot/imported/spaghetti_carry.png-df60f04f4e30a3b1a7fac4dd0a2351cb.ctex"]
+source_file="res://Assets/characters/complete/separate/carry/clothes/spaghetti_carry.png"
+dest_files=["res://.godot/imported/spaghetti_carry.png-7b2f4c3f62904aab905be6beb0dfc2a2.ctex"]
 
 [params]
 

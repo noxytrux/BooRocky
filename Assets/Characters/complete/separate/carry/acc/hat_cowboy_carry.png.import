@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cihh1crd164ui"
-path="res://.godot/imported/hat_cowboy_carry.png-c06a949ceb668debb0b4f86a9b26abe9.ctex"
+path="res://.godot/imported/hat_cowboy_carry.png-964896b4ab2fe3ac2375661eba1a3d95.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/carry/acc/hat_cowboy_carry.png"
-dest_files=["res://.godot/imported/hat_cowboy_carry.png-c06a949ceb668debb0b4f86a9b26abe9.ctex"]
+source_file="res://Assets/characters/complete/separate/carry/acc/hat_cowboy_carry.png"
+dest_files=["res://.godot/imported/hat_cowboy_carry.png-964896b4ab2fe3ac2375661eba1a3d95.ctex"]
 
 [params]
 

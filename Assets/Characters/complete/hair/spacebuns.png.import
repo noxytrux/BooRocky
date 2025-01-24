@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://tmrjqsbe4pm1"
-path="res://.godot/imported/spacebuns.png-a152ad86a1cc5ab7f1227fb89cb7a058.ctex"
+path="res://.godot/imported/spacebuns.png-1136ae8b7d645ad0a098fd93c68ce943.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/hair/spacebuns.png"
-dest_files=["res://.godot/imported/spacebuns.png-a152ad86a1cc5ab7f1227fb89cb7a058.ctex"]
+source_file="res://Assets/characters/complete/hair/spacebuns.png"
+dest_files=["res://.godot/imported/spacebuns.png-1136ae8b7d645ad0a098fd93c68ce943.ctex"]
 
 [params]
 

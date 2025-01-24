@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b8kswcg56or2l"
-path="res://.godot/imported/sailor_bow_pickaxe.png-84c6bdc8f24b08c2ad8509b3d9f2fd12.ctex"
+path="res://.godot/imported/sailor_bow_pickaxe.png-5af3576d473a28a1e26940732cd19da6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/pickaxe/clothes/sailor_bow_pickaxe.png"
-dest_files=["res://.godot/imported/sailor_bow_pickaxe.png-84c6bdc8f24b08c2ad8509b3d9f2fd12.ctex"]
+source_file="res://Assets/characters/complete/separate/pickaxe/clothes/sailor_bow_pickaxe.png"
+dest_files=["res://.godot/imported/sailor_bow_pickaxe.png-5af3576d473a28a1e26940732cd19da6.ctex"]
 
 [params]
 

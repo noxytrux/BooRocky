@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dt0jmcuujk7i4"
-path="res://.godot/imported/witch_fish.png-2a39d25fa7dbdff586ea6f07cbca2106.ctex"
+path="res://.godot/imported/witch_fish.png-a09f48ee6946d1f84a8373439b0ed6f7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/fish/clothes/witch_fish.png"
-dest_files=["res://.godot/imported/witch_fish.png-2a39d25fa7dbdff586ea6f07cbca2106.ctex"]
+source_file="res://Assets/characters/complete/separate/fish/clothes/witch_fish.png"
+dest_files=["res://.godot/imported/witch_fish.png-a09f48ee6946d1f84a8373439b0ed6f7.ctex"]
 
 [params]
 

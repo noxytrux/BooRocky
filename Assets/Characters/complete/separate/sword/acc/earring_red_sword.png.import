@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d0rce7fqg4cpk"
-path="res://.godot/imported/earring_red_sword.png-231ba70a3c163b92034aba43424407ce.ctex"
+path="res://.godot/imported/earring_red_sword.png-9d7af765505d4a49930273322245f826.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/sword/acc/earring_red_sword.png"
-dest_files=["res://.godot/imported/earring_red_sword.png-231ba70a3c163b92034aba43424407ce.ctex"]
+source_file="res://Assets/characters/complete/separate/sword/acc/earring_red_sword.png"
+dest_files=["res://.godot/imported/earring_red_sword.png-9d7af765505d4a49930273322245f826.ctex"]
 
 [params]
 

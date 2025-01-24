@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cdwrqb1qjet61"
-path="res://.godot/imported/braids_hurt.png-df53cc5a77e0349a839c6021f919897b.ctex"
+path="res://.godot/imported/braids_hurt.png-5a83dd863f303a24d3ec5128c9c0f415.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/hurt/hair/braids_hurt.png"
-dest_files=["res://.godot/imported/braids_hurt.png-df53cc5a77e0349a839c6021f919897b.ctex"]
+source_file="res://Assets/characters/complete/separate/hurt/hair/braids_hurt.png"
+dest_files=["res://.godot/imported/braids_hurt.png-5a83dd863f303a24d3ec5128c9c0f415.ctex"]
 
 [params]
 

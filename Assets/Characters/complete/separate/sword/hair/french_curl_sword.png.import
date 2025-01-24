@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dno07fm1y2xy8"
-path="res://.godot/imported/french_curl_sword.png-a9887671560ea575024952f047f603bb.ctex"
+path="res://.godot/imported/french_curl_sword.png-102a7d0b3fa3ca1b4a773d8ac63b118d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/sword/hair/french_curl_sword.png"
-dest_files=["res://.godot/imported/french_curl_sword.png-a9887671560ea575024952f047f603bb.ctex"]
+source_file="res://Assets/characters/complete/separate/sword/hair/french_curl_sword.png"
+dest_files=["res://.godot/imported/french_curl_sword.png-102a7d0b3fa3ca1b4a773d8ac63b118d.ctex"]
 
 [params]
 

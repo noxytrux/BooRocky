@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://rlgffimcado0"
-path="res://.godot/imported/blush_carry.png-a7b6cb928fc081a2da72a3cadd9b5104.ctex"
+path="res://.godot/imported/blush_carry.png-ddbfdd7feb09d31553e75e22a947181c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/carry/eyes/blush_carry.png"
-dest_files=["res://.godot/imported/blush_carry.png-a7b6cb928fc081a2da72a3cadd9b5104.ctex"]
+source_file="res://Assets/characters/complete/separate/carry/eyes/blush_carry.png"
+dest_files=["res://.godot/imported/blush_carry.png-ddbfdd7feb09d31553e75e22a947181c.ctex"]
 
 [params]
 

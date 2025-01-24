@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dga5qho86pidv"
-path="res://.godot/imported/wavy_hurt.png-a2aad82541a671c2e0cf57b75266bc8e.ctex"
+path="res://.godot/imported/wavy_hurt.png-c8e1abf458b3ac70ec6ffa3af0eb5630.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/hurt/hair/wavy_hurt.png"
-dest_files=["res://.godot/imported/wavy_hurt.png-a2aad82541a671c2e0cf57b75266bc8e.ctex"]
+source_file="res://Assets/characters/complete/separate/hurt/hair/wavy_hurt.png"
+dest_files=["res://.godot/imported/wavy_hurt.png-c8e1abf458b3ac70ec6ffa3af0eb5630.ctex"]
 
 [params]
 

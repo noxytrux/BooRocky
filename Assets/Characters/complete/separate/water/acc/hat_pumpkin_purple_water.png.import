@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://t24ltuyiwjpq"
-path="res://.godot/imported/hat_pumpkin_purple_water.png-9ca6456015efb5d70e4356521606255c.ctex"
+path="res://.godot/imported/hat_pumpkin_purple_water.png-377211540d8a6704ba1f0e91ef6a73a9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/water/acc/hat_pumpkin_purple_water.png"
-dest_files=["res://.godot/imported/hat_pumpkin_purple_water.png-9ca6456015efb5d70e4356521606255c.ctex"]
+source_file="res://Assets/characters/complete/separate/water/acc/hat_pumpkin_purple_water.png"
+dest_files=["res://.godot/imported/hat_pumpkin_purple_water.png-377211540d8a6704ba1f0e91ef6a73a9.ctex"]
 
 [params]
 

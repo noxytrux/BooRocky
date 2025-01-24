@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d3o38x4r532w3"
-path="res://.godot/imported/braids_pickup.png-5c21b66dc2c4f5b0dfb61c610a09745f.ctex"
+path="res://.godot/imported/braids_pickup.png-6df121e747e16ad25490b8e69671d085.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/pickup/hair/braids_pickup.png"
-dest_files=["res://.godot/imported/braids_pickup.png-5c21b66dc2c4f5b0dfb61c610a09745f.ctex"]
+source_file="res://Assets/characters/complete/separate/pickup/hair/braids_pickup.png"
+dest_files=["res://.godot/imported/braids_pickup.png-6df121e747e16ad25490b8e69671d085.ctex"]
 
 [params]
 

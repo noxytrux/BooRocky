@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://1cqqv8gwhn2y"
-path="res://.godot/imported/curly_fish.png-ca86535115649e42541c59d596bac643.ctex"
+path="res://.godot/imported/curly_fish.png-f113eb2e1ce85815acf9a3174210f3ab.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/fish/hair/curly_fish.png"
-dest_files=["res://.godot/imported/curly_fish.png-ca86535115649e42541c59d596bac643.ctex"]
+source_file="res://Assets/characters/complete/separate/fish/hair/curly_fish.png"
+dest_files=["res://.godot/imported/curly_fish.png-f113eb2e1ce85815acf9a3174210f3ab.ctex"]
 
 [params]
 

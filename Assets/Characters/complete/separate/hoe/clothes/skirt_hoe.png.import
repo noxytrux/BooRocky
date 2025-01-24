@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d062507f0h063"
-path="res://.godot/imported/skirt_hoe.png-3558ce4dc110c6b67759a5f1126ff673.ctex"
+path="res://.godot/imported/skirt_hoe.png-d392849181a93247539e7b444fd70cdc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/hoe/clothes/skirt_hoe.png"
-dest_files=["res://.godot/imported/skirt_hoe.png-3558ce4dc110c6b67759a5f1126ff673.ctex"]
+source_file="res://Assets/characters/complete/separate/hoe/clothes/skirt_hoe.png"
+dest_files=["res://.godot/imported/skirt_hoe.png-d392849181a93247539e7b444fd70cdc.ctex"]
 
 [params]
 

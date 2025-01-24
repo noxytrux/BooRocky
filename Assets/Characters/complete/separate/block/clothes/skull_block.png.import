@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cobcampih6xoh"
-path="res://.godot/imported/skull_block.png-d1c1c7da5e5de41cd576d93f0d1111a2.ctex"
+path="res://.godot/imported/skull_block.png-9b1ca468c282156fe3545883c482a804.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/block/clothes/skull_block.png"
-dest_files=["res://.godot/imported/skull_block.png-d1c1c7da5e5de41cd576d93f0d1111a2.ctex"]
+source_file="res://Assets/characters/complete/separate/block/clothes/skull_block.png"
+dest_files=["res://.godot/imported/skull_block.png-9b1ca468c282156fe3545883c482a804.ctex"]
 
 [params]
 

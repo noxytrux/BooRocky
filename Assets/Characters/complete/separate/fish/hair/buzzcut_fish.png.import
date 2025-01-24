@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c4y4vvcl85kum"
-path="res://.godot/imported/buzzcut_fish.png-15d5a4350dfbd25f3f4c810a7b695454.ctex"
+path="res://.godot/imported/buzzcut_fish.png-81ef050790960ae37aca305eeb317755.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/fish/hair/buzzcut_fish.png"
-dest_files=["res://.godot/imported/buzzcut_fish.png-15d5a4350dfbd25f3f4c810a7b695454.ctex"]
+source_file="res://Assets/characters/complete/separate/fish/hair/buzzcut_fish.png"
+dest_files=["res://.godot/imported/buzzcut_fish.png-81ef050790960ae37aca305eeb317755.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://diru76l2c0syy"
-path="res://.godot/imported/floral_sword.png-21e3e38da0cfed469c4ff19bd026575a.ctex"
+path="res://.godot/imported/floral_sword.png-8887e1234f0e7f5c1a89bdd2510c686d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/sword/clothes/floral_sword.png"
-dest_files=["res://.godot/imported/floral_sword.png-21e3e38da0cfed469c4ff19bd026575a.ctex"]
+source_file="res://Assets/characters/complete/separate/sword/clothes/floral_sword.png"
+dest_files=["res://.godot/imported/floral_sword.png-8887e1234f0e7f5c1a89bdd2510c686d.ctex"]
 
 [params]
 

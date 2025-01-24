@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bccj4wgorc54s"
-path="res://.godot/imported/witch_carry.png-52c30b5339ab9af6d326042327881aba.ctex"
+path="res://.godot/imported/witch_carry.png-52bf6b5fc10e00964bc15185478f7ade.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/carry/clothes/witch_carry.png"
-dest_files=["res://.godot/imported/witch_carry.png-52c30b5339ab9af6d326042327881aba.ctex"]
+source_file="res://Assets/characters/complete/separate/carry/clothes/witch_carry.png"
+dest_files=["res://.godot/imported/witch_carry.png-52bf6b5fc10e00964bc15185478f7ade.ctex"]
 
 [params]
 

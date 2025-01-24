@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://blgylv4oknjhq"
-path="res://.godot/imported/long_straight_jump.png-091390fa5f1dcf4db9c2b2b173686830.ctex"
+path="res://.godot/imported/long_straight_jump.png-180f2c4cdeb386d79dbf1f67a95eab74.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/jump/hair/long_straight_jump.png"
-dest_files=["res://.godot/imported/long_straight_jump.png-091390fa5f1dcf4db9c2b2b173686830.ctex"]
+source_file="res://Assets/characters/complete/separate/jump/hair/long_straight_jump.png"
+dest_files=["res://.godot/imported/long_straight_jump.png-180f2c4cdeb386d79dbf1f67a95eab74.ctex"]
 
 [params]
 

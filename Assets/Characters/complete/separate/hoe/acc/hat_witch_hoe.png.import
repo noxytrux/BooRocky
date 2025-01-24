@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dwlvuuooqe5dq"
-path="res://.godot/imported/hat_witch_hoe.png-0587dfb6114cd8bb29aa92835ab91fb3.ctex"
+path="res://.godot/imported/hat_witch_hoe.png-5f30a8f710d4420cfc8809b6deb6894d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/hoe/acc/hat_witch_hoe.png"
-dest_files=["res://.godot/imported/hat_witch_hoe.png-0587dfb6114cd8bb29aa92835ab91fb3.ctex"]
+source_file="res://Assets/characters/complete/separate/hoe/acc/hat_witch_hoe.png"
+dest_files=["res://.godot/imported/hat_witch_hoe.png-5f30a8f710d4420cfc8809b6deb6894d.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bwkpnlumsxetj"
-path="res://.godot/imported/pants_suit_carry.png-b0efb8c260447e5d080557b4c81ad53a.ctex"
+path="res://.godot/imported/pants_suit_carry.png-91e5eaaa895f75c8900f8a5d0fa76983.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/carry/clothes/pants_suit_carry.png"
-dest_files=["res://.godot/imported/pants_suit_carry.png-b0efb8c260447e5d080557b4c81ad53a.ctex"]
+source_file="res://Assets/characters/complete/separate/carry/clothes/pants_suit_carry.png"
+dest_files=["res://.godot/imported/pants_suit_carry.png-91e5eaaa895f75c8900f8a5d0fa76983.ctex"]
 
 [params]
 

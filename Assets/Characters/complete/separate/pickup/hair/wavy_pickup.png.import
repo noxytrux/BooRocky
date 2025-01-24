@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c24qbylm80wfk"
-path="res://.godot/imported/wavy_pickup.png-466476ed9e7de7e052f0b0b4271c6881.ctex"
+path="res://.godot/imported/wavy_pickup.png-18cf3adc63c9428b99dc4e068daf31c9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/pickup/hair/wavy_pickup.png"
-dest_files=["res://.godot/imported/wavy_pickup.png-466476ed9e7de7e052f0b0b4271c6881.ctex"]
+source_file="res://Assets/characters/complete/separate/pickup/hair/wavy_pickup.png"
+dest_files=["res://.godot/imported/wavy_pickup.png-18cf3adc63c9428b99dc4e068daf31c9.ctex"]
 
 [params]
 

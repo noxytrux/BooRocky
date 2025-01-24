@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dfva6uu612gfp"
-path="res://.godot/imported/spaghetti_fish.png-70008cf220435d6c7fedcc0e98ebe430.ctex"
+path="res://.godot/imported/spaghetti_fish.png-e9ed286bafc8594943f836db5d8da029.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/fish/clothes/spaghetti_fish.png"
-dest_files=["res://.godot/imported/spaghetti_fish.png-70008cf220435d6c7fedcc0e98ebe430.ctex"]
+source_file="res://Assets/characters/complete/separate/fish/clothes/spaghetti_fish.png"
+dest_files=["res://.godot/imported/spaghetti_fish.png-e9ed286bafc8594943f836db5d8da029.ctex"]
 
 [params]
 

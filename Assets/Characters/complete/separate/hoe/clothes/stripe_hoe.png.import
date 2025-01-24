@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://4x7j3obhkm16"
-path="res://.godot/imported/stripe_hoe.png-0a6d6a6c15e05c6b6a925aba878a3065.ctex"
+path="res://.godot/imported/stripe_hoe.png-a4c450c169c396e32844cff33cbcd647.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/hoe/clothes/stripe_hoe.png"
-dest_files=["res://.godot/imported/stripe_hoe.png-0a6d6a6c15e05c6b6a925aba878a3065.ctex"]
+source_file="res://Assets/characters/complete/separate/hoe/clothes/stripe_hoe.png"
+dest_files=["res://.godot/imported/stripe_hoe.png-a4c450c169c396e32844cff33cbcd647.ctex"]
 
 [params]
 

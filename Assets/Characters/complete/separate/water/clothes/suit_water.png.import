@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dmml4wjnb2e35"
-path="res://.godot/imported/suit_water.png-05f23f79482c2e6348e03e2d1c162522.ctex"
+path="res://.godot/imported/suit_water.png-69322e80ea025e157f70a45b8c46f045.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/water/clothes/suit_water.png"
-dest_files=["res://.godot/imported/suit_water.png-05f23f79482c2e6348e03e2d1c162522.ctex"]
+source_file="res://Assets/characters/complete/separate/water/clothes/suit_water.png"
+dest_files=["res://.godot/imported/suit_water.png-69322e80ea025e157f70a45b8c46f045.ctex"]
 
 [params]
 

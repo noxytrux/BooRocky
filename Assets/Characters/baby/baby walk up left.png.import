@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://2isgm4fmwdf3"
-path="res://.godot/imported/baby walk up left.png-b1e0758725bcb1afc2ff8dead6172893.ctex"
+path="res://.godot/imported/baby walk up left.png-de12b8b2e36d0f1eb6c3dd12ff783bbc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/baby/baby walk up left.png"
-dest_files=["res://.godot/imported/baby walk up left.png-b1e0758725bcb1afc2ff8dead6172893.ctex"]
+source_file="res://Assets/characters/baby/baby walk up left.png"
+dest_files=["res://.godot/imported/baby walk up left.png-de12b8b2e36d0f1eb6c3dd12ff783bbc.ctex"]
 
 [params]
 

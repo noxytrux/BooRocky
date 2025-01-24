@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cgrtrndweongg"
-path="res://.godot/imported/eyes_pickup.png-6bfe4451459aef7a2ab63c1f26e10764.ctex"
+path="res://.godot/imported/eyes_pickup.png-0746a1bf9e23e3e12d53f3cc176f296b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/pickup/eyes/eyes_pickup.png"
-dest_files=["res://.godot/imported/eyes_pickup.png-6bfe4451459aef7a2ab63c1f26e10764.ctex"]
+source_file="res://Assets/characters/complete/separate/pickup/eyes/eyes_pickup.png"
+dest_files=["res://.godot/imported/eyes_pickup.png-0746a1bf9e23e3e12d53f3cc176f296b.ctex"]
 
 [params]
 

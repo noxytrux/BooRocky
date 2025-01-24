@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://hwvjg4noixw7"
-path="res://.godot/imported/emo_jump.png-745b4e7e0a32e93d25dd83a03bf4340f.ctex"
+path="res://.godot/imported/emo_jump.png-fb30c77e128678c5c9012ed9bd30dfca.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/jump/hair/emo_jump.png"
-dest_files=["res://.godot/imported/emo_jump.png-745b4e7e0a32e93d25dd83a03bf4340f.ctex"]
+source_file="res://Assets/characters/complete/separate/jump/hair/emo_jump.png"
+dest_files=["res://.godot/imported/emo_jump.png-fb30c77e128678c5c9012ed9bd30dfca.ctex"]
 
 [params]
 

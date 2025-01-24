@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ccomdojpgrtca"
-path="res://.godot/imported/mask_clown_red_hoe.png-ffa8dfb8d9f5f21a7c4fcc0abfaf91ad.ctex"
+path="res://.godot/imported/mask_clown_red_hoe.png-1f6e0e0e5f23c5a1751a009bcfef7790.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/hoe/acc/mask_clown_red_hoe.png"
-dest_files=["res://.godot/imported/mask_clown_red_hoe.png-ffa8dfb8d9f5f21a7c4fcc0abfaf91ad.ctex"]
+source_file="res://Assets/characters/complete/separate/hoe/acc/mask_clown_red_hoe.png"
+dest_files=["res://.godot/imported/mask_clown_red_hoe.png-1f6e0e0e5f23c5a1751a009bcfef7790.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dtcrust2gaoo3"
-path="res://.godot/imported/lipstick_axe.png-1b54b61e9868b9791b7d2a17c69e08bf.ctex"
+path="res://.godot/imported/lipstick_axe.png-d257f2a9d3b6a084ec68a14c0726d5aa.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/axe/eyes/lipstick_axe.png"
-dest_files=["res://.godot/imported/lipstick_axe.png-1b54b61e9868b9791b7d2a17c69e08bf.ctex"]
+source_file="res://Assets/characters/complete/separate/axe/eyes/lipstick_axe.png"
+dest_files=["res://.godot/imported/lipstick_axe.png-d257f2a9d3b6a084ec68a14c0726d5aa.ctex"]
 
 [params]
 

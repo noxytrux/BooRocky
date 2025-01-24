@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b0veqsfw8trt0"
-path="res://.godot/imported/extra_long_pickup.png-41a60cb431eaada3e9b97ca06356d135.ctex"
+path="res://.godot/imported/extra_long_pickup.png-e7982aaa6ff8355c087fe8e1ec4c9fc7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/pickup/hair/extra_long_pickup.png"
-dest_files=["res://.godot/imported/extra_long_pickup.png-41a60cb431eaada3e9b97ca06356d135.ctex"]
+source_file="res://Assets/characters/complete/separate/pickup/hair/extra_long_pickup.png"
+dest_files=["res://.godot/imported/extra_long_pickup.png-e7982aaa6ff8355c087fe8e1ec4c9fc7.ctex"]
 
 [params]
 

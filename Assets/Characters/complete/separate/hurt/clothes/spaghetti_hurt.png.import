@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b6fphsq1jsbpu"
-path="res://.godot/imported/spaghetti_hurt.png-474ed5cbf45d846c891afcc57631e264.ctex"
+path="res://.godot/imported/spaghetti_hurt.png-5cbf5b2f26d32e9a1371e916bebffd1c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/hurt/clothes/spaghetti_hurt.png"
-dest_files=["res://.godot/imported/spaghetti_hurt.png-474ed5cbf45d846c891afcc57631e264.ctex"]
+source_file="res://Assets/characters/complete/separate/hurt/clothes/spaghetti_hurt.png"
+dest_files=["res://.godot/imported/spaghetti_hurt.png-5cbf5b2f26d32e9a1371e916bebffd1c.ctex"]
 
 [params]
 

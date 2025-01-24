@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b2qyxp4hu2jj6"
-path="res://.godot/imported/eyes_walk.png-b40486510728adcb5817473e237a1c7d.ctex"
+path="res://.godot/imported/eyes_walk.png-ca3ab174e4c7e1dbed10ab4f59b0f56e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/walk/eyes/eyes_walk.png"
-dest_files=["res://.godot/imported/eyes_walk.png-b40486510728adcb5817473e237a1c7d.ctex"]
+source_file="res://Assets/characters/complete/separate/walk/eyes/eyes_walk.png"
+dest_files=["res://.godot/imported/eyes_walk.png-ca3ab174e4c7e1dbed10ab4f59b0f56e.ctex"]
 
 [params]
 

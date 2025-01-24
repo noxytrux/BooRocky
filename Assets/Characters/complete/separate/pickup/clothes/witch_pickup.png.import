@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dkn2dbcrcjuub"
-path="res://.godot/imported/witch_pickup.png-0ffd8c89b95eb7fa3171bae14b5104aa.ctex"
+path="res://.godot/imported/witch_pickup.png-ce3ee4ccf665bbf072f98e9c6cd6da3b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/pickup/clothes/witch_pickup.png"
-dest_files=["res://.godot/imported/witch_pickup.png-0ffd8c89b95eb7fa3171bae14b5104aa.ctex"]
+source_file="res://Assets/characters/complete/separate/pickup/clothes/witch_pickup.png"
+dest_files=["res://.godot/imported/witch_pickup.png-ce3ee4ccf665bbf072f98e9c6cd6da3b.ctex"]
 
 [params]
 

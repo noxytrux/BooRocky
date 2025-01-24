@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://fvrdu2nr1gm0"
-path="res://.godot/imported/suit_pickaxe.png-dcae969c61b289e23e5b3617af31228c.ctex"
+path="res://.godot/imported/suit_pickaxe.png-6ebd71b9c6b4577caf84432489baca77.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/pickaxe/clothes/suit_pickaxe.png"
-dest_files=["res://.godot/imported/suit_pickaxe.png-dcae969c61b289e23e5b3617af31228c.ctex"]
+source_file="res://Assets/characters/complete/separate/pickaxe/clothes/suit_pickaxe.png"
+dest_files=["res://.godot/imported/suit_pickaxe.png-6ebd71b9c6b4577caf84432489baca77.ctex"]
 
 [params]
 

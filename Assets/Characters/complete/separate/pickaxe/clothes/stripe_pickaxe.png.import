@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bpiwtmvy5vkyq"
-path="res://.godot/imported/stripe_pickaxe.png-41e0e5feac69aa865c66c80c3c9f109b.ctex"
+path="res://.godot/imported/stripe_pickaxe.png-ed9c8fe96eca1a9a26f86ffb32aabd88.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/pickaxe/clothes/stripe_pickaxe.png"
-dest_files=["res://.godot/imported/stripe_pickaxe.png-41e0e5feac69aa865c66c80c3c9f109b.ctex"]
+source_file="res://Assets/characters/complete/separate/pickaxe/clothes/stripe_pickaxe.png"
+dest_files=["res://.godot/imported/stripe_pickaxe.png-ed9c8fe96eca1a9a26f86ffb32aabd88.ctex"]
 
 [params]
 

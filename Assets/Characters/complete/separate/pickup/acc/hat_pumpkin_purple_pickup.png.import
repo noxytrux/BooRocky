@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dedqqvlcohtvb"
-path="res://.godot/imported/hat_pumpkin_purple_pickup.png-1b13a0bd14036c35ad34e1b303c904f5.ctex"
+path="res://.godot/imported/hat_pumpkin_purple_pickup.png-1223648974590d4ab651c55309bf7689.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/pickup/acc/hat_pumpkin_purple_pickup.png"
-dest_files=["res://.godot/imported/hat_pumpkin_purple_pickup.png-1b13a0bd14036c35ad34e1b303c904f5.ctex"]
+source_file="res://Assets/characters/complete/separate/pickup/acc/hat_pumpkin_purple_pickup.png"
+dest_files=["res://.godot/imported/hat_pumpkin_purple_pickup.png-1223648974590d4ab651c55309bf7689.ctex"]
 
 [params]
 

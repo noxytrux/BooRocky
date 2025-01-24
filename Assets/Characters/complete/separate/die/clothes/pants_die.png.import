@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cmg8x56ijh0sv"
-path="res://.godot/imported/pants_die.png-747f92d815f08ea1d98e927a816d4993.ctex"
+path="res://.godot/imported/pants_die.png-1ed45124b036a35558ce50254425b390.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/die/clothes/pants_die.png"
-dest_files=["res://.godot/imported/pants_die.png-747f92d815f08ea1d98e927a816d4993.ctex"]
+source_file="res://Assets/characters/complete/separate/die/clothes/pants_die.png"
+dest_files=["res://.godot/imported/pants_die.png-1ed45124b036a35558ce50254425b390.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bm4ng3m8dgun6"
-path="res://.godot/imported/hat_witch_pickup.png-3c69be36a21b6744481f82a567120e34.ctex"
+path="res://.godot/imported/hat_witch_pickup.png-2ee338f74c51a8b5873b62bda40ff159.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/pickup/acc/hat_witch_pickup.png"
-dest_files=["res://.godot/imported/hat_witch_pickup.png-3c69be36a21b6744481f82a567120e34.ctex"]
+source_file="res://Assets/characters/complete/separate/pickup/acc/hat_witch_pickup.png"
+dest_files=["res://.godot/imported/hat_witch_pickup.png-2ee338f74c51a8b5873b62bda40ff159.ctex"]
 
 [params]
 

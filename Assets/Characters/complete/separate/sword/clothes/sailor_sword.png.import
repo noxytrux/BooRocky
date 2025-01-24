@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dagyeayy2j0yi"
-path="res://.godot/imported/sailor_sword.png-4b97b86003f7f1c764332fd9f6460712.ctex"
+path="res://.godot/imported/sailor_sword.png-984ab3d51d81764d1b8fa3f2e1739875.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/sword/clothes/sailor_sword.png"
-dest_files=["res://.godot/imported/sailor_sword.png-4b97b86003f7f1c764332fd9f6460712.ctex"]
+source_file="res://Assets/characters/complete/separate/sword/clothes/sailor_sword.png"
+dest_files=["res://.godot/imported/sailor_sword.png-984ab3d51d81764d1b8fa3f2e1739875.ctex"]
 
 [params]
 

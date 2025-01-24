@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://btapk3sfwrcd"
-path="res://.godot/imported/witch_block.png-094d122cda3d09cf734e9673189f836a.ctex"
+path="res://.godot/imported/witch_block.png-12f75c28709d31e911a9b98c2517b3ac.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/block/clothes/witch_block.png"
-dest_files=["res://.godot/imported/witch_block.png-094d122cda3d09cf734e9673189f836a.ctex"]
+source_file="res://Assets/characters/complete/separate/block/clothes/witch_block.png"
+dest_files=["res://.godot/imported/witch_block.png-12f75c28709d31e911a9b98c2517b3ac.ctex"]
 
 [params]
 

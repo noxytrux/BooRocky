@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bdfiw35yfst71"
-path="res://.godot/imported/beard_fish.png-061d0914572d1f5c075e37aa838a8266.ctex"
+path="res://.godot/imported/beard_fish.png-c636627089f325a97e722f9800c52974.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/fish/acc/beard_fish.png"
-dest_files=["res://.godot/imported/beard_fish.png-061d0914572d1f5c075e37aa838a8266.ctex"]
+source_file="res://Assets/characters/complete/separate/fish/acc/beard_fish.png"
+dest_files=["res://.godot/imported/beard_fish.png-c636627089f325a97e722f9800c52974.ctex"]
 
 [params]
 

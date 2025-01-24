@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://hl2saqthv6l7"
-path="res://.godot/imported/spooky_sword.png-4aa67ba566182d0cec7f7a7c446f6909.ctex"
+path="res://.godot/imported/spooky_sword.png-ce5194d1e4daa33c8be8b9ff8be52ad2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/sword/clothes/spooky_sword.png"
-dest_files=["res://.godot/imported/spooky_sword.png-4aa67ba566182d0cec7f7a7c446f6909.ctex"]
+source_file="res://Assets/characters/complete/separate/sword/clothes/spooky_sword.png"
+dest_files=["res://.godot/imported/spooky_sword.png-ce5194d1e4daa33c8be8b9ff8be52ad2.ctex"]
 
 [params]
 

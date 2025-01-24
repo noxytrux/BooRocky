@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b55rr3lk6y1mf"
-path="res://.godot/imported/stripe_walk.png-e86ab2b77e40676810f499c9c1872fe5.ctex"
+path="res://.godot/imported/stripe_walk.png-406a6265025fb536bdcf85b3624b3d80.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/walk/clothes/stripe_walk.png"
-dest_files=["res://.godot/imported/stripe_walk.png-e86ab2b77e40676810f499c9c1872fe5.ctex"]
+source_file="res://Assets/characters/complete/separate/walk/clothes/stripe_walk.png"
+dest_files=["res://.godot/imported/stripe_walk.png-406a6265025fb536bdcf85b3624b3d80.ctex"]
 
 [params]
 

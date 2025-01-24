@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://t3wfdhmhwg1a"
-path="res://.godot/imported/mask_clown_blue_die.png-713b174041a741b693348d6a8d926384.ctex"
+path="res://.godot/imported/mask_clown_blue_die.png-9833cabbd27c980cef8ce2e5a05a4ad2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/die/acc/mask_clown_blue_die.png"
-dest_files=["res://.godot/imported/mask_clown_blue_die.png-713b174041a741b693348d6a8d926384.ctex"]
+source_file="res://Assets/characters/complete/separate/die/acc/mask_clown_blue_die.png"
+dest_files=["res://.godot/imported/mask_clown_blue_die.png-9833cabbd27c980cef8ce2e5a05a4ad2.ctex"]
 
 [params]
 

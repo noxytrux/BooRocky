@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ce7kpgcvoikdl"
-path="res://.godot/imported/wateringcan_full_pink.png-2a2deb7409deb9fcc6f726541a44da56.ctex"
+path="res://.godot/imported/wateringcan_full_pink.png-3f8016770640aa0c85033465dae6a65a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/water/tool/wateringcan_full_pink.png"
-dest_files=["res://.godot/imported/wateringcan_full_pink.png-2a2deb7409deb9fcc6f726541a44da56.ctex"]
+source_file="res://Assets/characters/complete/separate/water/tool/wateringcan_full_pink.png"
+dest_files=["res://.godot/imported/wateringcan_full_pink.png-3f8016770640aa0c85033465dae6a65a.ctex"]
 
 [params]
 

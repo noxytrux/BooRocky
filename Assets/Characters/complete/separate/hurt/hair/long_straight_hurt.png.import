@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c1a238h5j0rk0"
-path="res://.godot/imported/long_straight_hurt.png-32c95107c81ed0685f9c3ef83f63e07b.ctex"
+path="res://.godot/imported/long_straight_hurt.png-71bf0865f08fabbf4206d69978b73ce6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/hurt/hair/long_straight_hurt.png"
-dest_files=["res://.godot/imported/long_straight_hurt.png-32c95107c81ed0685f9c3ef83f63e07b.ctex"]
+source_file="res://Assets/characters/complete/separate/hurt/hair/long_straight_hurt.png"
+dest_files=["res://.godot/imported/long_straight_hurt.png-71bf0865f08fabbf4206d69978b73ce6.ctex"]
 
 [params]
 

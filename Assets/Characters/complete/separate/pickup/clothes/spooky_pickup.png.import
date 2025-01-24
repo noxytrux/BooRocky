@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ubbsrmddyb78"
-path="res://.godot/imported/spooky_pickup.png-bbad6cdee8dbff8f48d9686a758a3093.ctex"
+path="res://.godot/imported/spooky_pickup.png-f94a7216fec431c98922a7185921ab8c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/pickup/clothes/spooky_pickup.png"
-dest_files=["res://.godot/imported/spooky_pickup.png-bbad6cdee8dbff8f48d9686a758a3093.ctex"]
+source_file="res://Assets/characters/complete/separate/pickup/clothes/spooky_pickup.png"
+dest_files=["res://.godot/imported/spooky_pickup.png-f94a7216fec431c98922a7185921ab8c.ctex"]
 
 [params]
 
