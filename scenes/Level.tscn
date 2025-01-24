@@ -19872,15 +19872,6 @@ HoldItem = NodePath("Food")
 position = Vector2(0, 228)
 scale = Vector2(2, 2)
 
-[node name="Container14" parent="." node_paths=PackedStringArray("HoldItem") instance=ExtResource("5_xvupt")]
-position = Vector2(1587, 162)
-scale = Vector2(0.5, 0.5)
-HoldItem = NodePath("Food")
-
-[node name="Food" parent="Container14" instance=ExtResource("6_iitf7")]
-position = Vector2(0, 228)
-scale = Vector2(2, 2)
-
 [node name="Container10" parent="." instance=ExtResource("5_xvupt")]
 position = Vector2(1730, 162)
 scale = Vector2(0.5, 0.5)
@@ -19980,7 +19971,7 @@ HoldItem = NodePath("Pampers")
 
 [node name="Pampers" parent="Container13" instance=ExtResource("7_e67ip")]
 position = Vector2(-2, 238)
-scale = Vector2(4, 4)
+scale = Vector2(2, 2)
 
 [node name="Container6" parent="." instance=ExtResource("5_xvupt")]
 position = Vector2(1121, 708)
