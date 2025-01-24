@@ -46,7 +46,7 @@ func Interaction() -> void:
 					ItemAnchor.add_child(HoldItem)
 					print(HoldItem.get_parent())
 					HoldItem.position = Vector2(0, 0)
-			else:
+			elif(hit.HoldItem == null):
 					hit.PlaceItem(HoldItem)
 					HoldItem = null
 
@@ -102,4 +102,12 @@ func _on_dash_active_timer_timeout() -> void:
 	is_dash_active = false
 
 func SetRaycastDirection() -> void:
-	Raycast.target_position = RayRange
+	match direction:
+		GlobalValues.DIRECTION.LEFT:
+			Raycast.target_position = Vector2.LEFT * RayRange
+		GlobalValues.DIRECTION.RIGHT:
+			Raycast.target_position = Vector2.RIGHT * RayRange
+		GlobalValues.DIRECTION.UP:
+			Raycast.target_position = Vector2.UP * RayRange
+		GlobalValues.DIRECTION.DOWN:
+			Raycast.target_position = Vector2.DOWN * RayRange
