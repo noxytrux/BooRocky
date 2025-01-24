@@ -17,7 +17,12 @@ var HoldItem: ItemBase
 
 func _ready() -> void:
 	reset_color()
-	set_direction(GlobalValues.DIRECTION.LEFT)
+	#set_direction(GlobalValues.DIRECTION.LEFT)
+	#set_animation("walk_down")
+	for animated_sprite in sprites.get_children():
+		animated_sprite.animation = "walk_left"
+		animated_sprite.stop()
+		animated_sprite.frame = 0
 	
 func reset_color() -> void:
 	animated_sprite_2d_clothes.modulate = cloth_color_modulate
@@ -46,8 +51,7 @@ func set_direction(new_dir: GlobalValues.DIRECTION) -> void:
 		if DELME_disable_walking:
 			return
 		var anim_name := "walk_" + GlobalValues.direction_to_str(new_dir)
-		for animated_sprite in sprites.get_children():
-			animated_sprite.play(anim_name)
+		set_animation(anim_name)
 
 func _physics_process(delta: float) -> void:
 	var dir = Vector2.ZERO
@@ -81,9 +85,12 @@ func _physics_process(delta: float) -> void:
 		dir = Vector2.ZERO
 	velocity = dir * SPEED
 	if action1:
+		DELME_disable_walking = true
 		var anim_name := "pickup_" + GlobalValues.direction_to_str(direction)
-		for animated_sprite in sprites.get_children():
-			DELME_disable_walking = true
-			animated_sprite.play(anim_name)
+		set_animation(anim_name)
 
 	move_and_slide()
+
+func set_animation(anim_name: String) -> void:
+	for animated_sprite in sprites.get_children():
+		animated_sprite.play(anim_name)
