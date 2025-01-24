@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dllut04oqitcl"
-path="res://.godot/imported/midiwave.png-ad3c6fb5a563647c57088304a878c756.ctex"
+path="res://.godot/imported/midiwave.png-ecf6560e93bc78429d40bb5dc3b19ff6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/hair/midiwave.png"
-dest_files=["res://.godot/imported/midiwave.png-ad3c6fb5a563647c57088304a878c756.ctex"]
+source_file="res://Assets/characters/complete/hair/midiwave.png"
+dest_files=["res://.godot/imported/midiwave.png-ecf6560e93bc78429d40bb5dc3b19ff6.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cj1p4f8b135rg"
-path="res://.godot/imported/spaghetti_jump.png-5ab8a74c4a5ebc2b993148fcd765dc96.ctex"
+path="res://.godot/imported/spaghetti_jump.png-e740286f8e3f3e0b4ff9ce41fe9b6f00.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/jump/clothes/spaghetti_jump.png"
-dest_files=["res://.godot/imported/spaghetti_jump.png-5ab8a74c4a5ebc2b993148fcd765dc96.ctex"]
+source_file="res://Assets/characters/complete/separate/jump/clothes/spaghetti_jump.png"
+dest_files=["res://.godot/imported/spaghetti_jump.png-e740286f8e3f3e0b4ff9ce41fe9b6f00.ctex"]
 
 [params]
 

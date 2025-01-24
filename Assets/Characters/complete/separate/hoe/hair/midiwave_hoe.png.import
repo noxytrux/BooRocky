@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bdjbm2rjvv8m0"
-path="res://.godot/imported/midiwave_hoe.png-5d8421e30abf9da41ca69f3360fb26b1.ctex"
+path="res://.godot/imported/midiwave_hoe.png-11e23352a29fc56b736ffabe50555567.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/hoe/hair/midiwave_hoe.png"
-dest_files=["res://.godot/imported/midiwave_hoe.png-5d8421e30abf9da41ca69f3360fb26b1.ctex"]
+source_file="res://Assets/characters/complete/separate/hoe/hair/midiwave_hoe.png"
+dest_files=["res://.godot/imported/midiwave_hoe.png-11e23352a29fc56b736ffabe50555567.ctex"]
 
 [params]
 

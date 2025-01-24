@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dmwqf5x8nprkp"
-path="res://.godot/imported/hat_lucky_hurt.png-98bd358c05d148b2fd96993d8186f241.ctex"
+path="res://.godot/imported/hat_lucky_hurt.png-3c42fa7c22c70a7974a87680f82560b2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/hurt/acc/hat_lucky_hurt.png"
-dest_files=["res://.godot/imported/hat_lucky_hurt.png-98bd358c05d148b2fd96993d8186f241.ctex"]
+source_file="res://Assets/characters/complete/separate/hurt/acc/hat_lucky_hurt.png"
+dest_files=["res://.godot/imported/hat_lucky_hurt.png-3c42fa7c22c70a7974a87680f82560b2.ctex"]
 
 [params]
 

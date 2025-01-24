@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://daoxxt4wxncys"
-path="res://.godot/imported/hat_cowboy_hoe.png-2c7969eafeddcf7f2cddc3fed8f154c9.ctex"
+path="res://.godot/imported/hat_cowboy_hoe.png-d7e813a9aee5fbd05795085a3cc76fe6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/hoe/acc/hat_cowboy_hoe.png"
-dest_files=["res://.godot/imported/hat_cowboy_hoe.png-2c7969eafeddcf7f2cddc3fed8f154c9.ctex"]
+source_file="res://Assets/characters/complete/separate/hoe/acc/hat_cowboy_hoe.png"
+dest_files=["res://.godot/imported/hat_cowboy_hoe.png-d7e813a9aee5fbd05795085a3cc76fe6.ctex"]
 
 [params]
 

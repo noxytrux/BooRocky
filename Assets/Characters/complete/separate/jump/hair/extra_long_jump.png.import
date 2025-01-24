@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bwkjkpia23fk1"
-path="res://.godot/imported/extra_long_jump.png-f48928fe679c1f137cd580fe70c28009.ctex"
+path="res://.godot/imported/extra_long_jump.png-e189d0f582409c8e6764d2c78e1a3564.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/jump/hair/extra_long_jump.png"
-dest_files=["res://.godot/imported/extra_long_jump.png-f48928fe679c1f137cd580fe70c28009.ctex"]
+source_file="res://Assets/characters/complete/separate/jump/hair/extra_long_jump.png"
+dest_files=["res://.godot/imported/extra_long_jump.png-e189d0f582409c8e6764d2c78e1a3564.ctex"]
 
 [params]
 

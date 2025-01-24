@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d0iksnici2kh3"
-path="res://.godot/imported/sailor_hurt.png-774064605af22a223bb3ebed42bdcab1.ctex"
+path="res://.godot/imported/sailor_hurt.png-1f6e733ef35e417800885ce4f5d6ba88.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/hurt/clothes/sailor_hurt.png"
-dest_files=["res://.godot/imported/sailor_hurt.png-774064605af22a223bb3ebed42bdcab1.ctex"]
+source_file="res://Assets/characters/complete/separate/hurt/clothes/sailor_hurt.png"
+dest_files=["res://.godot/imported/sailor_hurt.png-1f6e733ef35e417800885ce4f5d6ba88.ctex"]
 
 [params]
 

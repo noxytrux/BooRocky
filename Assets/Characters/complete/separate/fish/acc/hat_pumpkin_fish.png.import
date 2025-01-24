@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b6i4giv6kmg75"
-path="res://.godot/imported/hat_pumpkin_fish.png-1e0ed3b113d54ff2f3ff72b968825a8b.ctex"
+path="res://.godot/imported/hat_pumpkin_fish.png-8d506d9b9527c56269d4fe38f7cfb54d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/fish/acc/hat_pumpkin_fish.png"
-dest_files=["res://.godot/imported/hat_pumpkin_fish.png-1e0ed3b113d54ff2f3ff72b968825a8b.ctex"]
+source_file="res://Assets/characters/complete/separate/fish/acc/hat_pumpkin_fish.png"
+dest_files=["res://.godot/imported/hat_pumpkin_fish.png-8d506d9b9527c56269d4fe38f7cfb54d.ctex"]
 
 [params]
 

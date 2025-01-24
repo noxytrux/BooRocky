@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bqflir6fw6rlh"
-path="res://.godot/imported/hat_pumpkin_hoe.png-7cad583bed88abcf89003fa529fa56eb.ctex"
+path="res://.godot/imported/hat_pumpkin_hoe.png-a0c5ecee67e1e0a4ab05a9d7b8393f50.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/hoe/acc/hat_pumpkin_hoe.png"
-dest_files=["res://.godot/imported/hat_pumpkin_hoe.png-7cad583bed88abcf89003fa529fa56eb.ctex"]
+source_file="res://Assets/characters/complete/separate/hoe/acc/hat_pumpkin_hoe.png"
+dest_files=["res://.godot/imported/hat_pumpkin_hoe.png-a0c5ecee67e1e0a4ab05a9d7b8393f50.ctex"]
 
 [params]
 

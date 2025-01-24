@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ci1r5d4rqh632"
-path="res://.godot/imported/spacebuns_sword.png-a27f1e7507be35ab5377ea8ce70f91d8.ctex"
+path="res://.godot/imported/spacebuns_sword.png-4e6bf3f7b95df922c98fcf667b780a28.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/sword/hair/spacebuns_sword.png"
-dest_files=["res://.godot/imported/spacebuns_sword.png-a27f1e7507be35ab5377ea8ce70f91d8.ctex"]
+source_file="res://Assets/characters/complete/separate/sword/hair/spacebuns_sword.png"
+dest_files=["res://.godot/imported/spacebuns_sword.png-4e6bf3f7b95df922c98fcf667b780a28.ctex"]
 
 [params]
 

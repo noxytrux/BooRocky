@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c30fe3j5oa3c7"
-path="res://.godot/imported/ponytail_sword.png-9bfe1c46c3b2a799f639b26ceb668f9b.ctex"
+path="res://.godot/imported/ponytail_sword.png-808e72bbd211e25ea7a66c3b05952cfb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/sword/hair/ponytail_sword.png"
-dest_files=["res://.godot/imported/ponytail_sword.png-9bfe1c46c3b2a799f639b26ceb668f9b.ctex"]
+source_file="res://Assets/characters/complete/separate/sword/hair/ponytail_sword.png"
+dest_files=["res://.godot/imported/ponytail_sword.png-808e72bbd211e25ea7a66c3b05952cfb.ctex"]
 
 [params]
 

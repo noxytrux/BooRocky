@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dvdhw1ppiibvc"
-path="res://.godot/imported/skull_carry.png-02ede06579144fd904712dffc271b479.ctex"
+path="res://.godot/imported/skull_carry.png-d472ec6e1ac74c1086b908b67e2c3a05.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/carry/clothes/skull_carry.png"
-dest_files=["res://.godot/imported/skull_carry.png-02ede06579144fd904712dffc271b479.ctex"]
+source_file="res://Assets/characters/complete/separate/carry/clothes/skull_carry.png"
+dest_files=["res://.godot/imported/skull_carry.png-d472ec6e1ac74c1086b908b67e2c3a05.ctex"]
 
 [params]
 

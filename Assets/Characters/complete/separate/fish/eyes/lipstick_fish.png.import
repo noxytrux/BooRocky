@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c6bp8emum75md"
-path="res://.godot/imported/lipstick_fish.png-903e30d8164bc0b1ed0f8eef1abe0667.ctex"
+path="res://.godot/imported/lipstick_fish.png-50ad7ede0898f75af9e22992f9aa3dec.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/fish/eyes/lipstick_fish.png"
-dest_files=["res://.godot/imported/lipstick_fish.png-903e30d8164bc0b1ed0f8eef1abe0667.ctex"]
+source_file="res://Assets/characters/complete/separate/fish/eyes/lipstick_fish.png"
+dest_files=["res://.godot/imported/lipstick_fish.png-50ad7ede0898f75af9e22992f9aa3dec.ctex"]
 
 [params]
 

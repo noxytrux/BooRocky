@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cabvfa8qlost5"
-path="res://.godot/imported/braids_axe.png-5178e6a7ce6cba053b1ae4a9977d8b17.ctex"
+path="res://.godot/imported/braids_axe.png-bd866f12f88b8886930aaa02fd33c076.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/axe/hair/braids_axe.png"
-dest_files=["res://.godot/imported/braids_axe.png-5178e6a7ce6cba053b1ae4a9977d8b17.ctex"]
+source_file="res://Assets/characters/complete/separate/axe/hair/braids_axe.png"
+dest_files=["res://.godot/imported/braids_axe.png-bd866f12f88b8886930aaa02fd33c076.ctex"]
 
 [params]
 

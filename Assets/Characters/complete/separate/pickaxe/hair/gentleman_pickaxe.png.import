@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://3k1pj6nrsdxw"
-path="res://.godot/imported/gentleman_pickaxe.png-ba7b7c400325897af56c1a267487165c.ctex"
+path="res://.godot/imported/gentleman_pickaxe.png-9d156d20aa2b2671a241b7c1c4454a16.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/pickaxe/hair/gentleman_pickaxe.png"
-dest_files=["res://.godot/imported/gentleman_pickaxe.png-ba7b7c400325897af56c1a267487165c.ctex"]
+source_file="res://Assets/characters/complete/separate/pickaxe/hair/gentleman_pickaxe.png"
+dest_files=["res://.godot/imported/gentleman_pickaxe.png-9d156d20aa2b2671a241b7c1c4454a16.ctex"]
 
 [params]
 

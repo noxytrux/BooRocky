@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://4wirvg35plbc"
-path="res://.godot/imported/glasses_fish.png-772e1ee6da341368901eadba53b1b3f9.ctex"
+path="res://.godot/imported/glasses_fish.png-50236f7a84df4154ee29ee30a506a130.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/fish/acc/glasses_fish.png"
-dest_files=["res://.godot/imported/glasses_fish.png-772e1ee6da341368901eadba53b1b3f9.ctex"]
+source_file="res://Assets/characters/complete/separate/fish/acc/glasses_fish.png"
+dest_files=["res://.godot/imported/glasses_fish.png-50236f7a84df4154ee29ee30a506a130.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cjw8pikhibwhw"
-path="res://.godot/imported/curly.png-09448d52fbbeb30b0ac804ff201d0b99.ctex"
+path="res://.godot/imported/curly.png-0b6833f457b0e5cb7a6fac882188c99c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/hair/curly.png"
-dest_files=["res://.godot/imported/curly.png-09448d52fbbeb30b0ac804ff201d0b99.ctex"]
+source_file="res://Assets/characters/complete/hair/curly.png"
+dest_files=["res://.godot/imported/curly.png-0b6833f457b0e5cb7a6fac882188c99c.ctex"]
 
 [params]
 

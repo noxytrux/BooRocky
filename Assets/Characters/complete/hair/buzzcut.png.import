@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://m8wsccltvhyn"
-path="res://.godot/imported/buzzcut.png-f068ab580f52f7fd9a295708d420e8e2.ctex"
+path="res://.godot/imported/buzzcut.png-2bd1c564fc2440c5e909b93899f6de02.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/hair/buzzcut.png"
-dest_files=["res://.godot/imported/buzzcut.png-f068ab580f52f7fd9a295708d420e8e2.ctex"]
+source_file="res://Assets/characters/complete/hair/buzzcut.png"
+dest_files=["res://.godot/imported/buzzcut.png-2bd1c564fc2440c5e909b93899f6de02.ctex"]
 
 [params]
 

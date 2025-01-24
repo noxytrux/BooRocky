@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dxdsokdlekwhp"
-path="res://.godot/imported/skirt_pickaxe.png-3af5bf6f56500041077caef2ad248fb3.ctex"
+path="res://.godot/imported/skirt_pickaxe.png-c70ce7291d8148aec675d2d6b395730f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/pickaxe/clothes/skirt_pickaxe.png"
-dest_files=["res://.godot/imported/skirt_pickaxe.png-3af5bf6f56500041077caef2ad248fb3.ctex"]
+source_file="res://Assets/characters/complete/separate/pickaxe/clothes/skirt_pickaxe.png"
+dest_files=["res://.godot/imported/skirt_pickaxe.png-c70ce7291d8148aec675d2d6b395730f.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ci1biwt7772jf"
-path="res://.godot/imported/emo_die.png-daa630bf0dfe12bc8b12b180e07335e8.ctex"
+path="res://.godot/imported/emo_die.png-64a3aea3dfad76df61328a3255b3457b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/die/hair/emo_die.png"
-dest_files=["res://.godot/imported/emo_die.png-daa630bf0dfe12bc8b12b180e07335e8.ctex"]
+source_file="res://Assets/characters/complete/separate/die/hair/emo_die.png"
+dest_files=["res://.godot/imported/emo_die.png-64a3aea3dfad76df61328a3255b3457b.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b5lqqrv36tntr"
-path="res://.godot/imported/wavy_block.png-e556f25791cbd5e13d641fae70846d44.ctex"
+path="res://.godot/imported/wavy_block.png-187cf17c00f147ea5f8282c94b82726f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/block/hair/wavy_block.png"
-dest_files=["res://.godot/imported/wavy_block.png-e556f25791cbd5e13d641fae70846d44.ctex"]
+source_file="res://Assets/characters/complete/separate/block/hair/wavy_block.png"
+dest_files=["res://.godot/imported/wavy_block.png-187cf17c00f147ea5f8282c94b82726f.ctex"]
 
 [params]
 

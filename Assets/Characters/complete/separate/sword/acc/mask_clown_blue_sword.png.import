@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://yjgmq6fcs4t5"
-path="res://.godot/imported/mask_clown_blue_sword.png-30acccd53d40ab0627ecd0aab334b587.ctex"
+path="res://.godot/imported/mask_clown_blue_sword.png-c3a712781da12434c3ef0e2b8cb2185f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/sword/acc/mask_clown_blue_sword.png"
-dest_files=["res://.godot/imported/mask_clown_blue_sword.png-30acccd53d40ab0627ecd0aab334b587.ctex"]
+source_file="res://Assets/characters/complete/separate/sword/acc/mask_clown_blue_sword.png"
+dest_files=["res://.godot/imported/mask_clown_blue_sword.png-c3a712781da12434c3ef0e2b8cb2185f.ctex"]
 
 [params]
 

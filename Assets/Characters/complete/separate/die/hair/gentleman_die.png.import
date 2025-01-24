@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dn7r50mgj2brr"
-path="res://.godot/imported/gentleman_die.png-b26a22278f92a25b09c5a3ceb94c5bef.ctex"
+path="res://.godot/imported/gentleman_die.png-35ef3d0138e3364a828d6a46a8e00cba.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/die/hair/gentleman_die.png"
-dest_files=["res://.godot/imported/gentleman_die.png-b26a22278f92a25b09c5a3ceb94c5bef.ctex"]
+source_file="res://Assets/characters/complete/separate/die/hair/gentleman_die.png"
+dest_files=["res://.godot/imported/gentleman_die.png-35ef3d0138e3364a828d6a46a8e00cba.ctex"]
 
 [params]
 

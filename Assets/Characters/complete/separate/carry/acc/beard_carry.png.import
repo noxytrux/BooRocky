@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cfl6ypp11t1d2"
-path="res://.godot/imported/beard_carry.png-9e27a51caeaa809237f47e5c914c50a6.ctex"
+path="res://.godot/imported/beard_carry.png-48cd515e27739630489af03df2f84985.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/carry/acc/beard_carry.png"
-dest_files=["res://.godot/imported/beard_carry.png-9e27a51caeaa809237f47e5c914c50a6.ctex"]
+source_file="res://Assets/characters/complete/separate/carry/acc/beard_carry.png"
+dest_files=["res://.godot/imported/beard_carry.png-48cd515e27739630489af03df2f84985.ctex"]
 
 [params]
 

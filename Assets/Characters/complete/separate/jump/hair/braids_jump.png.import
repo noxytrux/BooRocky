@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://di0b06qacwivh"
-path="res://.godot/imported/braids_jump.png-a6fbe7875a99c985755c3c8a41b20822.ctex"
+path="res://.godot/imported/braids_jump.png-4575cb1746a7549382eac5166e9274f9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/jump/hair/braids_jump.png"
-dest_files=["res://.godot/imported/braids_jump.png-a6fbe7875a99c985755c3c8a41b20822.ctex"]
+source_file="res://Assets/characters/complete/separate/jump/hair/braids_jump.png"
+dest_files=["res://.godot/imported/braids_jump.png-4575cb1746a7549382eac5166e9274f9.ctex"]
 
 [params]
 

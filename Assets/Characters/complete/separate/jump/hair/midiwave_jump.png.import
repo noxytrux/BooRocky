@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://r8brcne45k1e"
-path="res://.godot/imported/midiwave_jump.png-9153ec9cb7f5030d355c82da0455e0f2.ctex"
+path="res://.godot/imported/midiwave_jump.png-34ae92cf24f11e785ed54f487360725d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/jump/hair/midiwave_jump.png"
-dest_files=["res://.godot/imported/midiwave_jump.png-9153ec9cb7f5030d355c82da0455e0f2.ctex"]
+source_file="res://Assets/characters/complete/separate/jump/hair/midiwave_jump.png"
+dest_files=["res://.godot/imported/midiwave_jump.png-34ae92cf24f11e785ed54f487360725d.ctex"]
 
 [params]
 

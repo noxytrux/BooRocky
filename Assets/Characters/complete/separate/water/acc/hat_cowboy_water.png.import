@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b3c0vkcae570w"
-path="res://.godot/imported/hat_cowboy_water.png-36b9581b62dba9a429efdefbf9292b8a.ctex"
+path="res://.godot/imported/hat_cowboy_water.png-467ca8d3a0ebe93ae16fd144ee82facc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/water/acc/hat_cowboy_water.png"
-dest_files=["res://.godot/imported/hat_cowboy_water.png-36b9581b62dba9a429efdefbf9292b8a.ctex"]
+source_file="res://Assets/characters/complete/separate/water/acc/hat_cowboy_water.png"
+dest_files=["res://.godot/imported/hat_cowboy_water.png-467ca8d3a0ebe93ae16fd144ee82facc.ctex"]
 
 [params]
 

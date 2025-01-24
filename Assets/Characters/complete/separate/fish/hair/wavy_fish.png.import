@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cpond0xgopj02"
-path="res://.godot/imported/wavy_fish.png-a6783c1677a5b44886d35bc5d066a92b.ctex"
+path="res://.godot/imported/wavy_fish.png-679955faa3845e4c01d0662cb981799a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/fish/hair/wavy_fish.png"
-dest_files=["res://.godot/imported/wavy_fish.png-a6783c1677a5b44886d35bc5d066a92b.ctex"]
+source_file="res://Assets/characters/complete/separate/fish/hair/wavy_fish.png"
+dest_files=["res://.godot/imported/wavy_fish.png-679955faa3845e4c01d0662cb981799a.ctex"]
 
 [params]
 

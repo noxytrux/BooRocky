@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bghub6t66kxls"
-path="res://.godot/imported/baby hit right.png-006131f85d1cb4365b0d8ec27b2fda3e.ctex"
+path="res://.godot/imported/baby hit right.png-11664efebbff3c981494e57a2b60e87f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/baby/baby hit right.png"
-dest_files=["res://.godot/imported/baby hit right.png-006131f85d1cb4365b0d8ec27b2fda3e.ctex"]
+source_file="res://Assets/characters/baby/baby hit right.png"
+dest_files=["res://.godot/imported/baby hit right.png-11664efebbff3c981494e57a2b60e87f.ctex"]
 
 [params]
 

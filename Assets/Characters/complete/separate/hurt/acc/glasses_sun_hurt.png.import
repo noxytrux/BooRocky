@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bt1glmx1xk4v3"
-path="res://.godot/imported/glasses_sun_hurt.png-eecc661d5ebb950540b23bf165c71c0b.ctex"
+path="res://.godot/imported/glasses_sun_hurt.png-f3ffabc3087c3d2e79fca5caff5c41ef.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/hurt/acc/glasses_sun_hurt.png"
-dest_files=["res://.godot/imported/glasses_sun_hurt.png-eecc661d5ebb950540b23bf165c71c0b.ctex"]
+source_file="res://Assets/characters/complete/separate/hurt/acc/glasses_sun_hurt.png"
+dest_files=["res://.godot/imported/glasses_sun_hurt.png-f3ffabc3087c3d2e79fca5caff5c41ef.ctex"]
 
 [params]
 

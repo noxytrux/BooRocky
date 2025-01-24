@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://0p0rlse06ppn"
-path="res://.godot/imported/hat_pumpkin_die.png-d6dd0e5b93f0cb6cd7441ddb3e9d4177.ctex"
+path="res://.godot/imported/hat_pumpkin_die.png-06fefec3d89f7cf446f45d5baa3e7aa5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/die/acc/hat_pumpkin_die.png"
-dest_files=["res://.godot/imported/hat_pumpkin_die.png-d6dd0e5b93f0cb6cd7441ddb3e9d4177.ctex"]
+source_file="res://Assets/characters/complete/separate/die/acc/hat_pumpkin_die.png"
+dest_files=["res://.godot/imported/hat_pumpkin_die.png-06fefec3d89f7cf446f45d5baa3e7aa5.ctex"]
 
 [params]
 

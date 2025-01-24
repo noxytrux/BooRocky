@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://qaejou3vj3ld"
-path="res://.godot/imported/wavy_die.png-ad5863a4fecdcbb678eeeac89faebee6.ctex"
+path="res://.godot/imported/wavy_die.png-fd9e9a09864b213a73a0d776078d7eab.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/die/hair/wavy_die.png"
-dest_files=["res://.godot/imported/wavy_die.png-ad5863a4fecdcbb678eeeac89faebee6.ctex"]
+source_file="res://Assets/characters/complete/separate/die/hair/wavy_die.png"
+dest_files=["res://.godot/imported/wavy_die.png-fd9e9a09864b213a73a0d776078d7eab.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ijeomoaurffj"
-path="res://.godot/imported/curly_hurt.png-19611d04b60d67045f073f9d6c604ee7.ctex"
+path="res://.godot/imported/curly_hurt.png-a2e9ce9cb14ef6c875cd46f52b07cfc7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/hurt/hair/curly_hurt.png"
-dest_files=["res://.godot/imported/curly_hurt.png-19611d04b60d67045f073f9d6c604ee7.ctex"]
+source_file="res://Assets/characters/complete/separate/hurt/hair/curly_hurt.png"
+dest_files=["res://.godot/imported/curly_hurt.png-a2e9ce9cb14ef6c875cd46f52b07cfc7.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d327sebr6x5ro"
-path="res://.godot/imported/mask_spooky_die.png-ee9ab8299ff268baae1df3dee40c725e.ctex"
+path="res://.godot/imported/mask_spooky_die.png-b59c5af30a9c689b27544e600d0069d5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/die/acc/mask_spooky_die.png"
-dest_files=["res://.godot/imported/mask_spooky_die.png-ee9ab8299ff268baae1df3dee40c725e.ctex"]
+source_file="res://Assets/characters/complete/separate/die/acc/mask_spooky_die.png"
+dest_files=["res://.godot/imported/mask_spooky_die.png-b59c5af30a9c689b27544e600d0069d5.ctex"]
 
 [params]
 

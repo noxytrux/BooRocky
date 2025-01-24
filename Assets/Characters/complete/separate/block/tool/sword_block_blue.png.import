@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://xhn01qx0m53g"
-path="res://.godot/imported/sword_block_blue.png-d613d9e7d1d1b8fa1024a0e036da64bb.ctex"
+path="res://.godot/imported/sword_block_blue.png-4a585fa6af9b43171ef75fa1ecdb1f4c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/block/tool/sword_block_blue.png"
-dest_files=["res://.godot/imported/sword_block_blue.png-d613d9e7d1d1b8fa1024a0e036da64bb.ctex"]
+source_file="res://Assets/characters/complete/separate/block/tool/sword_block_blue.png"
+dest_files=["res://.godot/imported/sword_block_blue.png-4a585fa6af9b43171ef75fa1ecdb1f4c.ctex"]
 
 [params]
 

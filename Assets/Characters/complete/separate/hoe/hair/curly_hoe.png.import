@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cnxpa8q7kl7bl"
-path="res://.godot/imported/curly_hoe.png-1099207036337c295decf3b748066ff1.ctex"
+path="res://.godot/imported/curly_hoe.png-a88767d9d4f465b3548c9b61583ca118.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/hoe/hair/curly_hoe.png"
-dest_files=["res://.godot/imported/curly_hoe.png-1099207036337c295decf3b748066ff1.ctex"]
+source_file="res://Assets/characters/complete/separate/hoe/hair/curly_hoe.png"
+dest_files=["res://.godot/imported/curly_hoe.png-a88767d9d4f465b3548c9b61583ca118.ctex"]
 
 [params]
 

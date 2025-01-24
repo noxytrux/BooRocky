@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cwoy4wj83ddna"
-path="res://.godot/imported/earring_red_water.png-342a02c0c3c7848b2b765875646337d0.ctex"
+path="res://.godot/imported/earring_red_water.png-0831ae2acbfe0da8c692508880ba6cd0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/water/acc/earring_red_water.png"
-dest_files=["res://.godot/imported/earring_red_water.png-342a02c0c3c7848b2b765875646337d0.ctex"]
+source_file="res://Assets/characters/complete/separate/water/acc/earring_red_water.png"
+dest_files=["res://.godot/imported/earring_red_water.png-0831ae2acbfe0da8c692508880ba6cd0.ctex"]
 
 [params]
 

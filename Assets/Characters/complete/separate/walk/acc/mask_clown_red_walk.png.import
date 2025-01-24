@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bjj4pqq3sv18w"
-path="res://.godot/imported/mask_clown_red_walk.png-27250f6a78581cea5867dc050646b6d7.ctex"
+path="res://.godot/imported/mask_clown_red_walk.png-d1a18a5600927dae559f92db4a452ec9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/walk/acc/mask_clown_red_walk.png"
-dest_files=["res://.godot/imported/mask_clown_red_walk.png-27250f6a78581cea5867dc050646b6d7.ctex"]
+source_file="res://Assets/characters/complete/separate/walk/acc/mask_clown_red_walk.png"
+dest_files=["res://.godot/imported/mask_clown_red_walk.png-d1a18a5600927dae559f92db4a452ec9.ctex"]
 
 [params]
 

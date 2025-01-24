@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dnf3sndodiy2i"
-path="res://.godot/imported/skirt_axe.png-3f2a703de071c05f8b81f7d7cb0d3129.ctex"
+path="res://.godot/imported/skirt_axe.png-fbd0eac55d21014b8d23dcf90024d369.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/axe/clothes/skirt_axe.png"
-dest_files=["res://.godot/imported/skirt_axe.png-3f2a703de071c05f8b81f7d7cb0d3129.ctex"]
+source_file="res://Assets/characters/complete/separate/axe/clothes/skirt_axe.png"
+dest_files=["res://.godot/imported/skirt_axe.png-fbd0eac55d21014b8d23dcf90024d369.ctex"]
 
 [params]
 

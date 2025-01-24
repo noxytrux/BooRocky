@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d13te6nfqnge1"
-path="res://.godot/imported/french_curl.png-07d5fd927b1e3efdde2a79811de6727d.ctex"
+path="res://.godot/imported/french_curl.png-c4fe606366b499a8b338c0d178b510ed.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/hair/french_curl.png"
-dest_files=["res://.godot/imported/french_curl.png-07d5fd927b1e3efdde2a79811de6727d.ctex"]
+source_file="res://Assets/characters/complete/hair/french_curl.png"
+dest_files=["res://.godot/imported/french_curl.png-c4fe606366b499a8b338c0d178b510ed.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://xxvmsn50c3lb"
-path="res://.godot/imported/mask_clown_blue_axe.png-99089e7ce5b11ae3be0a265c4f84cec4.ctex"
+path="res://.godot/imported/mask_clown_blue_axe.png-315666ed8c31326b8742ae9cbae9f297.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/axe/acc/mask_clown_blue_axe.png"
-dest_files=["res://.godot/imported/mask_clown_blue_axe.png-99089e7ce5b11ae3be0a265c4f84cec4.ctex"]
+source_file="res://Assets/characters/complete/separate/axe/acc/mask_clown_blue_axe.png"
+dest_files=["res://.godot/imported/mask_clown_blue_axe.png-315666ed8c31326b8742ae9cbae9f297.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dl7lk84wuxu1r"
-path="res://.godot/imported/earring_red_silver_walk.png-ffdc0abb2adab6bfb97d2bc8f1f2d333.ctex"
+path="res://.godot/imported/earring_red_silver_walk.png-81cf3b06d92774d12cc409673d390bc7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/walk/acc/earring_red_silver_walk.png"
-dest_files=["res://.godot/imported/earring_red_silver_walk.png-ffdc0abb2adab6bfb97d2bc8f1f2d333.ctex"]
+source_file="res://Assets/characters/complete/separate/walk/acc/earring_red_silver_walk.png"
+dest_files=["res://.godot/imported/earring_red_silver_walk.png-81cf3b06d92774d12cc409673d390bc7.ctex"]
 
 [params]
 

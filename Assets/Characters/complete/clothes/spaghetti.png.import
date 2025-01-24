@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bmxgdt807tl63"
-path="res://.godot/imported/spaghetti.png-9861086ed2103c8b3735da8c445162e2.ctex"
+path="res://.godot/imported/spaghetti.png-15180a22f6bab565621569edf99a9699.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/clothes/spaghetti.png"
-dest_files=["res://.godot/imported/spaghetti.png-9861086ed2103c8b3735da8c445162e2.ctex"]
+source_file="res://Assets/characters/complete/clothes/spaghetti.png"
+dest_files=["res://.godot/imported/spaghetti.png-15180a22f6bab565621569edf99a9699.ctex"]
 
 [params]
 

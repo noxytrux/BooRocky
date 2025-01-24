@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cd5ukbut2dktf"
-path="res://.godot/imported/spooky_carry.png-afb8d28e69a905c611eedc04c426af1e.ctex"
+path="res://.godot/imported/spooky_carry.png-cd390548f5903122b83edb2eda93428e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/carry/clothes/spooky_carry.png"
-dest_files=["res://.godot/imported/spooky_carry.png-afb8d28e69a905c611eedc04c426af1e.ctex"]
+source_file="res://Assets/characters/complete/separate/carry/clothes/spooky_carry.png"
+dest_files=["res://.godot/imported/spooky_carry.png-cd390548f5903122b83edb2eda93428e.ctex"]
 
 [params]
 

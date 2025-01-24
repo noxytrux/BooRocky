@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dnyhx20vysylv"
-path="res://.godot/imported/stripe.png-ba243d05d0f42376c72b216f7a519fc0.ctex"
+path="res://.godot/imported/stripe.png-1af5f14937cc956b7ad39530195ed255.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/clothes/stripe.png"
-dest_files=["res://.godot/imported/stripe.png-ba243d05d0f42376c72b216f7a519fc0.ctex"]
+source_file="res://Assets/characters/complete/clothes/stripe.png"
+dest_files=["res://.godot/imported/stripe.png-1af5f14937cc956b7ad39530195ed255.ctex"]
 
 [params]
 

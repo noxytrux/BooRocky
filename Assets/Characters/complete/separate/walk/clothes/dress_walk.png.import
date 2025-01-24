@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bsagvg4wgpify"
-path="res://.godot/imported/dress_walk.png-15052f4da71d0474830fa581d29e498c.ctex"
+path="res://.godot/imported/dress_walk.png-0c24b20f2e34590b86f45aa37a95591f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/walk/clothes/dress_walk.png"
-dest_files=["res://.godot/imported/dress_walk.png-15052f4da71d0474830fa581d29e498c.ctex"]
+source_file="res://Assets/characters/complete/separate/walk/clothes/dress_walk.png"
+dest_files=["res://.godot/imported/dress_walk.png-0c24b20f2e34590b86f45aa37a95591f.ctex"]
 
 [params]
 

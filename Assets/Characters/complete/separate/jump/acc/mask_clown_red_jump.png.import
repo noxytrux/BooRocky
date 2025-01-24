@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://da5euube3yawd"
-path="res://.godot/imported/mask_clown_red_jump.png-8611e1c3ebafcddb79a8be4b02a19c66.ctex"
+path="res://.godot/imported/mask_clown_red_jump.png-cfb987b9c4f0b4ab461f8660dadfd1f4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/jump/acc/mask_clown_red_jump.png"
-dest_files=["res://.godot/imported/mask_clown_red_jump.png-8611e1c3ebafcddb79a8be4b02a19c66.ctex"]
+source_file="res://Assets/characters/complete/separate/jump/acc/mask_clown_red_jump.png"
+dest_files=["res://.godot/imported/mask_clown_red_jump.png-cfb987b9c4f0b4ab461f8660dadfd1f4.ctex"]
 
 [params]
 

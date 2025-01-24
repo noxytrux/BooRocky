@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ch1ucafoyv0aq"
-path="res://.godot/imported/beard_pickup.png-c3a01d17cd9c1a878c5344efa50b0d50.ctex"
+path="res://.godot/imported/beard_pickup.png-3029741cce210ee2133dc76ce75475d3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/pickup/acc/beard_pickup.png"
-dest_files=["res://.godot/imported/beard_pickup.png-c3a01d17cd9c1a878c5344efa50b0d50.ctex"]
+source_file="res://Assets/characters/complete/separate/pickup/acc/beard_pickup.png"
+dest_files=["res://.godot/imported/beard_pickup.png-3029741cce210ee2133dc76ce75475d3.ctex"]
 
 [params]
 

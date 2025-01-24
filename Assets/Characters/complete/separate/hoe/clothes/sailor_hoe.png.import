@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dw33ylira301"
-path="res://.godot/imported/sailor_hoe.png-75dc98f0f0b4b6d61b741f4eba5064cc.ctex"
+path="res://.godot/imported/sailor_hoe.png-fd5991c72a32a74e7e6f689591b68924.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/hoe/clothes/sailor_hoe.png"
-dest_files=["res://.godot/imported/sailor_hoe.png-75dc98f0f0b4b6d61b741f4eba5064cc.ctex"]
+source_file="res://Assets/characters/complete/separate/hoe/clothes/sailor_hoe.png"
+dest_files=["res://.godot/imported/sailor_hoe.png-fd5991c72a32a74e7e6f689591b68924.ctex"]
 
 [params]
 

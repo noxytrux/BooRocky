@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b6dnc4jscu58m"
-path="res://.godot/imported/gentleman_pickup.png-0235afd719fe97f90e4b7ecce4ced95c.ctex"
+path="res://.godot/imported/gentleman_pickup.png-5786ded6380d891bb931a4ee219cf405.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/pickup/hair/gentleman_pickup.png"
-dest_files=["res://.godot/imported/gentleman_pickup.png-0235afd719fe97f90e4b7ecce4ced95c.ctex"]
+source_file="res://Assets/characters/complete/separate/pickup/hair/gentleman_pickup.png"
+dest_files=["res://.godot/imported/gentleman_pickup.png-5786ded6380d891bb931a4ee219cf405.ctex"]
 
 [params]
 

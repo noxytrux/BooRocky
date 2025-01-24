@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c074pciv07a6o"
-path="res://.godot/imported/bob_hurt.png-35fdf33bfee7255d9de0563886c7871c.ctex"
+path="res://.godot/imported/bob_hurt.png-555c570593c429007e6ca300bb2bf537.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/hurt/hair/bob_hurt.png"
-dest_files=["res://.godot/imported/bob_hurt.png-35fdf33bfee7255d9de0563886c7871c.ctex"]
+source_file="res://Assets/characters/complete/separate/hurt/hair/bob_hurt.png"
+dest_files=["res://.godot/imported/bob_hurt.png-555c570593c429007e6ca300bb2bf537.ctex"]
 
 [params]
 

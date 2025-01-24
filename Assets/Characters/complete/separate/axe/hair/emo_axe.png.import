@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dtdol6ud0vlhc"
-path="res://.godot/imported/emo_axe.png-2fbbbf3767e79eb765449d3c72d750d4.ctex"
+path="res://.godot/imported/emo_axe.png-252bd52900c9776f849661577761c70e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/complete/separate/axe/hair/emo_axe.png"
-dest_files=["res://.godot/imported/emo_axe.png-2fbbbf3767e79eb765449d3c72d750d4.ctex"]
+source_file="res://Assets/characters/complete/separate/axe/hair/emo_axe.png"
+dest_files=["res://.godot/imported/emo_axe.png-252bd52900c9776f849661577761c70e.ctex"]
 
 [params]
 
