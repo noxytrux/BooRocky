@@ -3291,6 +3291,7 @@ scale = Vector2(3, 3)
 sprite_frames = SubResource("SpriteFrames_tbnna")
 animation = &"carry_right"
 autoplay = "walk_down"
+frame_progress = 0.370298
 
 [node name="AnimatedSprite2D_Clothes" type="AnimatedSprite2D" parent="Sprites"]
 sprite_frames = SubResource("SpriteFrames_85o0s")
@@ -3311,3 +3312,9 @@ autoplay = "walk_down"
 sprite_frames = SubResource("SpriteFrames_4fahu")
 animation = &"carry_left"
 autoplay = "walk_down"
+
+[node name="RayCast2D" type="RayCast2D" parent="."]
+target_position = Vector2(0, -100)
+
+[node name="ItemAnchor" type="Node2D" parent="."]
+position = Vector2(0, -27)

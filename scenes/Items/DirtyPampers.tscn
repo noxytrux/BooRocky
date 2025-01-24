@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://0xe6bn660xrn"]
+
+[ext_resource type="Texture2D" uid="uid://dhrv7yjdu82kq" path="res://Assets/OpenmonItemIcons.png" id="1_jfrre"]
+[ext_resource type="Script" path="res://scripts/item_base.gd" id="2_deyqa"]
+
+[node name="DirtyPampers" type="Sprite2D"]
+texture = ExtResource("1_jfrre")
+region_enabled = true
+region_rect = Rect2(37, 229, 24, 21)
+script = ExtResource("2_deyqa")

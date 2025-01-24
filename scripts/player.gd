@@ -13,7 +13,11 @@ const SPEED := 500.0
 
 var direction := GlobalValues.DIRECTION.NONE
 var DELME_disable_walking := false
+
+@onready var Raycast = $RayCast2D
+
 var HoldItem: ItemBase
+@onready var ItemAnchor = $ItemAnchor
 
 func _ready() -> void:
 	reset_color()
@@ -32,13 +36,13 @@ func _process(delta: float) -> void:
 	Interaction();
 
 func Interaction() -> void:
-	if(Input.is_action_just_pressed("E") && $RayCast2D.is_colliding()):
-		var hit = $RayCast2D.get_collider()
+	if(Input.is_action_just_pressed("E") && Raycast.is_colliding()):
+		var hit =  Raycast.get_collider()
 		if (hit is ContainerItem):
 			if(HoldItem == null):
 				HoldItem = hit.TakeItem()
 				if(HoldItem != null):
-					self.add_child(HoldItem)
+					ItemAnchor.add_child(HoldItem)
 					print(HoldItem.get_parent())
 					HoldItem.position = Vector2(0, 0)
 			else:
