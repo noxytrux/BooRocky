@@ -15,3 +15,15 @@ static func direction_vector_to_enum(dir: Vector2) -> DIRECTION:
 		return DIRECTION.LEFT if dir.x < 0.0 else DIRECTION.RIGHT
 	else:
 		return DIRECTION.UP if dir.y < 0.0 else DIRECTION.DOWN
+
+static func direction_to_str(dir: DIRECTION) -> String:
+	match dir:
+		DIRECTION.LEFT:
+			return "left"
+		DIRECTION.RIGHT:
+			return "right"
+		DIRECTION.UP:
+			return "up"
+		DIRECTION.DOWN:
+			return "down"
+	return "none"

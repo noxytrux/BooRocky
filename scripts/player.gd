@@ -10,6 +10,7 @@ const SPEED := 500.0
 @onready var sprites: Node2D = $Sprites
 
 var direction := GlobalValues.DIRECTION.NONE
+var DELME_disable_walking := false
 
 func _ready() -> void:
 	reset_color()
@@ -21,17 +22,11 @@ func reset_color() -> void:
 func set_direction(new_dir: GlobalValues.DIRECTION) -> void:
 	if new_dir != direction:
 		direction = new_dir
+		if DELME_disable_walking:
+			return
+		var anim_name := "walk_" + GlobalValues.direction_to_str(new_dir)
 		for animated_sprite in sprites.get_children():
-			assert(is_instance_of(animated_sprite, AnimatedSprite2D))
-			match new_dir:
-				GlobalValues.DIRECTION.LEFT:
-					animated_sprite.play("walk_left")
-				GlobalValues.DIRECTION.RIGHT:
-					animated_sprite.play("walk_right")
-				GlobalValues.DIRECTION.UP:
-					animated_sprite.play("walk_up")
-				GlobalValues.DIRECTION.DOWN:
-					animated_sprite.play("walk_down")
+			animated_sprite.play(anim_name)
 
 func _physics_process(delta: float) -> void:
 	var dir = Vector2.ZERO
@@ -65,5 +60,9 @@ func _physics_process(delta: float) -> void:
 		dir = Vector2.ZERO
 	velocity = dir * SPEED
 	if action1:
-		animation_player.play("Action1")
+		var anim_name := "pickup_" + GlobalValues.direction_to_str(direction)
+		for animated_sprite in sprites.get_children():
+			DELME_disable_walking = true
+			animated_sprite.play(anim_name)
+
 	move_and_slide()
