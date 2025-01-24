@@ -1,12 +1,13 @@
-[gd_scene load_steps=22 format=4 uid="uid://couasxs6dhqtr"]
+[gd_scene load_steps=23 format=4 uid="uid://couasxs6dhqtr"]
 
+[ext_resource type="Script" path="res://scripts/level.gd" id="1_3lawp"]
 [ext_resource type="Texture2D" uid="uid://cp2u4l81t38uc" path="res://Assets/Green.png" id="1_66r1e"]
 [ext_resource type="Texture2D" uid="uid://cjtvph0ia7vjl" path="res://Assets/atlas_32x.png" id="2_i284k"]
 [ext_resource type="Texture2D" uid="uid://yakrpfebqq5w" path="res://Assets/market_atlas_32x.png" id="3_0h0ay"]
-[ext_resource type="PackedScene" uid="uid://d21g3qba2slgn" path="res://scenes/player.tscn" id="4_mgpyj"]
-[ext_resource type="PackedScene" uid="uid://b6yx08dnl1u10" path="res://scenes/container.tscn" id="5_xvupt"]
+[ext_resource type="PackedScene" uid="uid://ipli60f82tfw" path="res://scenes/container.tscn" id="5_xvupt"]
 [ext_resource type="PackedScene" uid="uid://dcjde67tyb40a" path="res://scenes/Items/Food.tscn" id="6_iitf7"]
 [ext_resource type="PackedScene" uid="uid://cgeyearammmm1" path="res://scenes/Items/Pampers.tscn" id="7_e67ip"]
+[ext_resource type="PackedScene" uid="uid://bcdx5ij4f6d6d" path="res://scenes/player_spawner.tscn" id="9_eeq8j"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_abpdh"]
 texture = ExtResource("2_i284k")
@@ -19797,6 +19798,7 @@ texture = ExtResource("2_i284k")
 sources/0 = SubResource("TileSetAtlasSource_e0vks")
 
 [node name="Level" type="Node"]
+script = ExtResource("1_3lawp")
 
 [node name="TextureRect" type="TextureRect" parent="."]
 anchors_preset = 15
@@ -19828,15 +19830,26 @@ tile_set = SubResource("TileSet_idg67")
 tile_map_data = PackedByteArray("AAAEAAAAAAAxAAcAAAAEAAEAAAAxAAgAAAAEAAIAAAAxAAkAAAAEAAMAAAAxAAoAAAAFAAAAAAAyAAcAAAAFAAEAAAAyAAgAAAAFAAIAAAAyAAkAAAAFAAMAAAAyAAoAAAAGAAAAAAAzAAcAAAAGAAEAAAAzAAgAAAAGAAIAAAAzAAkAAAAGAAMAAAAzAAoAAAAHAAAAAAA0AAcAAAAHAAEAAAA0AAgAAAAHAAIAAAA0AAkAAAAHAAMAAAA0AAoAAAAKAAAAAAAxAAcAAAAKAAEAAAAxAAgAAAAKAAIAAAAxAAkAAAAKAAMAAAAxAAoAAAALAAAAAAAyAAcAAAALAAEAAAAyAAgAAAALAAIAAAAyAAkAAAALAAMAAAAyAAoAAAAMAAAAAAAzAAcAAAAMAAEAAAAzAAgAAAAMAAIAAAAzAAkAAAAMAAMAAAAzAAoAAAANAAAAAAA0AAcAAAANAAEAAAA0AAgAAAANAAIAAAA0AAkAAAANAAMAAAA0AAoAAAA=")
 tile_set = SubResource("TileSet_1aokw")
 
-[node name="Player" parent="." instance=ExtResource("4_mgpyj")]
-position = Vector2(1533, 708)
-scale = Vector2(1.5, 1.5)
+[node name="PlayerSpawners" type="Node2D" parent="."]
 
-[node name="Player2" parent="." instance=ExtResource("4_mgpyj")]
-position = Vector2(96, 947)
-scale = Vector2(1.5, 1.5)
-input_device = 1
-cloth_color_modulate = Color(1, 0.12, 0.12, 1)
+[node name="PlayerSpawner1" parent="PlayerSpawners" instance=ExtResource("9_eeq8j")]
+position = Vector2(97, 963)
+cloth_color_modulate = Color(1, 0.33, 0.33, 1)
+
+[node name="PlayerSpawner2" parent="PlayerSpawners" instance=ExtResource("9_eeq8j")]
+position = Vector2(1535, 434)
+cloth_color_modulate = Color(0.910667, 1, 0.33, 1)
+hair_color_modulate = Color(1, 0.41, 0.41, 1)
+
+[node name="PlayerSpawner3" parent="PlayerSpawners" instance=ExtResource("9_eeq8j")]
+position = Vector2(774, 965)
+cloth_color_modulate = Color(0.33, 0.687333, 1, 1)
+hair_color_modulate = Color(0.716296, 0.716296, 0.716296, 1)
+
+[node name="PlayerSpawner4" parent="PlayerSpawners" instance=ExtResource("9_eeq8j")]
+position = Vector2(1531, 719)
+cloth_color_modulate = Color(0.33, 1, 0.419333, 1)
+hair_color_modulate = Color(0.270222, 0.270222, 0.270222, 1)
 
 [node name="Overlay" type="TileMapLayer" parent="."]
 scale = Vector2(3, 3)
