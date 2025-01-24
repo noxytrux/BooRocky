@@ -20,6 +20,7 @@ var is_dash_active := false
 var is_dash_ready := true
 
 @onready var Raycast = $RayCast2D
+@export var RayRange = 100.0
 
 var HoldItem: ItemBase
 @onready var ItemAnchor = $ItemAnchor
@@ -118,3 +119,6 @@ func _on_dash_cooldown_timer_timeout() -> void:
 
 func _on_dash_active_timer_timeout() -> void:
 	is_dash_active = false
+
+func SetRaycastDirection() -> void:
+	Raycast.target_position = RayRange

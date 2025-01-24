@@ -15,7 +15,7 @@ HoldItem = NodePath("Drug")
 position = Vector2(0, 253)
 
 [node name="Container2" parent="." node_paths=PackedStringArray("HoldItem") instance=ExtResource("2_2xiol")]
-position = Vector2(186, -253)
+position = Vector2(283, -2)
 HoldItem = NodePath("Food")
 
 [node name="Food" parent="Container2" instance=ExtResource("3_o3swo")]
@@ -23,7 +23,10 @@ position = Vector2(-186, 253)
 SelectedType = 2
 
 [node name="Container3" parent="." instance=ExtResource("2_2xiol")]
-position = Vector2(382, -251)
+position = Vector2(3, 241)
+
+[node name="Container4" parent="." instance=ExtResource("2_2xiol")]
+position = Vector2(-286, 0)
 
 [node name="Player" parent="." instance=ExtResource("3_p10gw")]
 motion_mode = 0
