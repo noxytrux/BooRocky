@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://d21g3qba2slgn"]
+
+[ext_resource type="Script" path="res://scripts/player.gd" id="1_uap0v"]
+
+[node name="Player" type="Node2D"]
+script = ExtResource("1_uap0v")
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+scale = Vector2(0.164137, 0.1622)
+color = Color(1, 0, 0, 1)
+polygon = PackedVector2Array(0, -31, 39, -19, 44, 17, 18, 39, -21, 39, -46, 10, -47, -28, -11, -40)

@@ -7,5 +7,7 @@ func _ready() -> void:
 	pass
 
 func _process(delta: float) -> void:
+	# Exit the entire game.
 	if Input.is_action_just_pressed("Escape"):
 		get_tree().quit()
+		return
