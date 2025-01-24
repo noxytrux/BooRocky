@@ -1,9 +1,12 @@
-[gd_scene load_steps=19 format=4 uid="uid://couasxs6dhqtr"]
+[gd_scene load_steps=22 format=4 uid="uid://couasxs6dhqtr"]
 
 [ext_resource type="Texture2D" uid="uid://cp2u4l81t38uc" path="res://Assets/Green.png" id="1_66r1e"]
 [ext_resource type="Texture2D" uid="uid://cjtvph0ia7vjl" path="res://Assets/atlas_32x.png" id="2_i284k"]
 [ext_resource type="Texture2D" uid="uid://yakrpfebqq5w" path="res://Assets/market_atlas_32x.png" id="3_0h0ay"]
 [ext_resource type="PackedScene" uid="uid://d21g3qba2slgn" path="res://scenes/player.tscn" id="4_mgpyj"]
+[ext_resource type="PackedScene" path="res://scenes/container.tscn" id="5_xvupt"]
+[ext_resource type="PackedScene" uid="uid://dcjde67tyb40a" path="res://scenes/Items/Food.tscn" id="6_iitf7"]
+[ext_resource type="PackedScene" uid="uid://cgeyearammmm1" path="res://scenes/Items/Pampers.tscn" id="7_e67ip"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_abpdh"]
 texture = ExtResource("2_i284k")
@@ -19818,7 +19821,7 @@ tile_map_data = PackedByteArray("AAASAAMAAAAQAAoAAAATAAMAAAARAAoAAAASAAQAAAAQAAs
 tile_set = SubResource("TileSet_b7voi")
 
 [node name="Decorations" type="TileMapLayer" parent="Floor"]
-tile_map_data = PackedByteArray("AAABAP//AAAQAAQAAAABAAAAAAAQAAUAAAABAAEAAAAQAAYAAAABAAIAAAAQAAcAAAACAP//AAARAAQAAAACAAAAAAARAAUAAAADAP//AAASAAQAAAADAAAAAAASAAUAAAADAAEAAAASAAYAAAAEAP//AAATAAQAAAAEAAAAAAATAAUAAAAEAAEAAAATAAYAAAAEAAIAAAATAAcAAAAHAP//AAAUAAQAAAAHAAAAAAAUAAUAAAAHAAEAAAAUAAYAAAAHAAIAAAAUAAcAAAAIAP//AAAVAAQAAAAIAAAAAAAVAAUAAAAJAP//AAAWAAQAAAAJAAAAAAAWAAUAAAAJAAEAAAAWAAYAAAAKAP//AAAXAAQAAAAKAAAAAAAXAAUAAAAKAAEAAAAXAAYAAAAKAAIAAAAXAAcAAAANAP//AAAYAAQAAAANAAAAAAAYAAUAAAANAAEAAAAYAAYAAAANAAIAAAAYAAcAAAAOAP//AAAZAAQAAAAOAAAAAAAZAAUAAAAPAP//AAAaAAQAAAAPAAAAAAAaAAUAAAAPAAEAAAAaAAYAAAAQAP//AAAbAAQAAAAQAAAAAAAbAAUAAAAQAAEAAAAbAAYAAAAQAAIAAAAbAAcAAAA=")
+tile_map_data = PackedByteArray("AAABAP//AAAQAAQAAAABAAAAAAAQAAUAAAABAAEAAAAQAAYAAAABAAIAAAAQAAcAAAACAP//AAARAAQAAAACAAAAAAARAAUAAAADAP//AAASAAQAAAADAAAAAAASAAUAAAADAAEAAAASAAYAAAAEAP//AAATAAQAAAAEAAAAAAATAAUAAAAEAAEAAAATAAYAAAAEAAIAAAATAAcAAAAHAP//AAAUAAQAAAAHAAAAAAAUAAUAAAAHAAEAAAAUAAYAAAAHAAIAAAAUAAcAAAAIAP//AAAVAAQAAAAIAAAAAAAVAAUAAAAJAP//AAAWAAQAAAAJAAAAAAAWAAUAAAAJAAEAAAAWAAYAAAAKAP//AAAXAAQAAAAKAAAAAAAXAAUAAAAKAAEAAAAXAAYAAAAKAAIAAAAXAAcAAAANAP//AAAYAAQAAAANAAAAAAAYAAUAAAANAAEAAAAYAAYAAAANAAIAAAAYAAcAAAAOAP//AAAZAAQAAAAOAAAAAAAZAAUAAAAPAP//AAAaAAQAAAAPAAAAAAAaAAUAAAAPAAEAAAAaAAYAAAAQAP//AAAbAAQAAAAQAAAAAAAbAAUAAAAQAAEAAAAbAAYAAAAQAAIAAAAbAAcAAAAeAAcAAAAhAAEAAAAeAAgAAAAhAAIAAAAeAAkAAAAhAAMAAAAeAAoAAAAhAAQAAAAfAAcAAAAiAAEAAAAfAAgAAAAiAAIAAAAfAAkAAAAiAAMAAAAfAAoAAAAiAAQAAAAgAAcAAAAjAAEAAAAgAAgAAAAjAAIAAAAgAAkAAAAjAAMAAAAgAAoAAAAjAAQAAAAhAAcAAAAkAAEAAAAhAAgAAAAkAAIAAAAhAAkAAAAkAAMAAAAhAAoAAAAkAAQAAAAeAA0AAAAhAA0AAAAeAA4AAAAhAA4AAAAeAA8AAAAhAA8AAAAeABAAAAAhABAAAAAfAA0AAAAiAA0AAAAfAA4AAAAiAA4AAAAfAA8AAAAiAA8AAAAfABAAAAAiABAAAAAgAA0AAAAjAA0AAAAgAA4AAAAjAA4AAAAgAA8AAAAjAA8AAAAgABAAAAAjABAAAAAhAA0AAAAkAA0AAAAhAA4AAAAkAA4AAAAhAA8AAAAkAA8AAAAhABAAAAAkABAAAAAAABMAAAAMAAYAAAAAABQAAAAMAAcAAAABABMAAAANAAYAAAABABQAAAANAAcAAAACABMAAAAOAAYAAAACABQAAAAOAAcAAAADABMAAAAPAAYAAAADABQAAAAPAAcAAAAOABMAAAAIAAYAAAAOABQAAAAIAAcAAAAPABMAAAAJAAYAAAAPABQAAAAJAAcAAAAQABMAAAAKAAYAAAAQABQAAAAKAAcAAAARABMAAAALAAYAAAARABQAAAALAAcAAAAmAAIAAAAiABMAAAAmAAMAAAAiABQAAAAmAAQAAAAiABUAAAAnAAIAAAAjABMAAAAnAAMAAAAjABQAAAAnAAQAAAAjABUAAAA=")
 tile_set = SubResource("TileSet_idg67")
 
 [node name="Doors" type="TileMapLayer" parent="Floor"]
@@ -19826,12 +19829,12 @@ tile_map_data = PackedByteArray("AAAEAAAAAAAxAAcAAAAEAAEAAAAxAAgAAAAEAAIAAAAxAAk
 tile_set = SubResource("TileSet_1aokw")
 
 [node name="Player" parent="." instance=ExtResource("4_mgpyj")]
-position = Vector2(1547, 630)
+position = Vector2(1533, 708)
 scale = Vector2(1.5, 1.5)
 input_device = 1
 
 [node name="Player2" parent="." instance=ExtResource("4_mgpyj")]
-position = Vector2(246, 643)
+position = Vector2(96, 947)
 scale = Vector2(1.5, 1.5)
 cloth_color_modulate = Color(1, 0.12, 0.12, 1)
 
@@ -19839,3 +19842,190 @@ cloth_color_modulate = Color(1, 0.12, 0.12, 1)
 scale = Vector2(3, 3)
 tile_map_data = PackedByteArray("AAAWAAYAAAAYAAkAAAAXAAYAAAAZAAkAAAAYAAYAAAAaAAkAAAAZAAYAAAAbAAkAAAAaAAYAAAAdAAkAAAAaAAwAAAAdAAkAAAAWAAwAAAAYAAkAAAAXAAwAAAAZAAkAAAAYAAwAAAAaAAkAAAAZAAwAAAAbAAkAAAAWABIAAAAkAB0AAAAXABIAAAAlAB0AAAAYABIAAAAmAB0AAAAZABIAAAAnAB0AAAAcABIAAAAkAB0AAAAdABIAAAAlAB0AAAAeABIAAAAmAB0AAAAfABIAAAAnAB0AAAAWABMAAAAkAB4AAAAXABMAAAAlAB4AAAAYABMAAAAmAB4AAAAZABMAAAAnAB4AAAAcABMAAAAkAB4AAAAdABMAAAAlAB4AAAAeABMAAAAmAB4AAAAfABMAAAAnAB4AAAAWAAcAAAAYAAoAAAAXAAcAAAAZAAoAAAAYAAcAAAAaAAoAAAAZAAcAAAAbAAoAAAAaAAcAAAAdAAoAAAAaAA0AAAAdAAoAAAAWAA0AAAAYAAoAAAAXAA0AAAAZAAoAAAAYAA0AAAAaAAoAAAAZAA0AAAAbAAoAAAABABUAAAADAAsAAAACABUAAAADAAsAAAADABUAAAADAAsAAAAEABUAAAADAAsAAAAFABUAAAADAAsAAAAGABUAAAADAAsAAAAHABUAAAADAAsAAAAIABUAAAADAAsAAAAJABUAAAADAAsAAAAKABUAAAADAAsAAAALABUAAAADAAsAAAAMABUAAAADAAsAAAANABUAAAADAAsAAAAOABUAAAADAAsAAAAPABUAAAADAAsAAAAQABUAAAADAAsAAAARABUAAAADAAsAAAASABUAAAADAAsAAAATABUAAAADAAsAAAAUABUAAAADAAsAAAAVABUAAAADAAsAAAAWABUAAAADAAsAAAAXABUAAAADAAsAAAAYABUAAAADAAsAAAAZABUAAAADAAsAAAAaABUAAAADAAsAAAAbABUAAAADAAsAAAAcABUAAAADAAsAAAAdABUAAAADAAsAAAAeABUAAAADAAsAAAAfABUAAAADAAsAAAAgABUAAAADAAsAAAAhABUAAAADAAsAAAAiABUAAAADAAsAAAAjABUAAAADAAsAAAAkABUAAAADAAsAAAAlABUAAAADAAsAAAAmABUAAAADAAsAAAAAABYAAAAFAB4AAAABABYAAAAFAB4AAAACABYAAAAFAB4AAAADABYAAAAFAB4AAAAEABYAAAAFAB4AAAAFABYAAAAFAB4AAAAGABYAAAAFAB4AAAAHABYAAAAFAB4AAAAIABYAAAAFAB4AAAAJABYAAAAFAB4AAAAKABYAAAAFAB4AAAALABYAAAAFAB4AAAAMABYAAAAFAB4AAAANABYAAAAFAB4AAAAOABYAAAAFAB4AAAAPABYAAAAFAB4AAAAQABYAAAAFAB4AAAARABYAAAAFAB4AAAASABYAAAAFAB4AAAATABYAAAAFAB4AAAAUABYAAAAFAB4AAAAVABYAAAAFAB4AAAAWABYAAAAFAB4AAAAXABYAAAAFAB4AAAAYABYAAAAFAB4AAAAZABYAAAAFAB4AAAAaABYAAAAFAB4AAAAbABYAAAAFAB4AAAAcABYAAAAFAB4AAAAdABYAAAAFAB4AAAAeABYAAAAFAB4AAAAfABYAAAAFAB4AAAAgABYAAAAFAB4AAAAhABYAAAAFAB4AAAAiABYAAAAFAB4AAAAjABYAAAAFAB4AAAAkABYAAAAFAB4AAAAlABYAAAAFAB4AAAAmABYAAAAFAB4AAAAnABYAAAAFAB4AAAA=")
 tile_set = SubResource("TileSet_4nyak")
+
+[node name="Container" parent="." instance=ExtResource("5_xvupt")]
+position = Vector2(1116, 346)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container2" parent="." instance=ExtResource("5_xvupt")]
+position = Vector2(1116, 419)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container3" parent="." instance=ExtResource("5_xvupt")]
+position = Vector2(1229, 346)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container4" parent="." instance=ExtResource("5_xvupt")]
+position = Vector2(1230, 422)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container5" parent="." instance=ExtResource("5_xvupt")]
+position = Vector2(1121, 635)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container9" parent="." node_paths=PackedStringArray("HoldItem") instance=ExtResource("5_xvupt")]
+position = Vector2(1587, 162)
+scale = Vector2(0.5, 0.5)
+HoldItem = NodePath("Food")
+
+[node name="Food" parent="Container9" instance=ExtResource("6_iitf7")]
+position = Vector2(0, 228)
+scale = Vector2(2, 2)
+
+[node name="Container14" parent="." node_paths=PackedStringArray("HoldItem") instance=ExtResource("5_xvupt")]
+position = Vector2(1587, 162)
+scale = Vector2(0.5, 0.5)
+HoldItem = NodePath("Food")
+
+[node name="Food" parent="Container14" instance=ExtResource("6_iitf7")]
+position = Vector2(0, 228)
+scale = Vector2(2, 2)
+
+[node name="Container10" parent="." instance=ExtResource("5_xvupt")]
+position = Vector2(1730, 162)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container11" parent="." instance=ExtResource("5_xvupt")]
+position = Vector2(1444, 100)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container15" parent="." instance=ExtResource("5_xvupt")]
+position = Vector2(914, 307)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container16" parent="." instance=ExtResource("5_xvupt")]
+position = Vector2(912, 545)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container17" parent="." instance=ExtResource("5_xvupt")]
+position = Vector2(915, 799)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container18" parent="." instance=ExtResource("5_xvupt")]
+position = Vector2(142, 299)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container19" parent="." instance=ExtResource("5_xvupt")]
+position = Vector2(336, 302)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container20" parent="." instance=ExtResource("5_xvupt")]
+position = Vector2(530, 299)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container41" parent="." instance=ExtResource("5_xvupt")]
+position = Vector2(431, 118)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container42" parent="." instance=ExtResource("5_xvupt")]
+position = Vector2(141, 122)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container43" parent="." instance=ExtResource("5_xvupt")]
+position = Vector2(720, 122)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container21" parent="." instance=ExtResource("5_xvupt")]
+position = Vector2(720, 301)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container22" parent="." instance=ExtResource("5_xvupt")]
+position = Vector2(142, 542)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container23" parent="." instance=ExtResource("5_xvupt")]
+position = Vector2(336, 544)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container24" parent="." instance=ExtResource("5_xvupt")]
+position = Vector2(528, 544)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container25" parent="." instance=ExtResource("5_xvupt")]
+position = Vector2(722, 544)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container26" parent="." instance=ExtResource("5_xvupt")]
+position = Vector2(147, 781)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container27" parent="." instance=ExtResource("5_xvupt")]
+position = Vector2(337, 783)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container28" parent="." instance=ExtResource("5_xvupt")]
+position = Vector2(526, 778)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container29" parent="." instance=ExtResource("5_xvupt")]
+position = Vector2(718, 783)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container30" parent="." instance=ExtResource("5_xvupt")]
+position = Vector2(239, 953)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container31" parent="." instance=ExtResource("5_xvupt")]
+position = Vector2(628, 953)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container12" parent="." instance=ExtResource("5_xvupt")]
+position = Vector2(1251, 102)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container13" parent="." node_paths=PackedStringArray("HoldItem") instance=ExtResource("5_xvupt")]
+position = Vector2(1053, 97)
+scale = Vector2(0.5, 0.5)
+HoldItem = NodePath("Pampers")
+
+[node name="Pampers" parent="Container13" instance=ExtResource("7_e67ip")]
+position = Vector2(-2, 238)
+scale = Vector2(4, 4)
+
+[node name="Container6" parent="." instance=ExtResource("5_xvupt")]
+position = Vector2(1121, 708)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container7" parent="." instance=ExtResource("5_xvupt")]
+position = Vector2(1234, 635)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container8" parent="." instance=ExtResource("5_xvupt")]
+position = Vector2(1235, 711)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container32" parent="." instance=ExtResource("5_xvupt")]
+position = Vector2(1110, 930)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container33" parent="." instance=ExtResource("5_xvupt")]
+position = Vector2(1197, 934)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container34" parent="." instance=ExtResource("5_xvupt")]
+position = Vector2(1397, 927)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container35" parent="." instance=ExtResource("5_xvupt")]
+position = Vector2(1483, 928)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container36" parent="." instance=ExtResource("5_xvupt")]
+position = Vector2(1831, 813)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container37" parent="." instance=ExtResource("5_xvupt")]
+position = Vector2(1820, 665)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container38" parent="." instance=ExtResource("5_xvupt")]
+position = Vector2(1824, 524)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container40" parent="." instance=ExtResource("5_xvupt")]
+position = Vector2(1826, 384)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container39" parent="." instance=ExtResource("5_xvupt")]
+position = Vector2(1828, 960)
+scale = Vector2(0.5, 0.5)
