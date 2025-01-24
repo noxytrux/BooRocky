@@ -11,19 +11,26 @@ script = ExtResource("1_s540f")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 
-[node name="Player" parent="." instance=ExtResource("2_grrq8")]
+[node name="Player1" parent="." instance=ExtResource("2_grrq8")]
+cloth_color_modulate = Color(1, 0.38, 0.38, 1)
 
 [node name="Player2" parent="." instance=ExtResource("2_grrq8")]
 position = Vector2(241, 57)
 input_device = 1
+cloth_color_modulate = Color(0.0949, 0.73, 0.13724, 1)
+hair_color_modulate = Color(0.703808, 0.703808, 0.703808, 1)
 
 [node name="Player3" parent="." instance=ExtResource("2_grrq8")]
 position = Vector2(-37, 335)
 input_device = 2
+cloth_color_modulate = Color(0.93, 0.87048, 0.3348, 1)
+hair_color_modulate = Color(0.259294, 0.259294, 0.259294, 1)
 
 [node name="Player4" parent="." instance=ExtResource("2_grrq8")]
 position = Vector2(220, 373)
 input_device = 3
+cloth_color_modulate = Color(0.39, 0.501833, 1, 1)
+hair_color_modulate = Color(0.66, 0, 0, 1)
 
 [node name="Temporary obstacle" type="Node2D" parent="."]
 

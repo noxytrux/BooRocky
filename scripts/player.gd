@@ -12,7 +12,7 @@ const SPEED := 500.0
 @onready var animated_sprite_2d_hair: AnimatedSprite2D = $Sprites/AnimatedSprite2D_Hair
 
 var direction := GlobalValues.DIRECTION.NONE
-var DELME_disable_walking := false
+var is_walking := false
 
 @onready var Raycast = $RayCast2D
 
@@ -21,7 +21,7 @@ var HoldItem: ItemBase
 
 func _ready() -> void:
 	reset_color()
-	set_direction(GlobalValues.DIRECTION.LEFT)
+	set_animation("walk_down", false)
 	
 func reset_color() -> void:
 	animated_sprite_2d_clothes.modulate = cloth_color_modulate
@@ -43,15 +43,6 @@ func Interaction() -> void:
 			else:
 					hit.PlaceItem(HoldItem)
 					HoldItem = null
-
-func set_direction(new_dir: GlobalValues.DIRECTION) -> void:
-	if new_dir != direction:
-		direction = new_dir
-		if DELME_disable_walking:
-			return
-		var anim_name := "walk_" + GlobalValues.direction_to_str(new_dir)
-		for animated_sprite in sprites.get_children():
-			animated_sprite.play(anim_name)
 
 func _physics_process(delta: float) -> void:
 	var dir = Vector2.ZERO
@@ -77,17 +68,35 @@ func _physics_process(delta: float) -> void:
 			action1 = Input.is_joy_button_pressed(1, JOY_BUTTON_A)
 			action2 = Input.is_joy_button_pressed(1, JOY_BUTTON_X)
 	# Introduce dead zone.
+	var new_is_walking := false
+	var new_dir_enum = direction
 	if dir.length_squared() > 0.1:
+		new_is_walking = true
 		dir = dir.normalized()
-		var dir_enum = GlobalValues.direction_vector_to_enum(dir)
-		set_direction(dir_enum)
+		new_dir_enum = GlobalValues.direction_vector_to_enum(dir)
 	else:
 		dir = Vector2.ZERO
-	velocity = dir * SPEED
+		
+	# TEMP - pickup animation
 	if action1:
-		var anim_name := "pickup_" + GlobalValues.direction_to_str(direction)
-		for animated_sprite in sprites.get_children():
-			DELME_disable_walking = true
-			animated_sprite.play(anim_name)
-
+		set_animation("pickup_down", true)
+	
+	velocity = dir * SPEED
 	move_and_slide()
+	
+	# Control animation
+	if new_is_walking != is_walking or new_dir_enum != direction:
+		direction = new_dir_enum
+		is_walking = new_is_walking
+		var anim_name := "walk_" if not HoldItem else "carry_"
+		anim_name += GlobalValues.direction_to_str(new_dir_enum)
+		set_animation(anim_name, new_is_walking)
+	
+func set_animation(anim_name: String, play: bool) -> void:
+	for animated_sprite in sprites.get_children():
+		if play:
+			animated_sprite.play(anim_name)
+		else:
+			animated_sprite.animation = anim_name
+			animated_sprite.stop()
+			animated_sprite.frame = 0
