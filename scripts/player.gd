@@ -33,20 +33,18 @@ func reset_color() -> void:
 	animated_sprite_2d_clothes.modulate = cloth_color_modulate
 	animated_sprite_2d_hair.modulate = hair_color_modulate
 
-func _process(delta: float) -> void:
-	Interaction();
-
 func Interaction() -> void:
-	if(Input.is_action_just_pressed("E") && Raycast.is_colliding()):
+	if(Raycast.is_colliding()):
 		var hit =  Raycast.get_collider()
 		if (hit is ContainerItem):
 			if(HoldItem == null):
 				HoldItem = hit.TakeItem()
 				if(HoldItem != null):
 					ItemAnchor.add_child(HoldItem)
-					print(HoldItem.get_parent())
 					HoldItem.position = Vector2(0, 0)
+					HoldItem.PickUp()
 			elif(hit.HoldItem == null):
+					HoldItem.PutDown()
 					hit.PlaceItem(HoldItem)
 					HoldItem = null
 
@@ -67,6 +65,7 @@ func _physics_process(delta: float) -> void:
 	# TEMP - pickup animation
 	if action1:
 		set_animation("pickup_down", true)
+		Interaction()
 		
 	# Dash
 	if action2 and is_dash_ready:
@@ -82,6 +81,7 @@ func _physics_process(delta: float) -> void:
 	if new_is_walking != is_walking or new_dir_enum != direction:
 		direction = new_dir_enum
 		is_walking = new_is_walking
+		SetRaycastDirection()
 		var anim_name := "walk_" if not HoldItem else "carry_"
 		anim_name += GlobalValues.direction_to_str(new_dir_enum)
 		set_animation(anim_name, new_is_walking)
