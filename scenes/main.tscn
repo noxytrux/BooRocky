@@ -12,22 +12,18 @@ script = ExtResource("1_s540f")
 [node name="Camera2D" type="Camera2D" parent="."]
 
 [node name="Player" parent="." instance=ExtResource("2_grrq8")]
-color = Color(0.679969, 0.399265, 0.787527, 1)
 
 [node name="Player2" parent="." instance=ExtResource("2_grrq8")]
 position = Vector2(241, 57)
 input_device = 1
-color = Color(0.886169, 0.316286, 0.240012, 1)
 
 [node name="Player3" parent="." instance=ExtResource("2_grrq8")]
 position = Vector2(-37, 335)
 input_device = 2
-color = Color(0.92, 0.80822, 0.1748, 1)
 
 [node name="Player4" parent="." instance=ExtResource("2_grrq8")]
 position = Vector2(220, 373)
 input_device = 3
-color = Color(0.424506, 0.477251, 0.453636, 1)
 
 [node name="Temporary obstacle" type="Node2D" parent="."]
 
