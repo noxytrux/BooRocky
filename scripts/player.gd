@@ -1,6 +1,7 @@
 extends CharacterBody2D
 
 const SPEED := 500.0
+const DASH_SPEED := 1000.0
 
 @export var input_device := GlobalValues.INPUT_DEVICE.WSAD
 @export var cloth_color_modulate := Color.WHITE
@@ -10,9 +11,13 @@ const SPEED := 500.0
 @onready var sprites: Node2D = $Sprites
 @onready var animated_sprite_2d_clothes: AnimatedSprite2D = $Sprites/AnimatedSprite2D_Clothes
 @onready var animated_sprite_2d_hair: AnimatedSprite2D = $Sprites/AnimatedSprite2D_Hair
+@onready var dash_cooldown_timer: Timer = $DashCooldownTimer
+@onready var dash_active_timer: Timer = $DashActiveTimer
 
 var direction := GlobalValues.DIRECTION.NONE
 var is_walking := false
+var is_dash_active := false
+var is_dash_ready := true
 
 @onready var Raycast = $RayCast2D
 
@@ -80,8 +85,15 @@ func _physics_process(delta: float) -> void:
 	# TEMP - pickup animation
 	if action1:
 		set_animation("pickup_down", true)
+		
+	# Dash
+	if action2 and is_dash_ready:
+		is_dash_active = true
+		is_dash_ready = false
+		dash_cooldown_timer.start()
+		dash_active_timer.start()
 	
-	velocity = dir * SPEED
+	velocity = dir * (SPEED if not is_dash_active else DASH_SPEED)
 	move_and_slide()
 	
 	# Control animation
@@ -100,3 +112,9 @@ func set_animation(anim_name: String, play: bool) -> void:
 			animated_sprite.animation = anim_name
 			animated_sprite.stop()
 			animated_sprite.frame = 0
+
+func _on_dash_cooldown_timer_timeout() -> void:
+	is_dash_ready = true
+
+func _on_dash_active_timer_timeout() -> void:
+	is_dash_active = false
