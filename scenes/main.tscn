@@ -1,7 +1,10 @@
-[gd_scene load_steps=3 format=3 uid="uid://lvx1d2yuygye"]
+[gd_scene load_steps=4 format=3 uid="uid://lvx1d2yuygye"]
 
 [ext_resource type="Script" path="res://scripts/main.gd" id="1_s540f"]
 [ext_resource type="PackedScene" uid="uid://d21g3qba2slgn" path="res://scenes/player.tscn" id="2_grrq8"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_c1ccp"]
+size = Vector2(338, 108)
 
 [node name="Main" type="Node"]
 script = ExtResource("1_s540f")
@@ -9,3 +12,15 @@ script = ExtResource("1_s540f")
 [node name="Camera2D" type="Camera2D" parent="."]
 
 [node name="Player" parent="." instance=ExtResource("2_grrq8")]
+
+[node name="Temporary obstacle" type="Node2D" parent="."]
+
+[node name="Polygon2D" type="Polygon2D" parent="Temporary obstacle"]
+position = Vector2(31, 214)
+polygon = PackedVector2Array(-58, -50, 275, -50, 278, 60, -62, 56, -62, 56, -65, 56, -65, 56)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Temporary obstacle"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Temporary obstacle/StaticBody2D"]
+position = Vector2(138, 218)
+shape = SubResource("RectangleShape2D_c1ccp")
