@@ -10,6 +10,7 @@ const SPEED := 500.0
 @onready var sprites: Node2D = $Sprites
 
 var direction := GlobalValues.DIRECTION.NONE
+var HoldItem: ItemBase
 
 func _ready() -> void:
 	reset_color()
@@ -17,6 +18,23 @@ func _ready() -> void:
 	
 func reset_color() -> void:
 	polygon_2d.color = color
+
+func _process(delta: float) -> void:
+	Interaction();
+
+func Interaction() -> void:
+	if(Input.is_action_just_pressed("E") && $RayCast2D.is_colliding()):
+		var hit = $RayCast2D.get_collider()
+		if (hit is ContainerItem):
+			if(HoldItem == null):
+				HoldItem = hit.TakeItem()
+				if(HoldItem != null):
+					self.add_child(HoldItem)
+					print(HoldItem.get_parent())
+					HoldItem.position = Vector2(0, 0)
+			else:
+					hit.PlaceItem(HoldItem)
+					HoldItem = null
 
 func set_direction(new_dir: GlobalValues.DIRECTION) -> void:
 	if new_dir != direction:

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bh078iwnlpfq0"]
+
+[ext_resource type="Script" path="res://scripts/item_base.gd" id="1_dvgr2"]
+
+[node name="ItemBase" type="Sprite2D"]
+script = ExtResource("1_dvgr2")
