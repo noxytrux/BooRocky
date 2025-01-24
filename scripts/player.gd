@@ -7,12 +7,31 @@ const SPEED := 500.0
 
 @onready var polygon_2d: Polygon2D = $Polygon2D
 @onready var animation_player: AnimationPlayer = $Polygon2D/AnimationPlayer
+@onready var sprites: Node2D = $Sprites
+
+var direction := GlobalValues.DIRECTION.NONE
 
 func _ready() -> void:
 	reset_color()
+	set_direction(GlobalValues.DIRECTION.LEFT)
 	
 func reset_color() -> void:
 	polygon_2d.color = color
+
+func set_direction(new_dir: GlobalValues.DIRECTION) -> void:
+	if new_dir != direction:
+		direction = new_dir
+		for animated_sprite in sprites.get_children():
+			assert(is_instance_of(animated_sprite, AnimatedSprite2D))
+			match new_dir:
+				GlobalValues.DIRECTION.LEFT:
+					animated_sprite.play("walk_left")
+				GlobalValues.DIRECTION.RIGHT:
+					animated_sprite.play("walk_right")
+				GlobalValues.DIRECTION.UP:
+					animated_sprite.play("walk_up")
+				GlobalValues.DIRECTION.DOWN:
+					animated_sprite.play("walk_down")
 
 func _physics_process(delta: float) -> void:
 	var dir = Vector2.ZERO
@@ -40,6 +59,8 @@ func _physics_process(delta: float) -> void:
 	# Introduce dead zone.
 	if dir.length_squared() > 0.1:
 		dir = dir.normalized()
+		var dir_enum = GlobalValues.direction_vector_to_enum(dir)
+		set_direction(dir_enum)
 	else:
 		dir = Vector2.ZERO
 	velocity = dir * SPEED
