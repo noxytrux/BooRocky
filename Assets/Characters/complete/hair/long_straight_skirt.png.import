@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ox1gyp8wnqw4"
-path="res://.godot/imported/long_straight_skirt.png-7c04b02a05c7432c051e77f2d507ebd7.ctex"
+path="res://.godot/imported/long_straight_skirt.png-592e8ce3da1469bddea7122ee0099df6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/hair/long_straight_skirt.png"
-dest_files=["res://.godot/imported/long_straight_skirt.png-7c04b02a05c7432c051e77f2d507ebd7.ctex"]
+source_file="res://Assets/Characters/complete/hair/long_straight_skirt.png"
+dest_files=["res://.godot/imported/long_straight_skirt.png-592e8ce3da1469bddea7122ee0099df6.ctex"]
 
 [params]
 

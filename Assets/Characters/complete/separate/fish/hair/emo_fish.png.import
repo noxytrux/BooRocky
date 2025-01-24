@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c6c46xyt1lxyc"
-path="res://.godot/imported/emo_fish.png-15866e32260a3b41930491ef5da115e4.ctex"
+path="res://.godot/imported/emo_fish.png-28e1a0bb117ff4dac90593cfea4ab0e1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/fish/hair/emo_fish.png"
-dest_files=["res://.godot/imported/emo_fish.png-15866e32260a3b41930491ef5da115e4.ctex"]
+source_file="res://Assets/Characters/complete/separate/fish/hair/emo_fish.png"
+dest_files=["res://.godot/imported/emo_fish.png-28e1a0bb117ff4dac90593cfea4ab0e1.ctex"]
 
 [params]
 

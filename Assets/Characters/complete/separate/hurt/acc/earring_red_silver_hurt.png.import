@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://do4a7nlwwrhpy"
-path="res://.godot/imported/earring_red_silver_hurt.png-89dfd2a1f18ce90d64a4ff8961bac70a.ctex"
+path="res://.godot/imported/earring_red_silver_hurt.png-a974b9758b00628a68a6413128be9372.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/hurt/acc/earring_red_silver_hurt.png"
-dest_files=["res://.godot/imported/earring_red_silver_hurt.png-89dfd2a1f18ce90d64a4ff8961bac70a.ctex"]
+source_file="res://Assets/Characters/complete/separate/hurt/acc/earring_red_silver_hurt.png"
+dest_files=["res://.godot/imported/earring_red_silver_hurt.png-a974b9758b00628a68a6413128be9372.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bp1fcurx2o7bi"
-path="res://.godot/imported/bob_die.png-598cc9793938134e01ae1e28f9ddc758.ctex"
+path="res://.godot/imported/bob_die.png-51223e995884b1b8573e0a0f621d542d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/die/hair/bob_die.png"
-dest_files=["res://.godot/imported/bob_die.png-598cc9793938134e01ae1e28f9ddc758.ctex"]
+source_file="res://Assets/Characters/complete/separate/die/hair/bob_die.png"
+dest_files=["res://.godot/imported/bob_die.png-51223e995884b1b8573e0a0f621d542d.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://drqdl75x4uqtn"
-path="res://.godot/imported/lipstick_hoe.png-5aa5b4dd4e5c67b4ae8fb3fbb2c1782d.ctex"
+path="res://.godot/imported/lipstick_hoe.png-6278a09bd4c265e4fd6d3bb27e370607.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/hoe/eyes/lipstick_hoe.png"
-dest_files=["res://.godot/imported/lipstick_hoe.png-5aa5b4dd4e5c67b4ae8fb3fbb2c1782d.ctex"]
+source_file="res://Assets/Characters/complete/separate/hoe/eyes/lipstick_hoe.png"
+dest_files=["res://.godot/imported/lipstick_hoe.png-6278a09bd4c265e4fd6d3bb27e370607.ctex"]
 
 [params]
 

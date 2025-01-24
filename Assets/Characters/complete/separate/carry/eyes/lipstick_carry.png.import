@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dsp24ltcnmwly"
-path="res://.godot/imported/lipstick_carry.png-e0abdbff808117c9640f5afd020a9d33.ctex"
+path="res://.godot/imported/lipstick_carry.png-b1617871d02dbee84b401956af352416.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/carry/eyes/lipstick_carry.png"
-dest_files=["res://.godot/imported/lipstick_carry.png-e0abdbff808117c9640f5afd020a9d33.ctex"]
+source_file="res://Assets/Characters/complete/separate/carry/eyes/lipstick_carry.png"
+dest_files=["res://.godot/imported/lipstick_carry.png-b1617871d02dbee84b401956af352416.ctex"]
 
 [params]
 

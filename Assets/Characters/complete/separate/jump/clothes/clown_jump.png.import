@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://e8a0u7583125"
-path="res://.godot/imported/clown_jump.png-d123fd670c0f16aeebe08bfb9512ccef.ctex"
+path="res://.godot/imported/clown_jump.png-c1855c4368ee8ca38bb90449b35f5095.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/jump/clothes/clown_jump.png"
-dest_files=["res://.godot/imported/clown_jump.png-d123fd670c0f16aeebe08bfb9512ccef.ctex"]
+source_file="res://Assets/Characters/complete/separate/jump/clothes/clown_jump.png"
+dest_files=["res://.godot/imported/clown_jump.png-c1855c4368ee8ca38bb90449b35f5095.ctex"]
 
 [params]
 

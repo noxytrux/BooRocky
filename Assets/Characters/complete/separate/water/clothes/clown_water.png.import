@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bafsrmx72r3a5"
-path="res://.godot/imported/clown_water.png-4e47c15bf1ea429924e8fd13b40dc176.ctex"
+path="res://.godot/imported/clown_water.png-558afd1fa6e1727e3e496d40dcdd5b03.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/water/clothes/clown_water.png"
-dest_files=["res://.godot/imported/clown_water.png-4e47c15bf1ea429924e8fd13b40dc176.ctex"]
+source_file="res://Assets/Characters/complete/separate/water/clothes/clown_water.png"
+dest_files=["res://.godot/imported/clown_water.png-558afd1fa6e1727e3e496d40dcdd5b03.ctex"]
 
 [params]
 

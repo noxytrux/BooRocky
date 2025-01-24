@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cn7ao2dnhhpma"
-path="res://.godot/imported/beard_walk.png-3d975f48f52ef6ab79f6c8aa318745cd.ctex"
+path="res://.godot/imported/beard_walk.png-d01d0f61623d811aef1654a496913b8f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/walk/acc/beard_walk.png"
-dest_files=["res://.godot/imported/beard_walk.png-3d975f48f52ef6ab79f6c8aa318745cd.ctex"]
+source_file="res://Assets/Characters/complete/separate/walk/acc/beard_walk.png"
+dest_files=["res://.godot/imported/beard_walk.png-d01d0f61623d811aef1654a496913b8f.ctex"]
 
 [params]
 

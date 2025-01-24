@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cfpd8124gty3j"
-path="res://.godot/imported/hat_lucky_water.png-2211cca5b2bf474b5bd6bf2fb52d144b.ctex"
+path="res://.godot/imported/hat_lucky_water.png-ed1f5cb80fc4e46cfe6452d4898b6dea.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/water/acc/hat_lucky_water.png"
-dest_files=["res://.godot/imported/hat_lucky_water.png-2211cca5b2bf474b5bd6bf2fb52d144b.ctex"]
+source_file="res://Assets/Characters/complete/separate/water/acc/hat_lucky_water.png"
+dest_files=["res://.godot/imported/hat_lucky_water.png-ed1f5cb80fc4e46cfe6452d4898b6dea.ctex"]
 
 [params]
 

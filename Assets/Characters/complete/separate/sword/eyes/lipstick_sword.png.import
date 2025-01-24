@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bow3hwmwbtahx"
-path="res://.godot/imported/lipstick_sword.png-042619e354544da49d4bd381f24151f8.ctex"
+path="res://.godot/imported/lipstick_sword.png-1856a55898797254d58504657b5bb8d8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/sword/eyes/lipstick_sword.png"
-dest_files=["res://.godot/imported/lipstick_sword.png-042619e354544da49d4bd381f24151f8.ctex"]
+source_file="res://Assets/Characters/complete/separate/sword/eyes/lipstick_sword.png"
+dest_files=["res://.godot/imported/lipstick_sword.png-1856a55898797254d58504657b5bb8d8.ctex"]
 
 [params]
 

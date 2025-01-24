@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cwbdymwnubdfq"
-path="res://.godot/imported/hat_lucky_axe.png-ed15a9b7e14a349c0b6eeadc6eccc9c9.ctex"
+path="res://.godot/imported/hat_lucky_axe.png-e691a5709c651270e93a8a1ca67b6694.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/axe/acc/hat_lucky_axe.png"
-dest_files=["res://.godot/imported/hat_lucky_axe.png-ed15a9b7e14a349c0b6eeadc6eccc9c9.ctex"]
+source_file="res://Assets/Characters/complete/separate/axe/acc/hat_lucky_axe.png"
+dest_files=["res://.godot/imported/hat_lucky_axe.png-e691a5709c651270e93a8a1ca67b6694.ctex"]
 
 [params]
 

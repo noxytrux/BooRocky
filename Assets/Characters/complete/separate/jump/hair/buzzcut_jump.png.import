@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cgrtr4tu4hhqy"
-path="res://.godot/imported/buzzcut_jump.png-7d71c4b8cbca5e705546abcbffc7e390.ctex"
+path="res://.godot/imported/buzzcut_jump.png-1c9ebdfcf1cfddffe9e5d270e5cee329.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/jump/hair/buzzcut_jump.png"
-dest_files=["res://.godot/imported/buzzcut_jump.png-7d71c4b8cbca5e705546abcbffc7e390.ctex"]
+source_file="res://Assets/Characters/complete/separate/jump/hair/buzzcut_jump.png"
+dest_files=["res://.godot/imported/buzzcut_jump.png-1c9ebdfcf1cfddffe9e5d270e5cee329.ctex"]
 
 [params]
 

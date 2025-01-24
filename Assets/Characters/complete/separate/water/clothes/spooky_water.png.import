@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://mli72gr4e26r"
-path="res://.godot/imported/spooky_water.png-34210f0377bbd0dd7402f7f79dfc4efc.ctex"
+path="res://.godot/imported/spooky_water.png-58d650c095a00c834fb674b3cc4182a4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/water/clothes/spooky_water.png"
-dest_files=["res://.godot/imported/spooky_water.png-34210f0377bbd0dd7402f7f79dfc4efc.ctex"]
+source_file="res://Assets/Characters/complete/separate/water/clothes/spooky_water.png"
+dest_files=["res://.godot/imported/spooky_water.png-58d650c095a00c834fb674b3cc4182a4.ctex"]
 
 [params]
 

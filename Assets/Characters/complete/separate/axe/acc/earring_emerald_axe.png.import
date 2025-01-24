@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bxoo4xo0cuqyc"
-path="res://.godot/imported/earring_emerald_axe.png-0893464ec1dbb5ffc878e84dbaf37770.ctex"
+path="res://.godot/imported/earring_emerald_axe.png-99324a22eac3d1a85b054dd32a5bc1b6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/axe/acc/earring_emerald_axe.png"
-dest_files=["res://.godot/imported/earring_emerald_axe.png-0893464ec1dbb5ffc878e84dbaf37770.ctex"]
+source_file="res://Assets/Characters/complete/separate/axe/acc/earring_emerald_axe.png"
+dest_files=["res://.godot/imported/earring_emerald_axe.png-99324a22eac3d1a85b054dd32a5bc1b6.ctex"]
 
 [params]
 

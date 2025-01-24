@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c8da0psc2e4ny"
-path="res://.godot/imported/glasses_pickup.png-43a78d5ad243bc312c18877bdb2d9aa8.ctex"
+path="res://.godot/imported/glasses_pickup.png-bbf0240a289345de70bb2a5bf5db1d16.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/pickup/acc/glasses_pickup.png"
-dest_files=["res://.godot/imported/glasses_pickup.png-43a78d5ad243bc312c18877bdb2d9aa8.ctex"]
+source_file="res://Assets/Characters/complete/separate/pickup/acc/glasses_pickup.png"
+dest_files=["res://.godot/imported/glasses_pickup.png-bbf0240a289345de70bb2a5bf5db1d16.ctex"]
 
 [params]
 

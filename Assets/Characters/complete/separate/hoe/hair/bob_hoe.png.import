@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://voplrs3ncesk"
-path="res://.godot/imported/bob_hoe.png-9ca70c6a6f32d1b4cfbf69395b480b65.ctex"
+path="res://.godot/imported/bob_hoe.png-2b7ec038aefd2e588c191bff10255c91.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/hoe/hair/bob_hoe.png"
-dest_files=["res://.godot/imported/bob_hoe.png-9ca70c6a6f32d1b4cfbf69395b480b65.ctex"]
+source_file="res://Assets/Characters/complete/separate/hoe/hair/bob_hoe.png"
+dest_files=["res://.godot/imported/bob_hoe.png-2b7ec038aefd2e588c191bff10255c91.ctex"]
 
 [params]
 

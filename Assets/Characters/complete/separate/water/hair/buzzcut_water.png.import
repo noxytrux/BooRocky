@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d1nu7np5wp0hu"
-path="res://.godot/imported/buzzcut_water.png-70497f42f414b16025f72ccf1ab27edb.ctex"
+path="res://.godot/imported/buzzcut_water.png-d081c2dd18dbeaa9311c2c1572bac4b0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/water/hair/buzzcut_water.png"
-dest_files=["res://.godot/imported/buzzcut_water.png-70497f42f414b16025f72ccf1ab27edb.ctex"]
+source_file="res://Assets/Characters/complete/separate/water/hair/buzzcut_water.png"
+dest_files=["res://.godot/imported/buzzcut_water.png-d081c2dd18dbeaa9311c2c1572bac4b0.ctex"]
 
 [params]
 

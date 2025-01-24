@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://7e4f7uj1onwv"
-path="res://.godot/imported/clown_die.png-833b0ec64c959e57ba53f46ad70969e4.ctex"
+path="res://.godot/imported/clown_die.png-bbda0e9674fd2827917fef4598376000.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/die/clothes/clown_die.png"
-dest_files=["res://.godot/imported/clown_die.png-833b0ec64c959e57ba53f46ad70969e4.ctex"]
+source_file="res://Assets/Characters/complete/separate/die/clothes/clown_die.png"
+dest_files=["res://.godot/imported/clown_die.png-bbda0e9674fd2827917fef4598376000.ctex"]
 
 [params]
 

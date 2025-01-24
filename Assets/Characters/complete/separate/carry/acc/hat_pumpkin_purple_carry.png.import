@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dle8editnf23l"
-path="res://.godot/imported/hat_pumpkin_purple_carry.png-1e718f28fc9690dd03ecd53dc4de6b4c.ctex"
+path="res://.godot/imported/hat_pumpkin_purple_carry.png-c3966f1e80eddf9580202b04908eb9a9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/carry/acc/hat_pumpkin_purple_carry.png"
-dest_files=["res://.godot/imported/hat_pumpkin_purple_carry.png-1e718f28fc9690dd03ecd53dc4de6b4c.ctex"]
+source_file="res://Assets/Characters/complete/separate/carry/acc/hat_pumpkin_purple_carry.png"
+dest_files=["res://.godot/imported/hat_pumpkin_purple_carry.png-c3966f1e80eddf9580202b04908eb9a9.ctex"]
 
 [params]
 

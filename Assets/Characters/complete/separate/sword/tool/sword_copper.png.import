@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cx7ugknx8gpf4"
-path="res://.godot/imported/sword_copper.png-db79ba7adf4a56f110f5b7147da222b4.ctex"
+path="res://.godot/imported/sword_copper.png-97388422ea293ea7a2eae8c4424cc048.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/sword/tool/sword_copper.png"
-dest_files=["res://.godot/imported/sword_copper.png-db79ba7adf4a56f110f5b7147da222b4.ctex"]
+source_file="res://Assets/Characters/complete/separate/sword/tool/sword_copper.png"
+dest_files=["res://.godot/imported/sword_copper.png-97388422ea293ea7a2eae8c4424cc048.ctex"]
 
 [params]
 

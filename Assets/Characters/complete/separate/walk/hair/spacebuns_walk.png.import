@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c1eqbs18107g6"
-path="res://.godot/imported/spacebuns_walk.png-2402e6c849125d00de40527bf0fd3d27.ctex"
+path="res://.godot/imported/spacebuns_walk.png-e776fc0c26fdf2906ca147526c3de3a0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/walk/hair/spacebuns_walk.png"
-dest_files=["res://.godot/imported/spacebuns_walk.png-2402e6c849125d00de40527bf0fd3d27.ctex"]
+source_file="res://Assets/Characters/complete/separate/walk/hair/spacebuns_walk.png"
+dest_files=["res://.godot/imported/spacebuns_walk.png-e776fc0c26fdf2906ca147526c3de3a0.ctex"]
 
 [params]
 

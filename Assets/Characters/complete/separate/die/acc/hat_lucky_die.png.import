@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://biqy7knok7f1j"
-path="res://.godot/imported/hat_lucky_die.png-a8da67bc49abf7e9116492d33c618fa5.ctex"
+path="res://.godot/imported/hat_lucky_die.png-919304e2463360e2ec03e99d2a3cf8a9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/die/acc/hat_lucky_die.png"
-dest_files=["res://.godot/imported/hat_lucky_die.png-a8da67bc49abf7e9116492d33c618fa5.ctex"]
+source_file="res://Assets/Characters/complete/separate/die/acc/hat_lucky_die.png"
+dest_files=["res://.godot/imported/hat_lucky_die.png-919304e2463360e2ec03e99d2a3cf8a9.ctex"]
 
 [params]
 

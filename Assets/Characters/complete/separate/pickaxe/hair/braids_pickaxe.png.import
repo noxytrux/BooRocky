@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d05h8s04qolbm"
-path="res://.godot/imported/braids_pickaxe.png-fa2e26e3b51b6641e91985a42f95c51f.ctex"
+path="res://.godot/imported/braids_pickaxe.png-ecf6cb58688d75cc021bcec96c3131ee.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/pickaxe/hair/braids_pickaxe.png"
-dest_files=["res://.godot/imported/braids_pickaxe.png-fa2e26e3b51b6641e91985a42f95c51f.ctex"]
+source_file="res://Assets/Characters/complete/separate/pickaxe/hair/braids_pickaxe.png"
+dest_files=["res://.godot/imported/braids_pickaxe.png-ecf6cb58688d75cc021bcec96c3131ee.ctex"]
 
 [params]
 

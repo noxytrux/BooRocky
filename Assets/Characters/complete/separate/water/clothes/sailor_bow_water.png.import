@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://chpfklb80ycrb"
-path="res://.godot/imported/sailor_bow_water.png-b5c9cdf58c4a40482546ec5fecff6d58.ctex"
+path="res://.godot/imported/sailor_bow_water.png-b55fad8839b5dd47c723fe4c76af3418.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/water/clothes/sailor_bow_water.png"
-dest_files=["res://.godot/imported/sailor_bow_water.png-b5c9cdf58c4a40482546ec5fecff6d58.ctex"]
+source_file="res://Assets/Characters/complete/separate/water/clothes/sailor_bow_water.png"
+dest_files=["res://.godot/imported/sailor_bow_water.png-b55fad8839b5dd47c723fe4c76af3418.ctex"]
 
 [params]
 

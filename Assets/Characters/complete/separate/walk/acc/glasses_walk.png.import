@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bxyvd50t0sgjr"
-path="res://.godot/imported/glasses_walk.png-a4b1bce7c0460be143e63b9f5ca04216.ctex"
+path="res://.godot/imported/glasses_walk.png-5999e3052bac292f57924b2a8ee91b23.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/walk/acc/glasses_walk.png"
-dest_files=["res://.godot/imported/glasses_walk.png-a4b1bce7c0460be143e63b9f5ca04216.ctex"]
+source_file="res://Assets/Characters/complete/separate/walk/acc/glasses_walk.png"
+dest_files=["res://.godot/imported/glasses_walk.png-5999e3052bac292f57924b2a8ee91b23.ctex"]
 
 [params]
 

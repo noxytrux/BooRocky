@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://1g7j82e0f7xj"
-path="res://.godot/imported/blush_block.png-19a6760cc4821f2a591417fa9b7305b7.ctex"
+path="res://.godot/imported/blush_block.png-cb5b9b470e52ad637f6840ec4bf16d21.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/block/eyes/blush_block.png"
-dest_files=["res://.godot/imported/blush_block.png-19a6760cc4821f2a591417fa9b7305b7.ctex"]
+source_file="res://Assets/Characters/complete/separate/block/eyes/blush_block.png"
+dest_files=["res://.godot/imported/blush_block.png-cb5b9b470e52ad637f6840ec4bf16d21.ctex"]
 
 [params]
 

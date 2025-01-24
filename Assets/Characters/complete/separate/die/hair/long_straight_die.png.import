@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://tp0nu6bta6sf"
-path="res://.godot/imported/long_straight_die.png-4fd331e9a9ac9efdb7665202d5355a0e.ctex"
+path="res://.godot/imported/long_straight_die.png-c4bb8204d672753ca77dc3e726872894.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/die/hair/long_straight_die.png"
-dest_files=["res://.godot/imported/long_straight_die.png-4fd331e9a9ac9efdb7665202d5355a0e.ctex"]
+source_file="res://Assets/Characters/complete/separate/die/hair/long_straight_die.png"
+dest_files=["res://.godot/imported/long_straight_die.png-c4bb8204d672753ca77dc3e726872894.ctex"]
 
 [params]
 

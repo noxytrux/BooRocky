@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://qt3e2sqv5ws4"
-path="res://.godot/imported/mask_clown_red_fish.png-b14e8744ff167a2da5cb24873f1f1694.ctex"
+path="res://.godot/imported/mask_clown_red_fish.png-eea61728defe81ab393be1514f1d440e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/fish/acc/mask_clown_red_fish.png"
-dest_files=["res://.godot/imported/mask_clown_red_fish.png-b14e8744ff167a2da5cb24873f1f1694.ctex"]
+source_file="res://Assets/Characters/complete/separate/fish/acc/mask_clown_red_fish.png"
+dest_files=["res://.godot/imported/mask_clown_red_fish.png-eea61728defe81ab393be1514f1d440e.ctex"]
 
 [params]
 

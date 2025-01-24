@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dke2nrevc5d6s"
-path="res://.godot/imported/french_curl_jump.png-81430a6c3cd9727af3ca0514ebda1ed6.ctex"
+path="res://.godot/imported/french_curl_jump.png-c3e7d95a653a4e36764561d599ceb192.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/jump/hair/french_curl_jump.png"
-dest_files=["res://.godot/imported/french_curl_jump.png-81430a6c3cd9727af3ca0514ebda1ed6.ctex"]
+source_file="res://Assets/Characters/complete/separate/jump/hair/french_curl_jump.png"
+dest_files=["res://.godot/imported/french_curl_jump.png-c3e7d95a653a4e36764561d599ceb192.ctex"]
 
 [params]
 

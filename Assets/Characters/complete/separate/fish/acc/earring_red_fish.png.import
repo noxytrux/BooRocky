@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cr3v6v6dj7y0p"
-path="res://.godot/imported/earring_red_fish.png-113cb8e219a335e09b11fefb3c008e43.ctex"
+path="res://.godot/imported/earring_red_fish.png-d8abf12f89964c870f78a296d72e558e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/fish/acc/earring_red_fish.png"
-dest_files=["res://.godot/imported/earring_red_fish.png-113cb8e219a335e09b11fefb3c008e43.ctex"]
+source_file="res://Assets/Characters/complete/separate/fish/acc/earring_red_fish.png"
+dest_files=["res://.godot/imported/earring_red_fish.png-d8abf12f89964c870f78a296d72e558e.ctex"]
 
 [params]
 

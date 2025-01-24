@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d0qix8nbgj8d8"
-path="res://.godot/imported/shoes_fish.png-7175ddc2d639c9e206be107450c7d541.ctex"
+path="res://.godot/imported/shoes_fish.png-581b296590f8e25d54a9e7b73ae88992.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/fish/clothes/shoes_fish.png"
-dest_files=["res://.godot/imported/shoes_fish.png-7175ddc2d639c9e206be107450c7d541.ctex"]
+source_file="res://Assets/Characters/complete/separate/fish/clothes/shoes_fish.png"
+dest_files=["res://.godot/imported/shoes_fish.png-581b296590f8e25d54a9e7b73ae88992.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://6wk1dy5ckmb1"
-path="res://.godot/imported/eyes_jump.png-dcd24aa765128c60a4312d9ee797bbda.ctex"
+path="res://.godot/imported/eyes_jump.png-e24c8f6a66b649bba1d79070813f473e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/jump/eyes/eyes_jump.png"
-dest_files=["res://.godot/imported/eyes_jump.png-dcd24aa765128c60a4312d9ee797bbda.ctex"]
+source_file="res://Assets/Characters/complete/separate/jump/eyes/eyes_jump.png"
+dest_files=["res://.godot/imported/eyes_jump.png-e24c8f6a66b649bba1d79070813f473e.ctex"]
 
 [params]
 

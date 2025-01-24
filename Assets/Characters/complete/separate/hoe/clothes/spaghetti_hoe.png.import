@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cxwofxe4v5bqj"
-path="res://.godot/imported/spaghetti_hoe.png-4ba977303f48d74d30c4f4168dc86afa.ctex"
+path="res://.godot/imported/spaghetti_hoe.png-b8270ea8cd2c1dd9515874170e2263ee.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/hoe/clothes/spaghetti_hoe.png"
-dest_files=["res://.godot/imported/spaghetti_hoe.png-4ba977303f48d74d30c4f4168dc86afa.ctex"]
+source_file="res://Assets/Characters/complete/separate/hoe/clothes/spaghetti_hoe.png"
+dest_files=["res://.godot/imported/spaghetti_hoe.png-b8270ea8cd2c1dd9515874170e2263ee.ctex"]
 
 [params]
 

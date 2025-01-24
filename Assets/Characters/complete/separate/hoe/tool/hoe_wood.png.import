@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://qbe2h81biuo"
-path="res://.godot/imported/hoe_wood.png-0b6ce0f93bdcafd077797af65dea3b81.ctex"
+path="res://.godot/imported/hoe_wood.png-9163e9021d1cb9f05c9abbfc86fb7c1a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/hoe/tool/hoe_wood.png"
-dest_files=["res://.godot/imported/hoe_wood.png-0b6ce0f93bdcafd077797af65dea3b81.ctex"]
+source_file="res://Assets/Characters/complete/separate/hoe/tool/hoe_wood.png"
+dest_files=["res://.godot/imported/hoe_wood.png-9163e9021d1cb9f05c9abbfc86fb7c1a.ctex"]
 
 [params]
 

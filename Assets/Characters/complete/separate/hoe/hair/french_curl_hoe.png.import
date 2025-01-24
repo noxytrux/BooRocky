@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dqmnyneige7bb"
-path="res://.godot/imported/french_curl_hoe.png-a7a4ebdb7211144c452a3fa4bd017375.ctex"
+path="res://.godot/imported/french_curl_hoe.png-a58f94a53f33e931fbe1867fae2c3657.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/hoe/hair/french_curl_hoe.png"
-dest_files=["res://.godot/imported/french_curl_hoe.png-a7a4ebdb7211144c452a3fa4bd017375.ctex"]
+source_file="res://Assets/Characters/complete/separate/hoe/hair/french_curl_hoe.png"
+dest_files=["res://.godot/imported/french_curl_hoe.png-a58f94a53f33e931fbe1867fae2c3657.ctex"]
 
 [params]
 

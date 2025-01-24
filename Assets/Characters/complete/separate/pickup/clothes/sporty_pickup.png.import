@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://di1m28s20cj6"
-path="res://.godot/imported/sporty_pickup.png-670901a2f8b2f37f26f0bcb48aba0462.ctex"
+path="res://.godot/imported/sporty_pickup.png-1b361a84d83f50ea0ea76f6efa0d2901.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/pickup/clothes/sporty_pickup.png"
-dest_files=["res://.godot/imported/sporty_pickup.png-670901a2f8b2f37f26f0bcb48aba0462.ctex"]
+source_file="res://Assets/Characters/complete/separate/pickup/clothes/sporty_pickup.png"
+dest_files=["res://.godot/imported/sporty_pickup.png-1b361a84d83f50ea0ea76f6efa0d2901.ctex"]
 
 [params]
 

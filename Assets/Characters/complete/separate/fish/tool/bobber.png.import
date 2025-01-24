@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b680dbiwhf0yh"
-path="res://.godot/imported/bobber.png-1f81b80e626a77dbbc5cd86f7ce6115f.ctex"
+path="res://.godot/imported/bobber.png-1c78f1a4b86be7a77678ba2a25670a9f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/fish/tool/bobber.png"
-dest_files=["res://.godot/imported/bobber.png-1f81b80e626a77dbbc5cd86f7ce6115f.ctex"]
+source_file="res://Assets/Characters/complete/separate/fish/tool/bobber.png"
+dest_files=["res://.godot/imported/bobber.png-1c78f1a4b86be7a77678ba2a25670a9f.ctex"]
 
 [params]
 

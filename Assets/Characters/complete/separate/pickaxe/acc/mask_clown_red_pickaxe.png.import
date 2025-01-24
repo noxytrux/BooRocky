@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cdih0157l2ut2"
-path="res://.godot/imported/mask_clown_red_pickaxe.png-dfc7fafc30ae129841d2d731436ab4cf.ctex"
+path="res://.godot/imported/mask_clown_red_pickaxe.png-a57d4d8957c57ac743743d084850ba08.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/pickaxe/acc/mask_clown_red_pickaxe.png"
-dest_files=["res://.godot/imported/mask_clown_red_pickaxe.png-dfc7fafc30ae129841d2d731436ab4cf.ctex"]
+source_file="res://Assets/Characters/complete/separate/pickaxe/acc/mask_clown_red_pickaxe.png"
+dest_files=["res://.godot/imported/mask_clown_red_pickaxe.png-a57d4d8957c57ac743743d084850ba08.ctex"]
 
 [params]
 

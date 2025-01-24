@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bdd08bvh5p7si"
-path="res://.godot/imported/skirt_water.png-413e1890045d6988d41eefb845113c57.ctex"
+path="res://.godot/imported/skirt_water.png-d75f1b5b73dd4f9c32ee9cc567215281.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/water/clothes/skirt_water.png"
-dest_files=["res://.godot/imported/skirt_water.png-413e1890045d6988d41eefb845113c57.ctex"]
+source_file="res://Assets/Characters/complete/separate/water/clothes/skirt_water.png"
+dest_files=["res://.godot/imported/skirt_water.png-d75f1b5b73dd4f9c32ee9cc567215281.ctex"]
 
 [params]
 

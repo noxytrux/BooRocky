@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://4035teuxvqkr"
-path="res://.godot/imported/skirt_walk.png-c734bdabd66a048fc6d963e7713ea593.ctex"
+path="res://.godot/imported/skirt_walk.png-0eb1353215457ff0f9680cbee8a011b1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/walk/clothes/skirt_walk.png"
-dest_files=["res://.godot/imported/skirt_walk.png-c734bdabd66a048fc6d963e7713ea593.ctex"]
+source_file="res://Assets/Characters/complete/separate/walk/clothes/skirt_walk.png"
+dest_files=["res://.godot/imported/skirt_walk.png-0eb1353215457ff0f9680cbee8a011b1.ctex"]
 
 [params]
 

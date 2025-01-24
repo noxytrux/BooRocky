@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://brj3djolkld6c"
-path="res://.godot/imported/midiwave_walk.png-e97da448145bf27dd23dda858d95965e.ctex"
+path="res://.godot/imported/midiwave_walk.png-8859384d8a40aa925c41be772deec33f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/walk/hair/midiwave_walk.png"
-dest_files=["res://.godot/imported/midiwave_walk.png-e97da448145bf27dd23dda858d95965e.ctex"]
+source_file="res://Assets/Characters/complete/separate/walk/hair/midiwave_walk.png"
+dest_files=["res://.godot/imported/midiwave_walk.png-8859384d8a40aa925c41be772deec33f.ctex"]
 
 [params]
 

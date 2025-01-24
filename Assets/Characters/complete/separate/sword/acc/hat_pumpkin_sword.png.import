@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c2ajeh4rfovg4"
-path="res://.godot/imported/hat_pumpkin_sword.png-7d1d25579ea3244f3b9331109c5b105a.ctex"
+path="res://.godot/imported/hat_pumpkin_sword.png-085d7491e43296acf98eb70473f4302f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/sword/acc/hat_pumpkin_sword.png"
-dest_files=["res://.godot/imported/hat_pumpkin_sword.png-7d1d25579ea3244f3b9331109c5b105a.ctex"]
+source_file="res://Assets/Characters/complete/separate/sword/acc/hat_pumpkin_sword.png"
+dest_files=["res://.godot/imported/hat_pumpkin_sword.png-085d7491e43296acf98eb70473f4302f.ctex"]
 
 [params]
 

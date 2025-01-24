@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://3emlnvi0up6"
-path="res://.godot/imported/lipstick_die.png-3dafe335ef07088a971bf8fe90b35c1d.ctex"
+path="res://.godot/imported/lipstick_die.png-bd71fece384e4a9f06f4c1e1aa25c434.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/die/eyes/lipstick_die.png"
-dest_files=["res://.godot/imported/lipstick_die.png-3dafe335ef07088a971bf8fe90b35c1d.ctex"]
+source_file="res://Assets/Characters/complete/separate/die/eyes/lipstick_die.png"
+dest_files=["res://.godot/imported/lipstick_die.png-bd71fece384e4a9f06f4c1e1aa25c434.ctex"]
 
 [params]
 

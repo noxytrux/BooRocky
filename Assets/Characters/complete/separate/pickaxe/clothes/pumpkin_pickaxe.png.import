@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c7y4g0ih8kwd4"
-path="res://.godot/imported/pumpkin_pickaxe.png-8616a5a4f6a4740452d745e1961a6e5d.ctex"
+path="res://.godot/imported/pumpkin_pickaxe.png-e39adc48d135f602d9f72b7c3f42392f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/pickaxe/clothes/pumpkin_pickaxe.png"
-dest_files=["res://.godot/imported/pumpkin_pickaxe.png-8616a5a4f6a4740452d745e1961a6e5d.ctex"]
+source_file="res://Assets/Characters/complete/separate/pickaxe/clothes/pumpkin_pickaxe.png"
+dest_files=["res://.godot/imported/pumpkin_pickaxe.png-e39adc48d135f602d9f72b7c3f42392f.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dj80h25cdm88w"
-path="res://.godot/imported/gentleman_fish.png-2b8aae336165b1731c5fef5d5f92a6e2.ctex"
+path="res://.godot/imported/gentleman_fish.png-470541987590025bb8897aec838adb45.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/fish/hair/gentleman_fish.png"
-dest_files=["res://.godot/imported/gentleman_fish.png-2b8aae336165b1731c5fef5d5f92a6e2.ctex"]
+source_file="res://Assets/Characters/complete/separate/fish/hair/gentleman_fish.png"
+dest_files=["res://.godot/imported/gentleman_fish.png-470541987590025bb8897aec838adb45.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cg8h7l7e6ouhe"
-path="res://.godot/imported/stripe_carry.png-66d77c441838a3a610133821d824d049.ctex"
+path="res://.godot/imported/stripe_carry.png-e32aedbc34b67aa95f514c8a9da83936.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/carry/clothes/stripe_carry.png"
-dest_files=["res://.godot/imported/stripe_carry.png-66d77c441838a3a610133821d824d049.ctex"]
+source_file="res://Assets/Characters/complete/separate/carry/clothes/stripe_carry.png"
+dest_files=["res://.godot/imported/stripe_carry.png-e32aedbc34b67aa95f514c8a9da83936.ctex"]
 
 [params]
 

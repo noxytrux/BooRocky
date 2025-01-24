@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bug3a4flt8741"
-path="res://.godot/imported/extra_long_water.png-dca91930c30bc275f12a6cd668b6c3c2.ctex"
+path="res://.godot/imported/extra_long_water.png-9b230ea8c0f2ecaaa0db56b6b2cfe9c5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/water/hair/extra_long_water.png"
-dest_files=["res://.godot/imported/extra_long_water.png-dca91930c30bc275f12a6cd668b6c3c2.ctex"]
+source_file="res://Assets/Characters/complete/separate/water/hair/extra_long_water.png"
+dest_files=["res://.godot/imported/extra_long_water.png-9b230ea8c0f2ecaaa0db56b6b2cfe9c5.ctex"]
 
 [params]
 

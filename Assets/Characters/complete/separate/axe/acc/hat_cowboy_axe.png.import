@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://o5odhwng3xnd"
-path="res://.godot/imported/hat_cowboy_axe.png-28f9376c84a4d2b812f4736036e56c75.ctex"
+path="res://.godot/imported/hat_cowboy_axe.png-25e307576e2fe6eeda35e57db44ae43c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/axe/acc/hat_cowboy_axe.png"
-dest_files=["res://.godot/imported/hat_cowboy_axe.png-28f9376c84a4d2b812f4736036e56c75.ctex"]
+source_file="res://Assets/Characters/complete/separate/axe/acc/hat_cowboy_axe.png"
+dest_files=["res://.godot/imported/hat_cowboy_axe.png-25e307576e2fe6eeda35e57db44ae43c.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cx70be0c7jc8c"
-path="res://.godot/imported/emo_pickup.png-2b0be4fe7ea764b4d6e2e3f0e64eee9f.ctex"
+path="res://.godot/imported/emo_pickup.png-bd59cff609d9c0103a0eedfb1db4833b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/pickup/hair/emo_pickup.png"
-dest_files=["res://.godot/imported/emo_pickup.png-2b0be4fe7ea764b4d6e2e3f0e64eee9f.ctex"]
+source_file="res://Assets/Characters/complete/separate/pickup/hair/emo_pickup.png"
+dest_files=["res://.godot/imported/emo_pickup.png-bd59cff609d9c0103a0eedfb1db4833b.ctex"]
 
 [params]
 

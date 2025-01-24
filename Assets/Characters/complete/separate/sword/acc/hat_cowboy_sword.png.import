@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c03ar84t2ufd0"
-path="res://.godot/imported/hat_cowboy_sword.png-8f8fb793b622f280fce714e088568d0e.ctex"
+path="res://.godot/imported/hat_cowboy_sword.png-7717d44a7790ec10a54f0d2d5233f2c3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/sword/acc/hat_cowboy_sword.png"
-dest_files=["res://.godot/imported/hat_cowboy_sword.png-8f8fb793b622f280fce714e088568d0e.ctex"]
+source_file="res://Assets/Characters/complete/separate/sword/acc/hat_cowboy_sword.png"
+dest_files=["res://.godot/imported/hat_cowboy_sword.png-7717d44a7790ec10a54f0d2d5233f2c3.ctex"]
 
 [params]
 

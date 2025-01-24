@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b60gy05fhwagd"
-path="res://.godot/imported/witch_axe.png-75a9a7df1d6c5c78beebacdb8845ffea.ctex"
+path="res://.godot/imported/witch_axe.png-d5fc7b423d556c413033f17558382575.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/axe/clothes/witch_axe.png"
-dest_files=["res://.godot/imported/witch_axe.png-75a9a7df1d6c5c78beebacdb8845ffea.ctex"]
+source_file="res://Assets/Characters/complete/separate/axe/clothes/witch_axe.png"
+dest_files=["res://.godot/imported/witch_axe.png-d5fc7b423d556c413033f17558382575.ctex"]
 
 [params]
 

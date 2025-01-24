@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c6rsdc63nlw05"
-path="res://.godot/imported/wavy_water.png-1b7dc751166f1bd5795b85db91067473.ctex"
+path="res://.godot/imported/wavy_water.png-21c3dda1c0ead222f15740eedb6db49b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/water/hair/wavy_water.png"
-dest_files=["res://.godot/imported/wavy_water.png-1b7dc751166f1bd5795b85db91067473.ctex"]
+source_file="res://Assets/Characters/complete/separate/water/hair/wavy_water.png"
+dest_files=["res://.godot/imported/wavy_water.png-21c3dda1c0ead222f15740eedb6db49b.ctex"]
 
 [params]
 

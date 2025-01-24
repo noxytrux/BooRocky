@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cg8kfgyqqa3w5"
-path="res://.godot/imported/mask_spooky_hoe.png-a18fe1c0a9c339729b5bb102e4d49450.ctex"
+path="res://.godot/imported/mask_spooky_hoe.png-28e78d1c36b4e3f313bf6fe09c9fe808.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/hoe/acc/mask_spooky_hoe.png"
-dest_files=["res://.godot/imported/mask_spooky_hoe.png-a18fe1c0a9c339729b5bb102e4d49450.ctex"]
+source_file="res://Assets/Characters/complete/separate/hoe/acc/mask_spooky_hoe.png"
+dest_files=["res://.godot/imported/mask_spooky_hoe.png-28e78d1c36b4e3f313bf6fe09c9fe808.ctex"]
 
 [params]
 

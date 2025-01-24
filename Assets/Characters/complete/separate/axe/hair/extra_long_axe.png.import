@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cy27axpkay0wd"
-path="res://.godot/imported/extra_long_axe.png-26d1d84400f92926c3b0dff51d7a1d0e.ctex"
+path="res://.godot/imported/extra_long_axe.png-5155b1378e4f6375bd6fe85bffa0481d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/axe/hair/extra_long_axe.png"
-dest_files=["res://.godot/imported/extra_long_axe.png-26d1d84400f92926c3b0dff51d7a1d0e.ctex"]
+source_file="res://Assets/Characters/complete/separate/axe/hair/extra_long_axe.png"
+dest_files=["res://.godot/imported/extra_long_axe.png-5155b1378e4f6375bd6fe85bffa0481d.ctex"]
 
 [params]
 

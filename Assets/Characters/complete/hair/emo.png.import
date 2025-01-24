@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cdeladrqw416o"
-path="res://.godot/imported/emo.png-ea09157a0a1ec31b290ab6cd7b136885.ctex"
+path="res://.godot/imported/emo.png-c580fab1f7232b984c0cd44a815692ef.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/hair/emo.png"
-dest_files=["res://.godot/imported/emo.png-ea09157a0a1ec31b290ab6cd7b136885.ctex"]
+source_file="res://Assets/Characters/complete/hair/emo.png"
+dest_files=["res://.godot/imported/emo.png-c580fab1f7232b984c0cd44a815692ef.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dqr0pwdd247m"
-path="res://.godot/imported/overall_water.png-dd04e69d1d1b2860d0faf1bb3fcf5054.ctex"
+path="res://.godot/imported/overall_water.png-d4e6644c26d542c8d9a74de004e5058f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/water/clothes/overall_water.png"
-dest_files=["res://.godot/imported/overall_water.png-dd04e69d1d1b2860d0faf1bb3fcf5054.ctex"]
+source_file="res://Assets/Characters/complete/separate/water/clothes/overall_water.png"
+dest_files=["res://.godot/imported/overall_water.png-d4e6644c26d542c8d9a74de004e5058f.ctex"]
 
 [params]
 

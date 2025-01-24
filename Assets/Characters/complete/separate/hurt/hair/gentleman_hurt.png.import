@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://caq7j512gwim0"
-path="res://.godot/imported/gentleman_hurt.png-c61cb9b155bade9f030ee2815d6f8c82.ctex"
+path="res://.godot/imported/gentleman_hurt.png-0e3c313da9b0bc203c11df809aa92daa.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/hurt/hair/gentleman_hurt.png"
-dest_files=["res://.godot/imported/gentleman_hurt.png-c61cb9b155bade9f030ee2815d6f8c82.ctex"]
+source_file="res://Assets/Characters/complete/separate/hurt/hair/gentleman_hurt.png"
+dest_files=["res://.godot/imported/gentleman_hurt.png-0e3c313da9b0bc203c11df809aa92daa.ctex"]
 
 [params]
 
