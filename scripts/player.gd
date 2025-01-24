@@ -3,11 +3,13 @@ extends CharacterBody2D
 const SPEED := 500.0
 
 @export var input_device := GlobalValues.INPUT_DEVICE.WSAD
-@export var color := Color.RED
+@export var cloth_color_modulate := Color.WHITE
+@export var hair_color_modulate := Color.WHITE
 
 @onready var polygon_2d: Polygon2D = $Polygon2D
-@onready var animation_player: AnimationPlayer = $Polygon2D/AnimationPlayer
 @onready var sprites: Node2D = $Sprites
+@onready var animated_sprite_2d_clothes: AnimatedSprite2D = $Sprites/AnimatedSprite2D_Clothes
+@onready var animated_sprite_2d_hair: AnimatedSprite2D = $Sprites/AnimatedSprite2D_Hair
 
 var direction := GlobalValues.DIRECTION.NONE
 var DELME_disable_walking := false
@@ -18,7 +20,8 @@ func _ready() -> void:
 	set_direction(GlobalValues.DIRECTION.LEFT)
 	
 func reset_color() -> void:
-	polygon_2d.color = color
+	animated_sprite_2d_clothes.modulate = cloth_color_modulate
+	animated_sprite_2d_hair.modulate = hair_color_modulate
 
 func _process(delta: float) -> void:
 	Interaction();
