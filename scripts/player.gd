@@ -53,6 +53,8 @@ func Interaction() -> void:
 					HoldItem = null
 			else:
 				var item = hit.PeekItem()
+				if(item == null):
+					return
 				if (item is Baby) and (HoldItem != null):
 					if item.Satisfy(HoldItem):
 						HoldItem.PutDown()					

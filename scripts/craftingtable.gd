@@ -47,7 +47,10 @@ func FinishCrafting() -> void:
 	isCraftingItem = false;
 	
 func CanPlaceItem(item: ItemBase) -> bool:
-	return !isCraftingItem && HoldItem == null && finishedItem == null
+	if (!isCraftingItem && HoldItem == null && finishedItem == null):	
+		if(mapa.get(item.SelectedType) != null):
+			return true;
+	return false;
 	
 func CanTakeItem() -> bool:
 	return !isCraftingItem && HoldItem == null && finishedItem != null
