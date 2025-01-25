@@ -20216,6 +20216,7 @@ text = "+200"
 label_settings = SubResource("LabelSettings_dl23x")
 
 [node name="SummaryPanel" parent="." instance=ExtResource("23_i4lyw")]
+visible = false
 
 [connection signal="tree_entered" from="." to="." method="_on_tree_entered"]
 [connection signal="tree_exiting" from="." to="." method="_on_tree_exiting"]

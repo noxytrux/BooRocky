@@ -5,7 +5,7 @@ class_name LevelScene extends Node
 # Elements will be removed from the beginning of this array.
 @onready var player_spawners = [
 	$PlayerSpawners/PlayerSpawner1, $PlayerSpawners/PlayerSpawner2,
-	$PlayerSpawners/PlayerSpawner3, $PlayerSpawners/PlayerSpawner4]
+	$PlayerSpawners/PlayerSpawner4, $PlayerSpawners/PlayerSpawner3]
 
 # Index matches INPUT_DEVICE. Elements will be set to true.
 var player_per_input_device_spawned := [false, false, false, false]
