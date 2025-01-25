@@ -68,12 +68,12 @@ text = "Global Game Jam 2025"
 label_settings = SubResource("LabelSettings_umpi1")
 horizontal_alignment = 2
 
-[node name="overCOCKed" type="Label" parent="Labels"]
+[node name="Game name" type="Label" parent="Labels"]
 offset_left = 45.0
 offset_top = 42.0
 offset_right = 687.0
 offset_bottom = 110.0
-text = "overCOCKed"
+text = "BOMBELKI"
 label_settings = SubResource("LabelSettings_eqbv1")
 
 [node name="BooRocky" type="Label" parent="Labels"]
