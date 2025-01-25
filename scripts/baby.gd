@@ -5,6 +5,10 @@ class_name Baby extends ItemBase
 @onready var need_icon: Sprite2D = $need_icon
 @onready var progress_bar: ProgressBar = $ProgressBar
 @onready var round_manager: RoundManager = null
+@onready var satisfy_sound: AudioStreamPlayer2D = $satisfy_sound
+@onready var nope_sound: AudioStreamPlayer2D = $nope_sound
+@onready var need_sound: AudioStreamPlayer2D = $need_sound
+@onready var died_sound: AudioStreamPlayer2D = $died_sound
 
 const DIAPER = preload("res://scenes/Items/DirtyPampers.tscn")
 const ADULT  = preload("res://scenes/adult.tscn")
@@ -60,6 +64,10 @@ var satisfaction_dict = {
 	BabyNeed.Sick : ItemBase.ITEM_TYPE.DRUG
 }
 
+func play_audio(sound:AudioStreamPlayer2D) -> void:
+		if not sound.playing:
+			sound.play()
+
 func _ready() -> void:
 	need_icon.texture = BUBBLE_HAPPY
 	round_manager = get_tree().get_current_scene().get_child(0)
@@ -102,6 +110,8 @@ func grownup() -> bool:
 			adult.position = global_position + Vector2(64.0, 96.0)
 			adult.makepath()
 			
+			play_audio(satisfy_sound)
+			
 			queue_free()
 			
 			return false
@@ -139,6 +149,8 @@ func DetermineNeed() -> void:
 	need_timer.start()
 	progress_bar.visible = true
 	
+	play_audio(need_sound)
+	
 	if current_need == BabyNeed.Dirty:
 		diaper = DIAPER.instantiate()
 		add_child(diaper)
@@ -151,10 +163,12 @@ func UpdateNeedIcon() -> void:
 func Satisfy(item: ItemBase) -> bool:
 	
 	if current_need == BabyNeed.Died or current_need == BabyNeed.Happy:
+		play_audio(nope_sound)
 		return false
 	
 	var result = satisfaction_dict[current_need]
 	if result != item.SelectedType:
+		play_audio(nope_sound)
 		return false
 	
 	need_timer.stop()
@@ -166,6 +180,8 @@ func Satisfy(item: ItemBase) -> bool:
 	item.queue_free()
 	satisiaction += 1
 	
+	play_audio(satisfy_sound)
+	
 	return true
 
 func _on_need_timer_timeout() -> void:
@@ -176,6 +192,7 @@ func _on_need_timer_timeout() -> void:
 	body.stop()
 	progress_bar.visible = false
 	canpickup = true	
+	play_audio(died_sound)
 	
 	if HasDiaper():
 		diaper.queue_free()
