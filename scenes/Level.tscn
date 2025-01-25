@@ -1,4 +1,4 @@
-[gd_scene load_steps=31 format=4 uid="uid://cocdtyhxx0dqo"]
+[gd_scene load_steps=33 format=4 uid="uid://cocdtyhxx0dqo"]
 
 [ext_resource type="Script" path="res://scripts/level.gd" id="1_3lawp"]
 [ext_resource type="Texture2D" uid="uid://cp2u4l81t38uc" path="res://Assets/Green.png" id="1_66r1e"]
@@ -13,9 +13,11 @@
 [ext_resource type="PackedScene" path="res://scenes/player_spawner.tscn" id="9_eeq8j"]
 [ext_resource type="PackedScene" uid="uid://b7keuv2pstqvg" path="res://scenes/Containers/spawner.tscn" id="10_m1fv0"]
 [ext_resource type="PackedScene" uid="uid://0xe6bn660xrn" path="res://scenes/Items/pampers.tscn" id="11_ktv26"]
+[ext_resource type="PackedScene" uid="uid://wmxx4fyomn1h" path="res://scenes/Items/Food.tscn" id="12_gmpix"]
 [ext_resource type="PackedScene" uid="uid://bjfu3xh0hhta" path="res://scenes/Items/ingredient.tscn" id="14_xpnb3"]
 [ext_resource type="PackedScene" uid="uid://cmecyniwni6lo" path="res://scenes/Items/part.tscn" id="15_k6e2a"]
 [ext_resource type="PackedScene" uid="uid://bt3lycrlbp4ku" path="res://scenes/Items/substance.tscn" id="16_t22ny"]
+[ext_resource type="PackedScene" uid="uid://dbtbpadejolei" path="res://scenes/Items/toy.tscn" id="17_hdcir"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_abpdh"]
 texture = ExtResource("2_i284k")
@@ -19999,26 +20001,6 @@ scale = Vector2(0.5, 0.5)
 position = Vector2(1235, 711)
 scale = Vector2(0.5, 0.5)
 
-[node name="Container32" parent="Containers" instance=ExtResource("5_xvupt")]
-position = Vector2(1110, 930)
-scale = Vector2(0.5, 0.5)
-
-[node name="Container33" parent="Containers" instance=ExtResource("5_xvupt")]
-position = Vector2(1197, 934)
-scale = Vector2(0.5, 0.5)
-
-[node name="Container34" parent="Containers" instance=ExtResource("5_xvupt")]
-position = Vector2(1397, 927)
-scale = Vector2(0.5, 0.5)
-
-[node name="Container35" parent="Containers" instance=ExtResource("5_xvupt")]
-position = Vector2(1483, 928)
-scale = Vector2(0.5, 0.5)
-
-[node name="Container39" parent="Containers" instance=ExtResource("5_xvupt")]
-position = Vector2(1828, 960)
-scale = Vector2(0.5, 0.5)
-
 [node name="TrashCans" type="Node" parent="."]
 
 [node name="TrashCan" parent="TrashCans" instance=ExtResource("9_4djc4")]
@@ -20049,12 +20031,38 @@ scene_to_load = ExtResource("16_t22ny")
 [node name="Craftingtables" type="Node" parent="."]
 
 [node name="Craftingtable" parent="Craftingtables" instance=ExtResource("7_wur7e")]
-position = Vector2(1584, 165)
+position = Vector2(1828, 961)
 scale = Vector2(0.7, 0.7)
 mapa = {
 1: ExtResource("11_ktv26")
 }
 
+[node name="Craftingtable4" parent="Craftingtables" instance=ExtResource("7_wur7e")]
+position = Vector2(1442, 939)
+scale = Vector2(1.4, 0.6)
+mapa = {
+7: ExtResource("17_hdcir")
+}
+
+[node name="Craftingtable5" parent="Craftingtables" instance=ExtResource("7_wur7e")]
+position = Vector2(1151, 939)
+scale = Vector2(1.4, 0.6)
+mapa = {
+7: ExtResource("17_hdcir")
+}
+
 [node name="Craftingtable2" parent="Craftingtables" instance=ExtResource("7_wur7e")]
 position = Vector2(1728, 165)
 scale = Vector2(0.7, 0.7)
+mapa = {
+6: ExtResource("12_gmpix"),
+8: ExtResource("6_iitf7")
+}
+
+[node name="Craftingtable3" parent="Craftingtables" instance=ExtResource("7_wur7e")]
+position = Vector2(1584, 165)
+scale = Vector2(0.7, 0.7)
+mapa = {
+6: ExtResource("12_gmpix"),
+8: ExtResource("6_iitf7")
+}
