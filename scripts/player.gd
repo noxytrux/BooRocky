@@ -20,6 +20,9 @@ var is_walking := false
 var is_dash_active := false
 var is_dash_ready := true
 
+var action1PreviousState
+var isAction1JustPressed
+
 @onready var Raycast = $RayCast2D
 @export var RayRange = 100.0
 
@@ -66,12 +69,19 @@ func _physics_process(delta: float) -> void:
 		new_dir_enum = GlobalValues.direction_vector_to_enum(dir)
 	else:
 		dir = Vector2.ZERO
-		
-	# TEMP - pickup animation
-	if action1:
+	
+	# If to set true for action1 input only once per clicked
+	if (action1 != action1PreviousState):
+		isAction1JustPressed = action1
+		action1PreviousState = action1
+	else:
+		isAction1JustPressed = false
+	
+	# PickUp
+	if (isAction1JustPressed):
 		set_animation("pickup_down", true)
 		Interaction()
-		
+	
 	# Dash
 	if action2 and is_dash_ready:
 		is_dash_active = true
