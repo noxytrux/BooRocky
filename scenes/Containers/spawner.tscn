@@ -1,6 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://b7keuv2pstqvg"]
+[gd_scene load_steps=5 format=3 uid="uid://b7keuv2pstqvg"]
 
 [ext_resource type="Script" path="res://scripts/spawner.gd" id="1_c7id0"]
+[ext_resource type="AudioStream" uid="uid://c46o68w60vpdm" path="res://sfx/sound/Fruit collect 1.wav" id="2_fy4bk"]
+[ext_resource type="AudioStream" uid="uid://dtbkroohpodms" path="res://sfx/sound/Bubble 1.wav" id="3_tocpu"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_pci1g"]
 size = Vector2(129, 128)
@@ -18,5 +20,11 @@ shape = SubResource("RectangleShape2D_pci1g")
 [node name="SpawnItemTimer" type="Timer" parent="."]
 wait_time = 0.1
 one_shot = true
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("2_fy4bk")
+
+[node name="take_sound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_tocpu")
 
 [connection signal="timeout" from="SpawnItemTimer" to="." method="_on_spawn_item_timer_timeout"]

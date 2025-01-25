@@ -1,6 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://b6yx08dnl1u10"]
+[gd_scene load_steps=4 format=3 uid="uid://b6yx08dnl1u10"]
 
 [ext_resource type="Script" path="res://scripts/container.gd" id="1_u0m4p"]
+[ext_resource type="AudioStream" uid="uid://dtbkroohpodms" path="res://sfx/sound/Bubble 1.wav" id="2_xlfaw"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_pci1g"]
 size = Vector2(129, 128)
@@ -14,3 +15,6 @@ script = ExtResource("1_u0m4p")
 shape = SubResource("RectangleShape2D_pci1g")
 
 [node name="ItemAnchor" type="Node2D" parent="."]
+
+[node name="take_put_sound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("2_xlfaw")

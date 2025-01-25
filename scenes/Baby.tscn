@@ -1,10 +1,14 @@
-[gd_scene load_steps=24 format=3 uid="uid://lx0gejmnm31w"]
+[gd_scene load_steps=28 format=3 uid="uid://lx0gejmnm31w"]
 
 [ext_resource type="Script" path="res://scripts/baby.gd" id="1_8hdff"]
 [ext_resource type="Texture2D" uid="uid://1xw4lys1u504" path="res://Assets/characters/baby/baby walk down.png" id="2_a7dms"]
 [ext_resource type="Texture2D" uid="uid://dhp1mbul8c4ui" path="res://Assets/characters/baby/baby die right.png" id="3_32cka"]
 [ext_resource type="Texture2D" uid="uid://bgws8vo22lmsp" path="res://Assets/characters/baby/baby idle right.png" id="4_mysk8"]
 [ext_resource type="Texture2D" uid="uid://qeyk5kyfu8bb" path="res://Assets/emoji_white_bubble/bubble_white_01_77.png" id="5_cgvef"]
+[ext_resource type="AudioStream" uid="uid://tpfg4h5xwbff" path="res://sfx/sound/Big Egg collect 1.wav" id="6_3lbtd"]
+[ext_resource type="AudioStream" uid="uid://bchyim1bj568" path="res://sfx/sound/Boss hit 1.wav" id="7_qeu7w"]
+[ext_resource type="AudioStream" uid="uid://b0g3vcyfsxspy" path="res://sfx/sound/Blow 2.wav" id="8_ledxe"]
+[ext_resource type="AudioStream" uid="uid://bd8uj1pgdwegu" path="res://sfx/sound/Block Break 1.wav" id="9_2crm6"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_minrb"]
 atlas = ExtResource("2_a7dms")
@@ -194,5 +198,17 @@ libraries = {
 "": SubResource("AnimationLibrary_wxv8e")
 }
 autoplay = "startup"
+
+[node name="satisfy_sound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("6_3lbtd")
+
+[node name="nope_sound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("7_qeu7w")
+
+[node name="need_sound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("8_ledxe")
+
+[node name="died_sound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("9_2crm6")
 
 [connection signal="timeout" from="need_timer" to="." method="_on_need_timer_timeout"]
