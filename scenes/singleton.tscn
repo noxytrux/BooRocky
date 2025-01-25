@@ -1,7 +1,18 @@
-[gd_scene load_steps=2 format=3 uid="uid://csnf5yf8cxelf"]
+[gd_scene load_steps=4 format=3 uid="uid://csnf5yf8cxelf"]
 
 [ext_resource type="Script" path="res://scripts/singleton.gd" id="1_0dms7"]
+[ext_resource type="AudioStream" uid="uid://b7f8ftj7fprdn" path="res://sfx/music/menu.ogg" id="2_oi66h"]
+[ext_resource type="AudioStream" uid="uid://dklirrlsk6xjv" path="res://sfx/music/game.ogg" id="3_r4aer"]
 
 [node name="Singleton" type="Node"]
 process_mode = 3
 script = ExtResource("1_0dms7")
+
+[node name="MenuMusicPlayer" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("2_oi66h")
+volume_db = -1.529
+autoplay = true
+
+[node name="GameMusicPlayer" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_r4aer")
+volume_db = -1.529

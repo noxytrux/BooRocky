@@ -4,9 +4,10 @@ const MENU_SCENE = preload("res://scenes/menu.tscn")
 const HELP_SCENE = preload("res://scenes/help.tscn")
 const LEVEL_SCENE = preload("res://scenes/Level.tscn")
 
-# Controlled by Level scene on_tree_entered/on_tree_exiting.
-var gameplay_running := false
+@onready var menu_music_player: AudioStreamPlayer2D = $MenuMusicPlayer
+@onready var game_music_player: AudioStreamPlayer2D = $GameMusicPlayer
 
+var gameplay_running := false
 var help_on_top_of_gameplay_node: Node = null
 
 func switch_to_scene(path: String) -> void:
@@ -63,3 +64,13 @@ func on_escape_pressed() -> void:
 func _process(_delta: float) -> void:
 	if Input.is_action_just_pressed("Escape"):
 		on_escape_pressed()
+
+func on_gameplay_started() -> void:
+	gameplay_running = true
+	menu_music_player.stop()
+	game_music_player.play()
+	
+func on_gameplay_ending() -> void:
+	gameplay_running = false
+	game_music_player.stop()
+	menu_music_player.play()

@@ -24,7 +24,7 @@ func _process(_delta: float) -> void:
 	process_spawning_player(GlobalValues.INPUT_DEVICE.GAMEPAD2)
 
 func _on_tree_entered() -> void:
-	SingletonObject.gameplay_running = true
+	SingletonObject.on_gameplay_started()
 
 func _on_tree_exiting() -> void:
-	SingletonObject.gameplay_running = false
+	SingletonObject.on_gameplay_ending()
