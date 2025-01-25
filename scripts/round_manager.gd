@@ -10,6 +10,7 @@ var leftBaby
 var pointsMultiplier = 100
 var satisfyPointsMultiplier = 25
 var IsRoundOn : bool
+@onready var summary_panel: SummaryPanel = $"../SummaryPanel"
   
 func BabyDied() -> void:
 	deadBabyCount += 1
@@ -36,6 +37,7 @@ func UpdatePoint() -> void:
 	currentPoints += babySatisfedNumber * satisfyPointsMultiplier
 	
 	%LevelGUI.points = currentPoints
+	summary_panel.UpdatePresentation(survivedBabyCount, deadBabyCount, babySatisfedNumber, currentPoints)
 	
 func GetStars() -> int:
 	var MaxPoints = babyCountInRound * 100
@@ -60,3 +62,5 @@ func ChangeLeftBabyCount() -> bool:
 
 func FinishRound() -> void:
 	print("END")
+	IsRoundOn = false;
+	summary_panel.ShowSummary()

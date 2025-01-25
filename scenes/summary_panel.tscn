@@ -1,0 +1,129 @@
+[gd_scene load_steps=5 format=3 uid="uid://ctbntrkfakm8r"]
+
+[ext_resource type="Script" path="res://scripts/summary_panel.gd" id="1_kj0u4"]
+[ext_resource type="FontFile" uid="uid://domy2bxambts" path="res://Assets/Fonts/PixelOperator8-Bold.ttf" id="2_0iynp"]
+[ext_resource type="FontFile" uid="uid://ch34o33lt8ea4" path="res://Assets/Fonts/PixelOperator8.ttf" id="3_xcelq"]
+[ext_resource type="Theme" uid="uid://bn7tf70nor1sb" path="res://gui_menu_theme.tres" id="4_g60ud"]
+
+[node name="SummaryPanel" type="Control"]
+process_mode = 3
+z_index = 1
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_kj0u4")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 398.0
+offset_top = 113.0
+offset_right = 398.0
+offset_bottom = 505.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.6, 0.6)
+color = Color(0.165737, 0.350941, 0.200563, 1)
+
+[node name="Title" type="Label" parent="."]
+layout_mode = 0
+offset_left = 431.0
+offset_top = 157.0
+offset_right = 1519.0
+offset_bottom = 285.0
+theme_override_fonts/font = ExtResource("2_0iynp")
+theme_override_font_sizes/font_size = 128
+text = "ROUND END"
+
+[node name="ChildSurvivedTitle" type="Label" parent="."]
+layout_mode = 0
+offset_left = 502.0
+offset_top = 360.0
+offset_right = 993.0
+offset_bottom = 397.0
+theme_override_fonts/font = ExtResource("3_xcelq")
+theme_override_font_sizes/font_size = 36
+text = "Babies grow up:"
+
+[node name="ChildSurvivedValue" type="Label" parent="ChildSurvivedTitle"]
+layout_mode = 0
+offset_left = 459.0
+offset_right = 950.0
+offset_bottom = 37.0
+theme_override_fonts/font = ExtResource("3_xcelq")
+theme_override_font_sizes/font_size = 36
+text = "0123456789"
+
+[node name="ChildDieTitle" type="Label" parent="."]
+layout_mode = 0
+offset_left = 502.0
+offset_top = 439.0
+offset_right = 993.0
+offset_bottom = 476.0
+theme_override_fonts/font = ExtResource("3_xcelq")
+theme_override_font_sizes/font_size = 36
+text = "Babies died:"
+
+[node name="ChildDieValue" type="Label" parent="ChildDieTitle"]
+layout_mode = 0
+offset_left = 459.0
+offset_right = 950.0
+offset_bottom = 37.0
+theme_override_fonts/font = ExtResource("3_xcelq")
+theme_override_font_sizes/font_size = 36
+text = "0123456789"
+
+[node name="SatisfyCountTitle" type="Label" parent="."]
+layout_mode = 0
+offset_left = 502.0
+offset_top = 510.0
+offset_right = 993.0
+offset_bottom = 547.0
+theme_override_fonts/font = ExtResource("3_xcelq")
+theme_override_font_sizes/font_size = 36
+text = "Satisfy times:"
+
+[node name="SatisfyCountValue" type="Label" parent="SatisfyCountTitle"]
+layout_mode = 0
+offset_left = 459.0
+offset_right = 950.0
+offset_bottom = 37.0
+theme_override_fonts/font = ExtResource("3_xcelq")
+theme_override_font_sizes/font_size = 36
+text = "0123456789"
+
+[node name="SumPointsTitle" type="Label" parent="."]
+layout_mode = 0
+offset_left = 494.0
+offset_top = 654.0
+offset_right = 985.0
+offset_bottom = 691.0
+theme_override_fonts/font = ExtResource("3_xcelq")
+theme_override_font_sizes/font_size = 36
+text = "TOTAL POINTS:"
+
+[node name="SumPointsValue" type="Label" parent="SumPointsTitle"]
+layout_mode = 0
+offset_left = 459.0
+offset_top = -22.0
+offset_right = 1099.0
+offset_bottom = 42.0
+theme_override_fonts/font = ExtResource("2_0iynp")
+theme_override_font_sizes/font_size = 64
+text = "0123456789"
+
+[node name="ExitButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 663.0
+offset_top = 771.0
+offset_right = 1266.0
+offset_bottom = 919.0
+theme = ExtResource("4_g60ud")
+text = "EXIT TO MENU"
+
+[connection signal="pressed" from="ExitButton" to="." method="_on_exit_button_pressed"]
