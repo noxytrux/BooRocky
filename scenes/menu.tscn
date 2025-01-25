@@ -1,26 +1,42 @@
-[gd_scene load_steps=8 format=3 uid="uid://btx08072l2ttn"]
+[gd_scene load_steps=9 format=3 uid="uid://btx08072l2ttn"]
 
 [ext_resource type="Script" path="res://scripts/menu.gd" id="1_81i6f"]
 [ext_resource type="FontFile" uid="uid://ch34o33lt8ea4" path="res://Assets/Fonts/PixelOperator8.ttf" id="1_rxdms"]
 [ext_resource type="Theme" uid="uid://bn7tf70nor1sb" path="res://gui_menu_theme.tres" id="1_wg03p"]
-[ext_resource type="Texture2D" uid="uid://o0s2fol2d8pd" path="res://Assets/Splashes/menu_splash.png" id="2_cegw6"]
+[ext_resource type="Texture2D" uid="uid://o0s2fol2d8pd" path="res://Assets/splashes/menu_splash.png" id="2_cegw6"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_eqbv1"]
 line_spacing = 24.0
 font = ExtResource("1_rxdms")
-font_size = 48
+font_size = 56
+font_color = Color(0, 0, 0, 1)
+shadow_size = 10
+shadow_color = Color(0.77, 0.56672, 0.2156, 1)
+shadow_offset = Vector2(2, 2)
 
 [sub_resource type="LabelSettings" id="LabelSettings_umpi1"]
 line_spacing = 24.0
 font = ExtResource("1_rxdms")
-font_size = 48
-font_color = Color(0.450648, 0.450648, 0.450648, 1)
+font_size = 56
+font_color = Color(1, 0.885496, 0.585289, 1)
+shadow_size = 10
+shadow_color = Color(0, 0, 0, 1)
+shadow_offset = Vector2(2, 2)
+
+[sub_resource type="LabelSettings" id="LabelSettings_x1itj"]
+line_spacing = 24.0
+font = ExtResource("1_rxdms")
+font_size = 72
+font_color = Color(0, 0, 0, 1)
+shadow_size = 10
+shadow_color = Color(0.2156, 0.77, 0.34496, 1)
+shadow_offset = Vector2(2, 2)
 
 [sub_resource type="LabelSettings" id="LabelSettings_jl25l"]
 line_spacing = 24.0
 font = ExtResource("1_rxdms")
 font_size = 48
-font_color = Color(0.45098, 0.45098, 0.45098, 1)
+font_color = Color(0.354919, 0.587919, 0.298124, 1)
 
 [node name="Menu" type="Node2D"]
 process_mode = 3
@@ -37,7 +53,7 @@ texture = ExtResource("2_cegw6")
 [node name="Play" type="Button" parent="Buttons"]
 offset_left = 695.0
 offset_top = 267.0
-offset_right = 1255.0
+offset_right = 1175.0
 offset_bottom = 415.0
 size_flags_horizontal = 0
 theme = ExtResource("1_wg03p")
@@ -46,7 +62,7 @@ text = "PLAY"
 [node name="Help" type="Button" parent="Buttons"]
 offset_left = 695.0
 offset_top = 448.0
-offset_right = 1255.0
+offset_right = 1175.0
 offset_bottom = 596.0
 size_flags_horizontal = 0
 theme = ExtResource("1_wg03p")
@@ -55,7 +71,7 @@ text = "HELP"
 [node name="Exit" type="Button" parent="Buttons"]
 offset_left = 695.0
 offset_top = 630.0
-offset_right = 1255.0
+offset_right = 1175.0
 offset_bottom = 778.0
 size_flags_horizontal = 0
 theme = ExtResource("1_wg03p")
@@ -64,19 +80,19 @@ text = "ABORT"
 [node name="Labels" type="Node2D" parent="."]
 
 [node name="PolyJam" type="Label" parent="Labels"]
-offset_left = 1367.0
-offset_top = 881.0
-offset_right = 1853.0
-offset_bottom = 929.0
+offset_left = 1136.0
+offset_top = 918.0
+offset_right = 1865.0
+offset_bottom = 990.0
 text = "PolyJam 2025"
 label_settings = SubResource("LabelSettings_eqbv1")
 horizontal_alignment = 2
 
 [node name="GGJ" type="Label" parent="Labels"]
-offset_left = 1069.0
-offset_top = 968.0
-offset_right = 1855.0
-offset_bottom = 1016.0
+offset_left = 949.0
+offset_top = 989.0
+offset_right = 1866.0
+offset_bottom = 1045.0
 text = "Global Game Jam 2025"
 label_settings = SubResource("LabelSettings_umpi1")
 horizontal_alignment = 2
@@ -87,13 +103,13 @@ offset_top = 42.0
 offset_right = 687.0
 offset_bottom = 110.0
 text = "BOMBELKI"
-label_settings = SubResource("LabelSettings_eqbv1")
+label_settings = SubResource("LabelSettings_x1itj")
 
 [node name="BooRocky" type="Label" parent="Labels"]
-offset_left = 44.0
-offset_top = 147.0
-offset_right = 686.0
-offset_bottom = 267.0
+offset_left = 50.0
+offset_top = 123.0
+offset_right = 692.0
+offset_bottom = 171.0
 text = "by team BooRocky"
 label_settings = SubResource("LabelSettings_jl25l")
 
