@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://csnf5yf8cxelf"]
+[gd_scene load_steps=5 format=3 uid="uid://dj5ij1n8jcdjb"]
 
 [ext_resource type="Script" path="res://scripts/singleton.gd" id="1_0dms7"]
 [ext_resource type="AudioStream" uid="uid://b7f8ftj7fprdn" path="res://sfx/music/menu.ogg" id="2_oi66h"]
 [ext_resource type="AudioStream" uid="uid://dklirrlsk6xjv" path="res://sfx/music/game.ogg" id="3_r4aer"]
+[ext_resource type="AudioStream" uid="uid://dxwqlmdr554gu" path="res://sfx/sound/Confirm 1.wav" id="4_88qkq"]
 
 [node name="Singleton" type="Node"]
 process_mode = 3
@@ -16,3 +17,6 @@ bus = &"Music"
 [node name="GameMusicPlayer" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("3_r4aer")
 bus = &"Music"
+
+[node name="button_sound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_88qkq")

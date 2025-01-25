@@ -6,11 +6,17 @@ const LEVEL_SCENE = preload("res://scenes/Level.tscn")
 
 @onready var menu_music_player: AudioStreamPlayer2D = $MenuMusicPlayer
 @onready var game_music_player: AudioStreamPlayer2D = $GameMusicPlayer
+@onready var button_sound: AudioStreamPlayer2D = $button_sound
 
 var gameplay_running := false
 var help_on_top_of_gameplay_node: Node = null
 
+func play_sound() -> void:
+	if not button_sound.playing:
+		button_sound.play()
+
 func switch_to_scene(path: String) -> void:
+	play_sound()
 	help_on_top_of_gameplay_node = null
 	get_tree().change_scene_to_file(path)
 	get_tree().paused = false
@@ -35,11 +41,13 @@ func get_scene_node() -> Node:
 	return get_tree().root.get_child(1)
 
 func resume_gameplay() -> void:
+	play_sound()
 	help_on_top_of_gameplay_node.queue_free()
 	help_on_top_of_gameplay_node = null
 	get_tree().paused = false
 
 func pause_gameplay_show_help() -> void:
+	play_sound()
 	assert(gameplay_running)
 	assert(help_on_top_of_gameplay_node == null)
 	get_tree().paused = true
