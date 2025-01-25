@@ -8,6 +8,9 @@ func _ready() -> void:
 	PlaceItem(HoldItem) #ONLY FOR TEST - DELETE THIS LATER
 
 func play_sound() -> void:
+	if take_put_sound == null:
+		return
+	
 	if not take_put_sound.playing:
 		take_put_sound.play()
 
