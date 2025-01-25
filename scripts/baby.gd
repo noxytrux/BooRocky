@@ -150,7 +150,7 @@ func UpdateNeedIcon() -> void:
 		
 func Satisfy(item: ItemBase) -> bool:
 	
-	if current_need == BabyNeed.Died:
+	if current_need == BabyNeed.Died or current_need == BabyNeed.Happy:
 		return false
 	
 	var result = satisfaction_dict[current_need]
