@@ -16,10 +16,12 @@ func TakeItem() -> ItemBase:
 		createdItem = null
 		spawn_item_timer.start()
 		return result
-
-func CanPlaceItem() -> bool:
+	
+func CanPlaceItem(item: ItemBase) -> bool:
 	return false
-
+	
+func CanTakeItem() -> bool:
+	return true
+	
 func _on_spawn_item_timer_timeout() -> void:
 	createdItem = scene_to_load.instantiate()
-	print("end time")

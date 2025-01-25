@@ -25,3 +25,6 @@ func PutDown() -> void:
 	
 func IsDisposed() -> bool:
 	return true;
+	
+func Disposed() -> void:
+	queue_free()

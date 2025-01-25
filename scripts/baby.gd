@@ -79,12 +79,12 @@ func PickUp() -> void:
 func PutDown() -> void:
 	if current_need == BabyNeed.None:
 		DetermineNeed()
-	
-	if dead and canpickup:
-		dead = false
-		body.play("die")
-		canpickup = false
-		disposed = true
+
+func Disposed() -> void:
+	dead = false
+	body.play("die")
+	canpickup = false
+	disposed = true
 
 func DetermineNeed() -> void:
 	current_need = possible_needs.pick_random()
@@ -112,3 +112,6 @@ func _on_need_timer_timeout() -> void:
 	
 func IsDisposed() -> bool:
 	return finished_dispose
+	
+func CanBabyBeThrowAway() -> bool:
+	return dead and canpickup

@@ -1,17 +1,18 @@
-[gd_scene load_steps=27 format=4 uid="uid://couasxs6dhqtr"]
+[gd_scene load_steps=28 format=4 uid="uid://cocdtyhxx0dqo"]
 
 [ext_resource type="Script" path="res://scripts/level.gd" id="1_3lawp"]
 [ext_resource type="Texture2D" uid="uid://cp2u4l81t38uc" path="res://Assets/Green.png" id="1_66r1e"]
 [ext_resource type="Texture2D" uid="uid://cjtvph0ia7vjl" path="res://Assets/atlas_32x.png" id="2_i284k"]
 [ext_resource type="Texture2D" uid="uid://yakrpfebqq5w" path="res://Assets/market_atlas_32x.png" id="3_0h0ay"]
 [ext_resource type="PackedScene" uid="uid://b6yx08dnl1u10" path="res://scenes/Containers/container.tscn" id="5_xvupt"]
-[ext_resource type="PackedScene" uid="uid://dcjde67tyb40a" path="res://scenes/Items/Food.tscn" id="6_iitf7"]
-[ext_resource type="PackedScene" uid="uid://cgeyearammmm1" path="res://scenes/Items/Pampers.tscn" id="7_e67ip"]
+[ext_resource type="PackedScene" uid="uid://dcjde67tyb40a" path="res://scenes/Items/Drug.tscn" id="6_iitf7"]
+[ext_resource type="PackedScene" uid="uid://cgeyearammmm1" path="res://scenes/Items/DirtyPampers.tscn" id="7_e67ip"]
 [ext_resource type="PackedScene" uid="uid://lx0gejmnm31w" path="res://scenes/Baby.tscn" id="8_q2bnu"]
-[ext_resource type="PackedScene" uid="uid://bcdx5ij4f6d6d" path="res://scenes/player_spawner.tscn" id="9_eeq8j"]
+[ext_resource type="PackedScene" uid="uid://c2ionkid7ua5m" path="res://scenes/Containers/TrashCan.tscn" id="9_4djc4"]
+[ext_resource type="PackedScene" path="res://scenes/player_spawner.tscn" id="9_eeq8j"]
 [ext_resource type="PackedScene" uid="uid://b7keuv2pstqvg" path="res://scenes/Containers/spawner.tscn" id="10_m1fv0"]
-[ext_resource type="PackedScene" uid="uid://0xe6bn660xrn" path="res://scenes/Items/DirtyPampers.tscn" id="11_ktv26"]
-[ext_resource type="PackedScene" uid="uid://wmxx4fyomn1h" path="res://scenes/Items/Drug.tscn" id="12_gmpix"]
+[ext_resource type="PackedScene" uid="uid://0xe6bn660xrn" path="res://scenes/Items/Pampers.tscn" id="11_ktv26"]
+[ext_resource type="PackedScene" uid="uid://wmxx4fyomn1h" path="res://scenes/Items/Food.tscn" id="12_gmpix"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_abpdh"]
 texture = ExtResource("2_i284k")
@@ -19981,9 +19982,13 @@ scale = Vector2(0.5, 0.5)
 position = Vector2(239, 953)
 scale = Vector2(0.5, 0.5)
 
-[node name="Container31" parent="." instance=ExtResource("5_xvupt")]
-position = Vector2(628, 953)
-scale = Vector2(0.5, 0.5)
+[node name="TrashCan" parent="." instance=ExtResource("9_4djc4")]
+position = Vector2(240, 958)
+scale = Vector2(0.6, 0.6)
+
+[node name="TrashCan2" parent="." instance=ExtResource("9_4djc4")]
+position = Vector2(624, 958)
+scale = Vector2(0.6, 0.6)
 
 [node name="Container12" parent="." instance=ExtResource("5_xvupt")]
 position = Vector2(1251, 102)
