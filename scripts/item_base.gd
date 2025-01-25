@@ -16,7 +16,7 @@ enum ITEM_TYPE
 @export var SelectedType = ITEM_TYPE.PAMPERS
 
 func _process(_delta: float) -> void:
-	global_scale = Vector2(1.5,1.5)
+	global_scale = Vector2(2.5,2.5)
 
 func IsPickable() -> bool:
 	return true 
