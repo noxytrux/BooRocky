@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://dbtbpadejolei"]
+
+[ext_resource type="Texture2D" uid="uid://dhrv7yjdu82kq" path="res://Assets/OpenmonItemIcons.png" id="1_afaqv"]
+[ext_resource type="Script" path="res://scripts/item_base.gd" id="2_ud5pk"]
+
+[node name="Toy" type="Sprite2D"]
+texture = ExtResource("1_afaqv")
+region_enabled = true
+region_rect = Rect2(103, 68, 17, 26)
+script = ExtResource("2_ud5pk")
+SelectedType = 5

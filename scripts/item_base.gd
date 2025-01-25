@@ -9,7 +9,8 @@ enum ITEM_TYPE
 	BABY, #RESERVED
 	TOY, 
 	INGREDIENT, #FOOD
-	PART #TOY
+	PART, #TOY
+	SUBSTANCE #DRUG
 }
 
 @export var SelectedType = ITEM_TYPE.PAMPERS

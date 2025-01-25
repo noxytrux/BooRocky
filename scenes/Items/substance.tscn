@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://bt3lycrlbp4ku"]
+
+[ext_resource type="Texture2D" uid="uid://dhrv7yjdu82kq" path="res://Assets/OpenmonItemIcons.png" id="1_h8lyi"]
+[ext_resource type="Script" path="res://scripts/item_base.gd" id="2_mowxs"]
+
+[node name="Substance" type="Sprite2D"]
+texture = ExtResource("1_h8lyi")
+region_enabled = true
+region_rect = Rect2(228, 194, 25, 25)
+script = ExtResource("2_mowxs")
+SelectedType = 8
