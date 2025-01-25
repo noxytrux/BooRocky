@@ -7,16 +7,19 @@ const LEVEL_SCENE = preload("res://scenes/Level.tscn")
 # Controlled by Level scene on_tree_entered/on_tree_exiting.
 var gameplay_running := false
 
-var help_on_top_of_gameplay := false
+var help_on_top_of_gameplay_node: Node = null
 
 func switch_to_game() -> void:
 	get_tree().change_scene_to_file(LEVEL_SCENE.resource_path)
+	help_on_top_of_gameplay_node = null
 
 func switch_to_menu() -> void:
 	get_tree().change_scene_to_file(MENU_SCENE.resource_path)
+	help_on_top_of_gameplay_node = null
 
 func switch_to_help() -> void:
 	get_tree().change_scene_to_file(HELP_SCENE.resource_path)
+	help_on_top_of_gameplay_node = null
 
 func back_from_help() -> void:
 	if gameplay_running:
@@ -29,20 +32,18 @@ func get_scene_node() -> Node:
 	return get_tree().root.get_child(1)
 
 func resume_gameplay() -> void:
-	var scene_node = get_scene_node()
-	var help_scene_node = scene_node.find_child("Help")
-	assert(help_scene_node != null)
-	help_scene_node.queue_free()
-	help_on_top_of_gameplay = false
+	help_on_top_of_gameplay_node.queue_free()
+	help_on_top_of_gameplay_node = null
 
 func pause_gameplay_show_help() -> void:
-	help_on_top_of_gameplay = true
-	var help_node = HELP_SCENE.instantiate()
-	get_scene_node().add_child(help_node)
+	assert(gameplay_running)
+	assert(help_on_top_of_gameplay_node == null)
+	help_on_top_of_gameplay_node = HELP_SCENE.instantiate()
+	get_scene_node().add_child(help_on_top_of_gameplay_node)
 	
 func on_escape_pressed() -> void:
 	var scene_node = get_scene_node()
-	if help_on_top_of_gameplay:
+	if help_on_top_of_gameplay_node:
 		assert(is_instance_of(scene_node, LevelScene))
 		resume_gameplay()
 	elif gameplay_running:
