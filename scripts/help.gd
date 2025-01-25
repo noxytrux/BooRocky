@@ -5,6 +5,10 @@ class_name HelpScene extends Node2D
 func _ready() -> void:
 	exit_button.visible = SingletonObject.gameplay_running
 	
+func _process(_delta: float) -> void:
+	if Input.is_action_just_pressed("Escape"):
+		_on_back_button_pressed()
+	
 func _on_back_button_pressed() -> void:
 	if SingletonObject.gameplay_running:
 		# This scene is just a node inside Level scene - delete the nodes.
