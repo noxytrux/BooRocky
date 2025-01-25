@@ -10,9 +10,9 @@ script = ExtResource("1_0dms7")
 
 [node name="MenuMusicPlayer" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("2_oi66h")
-volume_db = -1.529
 autoplay = true
+bus = &"Music"
 
 [node name="GameMusicPlayer" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("3_r4aer")
-volume_db = -1.529
+bus = &"Music"
