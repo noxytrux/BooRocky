@@ -1,10 +1,10 @@
 [gd_scene load_steps=3 format=3 uid="uid://0xe6bn660xrn"]
 
-[ext_resource type="Texture2D" uid="uid://dhrv7yjdu82kq" path="res://Assets/OpenmonItemIcons.png" id="1_fsfah"]
+[ext_resource type="Texture2D" uid="uid://ds7y07aakyk2o" path="res://Assets/items_atlas.png" id="1_ran4a"]
 [ext_resource type="Script" path="res://scripts/item_base.gd" id="1_tegps"]
 
 [node name="Pampers" type="Sprite2D"]
-texture = ExtResource("1_fsfah")
+texture = ExtResource("1_ran4a")
 region_enabled = true
-region_rect = Rect2(37, 229, 24, 21)
+region_rect = Rect2(96, 0, 32, 32)
 script = ExtResource("1_tegps")

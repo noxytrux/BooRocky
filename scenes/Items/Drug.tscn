@@ -1,11 +1,11 @@
 [gd_scene load_steps=3 format=3 uid="uid://dcjde67tyb40a"]
 
-[ext_resource type="Texture2D" uid="uid://dhrv7yjdu82kq" path="res://Assets/OpenmonItemIcons.png" id="1_bisfv"]
+[ext_resource type="Texture2D" uid="uid://ds7y07aakyk2o" path="res://Assets/items_atlas.png" id="1_8ppoi"]
 [ext_resource type="Script" path="res://scripts/item_base.gd" id="2_3i1e1"]
 
 [node name="Drug" type="Sprite2D"]
-texture = ExtResource("1_bisfv")
+texture = ExtResource("1_8ppoi")
 region_enabled = true
-region_rect = Rect2(228, 225, 24, 30)
+region_rect = Rect2(96, 32, 32, 32)
 script = ExtResource("2_3i1e1")
 SelectedType = 3
