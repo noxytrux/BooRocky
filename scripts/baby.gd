@@ -4,6 +4,7 @@ class_name Baby extends ItemBase
 @onready var need_timer: Timer = $need_timer
 @onready var need_icon: Sprite2D = $need_icon
 @onready var progress_bar: ProgressBar = $ProgressBar
+@onready var round_manager: RoundManager = null
 
 const DIAPER = preload("res://scenes/Items/DirtyPampers.tscn")
 const ADULT  = preload("res://scenes/adult.tscn")
@@ -61,6 +62,7 @@ var satisfaction_dict = {
 
 func _ready() -> void:
 	need_icon.texture = BUBBLE_HAPPY
+	round_manager = get_tree().get_current_scene().get_child(0)
 
 func _process(delta: float) -> void:
 	
@@ -167,6 +169,7 @@ func Satisfy(item: ItemBase) -> bool:
 	return true
 
 func _on_need_timer_timeout() -> void:
+	round_manager.BabyDied()
 	dead = true
 	current_need = BabyNeed.Died
 	UpdateNeedIcon()
