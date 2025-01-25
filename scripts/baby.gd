@@ -101,6 +101,7 @@ func PutDown() -> void:
 func Disposed() -> void:
 	dead = false
 	body.play("die")
+	need_icon.visible = false
 	canpickup = false
 	disposed = true
 
@@ -120,6 +121,10 @@ func UpdateNeedIcon() -> void:
 	need_icon.visible = true
 		
 func Satisfy(item: ItemBase) -> bool:
+	
+	if current_need == BabyNeed.Died:
+		return false
+	
 	var result = satisfaction_dict[current_need]
 	if result != item.SelectedType:
 		return false
