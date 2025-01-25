@@ -49,7 +49,9 @@ func Interaction() -> void:
 					HoldItem.PickUp()
 				else:
 					var peek = hit.PeekItem()
-					if (peek is Baby) && peek.HasDiaper():
+					if peek == null:
+						return
+					if  peek is Baby && peek.HasDiaper():
 						HoldItem = peek.GetDiaper()
 						ItemAnchor.add_child(HoldItem)
 						HoldItem.position = Vector2(0, 0)
