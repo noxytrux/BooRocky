@@ -13,6 +13,7 @@ const DASH_SPEED := 1000.0
 @onready var dash_cooldown_timer: Timer = $DashCooldownTimer
 @onready var dash_active_timer: Timer = $DashActiveTimer
 @onready var dash_particles: CPUParticles2D = $DashParticles
+@onready var woosh_sound: AudioStreamPlayer2D = $woosh_sound
 
 var direction := GlobalValues.DIRECTION.NONE
 var is_input_enabled := false # Disabled during startup.
@@ -108,6 +109,8 @@ func _physics_process(_delta: float) -> void:
 		dash_cooldown_timer.start()
 		dash_active_timer.start()
 		$AnimationPlayer.play("dash")
+		if not woosh_sound.playing:
+			woosh_sound.play()
 	
 	velocity = dir * (SPEED if not is_dash_active else DASH_SPEED)
 	move_and_slide()

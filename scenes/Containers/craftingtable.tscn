@@ -1,6 +1,9 @@
-[gd_scene load_steps=3 format=3 uid="uid://byk6n8lb2dv7"]
+[gd_scene load_steps=6 format=3 uid="uid://byk6n8lb2dv7"]
 
 [ext_resource type="Script" path="res://scripts/craftingtable.gd" id="1_wam44"]
+[ext_resource type="Theme" uid="uid://7l7pjmgaud4p" path="res://progress_bar_theme.tres" id="2_iupgc"]
+[ext_resource type="AudioStream" uid="uid://dtbkroohpodms" path="res://sfx/sound/Bubble 1.wav" id="2_sux3c"]
+[ext_resource type="AudioStream" uid="uid://c46o68w60vpdm" path="res://sfx/sound/Fruit collect 1.wav" id="3_2hekh"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_pci1g"]
 size = Vector2(129, 128)
@@ -22,12 +25,20 @@ one_shot = true
 [node name="ProgressBar" type="ProgressBar" parent="."]
 visible = false
 modulate = Color(0, 1, 0, 1)
-offset_left = -35.0
-offset_top = -97.0
-offset_right = 31.0
-offset_bottom = -87.0
+offset_left = -47.0
+offset_top = -100.0
+offset_right = 19.0
+offset_bottom = -84.0
+scale = Vector2(1.429, 1.428)
+theme = ExtResource("2_iupgc")
 value = 100.0
 show_percentage = false
 
-[connection signal="timeout" from="CraftItemTimer" to="." method="_on_spawn_item_timer_timeout"]
+[node name="interact_sound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("2_sux3c")
+
+[node name="craft_sound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_2hekh")
+
 [connection signal="timeout" from="CraftItemTimer" to="." method="_on_craft_item_timer_timeout"]
+[connection signal="timeout" from="CraftItemTimer" to="." method="_on_spawn_item_timer_timeout"]

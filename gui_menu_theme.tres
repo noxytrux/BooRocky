@@ -1,20 +1,10 @@
 [gd_resource type="Theme" load_steps=3 format=3 uid="uid://bn7tf70nor1sb"]
 
 [ext_resource type="FontFile" uid="uid://ch34o33lt8ea4" path="res://Assets/Fonts/PixelOperator8.ttf" id="1_pwvr7"]
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_w4ef7"]
-bg_color = Color(2.7976e-07, 0.213031, 0.00699913, 0.462745)
-border_blend = true
-corner_radius_top_left = 32
-corner_radius_top_right = 32
-corner_radius_bottom_right = 32
-corner_radius_bottom_left = 32
-corner_detail = 1
-shadow_color = Color(0.0346667, 0.16, 0, 0.294118)
-shadow_size = 16
-shadow_offset = Vector2(6, 6)
+[ext_resource type="StyleBox" uid="uid://cnmi18itbhqc5" path="res://Assets/gui/button_style_normal.tres" id="2_21ajo"]
 
 [resource]
 Button/font_sizes/font_size = 48
 Button/fonts/font = ExtResource("1_pwvr7")
-Button/styles/normal = SubResource("StyleBoxFlat_w4ef7")
+Button/styles/hover = ExtResource("2_21ajo")
+Button/styles/normal = ExtResource("2_21ajo")

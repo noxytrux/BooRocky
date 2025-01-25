@@ -21,6 +21,7 @@
 [ext_resource type="Texture2D" uid="uid://d3o38x4r532w3" path="res://Assets/characters/complete/separate/pickup/hair/braids_pickup.png" id="10_e512b"]
 [ext_resource type="Texture2D" uid="uid://br0nod13exvot" path="res://Assets/characters/complete/separate/carry/clothes/shoes_carry.png" id="11_pnxww"]
 [ext_resource type="Texture2D" uid="uid://cibax3vfq0keh" path="res://Assets/characters/complete/separate/carry/hair/braids_carry.png" id="14_ogahw"]
+[ext_resource type="AudioStream" uid="uid://b4ojcj2xoxnbg" path="res://sfx/sound/whoosh.wav" id="18_gsl5e"]
 
 [sub_resource type="AnimatedTexture" id="AnimatedTexture_jatb6"]
 frames = 5
@@ -3449,6 +3450,9 @@ libraries = {
 "": SubResource("AnimationLibrary_aok7f")
 }
 autoplay = "startup"
+
+[node name="woosh_sound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("18_gsl5e")
 
 [connection signal="timeout" from="DashCooldownTimer" to="." method="_on_dash_cooldown_timer_timeout"]
 [connection signal="timeout" from="DashActiveTimer" to="." method="_on_dash_active_timer_timeout"]
