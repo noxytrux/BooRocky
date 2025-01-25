@@ -1,4 +1,4 @@
-[gd_scene load_steps=39 format=4 uid="uid://cocdtyhxx0dqo"]
+[gd_scene load_steps=42 format=4 uid="uid://cocdtyhxx0dqo"]
 
 [ext_resource type="Script" path="res://scripts/level.gd" id="1_3lawp"]
 [ext_resource type="Texture2D" uid="uid://cp2u4l81t38uc" path="res://Assets/Green.png" id="1_66r1e"]
@@ -20,6 +20,8 @@
 [ext_resource type="PackedScene" uid="uid://bt3lycrlbp4ku" path="res://scenes/Items/substance.tscn" id="16_t22ny"]
 [ext_resource type="PackedScene" uid="uid://dbtbpadejolei" path="res://scenes/Items/toy.tscn" id="17_hdcir"]
 [ext_resource type="PackedScene" path="res://scenes/Exit.tscn" id="19_n0vps"]
+[ext_resource type="FontFile" uid="uid://ch34o33lt8ea4" path="res://Assets/Fonts/PixelOperator8.ttf" id="21_a0613"]
+[ext_resource type="Script" path="res://scripts/level_gui.gd" id="21_p4x4h"]
 
 [sub_resource type="NavigationPolygon" id="NavigationPolygon_qxdem"]
 vertices = PackedVector2Array(8, 8, -8, 8, -8, -8, 8, -8)
@@ -19899,6 +19901,11 @@ texture = ExtResource("2_i284k")
 [sub_resource type="TileSet" id="TileSet_4nyak"]
 sources/0 = SubResource("TileSetAtlasSource_e0vks")
 
+[sub_resource type="LabelSettings" id="LabelSettings_so4gl"]
+font = ExtResource("21_a0613")
+font_size = 32
+font_color = Color(0, 0, 0, 1)
+
 [node name="Level" type="Node"]
 process_mode = 1
 script = ExtResource("1_3lawp")
@@ -20171,6 +20178,24 @@ position = Vector2(285, 98)
 
 [node name="Exit2" parent="Exits" instance=ExtResource("19_n0vps")]
 position = Vector2(575, 99)
+
+[node name="LevelGUI" type="Node2D" parent="."]
+unique_name_in_owner = true
+script = ExtResource("21_p4x4h")
+
+[node name="Bkg" type="ColorRect" parent="LevelGUI"]
+offset_left = 1548.0
+offset_top = -67.0
+offset_right = 1997.0
+offset_bottom = 96.0
+
+[node name="Label" type="Label" parent="LevelGUI/Bkg"]
+offset_left = 28.0
+offset_top = 95.0
+offset_right = 152.0
+offset_bottom = 127.0
+text = "0 points"
+label_settings = SubResource("LabelSettings_so4gl")
 
 [connection signal="tree_entered" from="." to="." method="_on_tree_entered"]
 [connection signal="tree_exiting" from="." to="." method="_on_tree_exiting"]
