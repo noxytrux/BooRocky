@@ -22,17 +22,17 @@ color = Color(0.0546541, 0.424435, 0.30323, 1)
 [node name="BackButton" type="Button" parent="."]
 offset_left = 71.0
 offset_top = 55.0
-offset_right = 343.0
-offset_bottom = 165.0
+offset_right = 451.0
+offset_bottom = 203.0
 size_flags_horizontal = 0
 theme = ExtResource("1_1hetj")
 text = "< BACK"
 
 [node name="ExitButton" type="Button" parent="."]
-offset_left = 763.0
-offset_top = 886.0
-offset_right = 1207.0
-offset_bottom = 996.0
+offset_left = 689.0
+offset_top = 861.0
+offset_right = 1292.0
+offset_bottom = 1009.0
 size_flags_horizontal = 0
 theme = ExtResource("1_1hetj")
 text = "EXIT TO MENU"

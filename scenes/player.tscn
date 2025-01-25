@@ -1,4 +1,4 @@
-[gd_scene load_steps=453 format=3 uid="uid://d21g3qba2slgn"]
+[gd_scene load_steps=454 format=3 uid="uid://d21g3qba2slgn"]
 
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_uap0v"]
 [ext_resource type="Texture2D" uid="uid://dc1p4hm565b2q" path="res://Assets/animation/dash_0.png" id="2_b67gx"]
@@ -3378,6 +3378,7 @@ motion_mode = 1
 script = ExtResource("1_uap0v")
 
 [node name="DashParticles" type="CPUParticles2D" parent="."]
+emitting = false
 amount = 24
 lifetime = 0.35
 explosiveness = 0.1
