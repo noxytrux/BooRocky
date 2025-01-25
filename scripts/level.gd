@@ -22,6 +22,10 @@ func _process(_delta: float) -> void:
 	process_spawning_player(GlobalValues.INPUT_DEVICE.ARROWS)
 	process_spawning_player(GlobalValues.INPUT_DEVICE.GAMEPAD1)
 	process_spawning_player(GlobalValues.INPUT_DEVICE.GAMEPAD2)
+	if Input.is_action_just_pressed("Escape"):
+		var help_scene = preload("res://scenes/help.tscn")
+		var help_obj = help_scene.instantiate()
+		add_child(help_obj)
 
 func _on_tree_entered() -> void:
 	SingletonObject.gameplay_running = true
