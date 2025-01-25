@@ -6,6 +6,7 @@ class_name Baby extends ItemBase
 @onready var progress_bar: ProgressBar = $ProgressBar
 
 const DIAPER = preload("res://scenes/Items/DirtyPampers.tscn")
+const ADULT  = preload("res://scenes/adult.tscn")
 
 const BUBBLE_HUNGRY = preload("res://Assets/emoji_white_bubble/bubble_white_01_17.png")
 const BUBBLE_DIRTY = preload("res://Assets/emoji_white_bubble/bubble_white_01_70.png")
@@ -15,6 +16,7 @@ const BUBBLE_HAPPY = preload("res://Assets/emoji_white_bubble/bubble_white_01_82
 const BUBBLE_DEAD = preload("res://Assets/emoji_white_bubble/bubble_white_01_77.png")
 
 const COOLDOWN_START = 5.0
+const MAX_SATISFACTION = 5
 
 var canpickup:bool = true
 var dead:bool = false
@@ -25,6 +27,7 @@ var finished_dispose:bool = false
 var cooldown_need:bool = false
 var cooldown:float = 0.0
 var diaper:ItemBase = null
+var satisiaction:int = 0;
 
 enum BabyNeed 
 {
@@ -136,6 +139,21 @@ func Satisfy(item: ItemBase) -> bool:
 	cooldown_need = true
 	progress_bar.visible = false
 	item.queue_free()
+	
+	satisiaction += 1
+	
+	if satisiaction == MAX_SATISFACTION:
+		pass
+		#var adult = ADULT.instantiate()
+		#var root = get_tree().root.get_child(0)
+		
+		#var exits = get_tree().root.find_children("*", "exit_node") as Array[exit_node]
+		
+		#if exits.em
+		
+		#root.add_child(adult)
+	
+	
 	return true
 
 func _on_need_timer_timeout() -> void:

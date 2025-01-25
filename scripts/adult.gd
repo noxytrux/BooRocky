@@ -7,9 +7,6 @@ const accel = 20
 @onready var nav_agent:= $NavigationAgent2D as NavigationAgent2D
 @onready var main_body: AnimatedSprite2D = $main_body
 
-func _ready() -> void:
-	makepath()
-
 func _physics_process(delta: float) -> void:
 	var dir = to_local(nav_agent.get_next_path_position()).normalized()
 	

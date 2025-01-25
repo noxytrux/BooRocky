@@ -1,4 +1,4 @@
-[gd_scene load_steps=39 format=4 uid="uid://cocdtyhxx0dqo"]
+[gd_scene load_steps=38 format=4 uid="uid://cocdtyhxx0dqo"]
 
 [ext_resource type="Script" path="res://scripts/level.gd" id="1_3lawp"]
 [ext_resource type="Texture2D" uid="uid://cp2u4l81t38uc" path="res://Assets/Green.png" id="1_66r1e"]
@@ -18,8 +18,7 @@
 [ext_resource type="PackedScene" uid="uid://cmecyniwni6lo" path="res://scenes/Items/part.tscn" id="15_k6e2a"]
 [ext_resource type="PackedScene" uid="uid://bt3lycrlbp4ku" path="res://scenes/Items/substance.tscn" id="16_t22ny"]
 [ext_resource type="PackedScene" uid="uid://dbtbpadejolei" path="res://scenes/Items/toy.tscn" id="17_hdcir"]
-[ext_resource type="PackedScene" path="res://scenes/Exit.tscn" id="19_n0vps"]
-[ext_resource type="PackedScene" path="res://scenes/adult.tscn" id="20_nttwr"]
+[ext_resource type="PackedScene" uid="uid://p06n5yppjq4b" path="res://scenes/Exit.tscn" id="19_n0vps"]
 
 [sub_resource type="NavigationPolygon" id="NavigationPolygon_qxdem"]
 vertices = PackedVector2Array(8, 8, -8, 8, -8, -8, 8, -8)
@@ -20132,10 +20131,6 @@ position = Vector2(285, 98)
 
 [node name="Exit2" parent="Exits" instance=ExtResource("19_n0vps")]
 position = Vector2(575, 99)
-
-[node name="Adult" parent="Exits" node_paths=PackedStringArray("destination") instance=ExtResource("20_nttwr")]
-position = Vector2(312, 586)
-destination = NodePath("../Exit2")
 
 [connection signal="tree_entered" from="." to="." method="_on_tree_entered"]
 [connection signal="tree_exiting" from="." to="." method="_on_tree_exiting"]
