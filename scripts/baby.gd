@@ -102,6 +102,7 @@ func grownup() -> bool:
 		var exits = root_node.find_children("*", "exit_node") as Array[exit_node]
 
 		if not exits.is_empty():
+			round_manager.BabySurvive()
 			var adult = ADULT.instantiate()
 			var exit = exits.pick_random();
 			exit.get_parent().get_parent().add_child(adult)
