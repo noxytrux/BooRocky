@@ -1,4 +1,4 @@
-[gd_scene load_steps=43 format=4 uid="uid://cocdtyhxx0dqo"]
+[gd_scene load_steps=44 format=4 uid="uid://cocdtyhxx0dqo"]
 
 [ext_resource type="Script" path="res://scripts/level.gd" id="1_3lawp"]
 [ext_resource type="Texture2D" uid="uid://cp2u4l81t38uc" path="res://Assets/Green.png" id="1_66r1e"]
@@ -20214,6 +20214,7 @@ offset_right = 376.0
 offset_bottom = 124.0
 text = "+200"
 label_settings = SubResource("LabelSettings_dl23x")
+
 [node name="SummaryPanel" parent="." instance=ExtResource("23_i4lyw")]
 
 [connection signal="tree_entered" from="." to="." method="_on_tree_entered"]
