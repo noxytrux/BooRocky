@@ -62,9 +62,9 @@ text = "0123456789"
 [node name="ChildDieTitle" type="Label" parent="."]
 layout_mode = 0
 offset_left = 502.0
-offset_top = 439.0
+offset_top = 435.0
 offset_right = 993.0
-offset_bottom = 476.0
+offset_bottom = 472.0
 theme_override_fonts/font = ExtResource("3_xcelq")
 theme_override_font_sizes/font_size = 36
 text = "Babies died:"
