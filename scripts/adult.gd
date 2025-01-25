@@ -1,4 +1,4 @@
-extends CharacterBody2D
+class_name Adult extends CharacterBody2D
 
 const speed = 120
 const accel = 20

@@ -5,10 +5,10 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_2vudp"]
 size = Vector2(94, 125.5)
 
-[node name="Exit" type="StaticBody2D"]
-collision_layer = 2
-collision_mask = 3
+[node name="Exit" type="Area2D"]
 script = ExtResource("1_2gj2p")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_2vudp")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
