@@ -19869,6 +19869,7 @@ texture = ExtResource("2_i284k")
 sources/0 = SubResource("TileSetAtlasSource_e0vks")
 
 [node name="Level" type="Node"]
+process_mode = 1
 script = ExtResource("1_3lawp")
 
 [node name="RoundManager" parent="." instance=ExtResource("2_dl2i1")]

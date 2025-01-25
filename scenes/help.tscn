@@ -10,6 +10,7 @@ font = ExtResource("2_ciugm")
 font_size = 48
 
 [node name="Help" type="Node2D"]
+process_mode = 3
 script = ExtResource("1_lu8qc")
 
 [node name="Background" type="ColorRect" parent="."]
