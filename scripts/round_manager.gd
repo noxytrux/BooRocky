@@ -5,25 +5,37 @@ class_name RoundManager extends Node
 var currentPoints : float
 var deadBabyCount : int
 var survivedBabyCount : int
+var babySatisfedNumber : int 
 var leftBaby
 var pointsMultiplier = 100
+var satisfyPointsMultiplier = 25
 var IsRoundOn : bool
   
 func BabyDied() -> void:
 	deadBabyCount += 1
 	CheckIfAllBabysAreDeadOrSurvived()
+	UpdatePoint()
 	
 func BabySurvive() -> void:
 	survivedBabyCount += 1
 	CheckIfAllBabysAreDeadOrSurvived()
+	UpdatePoint()
+	
+func BabySatisfy() -> void:
+	babySatisfedNumber += 1
+	UpdatePoint()
 
 func CheckIfAllBabysAreDeadOrSurvived() -> void:
 	if(deadBabyCount + survivedBabyCount == babyCountInRound):
 		FinishRound();
 		
-func SumPoint() -> void:
-	currentPoints = babyCountInRound - deadBabyCount
+func UpdatePoint() -> void:
+	currentPoints = survivedBabyCount - deadBabyCount
 	currentPoints *= 100
+	
+	currentPoints += babySatisfedNumber * satisfyPointsMultiplier
+	
+	%LevelGUI.points = currentPoints
 	
 func GetStars() -> int:
 	var MaxPoints = babyCountInRound * 100
