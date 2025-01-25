@@ -59,10 +59,6 @@ func on_escape_pressed() -> void:
 		switch_to_menu()
 	else:
 		assert(false, "Unexpected scene type.")
-
-func _ready() -> void:
-	# Other scripts for root scene nodes have it set in the Inspector, here we need to set it here.
-	process_mode = PROCESS_MODE_ALWAYS
 	
 func _process(_delta: float) -> void:
 	if Input.is_action_just_pressed("Escape"):

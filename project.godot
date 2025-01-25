@@ -17,7 +17,7 @@ config/icon="res://icon.svg"
 
 [autoload]
 
-SingletonObject="*res://scripts/singleton.gd"
+SingletonObject="*res://scenes/singleton.tscn"
 
 [display]
 
