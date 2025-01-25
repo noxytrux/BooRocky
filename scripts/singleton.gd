@@ -20,21 +20,28 @@ func switch_to_help() -> void:
 
 func back_from_help() -> void:
 	if gameplay_running:
-		pass # TODO
-		#help_on_top_of_gameplay = false
+		resume_gameplay()
 	else:
 		switch_to_menu()
 
+func get_scene_node() -> Node:
+	# 0th is autoloaded SingletonObject.
+	return get_tree().root.get_child(1)
+
 func resume_gameplay() -> void:
-	pass # TODO
-	#help_on_top_of_gameplay = false
+	var scene_node = get_scene_node()
+	var help_scene_node = scene_node.find_child("Help")
+	assert(help_scene_node != null)
+	help_scene_node.queue_free()
+	help_on_top_of_gameplay = false
 
 func pause_gameplay_show_help() -> void:
-	pass # TODO
-	#help_on_top_of_gameplay = true
+	help_on_top_of_gameplay = true
+	var help_node = HELP_SCENE.instantiate()
+	get_scene_node().add_child(help_node)
 	
 func on_escape_pressed() -> void:
-	var scene_node = get_tree().root.get_child(1) # 0th is autoloaded SingletonObject.
+	var scene_node = get_scene_node()
 	if help_on_top_of_gameplay:
 		assert(is_instance_of(scene_node, LevelScene))
 		resume_gameplay()
