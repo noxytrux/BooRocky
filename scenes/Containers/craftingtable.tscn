@@ -25,11 +25,11 @@ one_shot = true
 [node name="ProgressBar" type="ProgressBar" parent="."]
 visible = false
 modulate = Color(0, 1, 0, 1)
-offset_left = -35.0
-offset_top = -97.0
-offset_right = 31.0
-offset_bottom = -87.0
-scale = Vector2(1, 1.4)
+offset_left = -47.0
+offset_top = -100.0
+offset_right = 19.0
+offset_bottom = -84.0
+scale = Vector2(1.429, 1.428)
 theme = ExtResource("2_iupgc")
 value = 100.0
 show_percentage = false
