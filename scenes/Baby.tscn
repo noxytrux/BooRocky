@@ -123,11 +123,17 @@ animations = [{
 
 [node name="Baby" type="Node2D"]
 script = ExtResource("1_8hdff")
-SelectedType = null
 
 [node name="Body" type="AnimatedSprite2D" parent="."]
-position = Vector2(0, -9)
+position = Vector2(-1, -33)
+scale = Vector2(4, 4)
 sprite_frames = SubResource("SpriteFrames_ok0a2")
 animation = &"idle"
 autoplay = "idle"
-frame_progress = 0.632457
+frame_progress = 0.767066
+
+[node name="need_timer" type="Timer" parent="."]
+wait_time = 15.0
+one_shot = true
+
+[connection signal="timeout" from="need_timer" to="." method="_on_need_timer_timeout"]

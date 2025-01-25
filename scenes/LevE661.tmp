@@ -19929,6 +19929,7 @@ HoldItem = NodePath("Baby")
 
 [node name="Baby" parent="Container42" instance=ExtResource("8_q2bnu")]
 scale = Vector2(2, 2)
+SelectedType = 0
 
 [node name="Container43" parent="." instance=ExtResource("5_xvupt")]
 position = Vector2(720, 122)
