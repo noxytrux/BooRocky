@@ -12,7 +12,7 @@ func _process(delta: float) -> void:
 	if progress_bar.visible:
 		var progress = (craft_item_timer.time_left / craft_item_timer.wait_time)
 		progress_bar.value = progress * 100.0
-		progress_bar.modulate = Color((1.0 - progress), progress, 0.0, 1.0)
+		progress_bar.modulate = GlobalValues.progress_to_color(progress)
 
 func PlaceItem(item: ItemBase) -> void:
 	if(item == null):

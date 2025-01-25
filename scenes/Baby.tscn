@@ -1,4 +1,4 @@
-[gd_scene load_steps=31 format=3 uid="uid://lx0gejmnm31w"]
+[gd_scene load_steps=29 format=3 uid="uid://lx0gejmnm31w"]
 
 [ext_resource type="Script" path="res://scripts/baby.gd" id="1_8hdff"]
 [ext_resource type="Texture2D" uid="uid://1xw4lys1u504" path="res://Assets/characters/baby/baby walk down.png" id="2_a7dms"]
@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://bgws8vo22lmsp" path="res://Assets/characters/baby/baby idle right.png" id="4_mysk8"]
 [ext_resource type="Texture2D" uid="uid://qeyk5kyfu8bb" path="res://Assets/emoji_white_bubble/bubble_white_01_77.png" id="5_cgvef"]
 [ext_resource type="AudioStream" uid="uid://tpfg4h5xwbff" path="res://sfx/sound/Big Egg collect 1.wav" id="6_3lbtd"]
+[ext_resource type="Theme" uid="uid://7l7pjmgaud4p" path="res://progress_bar_theme.tres" id="6_bebys"]
 [ext_resource type="AudioStream" uid="uid://bchyim1bj568" path="res://sfx/sound/Boss hit 1.wav" id="7_qeu7w"]
 [ext_resource type="AudioStream" uid="uid://b0g3vcyfsxspy" path="res://sfx/sound/Blow 2.wav" id="8_ledxe"]
 [ext_resource type="AudioStream" uid="uid://bd8uj1pgdwegu" path="res://sfx/sound/Block Break 1.wav" id="9_2crm6"]
@@ -126,16 +127,6 @@ animations = [{
 "speed": 8.0
 }]
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_sa7hq"]
-bg_color = Color(0, 0, 0, 1)
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_k1xgg"]
-bg_color = Color(1, 1, 1, 1)
-
-[sub_resource type="Theme" id="Theme_30mxu"]
-ProgressBar/styles/background = SubResource("StyleBoxFlat_sa7hq")
-ProgressBar/styles/fill = SubResource("StyleBoxFlat_k1xgg")
-
 [sub_resource type="Animation" id="Animation_aejxh"]
 length = 0.001
 tracks/0/type = "value"
@@ -201,7 +192,7 @@ offset_top = -97.0
 offset_right = 31.0
 offset_bottom = -87.0
 scale = Vector2(1, 1.4)
-theme = SubResource("Theme_30mxu")
+theme = ExtResource("6_bebys")
 value = 100.0
 show_percentage = false
 

@@ -20190,6 +20190,7 @@ offset_right = 1997.0
 offset_bottom = 96.0
 
 [node name="Label" type="Label" parent="LevelGUI/Bkg"]
+layout_mode = 0
 offset_left = 28.0
 offset_top = 95.0
 offset_right = 152.0
