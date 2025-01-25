@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cvw01qpghwk1p"
+path="res://.godot/imported/Suck 1V2.wav-f924cf978e5c7b4ad9577d066de7fcd2.sample"
+
+[deps]
+
+source_file="res://sfx/sound/Suck 1V2.wav"
+dest_files=["res://.godot/imported/Suck 1V2.wav-f924cf978e5c7b4ad9577d066de7fcd2.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
