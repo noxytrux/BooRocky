@@ -1,4 +1,4 @@
-[gd_scene load_steps=42 format=4 uid="uid://cocdtyhxx0dqo"]
+[gd_scene load_steps=43 format=4 uid="uid://cocdtyhxx0dqo"]
 
 [ext_resource type="Script" path="res://scripts/level.gd" id="1_3lawp"]
 [ext_resource type="Texture2D" uid="uid://cp2u4l81t38uc" path="res://Assets/Green.png" id="1_66r1e"]
@@ -19903,8 +19903,13 @@ sources/0 = SubResource("TileSetAtlasSource_e0vks")
 
 [sub_resource type="LabelSettings" id="LabelSettings_so4gl"]
 font = ExtResource("21_a0613")
-font_size = 32
+font_size = 24
 font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_dl23x"]
+font = ExtResource("21_a0613")
+font_size = 24
+font_color = Color(1, 0, 0, 1)
 
 [node name="Level" type="Node"]
 process_mode = 1
@@ -20184,19 +20189,30 @@ unique_name_in_owner = true
 script = ExtResource("21_p4x4h")
 
 [node name="Bkg" type="ColorRect" parent="LevelGUI"]
-offset_left = 1548.0
+offset_left = 1537.0
 offset_top = -67.0
 offset_right = 1997.0
-offset_bottom = 96.0
+offset_bottom = 86.0
+color = Color(1, 1, 1, 0.780392)
 
 [node name="Label" type="Label" parent="LevelGUI/Bkg"]
 layout_mode = 0
-offset_left = 28.0
-offset_top = 95.0
-offset_right = 152.0
-offset_bottom = 127.0
+offset_left = 30.0
+offset_top = 92.0
+offset_right = 180.0
+offset_bottom = 124.0
 text = "0 points"
 label_settings = SubResource("LabelSettings_so4gl")
+
+[node name="AdditionLabel" type="Label" parent="LevelGUI/Bkg"]
+visible = false
+layout_mode = 0
+offset_left = 254.0
+offset_top = 92.0
+offset_right = 376.0
+offset_bottom = 124.0
+text = "+200"
+label_settings = SubResource("LabelSettings_dl23x")
 
 [connection signal="tree_entered" from="." to="." method="_on_tree_entered"]
 [connection signal="tree_exiting" from="." to="." method="_on_tree_exiting"]

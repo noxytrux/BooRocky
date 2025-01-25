@@ -1,4 +1,4 @@
-[gd_resource type="Theme" load_steps=5 format=3 uid="uid://d34bl3mi83oog"]
+[gd_resource type="Theme" load_steps=5 format=3 uid="uid://bn7tf70nor1sb"]
 
 [ext_resource type="FontFile" uid="uid://ch34o33lt8ea4" path="res://Assets/Fonts/PixelOperator8.ttf" id="1_pwvr7"]
 [ext_resource type="StyleBox" uid="uid://cg04b7s57mdnq" path="res://Assets/gui/button_style_hover.tres" id="2_4x1g6"]
