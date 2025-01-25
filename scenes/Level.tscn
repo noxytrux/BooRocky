@@ -18,7 +18,7 @@
 [ext_resource type="PackedScene" uid="uid://cmecyniwni6lo" path="res://scenes/Items/part.tscn" id="15_k6e2a"]
 [ext_resource type="PackedScene" uid="uid://bt3lycrlbp4ku" path="res://scenes/Items/substance.tscn" id="16_t22ny"]
 [ext_resource type="PackedScene" uid="uid://dbtbpadejolei" path="res://scenes/Items/toy.tscn" id="17_hdcir"]
-[ext_resource type="PackedScene" uid="uid://p06n5yppjq4b" path="res://scenes/Exit.tscn" id="19_n0vps"]
+[ext_resource type="PackedScene" path="res://scenes/Exit.tscn" id="19_n0vps"]
 
 [sub_resource type="NavigationPolygon" id="NavigationPolygon_qxdem"]
 vertices = PackedVector2Array(8, 8, -8, 8, -8, -8, 8, -8)

@@ -1,4 +1,4 @@
-extends Node
+class_name LevelScene extends Node
 
 @onready var player_spawners_node: Node2D = $PlayerSpawners
 
