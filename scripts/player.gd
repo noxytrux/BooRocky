@@ -7,7 +7,6 @@ const DASH_SPEED := 1000.0
 @export var cloth_color_modulate := Color.WHITE
 @export var hair_color_modulate := Color.WHITE
 
-@onready var polygon_2d: Polygon2D = $Polygon2D
 @onready var sprites: Node2D = $Sprites
 @onready var animated_sprite_2d_clothes: AnimatedSprite2D = $Sprites/AnimatedSprite2D_Clothes
 @onready var animated_sprite_2d_hair: AnimatedSprite2D = $Sprites/AnimatedSprite2D_Hair
@@ -15,6 +14,7 @@ const DASH_SPEED := 1000.0
 @onready var dash_active_timer: Timer = $DashActiveTimer
 
 var direction := GlobalValues.DIRECTION.NONE
+var is_input_enabled := false # Disabled during startup.
 var is_walking := false
 var is_dash_active := false
 var is_dash_ready := true
@@ -51,10 +51,14 @@ func Interaction() -> void:
 					hit.PlaceItem(HoldItem)
 					HoldItem = null
 
-func _physics_process(delta: float) -> void:
-	var dir = GlobalValues.GetInputDirection(input_device)
-	var action1 := GlobalValues.IsInputAction1Pressed(input_device)
-	var action2 := GlobalValues.IsInputAction2Pressed(input_device)
+func _physics_process(_delta: float) -> void:
+	var dir := Vector2.ZERO
+	var action1 := false
+	var action2 := false
+	if is_input_enabled:
+		dir = GlobalValues.GetInputDirection(input_device)
+		action1 = GlobalValues.IsInputAction1Pressed(input_device)
+		action2 = GlobalValues.IsInputAction2Pressed(input_device)
 	# Introduce dead zone.
 	var new_is_walking := false
 	var new_dir_enum = direction
@@ -110,6 +114,10 @@ func _on_dash_cooldown_timer_timeout() -> void:
 
 func _on_dash_active_timer_timeout() -> void:
 	is_dash_active = false
+	
+# Called from AnimationPlayer as a callback at the end.
+func _on_startup_finished() -> void:
+	is_input_enabled = true
 
 func SetRaycastDirection() -> void:
 	match direction:
