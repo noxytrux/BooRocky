@@ -1,4 +1,4 @@
-[gd_scene load_steps=28 format=4 uid="uid://cocdtyhxx0dqo"]
+[gd_scene load_steps=29 format=4 uid="uid://cocdtyhxx0dqo"]
 
 [ext_resource type="Script" path="res://scripts/level.gd" id="1_3lawp"]
 [ext_resource type="Texture2D" uid="uid://cp2u4l81t38uc" path="res://Assets/Green.png" id="1_66r1e"]
@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://b6yx08dnl1u10" path="res://scenes/Containers/container.tscn" id="5_xvupt"]
 [ext_resource type="PackedScene" uid="uid://dcjde67tyb40a" path="res://scenes/Items/Drug.tscn" id="6_iitf7"]
 [ext_resource type="PackedScene" uid="uid://cgeyearammmm1" path="res://scenes/Items/DirtyPampers.tscn" id="7_e67ip"]
+[ext_resource type="PackedScene" uid="uid://byk6n8lb2dv7" path="res://scenes/Containers/craftingtable.tscn" id="7_wur7e"]
 [ext_resource type="PackedScene" uid="uid://lx0gejmnm31w" path="res://scenes/Baby.tscn" id="8_q2bnu"]
 [ext_resource type="PackedScene" uid="uid://c2ionkid7ua5m" path="res://scenes/Containers/TrashCan.tscn" id="9_4djc4"]
 [ext_resource type="PackedScene" path="res://scenes/player_spawner.tscn" id="9_eeq8j"]
@@ -19881,18 +19882,16 @@ scale = Vector2(0.5, 0.5)
 position = Vector2(1121, 635)
 scale = Vector2(0.5, 0.5)
 
-[node name="Container9" parent="." node_paths=PackedStringArray("HoldItem") instance=ExtResource("5_xvupt")]
-position = Vector2(1587, 162)
-scale = Vector2(0.5, 0.5)
-HoldItem = NodePath("Food")
+[node name="Craftingtable" parent="." instance=ExtResource("7_wur7e")]
+position = Vector2(1584, 165)
+scale = Vector2(0.7, 0.7)
+mapa = {
+1: ExtResource("11_ktv26")
+}
 
-[node name="Food" parent="Container9" instance=ExtResource("6_iitf7")]
-position = Vector2(0, 228)
-scale = Vector2(2, 2)
-
-[node name="Container10" parent="." instance=ExtResource("5_xvupt")]
-position = Vector2(1730, 162)
-scale = Vector2(0.5, 0.5)
+[node name="Craftingtable2" parent="." instance=ExtResource("7_wur7e")]
+position = Vector2(1728, 165)
+scale = Vector2(0.7, 0.7)
 
 [node name="Container11" parent="." instance=ExtResource("5_xvupt")]
 position = Vector2(1444, 100)

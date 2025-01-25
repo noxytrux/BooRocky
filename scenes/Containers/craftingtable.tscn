@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://byk6n8lb2dv7"]
+
+[ext_resource type="Script" path="res://scripts/craftingtable.gd" id="1_wam44"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pci1g"]
+size = Vector2(129, 128)
+
+[node name="Craftingtable" type="StaticBody2D"]
+collision_layer = 32768
+collision_mask = 32768
+script = ExtResource("1_wam44")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_pci1g")
+
+[node name="ItemAnchor" type="Node2D" parent="."]
+
+[node name="CraftItemTimer" type="Timer" parent="."]
+wait_time = 2.0
+one_shot = true
+
+[connection signal="timeout" from="CraftItemTimer" to="." method="_on_spawn_item_timer_timeout"]
+[connection signal="timeout" from="CraftItemTimer" to="." method="_on_craft_item_timer_timeout"]
