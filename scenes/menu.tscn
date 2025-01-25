@@ -34,17 +34,28 @@ color = Color(0.0334679, 0.325726, 0.229589, 1)
 
 [node name="Play" type="Button" parent="Buttons"]
 offset_left = 695.0
-offset_top = 343.0
+offset_top = 267.0
 offset_right = 1255.0
-offset_bottom = 491.0
+offset_bottom = 415.0
+size_flags_horizontal = 0
 theme = ExtResource("1_wg03p")
 text = "PLAY"
 
+[node name="Help" type="Button" parent="Buttons"]
+offset_left = 695.0
+offset_top = 448.0
+offset_right = 1255.0
+offset_bottom = 596.0
+size_flags_horizontal = 0
+theme = ExtResource("1_wg03p")
+text = "HELP"
+
 [node name="Exit" type="Button" parent="Buttons"]
 offset_left = 695.0
-offset_top = 573.0
+offset_top = 630.0
 offset_right = 1255.0
-offset_bottom = 721.0
+offset_bottom = 778.0
+size_flags_horizontal = 0
 theme = ExtResource("1_wg03p")
 text = "ABORT"
 
@@ -85,4 +96,5 @@ text = "by team BooRocky"
 label_settings = SubResource("LabelSettings_jl25l")
 
 [connection signal="pressed" from="Buttons/Play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="Buttons/Help" to="." method="_on_help_pressed"]
 [connection signal="pressed" from="Buttons/Exit" to="." method="_on_exit_pressed"]
