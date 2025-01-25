@@ -104,7 +104,7 @@ func grownup() -> bool:
 		if not exits.is_empty():
 			round_manager.BabySurvive()
 			var adult = ADULT.instantiate()
-			var exit = exits.pick_random();
+			var exit = exits.pick_random()
 			exit.get_parent().get_parent().add_child(adult)
 
 			adult.destination = exit

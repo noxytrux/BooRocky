@@ -27,7 +27,7 @@ func BabySatisfy() -> void:
 
 func CheckIfAllBabysAreDeadOrSurvived() -> void:
 	if(deadBabyCount + survivedBabyCount == babyCountInRound):
-		FinishRound();
+		FinishRound()
 		
 func UpdatePoint() -> void:
 	currentPoints = survivedBabyCount - deadBabyCount

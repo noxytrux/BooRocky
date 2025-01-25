@@ -6,7 +6,7 @@ func PlaceItem(item: ItemBase) -> void:
 		return
 	
 	if not audio_stream_player_2d.playing:
-		audio_stream_player_2d.play();
+		audio_stream_player_2d.play()
 	
 	item.get_parent().remove_child(item)
 	ItemAnchor.add_child(item)
