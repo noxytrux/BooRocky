@@ -250,8 +250,9 @@ animations = [{
 "speed": 8.0
 }]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_kgi8q"]
-radius = 11.7178
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_umrlg"]
+radius = 7.42857
+height = 21.7143
 
 [node name="Adult" type="CharacterBody2D"]
 scale = Vector2(3.5, 3.5)
@@ -265,10 +266,12 @@ animation = &"left"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-0.571429, 6.57143)
-shape = SubResource("CircleShape2D_kgi8q")
+shape = SubResource("CapsuleShape2D_umrlg")
 
 [node name="NavigationAgent2D" type="NavigationAgent2D" parent="."]
-path_desired_distance = 40.0
+path_desired_distance = 50.0
+target_desired_distance = 50.0
+path_max_distance = 200.0
 radius = 100.0
 debug_enabled = true
 
