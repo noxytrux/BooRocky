@@ -5,6 +5,8 @@ class_name Baby extends ItemBase
 @onready var need_icon: Sprite2D = $need_icon
 @onready var progress_bar: ProgressBar = $ProgressBar
 
+const DIAPER = preload("res://scenes/Items/DirtyPampers.tscn")
+
 const BUBBLE_HUNGRY = preload("res://Assets/emoji_white_bubble/bubble_white_01_17.png")
 const BUBBLE_DIRTY = preload("res://Assets/emoji_white_bubble/bubble_white_01_70.png")
 const BUBBLE_SAD = preload("res://Assets/emoji_white_bubble/bubble_white_01_68.png")
@@ -22,6 +24,7 @@ var animation_speed:float = .5
 var finished_dispose:bool = false
 var cooldown_need:bool = false
 var cooldown:float = 0.0
+var diaper:ItemBase = null
 
 enum BabyNeed 
 {
@@ -90,6 +93,8 @@ func PickUp() -> void:
 	body.play("bed")
 	
 func PutDown() -> void:
+	await get_tree().create_timer(1).timeout
+	
 	if current_need == BabyNeed.None:
 		DetermineNeed()
 
@@ -104,6 +109,11 @@ func DetermineNeed() -> void:
 	UpdateNeedIcon()
 	need_timer.start()
 	progress_bar.visible = true
+	
+	if current_need == BabyNeed.Dirty:
+		diaper = DIAPER.instantiate()
+		add_child(diaper)
+		diaper.position = position
 
 func UpdateNeedIcon() -> void:
 	need_icon.texture = need_to_icon[current_need]
@@ -131,8 +141,18 @@ func _on_need_timer_timeout() -> void:
 	progress_bar.visible = false
 	canpickup = true	
 	
+	if HasDiaper():
+		diaper.queue_free()
+	
 func IsDisposed() -> bool:
 	return finished_dispose
 	
 func CanBabyBeThrowAway() -> bool:
 	return dead and canpickup
+	
+func HasDiaper() -> bool:
+	return diaper != null
+	
+func GetDiaper() -> ItemBase:
+	remove_child(diaper)
+	return diaper
