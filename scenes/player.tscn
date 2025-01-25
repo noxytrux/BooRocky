@@ -3335,6 +3335,7 @@ motion_mode = 1
 script = ExtResource("1_uap0v")
 
 [node name="DashParticles" type="CPUParticles2D" parent="."]
+emitting = false
 amount = 24
 lifetime = 0.35
 explosiveness = 0.1
@@ -3346,7 +3347,7 @@ gravity = Vector2(0, 0)
 angle_max = 360.0
 scale_amount_min = 2.0
 scale_amount_max = 4.0
-color = Color(0.458977, 0.454398, 0.483738, 1)
+color = Color(0.341176, 0.337255, 0.360784, 0.505882)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, -1)
