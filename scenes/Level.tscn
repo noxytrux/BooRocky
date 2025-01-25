@@ -1,4 +1,4 @@
-[gd_scene load_steps=29 format=4 uid="uid://cocdtyhxx0dqo"]
+[gd_scene load_steps=31 format=4 uid="uid://cocdtyhxx0dqo"]
 
 [ext_resource type="Script" path="res://scripts/level.gd" id="1_3lawp"]
 [ext_resource type="Texture2D" uid="uid://cp2u4l81t38uc" path="res://Assets/Green.png" id="1_66r1e"]
@@ -6,14 +6,16 @@
 [ext_resource type="Texture2D" uid="uid://yakrpfebqq5w" path="res://Assets/market_atlas_32x.png" id="3_0h0ay"]
 [ext_resource type="PackedScene" uid="uid://b6yx08dnl1u10" path="res://scenes/Containers/container.tscn" id="5_xvupt"]
 [ext_resource type="PackedScene" uid="uid://dcjde67tyb40a" path="res://scenes/Items/Drug.tscn" id="6_iitf7"]
-[ext_resource type="PackedScene" uid="uid://cgeyearammmm1" path="res://scenes/Items/DirtyPampers.tscn" id="7_e67ip"]
+[ext_resource type="PackedScene" uid="uid://cgeyearammmm1" path="res://scenes/Items/dirtyPampers.tscn" id="7_e67ip"]
 [ext_resource type="PackedScene" uid="uid://byk6n8lb2dv7" path="res://scenes/Containers/craftingtable.tscn" id="7_wur7e"]
 [ext_resource type="PackedScene" uid="uid://lx0gejmnm31w" path="res://scenes/Baby.tscn" id="8_q2bnu"]
 [ext_resource type="PackedScene" uid="uid://c2ionkid7ua5m" path="res://scenes/Containers/TrashCan.tscn" id="9_4djc4"]
 [ext_resource type="PackedScene" path="res://scenes/player_spawner.tscn" id="9_eeq8j"]
 [ext_resource type="PackedScene" uid="uid://b7keuv2pstqvg" path="res://scenes/Containers/spawner.tscn" id="10_m1fv0"]
-[ext_resource type="PackedScene" uid="uid://0xe6bn660xrn" path="res://scenes/Items/Pampers.tscn" id="11_ktv26"]
-[ext_resource type="PackedScene" uid="uid://wmxx4fyomn1h" path="res://scenes/Items/Food.tscn" id="12_gmpix"]
+[ext_resource type="PackedScene" uid="uid://0xe6bn660xrn" path="res://scenes/Items/pampers.tscn" id="11_ktv26"]
+[ext_resource type="PackedScene" uid="uid://bjfu3xh0hhta" path="res://scenes/Items/ingredient.tscn" id="14_xpnb3"]
+[ext_resource type="PackedScene" uid="uid://cmecyniwni6lo" path="res://scenes/Items/part.tscn" id="15_k6e2a"]
+[ext_resource type="PackedScene" uid="uid://bt3lycrlbp4ku" path="res://scenes/Items/substance.tscn" id="16_t22ny"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_abpdh"]
 texture = ExtResource("2_i284k")
@@ -19862,189 +19864,197 @@ scale = Vector2(3, 3)
 tile_map_data = PackedByteArray("AAAWAAYAAAAYAAkAAAAXAAYAAAAZAAkAAAAYAAYAAAAaAAkAAAAZAAYAAAAbAAkAAAAaAAYAAAAdAAkAAAAaAAwAAAAdAAkAAAAWAAwAAAAYAAkAAAAXAAwAAAAZAAkAAAAYAAwAAAAaAAkAAAAZAAwAAAAbAAkAAAAWABIAAAAkAB0AAAAXABIAAAAlAB0AAAAYABIAAAAmAB0AAAAZABIAAAAnAB0AAAAcABIAAAAkAB0AAAAdABIAAAAlAB0AAAAeABIAAAAmAB0AAAAfABIAAAAnAB0AAAAWABMAAAAkAB4AAAAXABMAAAAlAB4AAAAYABMAAAAmAB4AAAAZABMAAAAnAB4AAAAcABMAAAAkAB4AAAAdABMAAAAlAB4AAAAeABMAAAAmAB4AAAAfABMAAAAnAB4AAAAWAAcAAAAYAAoAAAAXAAcAAAAZAAoAAAAYAAcAAAAaAAoAAAAZAAcAAAAbAAoAAAAaAAcAAAAdAAoAAAAaAA0AAAAdAAoAAAAWAA0AAAAYAAoAAAAXAA0AAAAZAAoAAAAYAA0AAAAaAAoAAAAZAA0AAAAbAAoAAAABABUAAAADAAsAAAACABUAAAADAAsAAAADABUAAAADAAsAAAAEABUAAAADAAsAAAAFABUAAAADAAsAAAAGABUAAAADAAsAAAAHABUAAAADAAsAAAAIABUAAAADAAsAAAAJABUAAAADAAsAAAAKABUAAAADAAsAAAALABUAAAADAAsAAAAMABUAAAADAAsAAAANABUAAAADAAsAAAAOABUAAAADAAsAAAAPABUAAAADAAsAAAAQABUAAAADAAsAAAARABUAAAADAAsAAAASABUAAAADAAsAAAATABUAAAADAAsAAAAUABUAAAADAAsAAAAVABUAAAADAAsAAAAWABUAAAADAAsAAAAXABUAAAADAAsAAAAYABUAAAADAAsAAAAZABUAAAADAAsAAAAaABUAAAADAAsAAAAbABUAAAADAAsAAAAcABUAAAADAAsAAAAdABUAAAADAAsAAAAeABUAAAADAAsAAAAfABUAAAADAAsAAAAgABUAAAADAAsAAAAhABUAAAADAAsAAAAiABUAAAADAAsAAAAjABUAAAADAAsAAAAkABUAAAADAAsAAAAlABUAAAADAAsAAAAmABUAAAADAAsAAAAAABYAAAAFAB4AAAABABYAAAAFAB4AAAACABYAAAAFAB4AAAADABYAAAAFAB4AAAAEABYAAAAFAB4AAAAFABYAAAAFAB4AAAAGABYAAAAFAB4AAAAHABYAAAAFAB4AAAAIABYAAAAFAB4AAAAJABYAAAAFAB4AAAAKABYAAAAFAB4AAAALABYAAAAFAB4AAAAMABYAAAAFAB4AAAANABYAAAAFAB4AAAAOABYAAAAFAB4AAAAPABYAAAAFAB4AAAAQABYAAAAFAB4AAAARABYAAAAFAB4AAAASABYAAAAFAB4AAAATABYAAAAFAB4AAAAUABYAAAAFAB4AAAAVABYAAAAFAB4AAAAWABYAAAAFAB4AAAAXABYAAAAFAB4AAAAYABYAAAAFAB4AAAAZABYAAAAFAB4AAAAaABYAAAAFAB4AAAAbABYAAAAFAB4AAAAcABYAAAAFAB4AAAAdABYAAAAFAB4AAAAeABYAAAAFAB4AAAAfABYAAAAFAB4AAAAgABYAAAAFAB4AAAAhABYAAAAFAB4AAAAiABYAAAAFAB4AAAAjABYAAAAFAB4AAAAkABYAAAAFAB4AAAAlABYAAAAFAB4AAAAmABYAAAAFAB4AAAAnABYAAAAFAB4AAAA=")
 tile_set = SubResource("TileSet_4nyak")
 
-[node name="Container" parent="." instance=ExtResource("5_xvupt")]
+[node name="Containers" type="Node" parent="."]
+
+[node name="Container" parent="Containers" instance=ExtResource("5_xvupt")]
 position = Vector2(1116, 346)
 scale = Vector2(0.5, 0.5)
 
-[node name="Container2" parent="." instance=ExtResource("5_xvupt")]
+[node name="Container2" parent="Containers" instance=ExtResource("5_xvupt")]
 position = Vector2(1116, 419)
 scale = Vector2(0.5, 0.5)
 
-[node name="Container3" parent="." instance=ExtResource("5_xvupt")]
+[node name="Container3" parent="Containers" instance=ExtResource("5_xvupt")]
 position = Vector2(1229, 346)
 scale = Vector2(0.5, 0.5)
 
-[node name="Container4" parent="." instance=ExtResource("5_xvupt")]
+[node name="Container4" parent="Containers" instance=ExtResource("5_xvupt")]
 position = Vector2(1230, 422)
 scale = Vector2(0.5, 0.5)
 
-[node name="Container5" parent="." instance=ExtResource("5_xvupt")]
+[node name="Container5" parent="Containers" instance=ExtResource("5_xvupt")]
 position = Vector2(1121, 635)
 scale = Vector2(0.5, 0.5)
 
-[node name="Craftingtable" parent="." instance=ExtResource("7_wur7e")]
+[node name="Container11" parent="Containers" instance=ExtResource("5_xvupt")]
+position = Vector2(1444, 100)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container15" parent="Containers" instance=ExtResource("5_xvupt")]
+position = Vector2(914, 307)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container16" parent="Containers" node_paths=PackedStringArray("HoldItem") instance=ExtResource("5_xvupt")]
+position = Vector2(912, 545)
+scale = Vector2(0.5, 0.5)
+HoldItem = NodePath("Food")
+
+[node name="Food" parent="Containers/Container16" instance=ExtResource("6_iitf7")]
+scale = Vector2(2, 2)
+
+[node name="Container17" parent="Containers" instance=ExtResource("5_xvupt")]
+position = Vector2(915, 799)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container18" parent="Containers" instance=ExtResource("5_xvupt")]
+position = Vector2(142, 299)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container19" parent="Containers" instance=ExtResource("5_xvupt")]
+position = Vector2(336, 302)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container20" parent="Containers" instance=ExtResource("5_xvupt")]
+position = Vector2(530, 299)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container41" parent="Containers" instance=ExtResource("5_xvupt")]
+position = Vector2(431, 118)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container42" parent="Containers" node_paths=PackedStringArray("HoldItem") instance=ExtResource("5_xvupt")]
+position = Vector2(141, 122)
+scale = Vector2(0.5, 0.5)
+HoldItem = NodePath("Baby")
+
+[node name="Baby" parent="Containers/Container42" instance=ExtResource("8_q2bnu")]
+scale = Vector2(2, 2)
+
+[node name="Container43" parent="Containers" instance=ExtResource("5_xvupt")]
+position = Vector2(720, 122)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container21" parent="Containers" instance=ExtResource("5_xvupt")]
+position = Vector2(720, 301)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container22" parent="Containers" instance=ExtResource("5_xvupt")]
+position = Vector2(142, 542)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container23" parent="Containers" instance=ExtResource("5_xvupt")]
+position = Vector2(336, 544)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container24" parent="Containers" instance=ExtResource("5_xvupt")]
+position = Vector2(528, 544)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container25" parent="Containers" instance=ExtResource("5_xvupt")]
+position = Vector2(722, 544)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container26" parent="Containers" instance=ExtResource("5_xvupt")]
+position = Vector2(147, 781)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container27" parent="Containers" instance=ExtResource("5_xvupt")]
+position = Vector2(337, 783)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container28" parent="Containers" instance=ExtResource("5_xvupt")]
+position = Vector2(526, 778)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container29" parent="Containers" instance=ExtResource("5_xvupt")]
+position = Vector2(718, 783)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container30" parent="Containers" instance=ExtResource("5_xvupt")]
+position = Vector2(239, 953)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container12" parent="Containers" instance=ExtResource("5_xvupt")]
+position = Vector2(1251, 102)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container13" parent="Containers" node_paths=PackedStringArray("HoldItem") instance=ExtResource("5_xvupt")]
+position = Vector2(1053, 97)
+scale = Vector2(0.5, 0.5)
+HoldItem = NodePath("Pampers")
+
+[node name="Pampers" parent="Containers/Container13" instance=ExtResource("7_e67ip")]
+position = Vector2(-2, 238)
+scale = Vector2(2, 2)
+
+[node name="Container6" parent="Containers" instance=ExtResource("5_xvupt")]
+position = Vector2(1121, 708)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container7" parent="Containers" instance=ExtResource("5_xvupt")]
+position = Vector2(1234, 635)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container8" parent="Containers" instance=ExtResource("5_xvupt")]
+position = Vector2(1235, 711)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container32" parent="Containers" instance=ExtResource("5_xvupt")]
+position = Vector2(1110, 930)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container33" parent="Containers" instance=ExtResource("5_xvupt")]
+position = Vector2(1197, 934)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container34" parent="Containers" instance=ExtResource("5_xvupt")]
+position = Vector2(1397, 927)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container35" parent="Containers" instance=ExtResource("5_xvupt")]
+position = Vector2(1483, 928)
+scale = Vector2(0.5, 0.5)
+
+[node name="Container39" parent="Containers" instance=ExtResource("5_xvupt")]
+position = Vector2(1828, 960)
+scale = Vector2(0.5, 0.5)
+
+[node name="TrashCans" type="Node" parent="."]
+
+[node name="TrashCan" parent="TrashCans" instance=ExtResource("9_4djc4")]
+position = Vector2(240, 958)
+scale = Vector2(0.6, 0.6)
+
+[node name="TrashCan2" parent="TrashCans" instance=ExtResource("9_4djc4")]
+position = Vector2(624, 958)
+scale = Vector2(0.6, 0.6)
+
+[node name="Spawners" type="Node" parent="."]
+
+[node name="Spawner" parent="Spawners" instance=ExtResource("10_m1fv0")]
+position = Vector2(1826, 384)
+scale = Vector2(0.7, 0.7)
+scene_to_load = ExtResource("14_xpnb3")
+
+[node name="Spawner2" parent="Spawners" instance=ExtResource("10_m1fv0")]
+position = Vector2(1826, 529)
+scale = Vector2(0.7, 0.7)
+scene_to_load = ExtResource("15_k6e2a")
+
+[node name="Spawner3" parent="Spawners" instance=ExtResource("10_m1fv0")]
+position = Vector2(1822, 670)
+scale = Vector2(0.7, 0.7)
+scene_to_load = ExtResource("16_t22ny")
+
+[node name="Craftingtables" type="Node" parent="."]
+
+[node name="Craftingtable" parent="Craftingtables" instance=ExtResource("7_wur7e")]
 position = Vector2(1584, 165)
 scale = Vector2(0.7, 0.7)
 mapa = {
 1: ExtResource("11_ktv26")
 }
 
-[node name="Craftingtable2" parent="." instance=ExtResource("7_wur7e")]
+[node name="Craftingtable2" parent="Craftingtables" instance=ExtResource("7_wur7e")]
 position = Vector2(1728, 165)
 scale = Vector2(0.7, 0.7)
-
-[node name="Container11" parent="." instance=ExtResource("5_xvupt")]
-position = Vector2(1444, 100)
-scale = Vector2(0.5, 0.5)
-
-[node name="Container15" parent="." instance=ExtResource("5_xvupt")]
-position = Vector2(914, 307)
-scale = Vector2(0.5, 0.5)
-
-[node name="Container16" parent="." node_paths=PackedStringArray("HoldItem") instance=ExtResource("5_xvupt")]
-position = Vector2(912, 545)
-scale = Vector2(0.5, 0.5)
-HoldItem = NodePath("Food")
-
-[node name="Food" parent="Container16" instance=ExtResource("6_iitf7")]
-scale = Vector2(2, 2)
-
-[node name="Container17" parent="." instance=ExtResource("5_xvupt")]
-position = Vector2(915, 799)
-scale = Vector2(0.5, 0.5)
-
-[node name="Container18" parent="." instance=ExtResource("5_xvupt")]
-position = Vector2(142, 299)
-scale = Vector2(0.5, 0.5)
-
-[node name="Container19" parent="." instance=ExtResource("5_xvupt")]
-position = Vector2(336, 302)
-scale = Vector2(0.5, 0.5)
-
-[node name="Container20" parent="." instance=ExtResource("5_xvupt")]
-position = Vector2(530, 299)
-scale = Vector2(0.5, 0.5)
-
-[node name="Container41" parent="." instance=ExtResource("5_xvupt")]
-position = Vector2(431, 118)
-scale = Vector2(0.5, 0.5)
-
-[node name="Container42" parent="." node_paths=PackedStringArray("HoldItem") instance=ExtResource("5_xvupt")]
-position = Vector2(141, 122)
-scale = Vector2(0.5, 0.5)
-HoldItem = NodePath("Baby")
-
-[node name="Baby" parent="Container42" instance=ExtResource("8_q2bnu")]
-scale = Vector2(2, 2)
-
-[node name="Container43" parent="." instance=ExtResource("5_xvupt")]
-position = Vector2(720, 122)
-scale = Vector2(0.5, 0.5)
-
-[node name="Container21" parent="." instance=ExtResource("5_xvupt")]
-position = Vector2(720, 301)
-scale = Vector2(0.5, 0.5)
-
-[node name="Container22" parent="." instance=ExtResource("5_xvupt")]
-position = Vector2(142, 542)
-scale = Vector2(0.5, 0.5)
-
-[node name="Container23" parent="." instance=ExtResource("5_xvupt")]
-position = Vector2(336, 544)
-scale = Vector2(0.5, 0.5)
-
-[node name="Container24" parent="." instance=ExtResource("5_xvupt")]
-position = Vector2(528, 544)
-scale = Vector2(0.5, 0.5)
-
-[node name="Container25" parent="." instance=ExtResource("5_xvupt")]
-position = Vector2(722, 544)
-scale = Vector2(0.5, 0.5)
-
-[node name="Container26" parent="." instance=ExtResource("5_xvupt")]
-position = Vector2(147, 781)
-scale = Vector2(0.5, 0.5)
-
-[node name="Container27" parent="." instance=ExtResource("5_xvupt")]
-position = Vector2(337, 783)
-scale = Vector2(0.5, 0.5)
-
-[node name="Container28" parent="." instance=ExtResource("5_xvupt")]
-position = Vector2(526, 778)
-scale = Vector2(0.5, 0.5)
-
-[node name="Container29" parent="." instance=ExtResource("5_xvupt")]
-position = Vector2(718, 783)
-scale = Vector2(0.5, 0.5)
-
-[node name="Container30" parent="." instance=ExtResource("5_xvupt")]
-position = Vector2(239, 953)
-scale = Vector2(0.5, 0.5)
-
-[node name="TrashCan" parent="." instance=ExtResource("9_4djc4")]
-position = Vector2(240, 958)
-scale = Vector2(0.6, 0.6)
-
-[node name="TrashCan2" parent="." instance=ExtResource("9_4djc4")]
-position = Vector2(624, 958)
-scale = Vector2(0.6, 0.6)
-
-[node name="Container12" parent="." instance=ExtResource("5_xvupt")]
-position = Vector2(1251, 102)
-scale = Vector2(0.5, 0.5)
-
-[node name="Container13" parent="." node_paths=PackedStringArray("HoldItem") instance=ExtResource("5_xvupt")]
-position = Vector2(1053, 97)
-scale = Vector2(0.5, 0.5)
-HoldItem = NodePath("Pampers")
-
-[node name="Pampers" parent="Container13" instance=ExtResource("7_e67ip")]
-position = Vector2(-2, 238)
-scale = Vector2(2, 2)
-
-[node name="Container6" parent="." instance=ExtResource("5_xvupt")]
-position = Vector2(1121, 708)
-scale = Vector2(0.5, 0.5)
-
-[node name="Container7" parent="." instance=ExtResource("5_xvupt")]
-position = Vector2(1234, 635)
-scale = Vector2(0.5, 0.5)
-
-[node name="Container8" parent="." instance=ExtResource("5_xvupt")]
-position = Vector2(1235, 711)
-scale = Vector2(0.5, 0.5)
-
-[node name="Container32" parent="." instance=ExtResource("5_xvupt")]
-position = Vector2(1110, 930)
-scale = Vector2(0.5, 0.5)
-
-[node name="Container33" parent="." instance=ExtResource("5_xvupt")]
-position = Vector2(1197, 934)
-scale = Vector2(0.5, 0.5)
-
-[node name="Container34" parent="." instance=ExtResource("5_xvupt")]
-position = Vector2(1397, 927)
-scale = Vector2(0.5, 0.5)
-
-[node name="Container35" parent="." instance=ExtResource("5_xvupt")]
-position = Vector2(1483, 928)
-scale = Vector2(0.5, 0.5)
-
-[node name="Spawner" parent="." instance=ExtResource("10_m1fv0")]
-position = Vector2(1826, 384)
-scale = Vector2(0.7, 0.7)
-scene_to_load = ExtResource("11_ktv26")
-
-[node name="Spawner2" parent="." instance=ExtResource("10_m1fv0")]
-position = Vector2(1826, 529)
-scale = Vector2(0.7, 0.7)
-scene_to_load = ExtResource("12_gmpix")
-
-[node name="Spawner3" parent="." instance=ExtResource("10_m1fv0")]
-position = Vector2(1822, 670)
-scale = Vector2(0.7, 0.7)
-scene_to_load = ExtResource("6_iitf7")
-
-[node name="Container39" parent="." instance=ExtResource("5_xvupt")]
-position = Vector2(1828, 960)
-scale = Vector2(0.5, 0.5)
