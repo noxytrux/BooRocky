@@ -23,6 +23,7 @@ font_size = 48
 font_color = Color(0.45098, 0.45098, 0.45098, 1)
 
 [node name="Menu" type="Node2D"]
+process_mode = 3
 script = ExtResource("1_81i6f")
 metadata/_edit_horizontal_guides_ = [1026.0, 931.0]
 
