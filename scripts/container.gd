@@ -29,3 +29,6 @@ func TakeItem() -> ItemBase:
 	
 func CanPlaceItem() -> bool:
 	return HoldItem == null
+	
+func PeekItem() -> ItemBase:
+	return HoldItem

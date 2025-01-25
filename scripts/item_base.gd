@@ -5,12 +5,13 @@ enum ITEM_TYPE
 	PAMPERS, 
 	DIRTY_PAMPERS,
 	FOOD,
-	DRUG
+	DRUG,
+	BABY
 }
 
 @export var SelectedType = ITEM_TYPE.PAMPERS
 
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	global_scale = Vector2(1.5,1.5)
 
 func IsPickable() -> bool:

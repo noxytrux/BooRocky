@@ -1,9 +1,10 @@
-[gd_scene load_steps=20 format=3 uid="uid://lx0gejmnm31w"]
+[gd_scene load_steps=21 format=3 uid="uid://lx0gejmnm31w"]
 
 [ext_resource type="Script" path="res://scripts/baby.gd" id="1_8hdff"]
 [ext_resource type="Texture2D" uid="uid://1xw4lys1u504" path="res://Assets/characters/baby/baby walk down.png" id="2_a7dms"]
 [ext_resource type="Texture2D" uid="uid://dhp1mbul8c4ui" path="res://Assets/characters/baby/baby die right.png" id="3_32cka"]
 [ext_resource type="Texture2D" uid="uid://bgws8vo22lmsp" path="res://Assets/characters/baby/baby idle right.png" id="4_mysk8"]
+[ext_resource type="Texture2D" uid="uid://qeyk5kyfu8bb" path="res://Assets/emoji_white_bubble/bubble_white_01_77.png" id="5_cgvef"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_minrb"]
 atlas = ExtResource("2_a7dms")
@@ -123,6 +124,7 @@ animations = [{
 
 [node name="Baby" type="Node2D"]
 script = ExtResource("1_8hdff")
+SelectedType = 4
 
 [node name="Body" type="AnimatedSprite2D" parent="."]
 position = Vector2(-1, -33)
@@ -135,5 +137,11 @@ frame_progress = 0.767066
 [node name="need_timer" type="Timer" parent="."]
 wait_time = 15.0
 one_shot = true
+
+[node name="need_icon" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-2, -60)
+scale = Vector2(2, 2)
+texture = ExtResource("5_cgvef")
 
 [connection signal="timeout" from="need_timer" to="." method="_on_need_timer_timeout"]
