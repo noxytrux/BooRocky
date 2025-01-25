@@ -107,6 +107,7 @@ func _physics_process(_delta: float) -> void:
 		dash_particles.emitting = true
 		dash_cooldown_timer.start()
 		dash_active_timer.start()
+		$AnimationPlayer.play("dash")
 	
 	velocity = dir * (SPEED if not is_dash_active else DASH_SPEED)
 	move_and_slide()

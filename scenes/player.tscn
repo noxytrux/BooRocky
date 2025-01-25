@@ -1,4 +1,4 @@
-[gd_scene load_steps=448 format=3 uid="uid://d21g3qba2slgn"]
+[gd_scene load_steps=449 format=3 uid="uid://d21g3qba2slgn"]
 
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_uap0v"]
 [ext_resource type="Texture2D" uid="uid://dd638udm55ppn" path="res://Assets/animation/fire.png" id="2_gvfyq"]
@@ -3294,6 +3294,18 @@ tracks/0/keys = {
 "update": 1,
 "values": [true]
 }
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprites:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(3, 3)]
+}
 
 [sub_resource type="Animation" id="Animation_pn2cl"]
 resource_name = "startup"
@@ -3324,9 +3336,26 @@ tracks/1/keys = {
 }]
 }
 
+[sub_resource type="Animation" id="Animation_lyees"]
+resource_name = "dash"
+length = 0.35
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprites:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.333333),
+"transitions": PackedFloat32Array(1, 0.500003, 1),
+"update": 0,
+"values": [Vector2(3, 3), Vector2(3, 2.5), Vector2(3, 3)]
+}
+
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_aok7f"]
 _data = {
 "RESET": SubResource("Animation_msvf8"),
+"dash": SubResource("Animation_lyees"),
 "startup": SubResource("Animation_pn2cl")
 }
 
@@ -3354,31 +3383,35 @@ position = Vector2(0, -1)
 shape = SubResource("RectangleShape2D_f4aq1")
 
 [node name="Sprites" type="Node2D" parent="."]
-position = Vector2(0, -19)
 scale = Vector2(3, 3)
 
 [node name="AnimatedSprite2D_Body" type="AnimatedSprite2D" parent="Sprites"]
+position = Vector2(0, -6.33333)
 sprite_frames = SubResource("SpriteFrames_tbnna")
 animation = &"carry_right"
 autoplay = "walk_down"
 frame_progress = 0.370298
 
 [node name="AnimatedSprite2D_Clothes" type="AnimatedSprite2D" parent="Sprites"]
+position = Vector2(0, -6.33333)
 sprite_frames = SubResource("SpriteFrames_85o0s")
 animation = &"carry_left"
 autoplay = "walk_down"
 
 [node name="AnimatedSprite2D_Pants" type="AnimatedSprite2D" parent="Sprites"]
+position = Vector2(0, -6.33333)
 sprite_frames = SubResource("SpriteFrames_xxhc3")
 animation = &"pickup_right"
 autoplay = "walk_down"
 
 [node name="AnimatedSprite2D_Shoes" type="AnimatedSprite2D" parent="Sprites"]
+position = Vector2(0, -6.33333)
 sprite_frames = SubResource("SpriteFrames_mje70")
 animation = &"carry_down"
 autoplay = "walk_down"
 
 [node name="AnimatedSprite2D_Hair" type="AnimatedSprite2D" parent="Sprites"]
+position = Vector2(0, -6.33333)
 sprite_frames = SubResource("SpriteFrames_4fahu")
 animation = &"carry_left"
 autoplay = "walk_down"
