@@ -3,6 +3,7 @@ class_name Baby extends ItemBase
 @onready var body: AnimatedSprite2D = $Body
 @onready var need_timer: Timer = $need_timer
 @onready var need_icon: Sprite2D = $need_icon
+@onready var progress_bar: ProgressBar = $ProgressBar
 
 const BUBBLE_HUNGRY = preload("res://Assets/emoji_white_bubble/bubble_white_01_17.png")
 const BUBBLE_DIRTY = preload("res://Assets/emoji_white_bubble/bubble_white_01_70.png")
@@ -57,6 +58,11 @@ func _ready() -> void:
 
 func _process(delta: float) -> void:
 	
+	if progress_bar.visible:
+		var progress = (need_timer.time_left / need_timer.wait_time)
+		progress_bar.value = progress * 100.0
+		progress_bar.modulate = Color((1.0 - progress), progress, 0.0, 1.0)
+		
 	if cooldown_need:
 		cooldown -= delta * animation_speed
 		
@@ -97,15 +103,14 @@ func DetermineNeed() -> void:
 	current_need = possible_needs.pick_random()
 	UpdateNeedIcon()
 	need_timer.start()
+	progress_bar.visible = true
 
 func UpdateNeedIcon() -> void:
 	need_icon.texture = need_to_icon[current_need]
 	need_icon.visible = true
 		
 func Satisfy(item: ItemBase) -> bool:
-	
 	var result = satisfaction_dict[current_need]
-	
 	if result != item.SelectedType:
 		return false
 	
@@ -114,6 +119,7 @@ func Satisfy(item: ItemBase) -> bool:
 	UpdateNeedIcon()
 	cooldown = COOLDOWN_START
 	cooldown_need = true
+	progress_bar.visible = false
 	item.queue_free()
 	return true
 
@@ -122,6 +128,7 @@ func _on_need_timer_timeout() -> void:
 	current_need = BabyNeed.Died
 	UpdateNeedIcon()
 	body.stop()
+	progress_bar.visible = false
 	canpickup = true	
 	
 func IsDisposed() -> bool:
