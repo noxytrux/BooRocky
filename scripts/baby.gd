@@ -72,12 +72,20 @@ func _ready() -> void:
 	need_icon.texture = BUBBLE_HAPPY
 	round_manager = get_tree().get_current_scene().get_child(0)
 
+static func progress_to_color(progress: float) -> Color:
+	if progress < 0.5:
+		# 0% red to 50% yellow.
+		return Color.RED.lerp(Color.YELLOW, progress * 2.0)
+	else:
+		#50% yellow to 100% green.
+		return Color.YELLOW.lerp(Color.GREEN, (progress - 0.5) * 2.0)
+	
 func _process(delta: float) -> void:
 	
 	if progress_bar.visible:
 		var progress = (need_timer.time_left / need_timer.wait_time)
 		progress_bar.value = progress * 100.0
-		progress_bar.modulate = Color((1.0 - progress), progress, 0.0, 1.0)
+		progress_bar.modulate = progress_to_color(progress)
 		
 	if cooldown_need:
 		cooldown -= delta * animation_speed
