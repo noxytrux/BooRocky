@@ -180,6 +180,7 @@ func Satisfy(item: ItemBase) -> bool:
 	progress_bar.visible = false
 	item.queue_free()
 	satisiaction += 1
+	round_manager.BabySatisfy()
 	
 	play_audio(satisfy_sound)
 	
