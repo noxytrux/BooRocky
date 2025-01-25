@@ -1,9 +1,10 @@
-[gd_scene load_steps=9 format=3 uid="uid://btx08072l2ttn"]
+[gd_scene load_steps=10 format=3 uid="uid://btx08072l2ttn"]
 
 [ext_resource type="Script" path="res://scripts/menu.gd" id="1_81i6f"]
 [ext_resource type="FontFile" uid="uid://ch34o33lt8ea4" path="res://Assets/Fonts/PixelOperator8.ttf" id="1_rxdms"]
-[ext_resource type="Theme" uid="uid://bn7tf70nor1sb" path="res://gui_menu_theme.tres" id="1_wg03p"]
-[ext_resource type="Texture2D" uid="uid://o0s2fol2d8pd" path="res://Assets/splashes/menu_splash.png" id="2_cegw6"]
+[ext_resource type="Theme" uid="uid://d34bl3mi83oog" path="res://gui_menu_theme.tres" id="1_wg03p"]
+[ext_resource type="Texture2D" uid="uid://o0s2fol2d8pd" path="res://Assets/Splashes/menu_splash.png" id="2_cegw6"]
+[ext_resource type="AudioStream" uid="uid://dxwqlmdr554gu" path="res://sfx/sound/Confirm 1.wav" id="5_qevaj"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_eqbv1"]
 line_spacing = 24.0
@@ -112,6 +113,9 @@ offset_right = 692.0
 offset_bottom = 171.0
 text = "by team BooRocky"
 label_settings = SubResource("LabelSettings_jl25l")
+
+[node name="button_sound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("5_qevaj")
 
 [connection signal="pressed" from="Buttons/Play" to="." method="_on_play_pressed"]
 [connection signal="pressed" from="Buttons/Help" to="." method="_on_help_pressed"]
