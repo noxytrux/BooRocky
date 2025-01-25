@@ -1,9 +1,9 @@
 [gd_scene load_steps=24 format=3 uid="uid://lx0gejmnm31w"]
 
 [ext_resource type="Script" path="res://scripts/baby.gd" id="1_8hdff"]
-[ext_resource type="Texture2D" uid="uid://1xw4lys1u504" path="res://Assets/Characters/baby/baby walk down.png" id="2_a7dms"]
-[ext_resource type="Texture2D" uid="uid://dhp1mbul8c4ui" path="res://Assets/Characters/baby/baby die right.png" id="3_32cka"]
-[ext_resource type="Texture2D" uid="uid://bgws8vo22lmsp" path="res://Assets/Characters/baby/baby idle right.png" id="4_mysk8"]
+[ext_resource type="Texture2D" uid="uid://1xw4lys1u504" path="res://Assets/characters/baby/baby walk down.png" id="2_a7dms"]
+[ext_resource type="Texture2D" uid="uid://dhp1mbul8c4ui" path="res://Assets/characters/baby/baby die right.png" id="3_32cka"]
+[ext_resource type="Texture2D" uid="uid://bgws8vo22lmsp" path="res://Assets/characters/baby/baby idle right.png" id="4_mysk8"]
 [ext_resource type="Texture2D" uid="uid://qeyk5kyfu8bb" path="res://Assets/emoji_white_bubble/bubble_white_01_77.png" id="5_cgvef"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_minrb"]
@@ -122,21 +122,6 @@ animations = [{
 "speed": 8.0
 }]
 
-[sub_resource type="Animation" id="Animation_45y1q"]
-resource_name = "startup"
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Body:self_modulate")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1),
-"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
-"update": 0,
-"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0.603922), Color(1, 1, 1, 1), Color(1, 1, 1, 0.603922), Color(1, 1, 1, 1), Color(1, 1, 1, 0.603922), Color(1, 1, 1, 1), Color(1, 1, 1, 0.603922), Color(1, 1, 1, 1), Color(1, 1, 1, 0.603922), Color(1, 1, 1, 1)]
-}
-
 [sub_resource type="Animation" id="Animation_aejxh"]
 length = 0.001
 tracks/0/type = "value"
@@ -150,6 +135,21 @@ tracks/0/keys = {
 "transitions": PackedFloat32Array(1),
 "update": 0,
 "values": [Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_45y1q"]
+resource_name = "startup"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Body:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0.603922), Color(1, 1, 1, 1), Color(1, 1, 1, 0.603922), Color(1, 1, 1, 1), Color(1, 1, 1, 0.603922), Color(1, 1, 1, 1), Color(1, 1, 1, 0.603922), Color(1, 1, 1, 1), Color(1, 1, 1, 0.603922), Color(1, 1, 1, 1)]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_wxv8e"]
@@ -171,7 +171,7 @@ autoplay = "idle"
 frame_progress = 0.767066
 
 [node name="need_timer" type="Timer" parent="."]
-wait_time = 15.0
+wait_time = 25.0
 one_shot = true
 
 [node name="need_icon" type="Sprite2D" parent="."]
