@@ -8,7 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://dcjde67tyb40a" path="res://scenes/Items/Food.tscn" id="6_iitf7"]
 [ext_resource type="PackedScene" uid="uid://cgeyearammmm1" path="res://scenes/Items/Pampers.tscn" id="7_e67ip"]
 [ext_resource type="PackedScene" uid="uid://lx0gejmnm31w" path="res://scenes/Baby.tscn" id="8_q2bnu"]
-[ext_resource type="PackedScene" path="res://scenes/player_spawner.tscn" id="9_eeq8j"]
+[ext_resource type="PackedScene" uid="uid://bcdx5ij4f6d6d" path="res://scenes/player_spawner.tscn" id="9_eeq8j"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_abpdh"]
 texture = ExtResource("2_i284k")
@@ -19898,9 +19898,13 @@ scale = Vector2(0.5, 0.5)
 position = Vector2(914, 307)
 scale = Vector2(0.5, 0.5)
 
-[node name="Container16" parent="." instance=ExtResource("5_xvupt")]
+[node name="Container16" parent="." node_paths=PackedStringArray("HoldItem") instance=ExtResource("5_xvupt")]
 position = Vector2(912, 545)
 scale = Vector2(0.5, 0.5)
+HoldItem = NodePath("Food")
+
+[node name="Food" parent="Container16" instance=ExtResource("6_iitf7")]
+scale = Vector2(2, 2)
 
 [node name="Container17" parent="." instance=ExtResource("5_xvupt")]
 position = Vector2(915, 799)
