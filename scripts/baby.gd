@@ -74,8 +74,10 @@ func _ready() -> void:
 
 static func progress_to_color(progress: float) -> Color:
 	if progress < 0.5:
+		# 0% red to 50% yellow.
 		return Color.RED.lerp(Color.YELLOW, progress * 2.0)
 	else:
+		#50% yellow to 100% green.
 		return Color.YELLOW.lerp(Color.GREEN, (progress - 0.5) * 2.0)
 	
 func _process(delta: float) -> void:
