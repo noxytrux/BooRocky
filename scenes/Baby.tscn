@@ -181,12 +181,11 @@ scale = Vector2(2, 2)
 texture = ExtResource("5_cgvef")
 
 [node name="ProgressBar" type="ProgressBar" parent="."]
-visible = false
-modulate = Color(0, 1, 0, 1)
 offset_left = -35.0
 offset_top = -97.0
 offset_right = 31.0
 offset_bottom = -87.0
+scale = Vector2(1.05253, 1.59531)
 value = 100.0
 show_percentage = false
 
