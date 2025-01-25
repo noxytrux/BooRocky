@@ -1,6 +1,7 @@
-[gd_scene load_steps=446 format=3 uid="uid://d21g3qba2slgn"]
+[gd_scene load_steps=448 format=3 uid="uid://d21g3qba2slgn"]
 
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_uap0v"]
+[ext_resource type="Texture2D" uid="uid://dd638udm55ppn" path="res://Assets/animation/fire.png" id="2_gvfyq"]
 [ext_resource type="Texture2D" uid="uid://duj8qv7wh1ufk" path="res://Assets/Characters/complete/separate/carry/char1_carry.png" id="2_njpmw"]
 [ext_resource type="Texture2D" uid="uid://cvvp4oa0hdwgq" path="res://Assets/Characters/complete/separate/pickup/char1_pickup.png" id="2_pne8s"]
 [ext_resource type="Texture2D" uid="uid://bk0b1wvcbbawf" path="res://Assets/Characters/complete/separate/walk/char1_walk.png" id="2_rlubb"]
@@ -16,6 +17,10 @@
 [ext_resource type="Texture2D" uid="uid://d3o38x4r532w3" path="res://Assets/Characters/complete/separate/pickup/hair/braids_pickup.png" id="10_e512b"]
 [ext_resource type="Texture2D" uid="uid://br0nod13exvot" path="res://Assets/Characters/complete/separate/carry/clothes/shoes_carry.png" id="11_pnxww"]
 [ext_resource type="Texture2D" uid="uid://cibax3vfq0keh" path="res://Assets/Characters/complete/separate/carry/hair/braids_carry.png" id="14_ogahw"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y4ty6"]
+atlas = ExtResource("2_gvfyq")
+region = Rect2(51, 10, 11, 13)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_f4aq1"]
 size = Vector2(35, 57)
@@ -3275,6 +3280,21 @@ animations = [{
 "speed": 10.0
 }]
 
+[sub_resource type="Animation" id="Animation_msvf8"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprites:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+
 [sub_resource type="Animation" id="Animation_pn2cl"]
 resource_name = "startup"
 tracks/0/type = "value"
@@ -3304,21 +3324,6 @@ tracks/1/keys = {
 }]
 }
 
-[sub_resource type="Animation" id="Animation_msvf8"]
-length = 0.001
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Sprites:visible")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [true]
-}
-
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_aok7f"]
 _data = {
 "RESET": SubResource("Animation_msvf8"),
@@ -3328,6 +3333,21 @@ _data = {
 [node name="Player" type="CharacterBody2D"]
 motion_mode = 1
 script = ExtResource("1_uap0v")
+
+[node name="DashParticles" type="CPUParticles2D" parent="."]
+emitting = false
+amount = 24
+lifetime = 0.35
+explosiveness = 0.1
+texture = SubResource("AtlasTexture_y4ty6")
+emission_shape = 3
+emission_rect_extents = Vector2(12, 12)
+direction = Vector2(0, 0)
+gravity = Vector2(0, 0)
+angle_max = 360.0
+scale_amount_min = 2.0
+scale_amount_max = 4.0
+color = Color(0.341176, 0.337255, 0.360784, 0.505882)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, -1)
