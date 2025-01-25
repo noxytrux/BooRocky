@@ -12,6 +12,7 @@ const DASH_SPEED := 1000.0
 @onready var animated_sprite_2d_hair: AnimatedSprite2D = $Sprites/AnimatedSprite2D_Hair
 @onready var dash_cooldown_timer: Timer = $DashCooldownTimer
 @onready var dash_active_timer: Timer = $DashActiveTimer
+@onready var dash_particles: CPUParticles2D = $DashParticles
 
 var direction := GlobalValues.DIRECTION.NONE
 var is_input_enabled := false # Disabled during startup.
@@ -85,6 +86,7 @@ func _physics_process(_delta: float) -> void:
 	if action2 and is_dash_ready:
 		is_dash_active = true
 		is_dash_ready = false
+		dash_particles.emitting = true
 		dash_cooldown_timer.start()
 		dash_active_timer.start()
 	
@@ -114,6 +116,7 @@ func _on_dash_cooldown_timer_timeout() -> void:
 
 func _on_dash_active_timer_timeout() -> void:
 	is_dash_active = false
+	dash_particles.emitting = false
 	
 # Called from AnimationPlayer as a callback at the end.
 func _on_startup_finished() -> void:
