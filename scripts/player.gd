@@ -54,9 +54,9 @@ func Interaction() -> void:
 			else:
 				var item = hit.PeekItem()
 				if (item is Baby) and (HoldItem != null):
-					HoldItem.PutDown()
-					item.Satisfy(HoldItem)
-					HoldItem = null
+					if item.Satisfy(HoldItem):
+						HoldItem.PutDown()					
+						HoldItem = null
 
 func _physics_process(_delta: float) -> void:
 	var dir := Vector2.ZERO

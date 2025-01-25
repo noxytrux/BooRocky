@@ -45,6 +45,13 @@ var need_to_icon = {
 	BabyNeed.Died : BUBBLE_DEAD
 }
 
+var satisfaction_dict = {
+	BabyNeed.Hungry : ItemBase.ITEM_TYPE.FOOD,
+	BabyNeed.Dirty : ItemBase.ITEM_TYPE.PAMPERS,
+	BabyNeed.Sad : ItemBase.ITEM_TYPE.TOY,
+	BabyNeed.Sick : ItemBase.ITEM_TYPE.DRUG
+}
+
 func _ready() -> void:
 	need_icon.texture = BUBBLE_HAPPY
 
@@ -95,13 +102,20 @@ func UpdateNeedIcon() -> void:
 	need_icon.texture = need_to_icon[current_need]
 	need_icon.visible = true
 		
-func Satisfy(item: ItemBase) -> void:
+func Satisfy(item: ItemBase) -> bool:
+	
+	var result = satisfaction_dict[current_need]
+	
+	if result != item.SelectedType:
+		return false
+	
 	need_timer.stop()
 	current_need = BabyNeed.Happy
 	UpdateNeedIcon()
 	cooldown = COOLDOWN_START
 	cooldown_need = true
 	item.queue_free()
+	return true
 
 func _on_need_timer_timeout() -> void:
 	dead = true

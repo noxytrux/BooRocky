@@ -4,7 +4,6 @@ func PlaceItem(item: ItemBase) -> void:
 	if(item == null):
 		return
 	
-	item
 	item.get_parent().remove_child(item)
 	ItemAnchor.add_child(item)
 	item.position = Vector2(0, 0)
