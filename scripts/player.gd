@@ -7,7 +7,6 @@ const DASH_SPEED := 1000.0
 @export var cloth_color_modulate := Color.WHITE
 @export var hair_color_modulate := Color.WHITE
 
-@onready var polygon_2d: Polygon2D = $Polygon2D
 @onready var sprites: Node2D = $Sprites
 @onready var animated_sprite_2d_clothes: AnimatedSprite2D = $Sprites/AnimatedSprite2D_Clothes
 @onready var animated_sprite_2d_hair: AnimatedSprite2D = $Sprites/AnimatedSprite2D_Hair
@@ -52,7 +51,7 @@ func Interaction() -> void:
 					hit.PlaceItem(HoldItem)
 					HoldItem = null
 
-func _physics_process(delta: float) -> void:
+func _physics_process(_delta: float) -> void:
 	var dir := Vector2.ZERO
 	var action1 := false
 	var action2 := false

@@ -17,7 +17,7 @@ func process_spawning_player(input_device: GlobalValues.INPUT_DEVICE) -> void:
 		player_spawners[0].queue_free()
 		player_spawners.remove_at(0)
 
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	process_spawning_player(GlobalValues.INPUT_DEVICE.WSAD)
 	process_spawning_player(GlobalValues.INPUT_DEVICE.ARROWS)
 	process_spawning_player(GlobalValues.INPUT_DEVICE.GAMEPAD1)
