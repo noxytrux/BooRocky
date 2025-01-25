@@ -26,3 +26,6 @@ func TakeItem() -> ItemBase:
 	ItemAnchor.remove_child(HoldItem)
 	HoldItem = null
 	return result
+	
+func CanPlaceItem() -> bool:
+	return HoldItem == null

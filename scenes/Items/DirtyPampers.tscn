@@ -1,10 +1,11 @@
-[gd_scene load_steps=3 format=3 uid="uid://0xe6bn660xrn"]
+[gd_scene load_steps=3 format=3 uid="uid://cgeyearammmm1"]
 
-[ext_resource type="Texture2D" uid="uid://dhrv7yjdu82kq" path="res://Assets/OpenmonItemIcons.png" id="1_jfrre"]
-[ext_resource type="Script" path="res://scripts/item_base.gd" id="2_deyqa"]
+[ext_resource type="Texture2D" uid="uid://dhrv7yjdu82kq" path="res://Assets/OpenmonItemIcons.png" id="1_fsfah"]
+[ext_resource type="Script" path="res://scripts/item_base.gd" id="1_tegps"]
 
 [node name="DirtyPampers" type="Sprite2D"]
-texture = ExtResource("1_jfrre")
+texture = ExtResource("1_fsfah")
 region_enabled = true
-region_rect = Rect2(37, 229, 24, 21)
-script = ExtResource("2_deyqa")
+region_rect = Rect2(289, 196, 24, 26)
+script = ExtResource("1_tegps")
+SelectedType = 1

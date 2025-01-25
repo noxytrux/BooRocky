@@ -46,7 +46,7 @@ func Interaction() -> void:
 					ItemAnchor.add_child(HoldItem)
 					HoldItem.position = Vector2(0, 0)
 					HoldItem.PickUp()
-			elif(hit.HoldItem == null):
+			elif(hit.CanPlaceItem()):
 					HoldItem.PutDown()
 					hit.PlaceItem(HoldItem)
 					HoldItem = null

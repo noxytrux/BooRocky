@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://b7keuv2pstqvg"]
+
+[ext_resource type="Script" path="res://scripts/spawner.gd" id="1_c7id0"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pci1g"]
+size = Vector2(129, 128)
+
+[node name="Spawner" type="StaticBody2D"]
+collision_layer = 32768
+collision_mask = 32768
+script = ExtResource("1_c7id0")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_pci1g")
+
+[node name="ItemAnchor" type="Node2D" parent="."]
