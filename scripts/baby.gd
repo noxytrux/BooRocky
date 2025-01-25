@@ -16,7 +16,7 @@ const BUBBLE_HAPPY = preload("res://Assets/emoji_white_bubble/bubble_white_01_82
 const BUBBLE_DEAD = preload("res://Assets/emoji_white_bubble/bubble_white_01_77.png")
 
 const COOLDOWN_START = 5.0
-const MAX_SATISFACTION = 1 #5
+const MAX_SATISFACTION = 5
 
 var canpickup:bool = true
 var dead:bool = false
