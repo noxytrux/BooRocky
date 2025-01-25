@@ -4,6 +4,13 @@ var isCraftingItem : bool
 var finishedItem : ItemBase
 @export var mapa : Dictionary
 @onready var craft_item_timer: Timer = $CraftItemTimer
+@onready var progress_bar: ProgressBar = $ProgressBar
+
+func _process(delta: float) -> void:
+	if progress_bar.visible:
+		var progress = (craft_item_timer.time_left / craft_item_timer.wait_time)
+		progress_bar.value = progress * 100.0
+		progress_bar.modulate = Color((1.0 - progress), progress, 0.0, 1.0)
 
 func PlaceItem(item: ItemBase) -> void:
 	if(item == null):
@@ -15,6 +22,7 @@ func PlaceItem(item: ItemBase) -> void:
 	HoldItem.position = Vector2(0, 0)
 	craft_item_timer.start()
 	isCraftingItem = true;
+	progress_bar.visible = true
 	
 func TakeItem() -> ItemBase:
 	if(finishedItem == null):
@@ -29,6 +37,7 @@ func TakeItem() -> ItemBase:
 	return result
 	
 func FinishCrafting() -> void:
+	progress_bar.visible = false
 	var ItemToLoad : PackedScene = mapa.get(HoldItem.SelectedType)
 	print(ItemToLoad)
 	HoldItem.queue_free()

@@ -19,5 +19,15 @@ shape = SubResource("RectangleShape2D_pci1g")
 wait_time = 2.0
 one_shot = true
 
+[node name="ProgressBar" type="ProgressBar" parent="."]
+visible = false
+modulate = Color(0, 1, 0, 1)
+offset_left = -35.0
+offset_top = -97.0
+offset_right = 31.0
+offset_bottom = -87.0
+value = 100.0
+show_percentage = false
+
 [connection signal="timeout" from="CraftItemTimer" to="." method="_on_spawn_item_timer_timeout"]
 [connection signal="timeout" from="CraftItemTimer" to="." method="_on_craft_item_timer_timeout"]
