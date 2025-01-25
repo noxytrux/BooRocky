@@ -6,7 +6,7 @@ func _ready() -> void:
 	exit_button.visible = SingletonObject.gameplay_running
 	
 func _on_back_button_pressed() -> void:
-	get_tree().change_scene_to_file("res://scenes/menu.tscn")
+	SingletonObject.back_from_help()
 
 func _on_exit_button_pressed() -> void:
-	pass
+	SingletonObject.switch_to_menu()

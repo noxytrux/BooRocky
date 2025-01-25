@@ -6,6 +6,7 @@ class_name Baby extends ItemBase
 @onready var progress_bar: ProgressBar = $ProgressBar
 
 const DIAPER = preload("res://scenes/Items/DirtyPampers.tscn")
+const ADULT  = preload("res://scenes/adult.tscn")
 
 const BUBBLE_HUNGRY = preload("res://Assets/emoji_white_bubble/bubble_white_01_17.png")
 const BUBBLE_DIRTY = preload("res://Assets/emoji_white_bubble/bubble_white_01_70.png")
@@ -15,6 +16,7 @@ const BUBBLE_HAPPY = preload("res://Assets/emoji_white_bubble/bubble_white_01_82
 const BUBBLE_DEAD = preload("res://Assets/emoji_white_bubble/bubble_white_01_77.png")
 
 const COOLDOWN_START = 5.0
+const MAX_SATISFACTION = 5
 
 var canpickup:bool = true
 var dead:bool = false
@@ -25,6 +27,7 @@ var finished_dispose:bool = false
 var cooldown_need:bool = false
 var cooldown:float = 0.0
 var diaper:ItemBase = null
+var satisiaction:int = 0;
 
 enum BabyNeed 
 {
@@ -72,7 +75,8 @@ func _process(delta: float) -> void:
 	if cooldown <= 0 and cooldown_need:
 		cooldown_need = false
 		cooldown = 0
-		DetermineNeed()
+		if grownup():
+			DetermineNeed()
 	
 	if disposed and currentScale > 0:
 		currentScale -= delta * animation_speed
@@ -81,6 +85,28 @@ func _process(delta: float) -> void:
 		finished_dispose = true
 		
 	global_scale = Vector2(currentScale, currentScale)
+	
+func grownup() -> bool:
+	if satisiaction == MAX_SATISFACTION:		
+		var root_node = get_tree().get_current_scene()
+		var exits = root_node.find_children("*", "exit_node") as Array[exit_node]
+
+		if not exits.is_empty():
+			var adult = ADULT.instantiate()
+			var exit = exits.pick_random();
+			exit.get_parent().get_parent().add_child(adult)
+
+			adult.destination = exit
+			adult.position = global_position + Vector2(64.0, 96.0)
+			adult.makepath()
+			
+			queue_free()
+			
+			return false
+		else:
+			return true
+	else:
+		return true
 	
 func IsPickable() -> bool:
 	return canpickup
@@ -136,6 +162,8 @@ func Satisfy(item: ItemBase) -> bool:
 	cooldown_need = true
 	progress_bar.visible = false
 	item.queue_free()
+	satisiaction += 1
+	
 	return true
 
 func _on_need_timer_timeout() -> void:

@@ -1,9 +1,12 @@
 class_name Spawner extends ContainerItem
 
-@export var scene_to_load : PackedScene
-var createdItem : ItemBase
+@onready var round_manager: RoundManager = %RoundManager
 @onready var spawn_item_timer: Timer = $SpawnItemTimer
+
+@export var scene_to_load : PackedScene
 @export var spawn_time : float = 0.1
+@export var isLimitedByRoundManager : bool = false
+var createdItem : ItemBase
 
 func _ready() -> void:
 	_on_spawn_item_timer_timeout()
@@ -30,6 +33,13 @@ func CanTakeItem() -> bool:
 	return true
 	
 func _on_spawn_item_timer_timeout() -> void:
-	createdItem = scene_to_load.instantiate()
-	ItemAnchor.add_child(createdItem)
-	createdItem.position = Vector2(0, 0)
+	#If this is not spawner for babies, create object as always. BABIES ARE LIMITED
+	if(isLimitedByRoundManager):
+		if(round_manager.ChangeLeftBabyCount()):
+			createdItem = scene_to_load.instantiate()
+			ItemAnchor.add_child(createdItem)
+			createdItem.position = Vector2(0, 0)
+	else:
+		createdItem = scene_to_load.instantiate()
+		ItemAnchor.add_child(createdItem)
+		createdItem.position = Vector2(0, 0)

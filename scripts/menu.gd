@@ -4,8 +4,7 @@ func _on_exit_pressed() -> void:
 	get_tree().quit()
 
 func _on_play_pressed() -> void:
-	get_tree().change_scene_to_file("res://scenes/level.tscn")
+	SingletonObject.switch_to_game()
 
 func _on_help_pressed() -> void:
-	var tree = get_tree()
-	tree.change_scene_to_file("res://scenes/help.tscn")
+	SingletonObject.switch_to_help()
