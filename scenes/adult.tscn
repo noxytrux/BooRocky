@@ -273,7 +273,6 @@ path_desired_distance = 50.0
 target_desired_distance = 50.0
 path_max_distance = 200.0
 radius = 100.0
-debug_enabled = true
 
 [node name="Timer" type="Timer" parent="."]
 wait_time = 0.5
