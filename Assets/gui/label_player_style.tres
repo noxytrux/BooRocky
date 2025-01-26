@@ -1,0 +1,10 @@
+[gd_resource type="LabelSettings" load_steps=2 format=3 uid="uid://0dwrdwxu8phg"]
+
+[ext_resource type="FontFile" uid="uid://ch34o33lt8ea4" path="res://Assets/Fonts/PixelOperator8.ttf" id="1_loykc"]
+
+[resource]
+line_spacing = 24.0
+font = ExtResource("1_loykc")
+font_size = 48
+outline_size = 10
+outline_color = Color(1, 0, 0, 1)
