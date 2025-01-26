@@ -3278,28 +3278,23 @@ scale = Vector2(3, 3)
 position = Vector2(0, -6.33333)
 sprite_frames = SubResource("SpriteFrames_tbnna")
 animation = &"walk_down"
-autoplay = "walk_down"
 
 [node name="AnimatedSprite2D_Clothes" type="AnimatedSprite2D" parent="."]
 position = Vector2(0, -6.33333)
 sprite_frames = SubResource("SpriteFrames_85o0s")
 animation = &"walk_down"
-autoplay = "walk_down"
 
 [node name="AnimatedSprite2D_Pants" type="AnimatedSprite2D" parent="."]
 position = Vector2(0, -6.33333)
 sprite_frames = SubResource("SpriteFrames_xxhc3")
 animation = &"walk_down"
-autoplay = "walk_down"
 
 [node name="AnimatedSprite2D_Shoes" type="AnimatedSprite2D" parent="."]
 position = Vector2(0, -6.33333)
 sprite_frames = SubResource("SpriteFrames_mje70")
 animation = &"walk_down"
-autoplay = "walk_down"
 
 [node name="AnimatedSprite2D_Hair" type="AnimatedSprite2D" parent="."]
 position = Vector2(0, -6.33333)
 sprite_frames = SubResource("SpriteFrames_4fahu")
 animation = &"walk_down"
-autoplay = "walk_down"

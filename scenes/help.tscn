@@ -1,13 +1,22 @@
-[gd_scene load_steps=13 format=4 uid="uid://cjksq2k2yi2y5"]
+[gd_scene load_steps=22 format=4 uid="uid://cjksq2k2yi2y5"]
 
 [ext_resource type="Theme" uid="uid://bn7tf70nor1sb" path="res://gui_menu_theme.tres" id="1_1hetj"]
 [ext_resource type="Script" path="res://scripts/help.gd" id="1_lu8qc"]
+[ext_resource type="Texture2D" uid="uid://d5pl8bo5uhav" path="res://Assets/Splashes/help_splash.png" id="2_bcf6x"]
 [ext_resource type="FontFile" uid="uid://ch34o33lt8ea4" path="res://Assets/Fonts/PixelOperator8.ttf" id="2_ciugm"]
 [ext_resource type="PackedScene" uid="uid://bhx84vdate55y" path="res://scenes/player_gfx.tscn" id="3_5ypyd"]
+[ext_resource type="Texture2D" uid="uid://cae3uqiiunj2a" path="res://Assets/Splashes/keys_splash.png" id="3_6pnho"]
 [ext_resource type="Texture2D" uid="uid://cjtvph0ia7vjl" path="res://Assets/atlas_32x.png" id="4_jb1yh"]
 [ext_resource type="Texture2D" uid="uid://ds7y07aakyk2o" path="res://Assets/items_atlas.png" id="4_qgc2e"]
 [ext_resource type="Texture2D" uid="uid://yakrpfebqq5w" path="res://Assets/market_atlas_32x.png" id="5_gsame"]
 [ext_resource type="Texture2D" uid="uid://bgws8vo22lmsp" path="res://Assets/characters/baby/baby idle right.png" id="6_urj6y"]
+[ext_resource type="Texture2D" uid="uid://crveynv8h8xg4" path="res://Assets/arrow_down.png" id="8_gomb5"]
+[ext_resource type="Texture2D" uid="uid://j0jwogifaps6" path="res://Assets/emoji_white_bubble/bubble_white_01_17.png" id="9_5d5g8"]
+[ext_resource type="Texture2D" uid="uid://couqjwfk1dr30" path="res://Assets/emoji_white_bubble/bubble_white_01_70.png" id="10_1c7hg"]
+[ext_resource type="Texture2D" uid="uid://bv6tyjsnp4lh4" path="res://Assets/emoji_white_bubble/bubble_white_01_68.png" id="11_m2x0u"]
+[ext_resource type="Texture2D" uid="uid://cfonk257efmg3" path="res://Assets/emoji_white_bubble/bubble_white_01_64.png" id="12_d2y76"]
+[ext_resource type="Texture2D" uid="uid://qeyk5kyfu8bb" path="res://Assets/emoji_white_bubble/bubble_white_01_77.png" id="13_xolh1"]
+[ext_resource type="LabelSettings" path="res://Assets/gui/label_player_style.tres" id="15_moqxg"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_fg1y1"]
 texture = ExtResource("4_jb1yh")
@@ -4682,44 +4691,31 @@ physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_fg1y1")
 sources/1 = SubResource("TileSetAtlasSource_avnuh")
 
-[sub_resource type="LabelSettings" id="LabelSettings_2absf"]
+[sub_resource type="LabelSettings" id="LabelSettings_a6qrj"]
 line_spacing = 24.0
 font = ExtResource("2_ciugm")
 font_size = 48
+font_color = Color(0, 0, 0, 1)
 
 [node name="Help" type="Node2D"]
 process_mode = 3
 script = ExtResource("1_lu8qc")
 
-[node name="Background" type="ColorRect" parent="."]
+[node name="Page1" type="Node2D" parent="."]
+
+[node name="Background" type="ColorRect" parent="Page1"]
+visible = false
 offset_right = 1920.0
 offset_bottom = 1080.0
 color = Color(0.0546541, 0.424435, 0.30323, 1)
 
-[node name="BackButton" type="Button" parent="."]
-offset_left = 60.0
-offset_top = 60.0
-offset_right = 450.0
-offset_bottom = 160.0
-size_flags_horizontal = 0
-theme = ExtResource("1_1hetj")
-theme_override_font_sizes/font_size = 32
-text = "< BACK"
-
-[node name="ExitButton" type="Button" parent="."]
-offset_left = 60.0
-offset_top = 211.0
-offset_right = 450.0
-offset_bottom = 311.0
-size_flags_horizontal = 0
-theme = ExtResource("1_1hetj")
-theme_override_font_sizes/font_size = 32
-text = "EXIT TO MENU"
-
-[node name="Page1" type="Node2D" parent="."]
+[node name="HelpSplash" type="Sprite2D" parent="Page1"]
+scale = Vector2(4, 3.9963)
+texture = ExtResource("2_bcf6x")
+centered = false
 
 [node name="PlayerParts" parent="Page1" instance=ExtResource("3_5ypyd")]
-position = Vector2(922, 84)
+position = Vector2(1124, 88)
 scale = Vector2(4, 4)
 
 [node name="AnimatedSprite2D_Body" parent="Page1/PlayerParts" index="0"]
@@ -4737,8 +4733,46 @@ animation = &"carry_down"
 [node name="AnimatedSprite2D_Hair" parent="Page1/PlayerParts" index="4"]
 animation = &"carry_down"
 
+[node name="PlayerDirtyPampers" parent="Page1" instance=ExtResource("3_5ypyd")]
+position = Vector2(1081, 355)
+scale = Vector2(4, 4)
+
+[node name="AnimatedSprite2D_Body" parent="Page1/PlayerDirtyPampers" index="0"]
+animation = &"carry_right"
+
+[node name="AnimatedSprite2D_Clothes" parent="Page1/PlayerDirtyPampers" index="1"]
+animation = &"carry_right"
+
+[node name="AnimatedSprite2D_Pants" parent="Page1/PlayerDirtyPampers" index="2"]
+animation = &"carry_right"
+
+[node name="AnimatedSprite2D_Shoes" parent="Page1/PlayerDirtyPampers" index="3"]
+animation = &"carry_right"
+
+[node name="AnimatedSprite2D_Hair" parent="Page1/PlayerDirtyPampers" index="4"]
+animation = &"carry_right"
+
+[node name="PlayerPampers" parent="Page1" instance=ExtResource("3_5ypyd")]
+position = Vector2(1482, 354)
+scale = Vector2(4, 4)
+
+[node name="AnimatedSprite2D_Body" parent="Page1/PlayerPampers" index="0"]
+animation = &"walk_right"
+
+[node name="AnimatedSprite2D_Clothes" parent="Page1/PlayerPampers" index="1"]
+animation = &"walk_right"
+
+[node name="AnimatedSprite2D_Pants" parent="Page1/PlayerPampers" index="2"]
+animation = &"walk_right"
+
+[node name="AnimatedSprite2D_Shoes" parent="Page1/PlayerPampers" index="3"]
+animation = &"walk_right"
+
+[node name="AnimatedSprite2D_Hair" parent="Page1/PlayerPampers" index="4"]
+animation = &"walk_right"
+
 [node name="PlayerToy" parent="Page1" instance=ExtResource("3_5ypyd")]
-position = Vector2(1243, 70)
+position = Vector2(1525, 69)
 scale = Vector2(4, 4)
 
 [node name="Tiles" type="Node2D" parent="Page1"]
@@ -4746,64 +4780,140 @@ scale = Vector2(2.5, 2.5)
 
 [node name="Furniture" type="TileMapLayer" parent="Page1/Tiles"]
 position = Vector2(0.4, 1.2)
-tile_map_data = PackedByteArray("AAAWAA0AAAAqAB0AAAAWAA4AAAAqAB4AAAAWAA8AAAAqAB8AAAAXAA0AAAArAB0AAAAXAA4AAAArAB4AAAAXAA8AAAArAB8AAAAXAAkAAAArAB0AAAAXAAoAAAArAB4AAAAXAAsAAAArAB8AAAAWAAkAAAAqAB0AAAAWAAoAAAAqAB4AAAAWAAsAAAAqAB8AAAAeAAkAAAAqAB0AAAAeAAoAAAAqAB4AAAAeAAsAAAAqAB8AAAAfAAkAAAArAB0AAAAfAAoAAAArAB4AAAAfAAsAAAArAB8AAAAeAAwAAAAqAB0AAAAeAA0AAAAqAB4AAAAeAA4AAAAqAB8AAAAfAAwAAAArAB0AAAAfAA0AAAArAB4AAAAfAA4AAAArAB8AAAASAAIAAAASAB0AAAASAAMAAAASAB4AAAASAAQAAAASAB8AAAASAAcAAAASAB0AAAASAAgAAAASAB4AAAASAAkAAAASAB8AAAASAAwAAAASAB0AAAASAA0AAAASAB4AAAASAA4AAAASAB8AAAASABEAAAASAB0AAAASABIAAAASAB4AAAASABMAAAASAB8AAAASABYAAAASAB0AAAASABcAAAASAB4AAAASABgAAAASAB8AAAATAAIAAAATAB0AAAATAAMAAAATAB4AAAATAAQAAAATAB8AAAATAAcAAAATAB0AAAATAAgAAAATAB4AAAATAAkAAAATAB8AAAATAAwAAAATAB0AAAATAA0AAAATAB4AAAATAA4AAAATAB8AAAATABEAAAATAB0AAAATABIAAAATAB4AAAATABMAAAATAB8AAAATABYAAAATAB0AAAATABcAAAATAB4AAAATABgAAAATAB8AAAAbABcAAAAmAAIAAAAbABgAAAAmAAMAAAAcABcAAAAnAAIAAAAcABgAAAAnAAMAAAAkAAMAAAAkAB4AAAAkAAQAAAAkAB8AAAAlAAMAAAAlAB4AAAAlAAQAAAAlAB8AAAAmAAMAAAAmAB4AAAAmAAQAAAAmAB8AAAAnAAMAAAAnAB4AAAAnAAQAAAAnAB8AAAAkAAIAAAAkAB0AAAAlAAIAAAAlAB0AAAAmAAIAAAAmAB0AAAAnAAIAAAAnAB0AAAAaAAIAAAAkAB0AAAAaAAMAAAAkAB4AAAAaAAQAAAAkAB8AAAAbAAIAAAAlAB0AAAAbAAMAAAAlAB4AAAAbAAQAAAAlAB8AAAAcAAIAAAAmAB0AAAAcAAMAAAAmAB4AAAAcAAQAAAAmAB8AAAAdAAIAAAAnAB0AAAAdAAMAAAAnAB4AAAAdAAQAAAAnAB8AAAAmAAgAAQAcAAIAAAAmAAkAAQAcAAMAAAAnAAgAAQAdAAIAAAAnAAkAAQAdAAMAAAAcAAgAAQAcAAIAAAAcAAkAAQAcAAMAAAAdAAgAAQAdAAIAAAAdAAkAAQAdAAMAAAA=")
+tile_map_data = PackedByteArray("AAASAAIAAAASAB0AAAASAAMAAAASAB4AAAASAAQAAAASAB8AAAASAAcAAAASAB0AAAASAAgAAAASAB4AAAASAAkAAAASAB8AAAASAAwAAAASAB0AAAASAA0AAAASAB4AAAASAA4AAAASAB8AAAASABEAAAASAB0AAAASABIAAAASAB4AAAASABMAAAASAB8AAAASABYAAAASAB0AAAASABcAAAASAB4AAAASABgAAAASAB8AAAATAAIAAAATAB0AAAATAAMAAAATAB4AAAATAAQAAAATAB8AAAATAAcAAAATAB0AAAATAAgAAAATAB4AAAATAAkAAAATAB8AAAATAAwAAAATAB0AAAATAA0AAAATAB4AAAATAA4AAAATAB8AAAATABEAAAATAB0AAAATABIAAAATAB4AAAATABMAAAATAB8AAAATABYAAAATAB0AAAATABcAAAATAB4AAAATABgAAAATAB8AAAAkAAMAAAAkAB4AAAAkAAQAAAAkAB8AAAAlAAMAAAAlAB4AAAAlAAQAAAAlAB8AAAAmAAMAAAAmAB4AAAAmAAQAAAAmAB8AAAAnAAMAAAAnAB4AAAAnAAQAAAAnAB8AAAAkAAIAAAAkAB0AAAAlAAIAAAAlAB0AAAAmAAIAAAAmAB0AAAAnAAIAAAAnAB0AAAAaAAIAAAAkAB0AAAAaAAMAAAAkAB4AAAAaAAQAAAAkAB8AAAAbAAIAAAAlAB0AAAAbAAMAAAAlAB4AAAAbAAQAAAAlAB8AAAAcAAIAAAAmAB0AAAAcAAMAAAAmAB4AAAAcAAQAAAAmAB8AAAAdAAIAAAAnAB0AAAAdAAMAAAAnAB4AAAAdAAQAAAAnAB8AAAAmAAgAAQAcAAIAAAAmAAkAAQAcAAMAAAAnAAgAAQAdAAIAAAAnAAkAAQAdAAMAAAAcAAgAAQAcAAIAAAAcAAkAAQAcAAMAAAAdAAgAAQAdAAIAAAAdAAkAAQAdAAMAAAAmAAsAAAAqAB4AAAAmAAwAAAAqAB8AAAAnAAoAAAArAB0AAAAnAAsAAAArAB4AAAAnAAwAAAArAB8AAAAcAAsAAAAqAB4AAAAcAAwAAAAqAB8AAAAdAAsAAAArAB4AAAAdAAwAAAArAB8AAAAcAAoAAAAqAB0AAAAdAAoAAAArAB0AAAAmAAoAAAAqAB0AAAAmAA8AAAAqAB0AAAAmABAAAAAqAB4AAAAmABEAAAAqAB8AAAAnAA8AAAArAB0AAAAnABAAAAArAB4AAAAnABEAAAArAB8AAAAcAA8AAAAqAB0AAAAcABAAAAAqAB4AAAAcABEAAAAqAB8AAAAdAA8AAAArAB0AAAAdABAAAAArAB4AAAAdABEAAAArAB8AAAAcABcAAAAmAAIAAAAcABgAAAAmAAMAAAAdABcAAAAnAAIAAAAdABgAAAAnAAMAAAA=")
 tile_set = SubResource("TileSet_ag6y7")
 
 [node name="Part" type="Sprite2D" parent="Page1"]
-position = Vector2(919, 39)
+position = Vector2(1121, 43)
 scale = Vector2(2.5, 2.5)
 texture = ExtResource("4_qgc2e")
 region_enabled = true
 region_rect = Rect2(0, 0, 32, 32)
 
 [node name="Toy" type="Sprite2D" parent="Page1"]
-position = Vector2(1244, 115)
+position = Vector2(1526, 114)
 scale = Vector2(2.5, 2.5)
 texture = ExtResource("4_qgc2e")
 region_enabled = true
 region_rect = Rect2(32, 0, 32, 32)
 
 [node name="DirtyPampers" type="Sprite2D" parent="Page1"]
-position = Vector2(1064, 301)
+position = Vector2(1085, 298)
 scale = Vector2(2.5, 2.5)
 texture = ExtResource("4_qgc2e")
 region_enabled = true
 region_rect = Rect2(64, 0, 32, 32)
 
 [node name="Papmers" type="Sprite2D" parent="Page1"]
-position = Vector2(1543, 329)
+position = Vector2(1564, 311)
 scale = Vector2(2.5, 2.5)
 texture = ExtResource("4_qgc2e")
 region_enabled = true
 region_rect = Rect2(96, 0, 32, 32)
 
-[node name="Ingredient" type="Sprite2D" parent="Page1"]
-position = Vector2(1100, 591)
-scale = Vector2(2.5, 2.5)
-texture = ExtResource("4_qgc2e")
-region_enabled = true
-region_rect = Rect2(0, 32, 32, 32)
-
 [node name="Food" type="Sprite2D" parent="Page1"]
-position = Vector2(1489, 461)
+position = Vector2(1560, 427)
 scale = Vector2(2.5, 2.5)
 texture = ExtResource("4_qgc2e")
 region_enabled = true
 region_rect = Rect2(32, 32, 32, 32)
 
+[node name="Drug" type="Sprite2D" parent="Page1"]
+position = Vector2(1563, 619)
+scale = Vector2(2.5, 2.5)
+texture = ExtResource("4_qgc2e")
+region_enabled = true
+region_rect = Rect2(96, 32, 32, 32)
+
+[node name="PlayerIngredient" parent="Page1" instance=ExtResource("3_5ypyd")]
+position = Vector2(1159, 577)
+scale = Vector2(4, 4)
+
+[node name="AnimatedSprite2D_Body" parent="Page1/PlayerIngredient" index="0"]
+animation = &"carry_up"
+
+[node name="AnimatedSprite2D_Clothes" parent="Page1/PlayerIngredient" index="1"]
+animation = &"carry_up"
+
+[node name="AnimatedSprite2D_Pants" parent="Page1/PlayerIngredient" index="2"]
+animation = &"carry_up"
+
+[node name="AnimatedSprite2D_Shoes" parent="Page1/PlayerIngredient" index="3"]
+animation = &"carry_up"
+
+[node name="AnimatedSprite2D_Hair" parent="Page1/PlayerIngredient" index="4"]
+animation = &"carry_up"
+
+[node name="PlayerFood" parent="Page1" instance=ExtResource("3_5ypyd")]
+position = Vector2(1562, 546)
+scale = Vector2(4, 4)
+
+[node name="AnimatedSprite2D_Body" parent="Page1/PlayerFood" index="0"]
+animation = &"walk_up"
+
+[node name="AnimatedSprite2D_Clothes" parent="Page1/PlayerFood" index="1"]
+animation = &"walk_up"
+
+[node name="AnimatedSprite2D_Pants" parent="Page1/PlayerFood" index="2"]
+animation = &"walk_up"
+
+[node name="AnimatedSprite2D_Shoes" parent="Page1/PlayerFood" index="3"]
+animation = &"walk_up"
+
+[node name="AnimatedSprite2D_Hair" parent="Page1/PlayerFood" index="4"]
+animation = &"walk_up"
+
+[node name="PlayerDrug" parent="Page1" instance=ExtResource("3_5ypyd")]
+position = Vector2(1562, 745)
+scale = Vector2(4, 4)
+
+[node name="AnimatedSprite2D_Body" parent="Page1/PlayerDrug" index="0"]
+animation = &"walk_up"
+
+[node name="AnimatedSprite2D_Clothes" parent="Page1/PlayerDrug" index="1"]
+animation = &"walk_up"
+
+[node name="AnimatedSprite2D_Pants" parent="Page1/PlayerDrug" index="2"]
+animation = &"walk_up"
+
+[node name="AnimatedSprite2D_Shoes" parent="Page1/PlayerDrug" index="3"]
+animation = &"walk_up"
+
+[node name="AnimatedSprite2D_Hair" parent="Page1/PlayerDrug" index="4"]
+animation = &"walk_up"
+
+[node name="PlayerSubstance" parent="Page1" instance=ExtResource("3_5ypyd")]
+position = Vector2(1161, 776)
+scale = Vector2(4, 4)
+
+[node name="AnimatedSprite2D_Body" parent="Page1/PlayerSubstance" index="0"]
+animation = &"carry_up"
+
+[node name="AnimatedSprite2D_Clothes" parent="Page1/PlayerSubstance" index="1"]
+animation = &"carry_up"
+
+[node name="AnimatedSprite2D_Pants" parent="Page1/PlayerSubstance" index="2"]
+animation = &"carry_up"
+
+[node name="AnimatedSprite2D_Shoes" parent="Page1/PlayerSubstance" index="3"]
+animation = &"carry_up"
+
+[node name="AnimatedSprite2D_Hair" parent="Page1/PlayerSubstance" index="4"]
+animation = &"carry_up"
+
 [node name="Substance" type="Sprite2D" parent="Page1"]
-position = Vector2(1105, 801)
+position = Vector2(1157, 719)
 scale = Vector2(2.5, 2.5)
 texture = ExtResource("4_qgc2e")
 region_enabled = true
 region_rect = Rect2(64, 32, 32, 32)
 
-[node name="Drug" type="Sprite2D" parent="Page1"]
-position = Vector2(1487, 599)
+[node name="Ingredient" type="Sprite2D" parent="Page1"]
+position = Vector2(1160, 520)
 scale = Vector2(2.5, 2.5)
 texture = ExtResource("4_qgc2e")
 region_enabled = true
-region_rect = Rect2(96, 32, 32, 32)
+region_rect = Rect2(0, 32, 32, 32)
 
 [node name="Babies" type="Node2D" parent="Page1"]
 
@@ -4842,6 +4952,80 @@ texture = ExtResource("6_urj6y")
 region_enabled = true
 region_rect = Rect2(0, 0, 32, 32)
 
+[node name="Arrows" type="Node2D" parent="Page1"]
+
+[node name="ArrowDown" type="Sprite2D" parent="Page1/Arrows"]
+position = Vector2(924, 146)
+rotation = -1.57079
+texture = ExtResource("8_gomb5")
+
+[node name="ArrowDown2" type="Sprite2D" parent="Page1/Arrows"]
+position = Vector2(1334, 146)
+rotation = -1.57079
+texture = ExtResource("8_gomb5")
+
+[node name="ArrowDown3" type="Sprite2D" parent="Page1/Arrows"]
+position = Vector2(924, 340.5)
+rotation = -1.57079
+texture = ExtResource("8_gomb5")
+
+[node name="ArrowDown4" type="Sprite2D" parent="Page1/Arrows"]
+position = Vector2(1334, 340.5)
+rotation = -1.57079
+texture = ExtResource("8_gomb5")
+
+[node name="ArrowDown5" type="Sprite2D" parent="Page1/Arrows"]
+position = Vector2(924, 538.5)
+rotation = -1.57079
+texture = ExtResource("8_gomb5")
+
+[node name="ArrowDown6" type="Sprite2D" parent="Page1/Arrows"]
+position = Vector2(1334, 538.5)
+rotation = -1.57079
+texture = ExtResource("8_gomb5")
+
+[node name="ArrowDown7" type="Sprite2D" parent="Page1/Arrows"]
+position = Vector2(924, 739.5)
+rotation = -1.57079
+texture = ExtResource("8_gomb5")
+
+[node name="ArrowDown8" type="Sprite2D" parent="Page1/Arrows"]
+position = Vector2(1334, 739.5)
+rotation = -1.57079
+texture = ExtResource("8_gomb5")
+
+[node name="ArrowDown9" type="Sprite2D" parent="Page1/Arrows"]
+position = Vector2(924, 946.5)
+rotation = -1.57079
+texture = ExtResource("8_gomb5")
+
+[node name="BabyNeedBubbles" type="Node2D" parent="Page1"]
+
+[node name="BubbleWhite0117" type="Sprite2D" parent="Page1/BabyNeedBubbles"]
+position = Vector2(761, 455)
+scale = Vector2(2.5, 2.5)
+texture = ExtResource("9_5d5g8")
+
+[node name="BubbleWhite0170" type="Sprite2D" parent="Page1/BabyNeedBubbles"]
+position = Vector2(762, 256)
+scale = Vector2(2.5, 2.5)
+texture = ExtResource("10_1c7hg")
+
+[node name="BubbleWhite0168" type="Sprite2D" parent="Page1/BabyNeedBubbles"]
+position = Vector2(760, 62)
+scale = Vector2(2.5, 2.5)
+texture = ExtResource("11_m2x0u")
+
+[node name="BubbleWhite0164" type="Sprite2D" parent="Page1/BabyNeedBubbles"]
+position = Vector2(761, 657)
+scale = Vector2(2.5, 2.5)
+texture = ExtResource("12_d2y76")
+
+[node name="BubbleWhite0177" type="Sprite2D" parent="Page1/BabyNeedBubbles"]
+position = Vector2(761, 859)
+scale = Vector2(2.5, 2.5)
+texture = ExtResource("13_xolh1")
+
 [node name="NextPageButton" type="Button" parent="Page1"]
 offset_left = 1740.0
 offset_top = 929.0
@@ -4855,14 +5039,10 @@ text = ">"
 [node name="Page2" type="Node2D" parent="."]
 visible = false
 
-[node name="TitleLabel3" type="Label" parent="Page2"]
-offset_left = 653.0
-offset_top = 564.0
-offset_right = 1295.0
-offset_bottom = 632.0
-text = "PAGE 2..."
-label_settings = SubResource("LabelSettings_2absf")
-horizontal_alignment = 1
+[node name="KeysSplash" type="Sprite2D" parent="Page2"]
+position = Vector2(960, 540.5)
+scale = Vector2(4, 3.9963)
+texture = ExtResource("3_6pnho")
 
 [node name="PrevPageButton" type="Button" parent="Page2"]
 offset_left = 58.0
@@ -4874,9 +5054,155 @@ theme = ExtResource("1_1hetj")
 theme_override_font_sizes/font_size = 32
 text = "<"
 
-[connection signal="pressed" from="BackButton" to="." method="_on_back_button_pressed"]
-[connection signal="pressed" from="ExitButton" to="." method="_on_exit_button_pressed"]
+[node name="LabelPlayer1" type="Label" parent="Page2"]
+offset_left = 252.0
+offset_top = 461.0
+offset_right = 594.0
+offset_bottom = 519.0
+text = "PLAYER 1
+"
+label_settings = ExtResource("15_moqxg")
+horizontal_alignment = 1
+
+[node name="LabelPlayer2" type="Label" parent="Page2"]
+offset_left = 1285.0
+offset_top = 65.0
+offset_right = 1627.0
+offset_bottom = 113.0
+text = "PLAYER 2
+"
+label_settings = ExtResource("15_moqxg")
+horizontal_alignment = 1
+
+[node name="LabelPlayer34" type="Label" parent="Page2"]
+offset_left = 881.0
+offset_top = 575.0
+offset_right = 1331.0
+offset_bottom = 623.0
+text = "PLAYER 3 & 4"
+label_settings = ExtResource("15_moqxg")
+horizontal_alignment = 1
+
+[node name="TitleLabel" type="Label" parent="Page2"]
+offset_left = 733.0
+offset_top = 43.0
+offset_right = 1069.0
+offset_bottom = 91.0
+text = "CONTROLS
+"
+label_settings = SubResource("LabelSettings_a6qrj")
+horizontal_alignment = 1
+
+[node name="Label_P1_use" type="Label" parent="Page2"]
+offset_left = 203.0
+offset_top = 541.0
+offset_right = 329.0
+offset_bottom = 589.0
+text = "use"
+label_settings = SubResource("LabelSettings_a6qrj")
+horizontal_alignment = 1
+
+[node name="Label_P1_dash" type="Label" parent="Page2"]
+offset_left = 542.0
+offset_top = 533.0
+offset_right = 710.0
+offset_bottom = 581.0
+text = "dash"
+label_settings = SubResource("LabelSettings_a6qrj")
+horizontal_alignment = 1
+
+[node name="Label_P1_move" type="Label" parent="Page2"]
+offset_left = 385.0
+offset_top = 916.0
+offset_right = 565.0
+offset_bottom = 964.0
+text = "move"
+label_settings = SubResource("LabelSettings_a6qrj")
+horizontal_alignment = 1
+
+[node name="Label_P2_use" type="Label" parent="Page2"]
+offset_left = 915.0
+offset_top = 295.0
+offset_right = 1041.0
+offset_bottom = 343.0
+text = "use"
+label_settings = SubResource("LabelSettings_a6qrj")
+horizontal_alignment = 1
+
+[node name="Label_P2_dash" type="Label" parent="Page2"]
+offset_left = 1088.0
+offset_top = 295.0
+offset_right = 1256.0
+offset_bottom = 343.0
+text = "dash"
+label_settings = SubResource("LabelSettings_a6qrj")
+horizontal_alignment = 1
+
+[node name="Label_P2_move" type="Label" parent="Page2"]
+offset_left = 1381.0
+offset_top = 451.0
+offset_right = 1561.0
+offset_bottom = 499.0
+text = "move"
+label_settings = SubResource("LabelSettings_a6qrj")
+horizontal_alignment = 1
+
+[node name="Label_P34_use" type="Label" parent="Page2"]
+offset_left = 1473.0
+offset_top = 914.0
+offset_right = 1599.0
+offset_bottom = 962.0
+text = "use"
+label_settings = SubResource("LabelSettings_a6qrj")
+horizontal_alignment = 1
+
+[node name="Label_P34_dash" type="Label" parent="Page2"]
+offset_left = 1243.0
+offset_top = 816.0
+offset_right = 1411.0
+offset_bottom = 864.0
+text = "dash"
+label_settings = SubResource("LabelSettings_a6qrj")
+horizontal_alignment = 1
+
+[node name="Label_P34_move" type="Label" parent="Page2"]
+offset_left = 999.0
+offset_top = 858.0
+offset_right = 1179.0
+offset_bottom = 906.0
+text = "move"
+label_settings = SubResource("LabelSettings_a6qrj")
+horizontal_alignment = 1
+
+[node name="BackButton" type="Button" parent="."]
+offset_left = 60.0
+offset_top = 60.0
+offset_right = 450.0
+offset_bottom = 160.0
+size_flags_horizontal = 0
+theme = ExtResource("1_1hetj")
+theme_override_font_sizes/font_size = 32
+text = "< BACK"
+
+[node name="ExitButton" type="Button" parent="."]
+offset_left = 60.0
+offset_top = 211.0
+offset_right = 450.0
+offset_bottom = 311.0
+size_flags_horizontal = 0
+theme = ExtResource("1_1hetj")
+theme_override_font_sizes/font_size = 32
+text = "EXIT TO MENU"
+
 [connection signal="pressed" from="Page1/NextPageButton" to="." method="_on_next_page_button_pressed"]
 [connection signal="pressed" from="Page2/PrevPageButton" to="." method="_on_prev_page_button_pressed"]
+[connection signal="pressed" from="BackButton" to="." method="_on_back_button_pressed"]
+[connection signal="pressed" from="ExitButton" to="." method="_on_exit_button_pressed"]
 
 [editable path="Page1/PlayerParts"]
+[editable path="Page1/PlayerDirtyPampers"]
+[editable path="Page1/PlayerPampers"]
+[editable path="Page1/PlayerIngredient"]
+[editable path="Page1/PlayerFood"]
+[editable path="Page1/PlayerDrug"]
+[editable path="Page1/PlayerSubstance"]
