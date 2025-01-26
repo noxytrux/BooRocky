@@ -41,7 +41,7 @@ func UpdatePoint() -> void:
 	
 func GetStars() -> int:
 	var MaxPoints = babyCountInRound * 100
-	MaxPoints += babyCountInRound * 5 * satisfyPointsMultiplier
+	MaxPoints += babyCountInRound * 3 * satisfyPointsMultiplier
 	var result = 0
 	
 	for index in pointsThresholds.size():
