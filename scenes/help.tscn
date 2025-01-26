@@ -4719,7 +4719,7 @@ text = "EXIT TO MENU"
 [node name="Page1" type="Node2D" parent="."]
 
 [node name="PlayerParts" parent="Page1" instance=ExtResource("3_5ypyd")]
-position = Vector2(922, 84)
+position = Vector2(1124, 88)
 scale = Vector2(4, 4)
 
 [node name="AnimatedSprite2D_Body" parent="Page1/PlayerParts" index="0"]
@@ -4738,7 +4738,7 @@ animation = &"carry_down"
 animation = &"carry_down"
 
 [node name="PlayerToy" parent="Page1" instance=ExtResource("3_5ypyd")]
-position = Vector2(1243, 70)
+position = Vector2(1525, 69)
 scale = Vector2(4, 4)
 
 [node name="Tiles" type="Node2D" parent="Page1"]
@@ -4750,14 +4750,14 @@ tile_map_data = PackedByteArray("AAAWAA0AAAAqAB0AAAAWAA4AAAAqAB4AAAAWAA8AAAAqAB8
 tile_set = SubResource("TileSet_ag6y7")
 
 [node name="Part" type="Sprite2D" parent="Page1"]
-position = Vector2(919, 39)
+position = Vector2(1121, 43)
 scale = Vector2(2.5, 2.5)
 texture = ExtResource("4_qgc2e")
 region_enabled = true
 region_rect = Rect2(0, 0, 32, 32)
 
 [node name="Toy" type="Sprite2D" parent="Page1"]
-position = Vector2(1244, 115)
+position = Vector2(1526, 114)
 scale = Vector2(2.5, 2.5)
 texture = ExtResource("4_qgc2e")
 region_enabled = true
