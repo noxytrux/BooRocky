@@ -19,7 +19,7 @@
 [ext_resource type="PackedScene" uid="uid://cmecyniwni6lo" path="res://scenes/Items/part.tscn" id="15_k6e2a"]
 [ext_resource type="PackedScene" uid="uid://bt3lycrlbp4ku" path="res://scenes/Items/substance.tscn" id="16_t22ny"]
 [ext_resource type="PackedScene" uid="uid://dbtbpadejolei" path="res://scenes/Items/toy.tscn" id="17_hdcir"]
-[ext_resource type="PackedScene" uid="uid://p06n5yppjq4b" path="res://scenes/Exit.tscn" id="19_n0vps"]
+[ext_resource type="PackedScene" path="res://scenes/Exit.tscn" id="19_n0vps"]
 [ext_resource type="FontFile" uid="uid://ch34o33lt8ea4" path="res://Assets/Fonts/PixelOperator8.ttf" id="21_a0613"]
 [ext_resource type="Script" path="res://scripts/level_gui.gd" id="21_p4x4h"]
 [ext_resource type="PackedScene" uid="uid://ctbntrkfakm8r" path="res://scenes/summary_panel.tscn" id="23_i4lyw"]
@@ -5415,7 +5415,7 @@ texture = ExtResource("2_i284k")
 physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_rheb4")
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_pdpjj"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vfxkh"]
 texture = ExtResource("2_i284k")
 0:0/0 = 0
 1:0/0 = 0
@@ -8135,7 +8135,7 @@ texture = ExtResource("2_i284k")
 94:31/0 = 0
 95:31/0 = 0
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_dr0rf"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_t3wwt"]
 texture = ExtResource("3_0h0ay")
 0:0/0 = 0
 1:0/0 = 0
@@ -10085,8 +10085,8 @@ texture = ExtResource("3_0h0ay")
 
 [sub_resource type="TileSet" id="TileSet_b7voi"]
 physics_layer_0/collision_layer = 1
-sources/0 = SubResource("TileSetAtlasSource_pdpjj")
-sources/1 = SubResource("TileSetAtlasSource_dr0rf")
+sources/0 = SubResource("TileSetAtlasSource_vfxkh")
+sources/1 = SubResource("TileSetAtlasSource_t3wwt")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_10aq7"]
 texture = ExtResource("2_i284k")
