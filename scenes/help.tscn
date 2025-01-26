@@ -1,7 +1,8 @@
-[gd_scene load_steps=21 format=4 uid="uid://cjksq2k2yi2y5"]
+[gd_scene load_steps=22 format=4 uid="uid://cjksq2k2yi2y5"]
 
 [ext_resource type="Theme" uid="uid://bn7tf70nor1sb" path="res://gui_menu_theme.tres" id="1_1hetj"]
 [ext_resource type="Script" path="res://scripts/help.gd" id="1_lu8qc"]
+[ext_resource type="Texture2D" uid="uid://d5pl8bo5uhav" path="res://Assets/Splashes/help_splash.png" id="2_bcf6x"]
 [ext_resource type="FontFile" uid="uid://ch34o33lt8ea4" path="res://Assets/Fonts/PixelOperator8.ttf" id="2_ciugm"]
 [ext_resource type="PackedScene" uid="uid://bhx84vdate55y" path="res://scenes/player_gfx.tscn" id="3_5ypyd"]
 [ext_resource type="Texture2D" uid="uid://cae3uqiiunj2a" path="res://Assets/Splashes/keys_splash.png" id="3_6pnho"]
@@ -4700,12 +4701,18 @@ font_color = Color(0, 0, 0, 1)
 process_mode = 3
 script = ExtResource("1_lu8qc")
 
-[node name="Background" type="ColorRect" parent="."]
+[node name="Page1" type="Node2D" parent="."]
+
+[node name="Background" type="ColorRect" parent="Page1"]
+visible = false
 offset_right = 1920.0
 offset_bottom = 1080.0
 color = Color(0.0546541, 0.424435, 0.30323, 1)
 
-[node name="Page1" type="Node2D" parent="."]
+[node name="HelpSplash" type="Sprite2D" parent="Page1"]
+scale = Vector2(4, 3.9963)
+texture = ExtResource("2_bcf6x")
+centered = false
 
 [node name="PlayerParts" parent="Page1" instance=ExtResource("3_5ypyd")]
 position = Vector2(1124, 88)
