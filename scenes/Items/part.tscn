@@ -1,11 +1,11 @@
 [gd_scene load_steps=3 format=3 uid="uid://cmecyniwni6lo"]
 
-[ext_resource type="Texture2D" uid="uid://dhrv7yjdu82kq" path="res://Assets/OpenmonItemIcons.png" id="1_ply88"]
+[ext_resource type="Texture2D" uid="uid://ds7y07aakyk2o" path="res://Assets/items_atlas.png" id="1_ghlq1"]
 [ext_resource type="Script" path="res://scripts/item_base.gd" id="2_n7wgh"]
 
 [node name="Part" type="Sprite2D"]
-texture = ExtResource("1_ply88")
+texture = ExtResource("1_ghlq1")
 region_enabled = true
-region_rect = Rect2(135, 68, 17, 25)
+region_rect = Rect2(0, 0, 32, 32)
 script = ExtResource("2_n7wgh")
 SelectedType = 7

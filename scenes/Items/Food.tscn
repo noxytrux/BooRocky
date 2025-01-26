@@ -1,11 +1,11 @@
 [gd_scene load_steps=3 format=3 uid="uid://wmxx4fyomn1h"]
 
-[ext_resource type="Texture2D" uid="uid://dhrv7yjdu82kq" path="res://Assets/OpenmonItemIcons.png" id="1_d3fev"]
+[ext_resource type="Texture2D" uid="uid://ds7y07aakyk2o" path="res://Assets/items_atlas.png" id="1_v8bgt"]
 [ext_resource type="Script" path="res://scripts/item_base.gd" id="2_3p574"]
 
 [node name="Food" type="Sprite2D"]
-texture = ExtResource("1_d3fev")
+texture = ExtResource("1_v8bgt")
 region_enabled = true
-region_rect = Rect2(296, 68, 16, 25)
+region_rect = Rect2(32, 32, 32, 32)
 script = ExtResource("2_3p574")
 SelectedType = 2
