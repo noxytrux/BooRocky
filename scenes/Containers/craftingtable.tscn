@@ -1,12 +1,16 @@
-[gd_scene load_steps=6 format=3 uid="uid://byk6n8lb2dv7"]
+[gd_scene load_steps=8 format=3 uid="uid://byk6n8lb2dv7"]
 
 [ext_resource type="Script" path="res://scripts/craftingtable.gd" id="1_wam44"]
 [ext_resource type="Theme" uid="uid://7l7pjmgaud4p" path="res://progress_bar_theme.tres" id="2_iupgc"]
 [ext_resource type="AudioStream" uid="uid://dtbkroohpodms" path="res://sfx/sound/Bubble 1.wav" id="2_sux3c"]
 [ext_resource type="AudioStream" uid="uid://c46o68w60vpdm" path="res://sfx/sound/Fruit collect 1.wav" id="3_2hekh"]
+[ext_resource type="Texture2D" uid="uid://crveynv8h8xg4" path="res://Assets/arrow_down.png" id="5_mxk3y"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_pci1g"]
 size = Vector2(129, 128)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_aqruq"]
+size = Vector2(169, 164)
 
 [node name="Craftingtable" type="StaticBody2D"]
 collision_layer = 32768
@@ -40,5 +44,18 @@ stream = ExtResource("2_sux3c")
 [node name="craft_sound" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("3_2hekh")
 
+[node name="arrow_craft" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-1, -32)
+texture = ExtResource("5_mxk3y")
+
+[node name="c2" type="Area2D" parent="."]
+
+[node name="d3" type="CollisionShape2D" parent="c2"]
+position = Vector2(-0.5, 0)
+shape = SubResource("RectangleShape2D_aqruq")
+
 [connection signal="timeout" from="CraftItemTimer" to="." method="_on_spawn_item_timer_timeout"]
 [connection signal="timeout" from="CraftItemTimer" to="." method="_on_craft_item_timer_timeout"]
+[connection signal="body_entered" from="c2" to="." method="_on_c_2_body_entered"]
+[connection signal="body_exited" from="c2" to="." method="_on_c_2_body_exited"]

@@ -3378,7 +3378,6 @@ motion_mode = 1
 script = ExtResource("1_uap0v")
 
 [node name="DashParticles" type="CPUParticles2D" parent="."]
-visible = false
 emitting = false
 amount = 24
 lifetime = 0.35
@@ -3437,7 +3436,6 @@ target_position = Vector2(0, -100)
 collision_mask = 32768
 
 [node name="ItemAnchor" type="Node2D" parent="."]
-visible = false
 position = Vector2(0, -27)
 
 [node name="DashCooldownTimer" type="Timer" parent="."]
