@@ -31,9 +31,9 @@ func CheckIfAllBabysAreDeadOrSurvived() -> void:
 		FinishRound()
 		
 func UpdatePoint() -> void:
-	currentPoints = survivedBabyCount - deadBabyCount
-	currentPoints *= 100
 	
+	currentPoints = survivedBabyCount * 100
+	currentPoints += deadBabyCount * -50	
 	currentPoints += babySatisfedNumber * satisfyPointsMultiplier
 	
 	%LevelGUI.points = currentPoints
