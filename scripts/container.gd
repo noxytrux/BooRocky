@@ -3,9 +3,28 @@ class_name ContainerItem extends Node2D
 @export var HoldItem: ItemBase
 @onready var ItemAnchor = $ItemAnchor
 @onready var take_put_sound: AudioStreamPlayer2D = $take_put_sound
+@onready var arrow: Sprite2D = $arrow
 
 func _ready() -> void:
 	PlaceItem(HoldItem) #ONLY FOR TEST - DELETE THIS LATER
+	setArrow()
+
+func setArrow() -> void:
+	await arrow
+	
+	if arrow == null:
+		return
+	
+	var move_speed = 0.3
+	var start_y := arrow.position.y
+	var end_y := arrow.position.y + 10
+	var tween := create_tween().set_loops().set_ease(Tween.EASE_IN_OUT)
+	tween.tween_property(arrow, "position:y", end_y, move_speed).from(start_y)
+	tween.tween_property(arrow, "position:y", start_y, move_speed).from(end_y)
+
+func _process(delta: float) -> void:
+	if arrow:
+		arrow.global_scale = Vector2(0.8, 0.8)
 
 func play_sound() -> void:
 	if take_put_sound == null:
@@ -45,3 +64,16 @@ func CanTakeItem() -> bool:
 	
 func PeekItem() -> ItemBase:
 	return HoldItem
+
+func _on_area_2d_body_entered(body: Node2D) -> void:
+	if body is ContainerItem or body is TileMapLayer:
+		return
+		
+	arrow.visible = true
+		
+func _on_area_2d_body_exited(body: Node2D) -> void:
+	if body is ContainerItem or body is TileMapLayer:
+		return
+		
+	arrow.visible = false
+	
