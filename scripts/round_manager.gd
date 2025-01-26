@@ -37,10 +37,11 @@ func UpdatePoint() -> void:
 	currentPoints += babySatisfedNumber * satisfyPointsMultiplier
 	
 	%LevelGUI.points = currentPoints
-	summary_panel.UpdatePresentation(survivedBabyCount, deadBabyCount, babySatisfedNumber, currentPoints)
+	summary_panel.UpdatePresentation(survivedBabyCount, deadBabyCount, babySatisfedNumber, currentPoints, GetStars())
 	
 func GetStars() -> int:
 	var MaxPoints = babyCountInRound * 100
+	MaxPoints += babyCountInRound * 5 * satisfyPointsMultiplier
 	var result = 0
 	
 	for index in pointsThresholds.size():
