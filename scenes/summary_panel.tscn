@@ -4,7 +4,7 @@
 [ext_resource type="FontFile" uid="uid://domy2bxambts" path="res://Assets/Fonts/PixelOperator8-Bold.ttf" id="2_0iynp"]
 [ext_resource type="FontFile" uid="uid://ch34o33lt8ea4" path="res://Assets/Fonts/PixelOperator8.ttf" id="3_xcelq"]
 [ext_resource type="Theme" uid="uid://bn7tf70nor1sb" path="res://gui_menu_theme.tres" id="4_g60ud"]
-[ext_resource type="Texture2D" uid="uid://dn0nkduq8vnou" path="res://Assets/emoji_white_bubble/bubble_white_01_67.png" id="5_aty5b"]
+[ext_resource type="Texture2D" uid="uid://de7ove72i6p40" path="res://Assets/gui/bomhead.png" id="5_suu2d"]
 
 [node name="SummaryPanel" type="Control"]
 process_mode = 3
@@ -128,49 +128,51 @@ text = "EXIT TO MENU"
 [node name="Star#1" type="TextureRect" parent="."]
 self_modulate = Color(0.111197, 0.111197, 0.111197, 1)
 layout_mode = 0
-offset_left = 726.0
-offset_top = 592.0
-offset_right = 885.0
-offset_bottom = 728.0
-texture = ExtResource("5_aty5b")
+offset_left = 696.0
+offset_top = 604.0
+offset_right = 855.0
+offset_bottom = 740.0
+texture = ExtResource("5_suu2d")
 
 [node name="Star#4" type="TextureRect" parent="Star#1"]
 visible = false
 layout_mode = 0
 offset_right = 159.0
 offset_bottom = 136.0
-texture = ExtResource("5_aty5b")
+texture = ExtResource("5_suu2d")
 
 [node name="Star#2" type="TextureRect" parent="."]
 self_modulate = Color(0.111197, 0.111197, 0.111197, 1)
 layout_mode = 0
-offset_left = 1026.0
-offset_top = 592.0
-offset_right = 1185.0
-offset_bottom = 728.0
-texture = ExtResource("5_aty5b")
+offset_left = 1056.0
+offset_top = 604.0
+offset_right = 1215.0
+offset_bottom = 740.0
+texture = ExtResource("5_suu2d")
 
 [node name="Star#5" type="TextureRect" parent="Star#2"]
 visible = false
 layout_mode = 0
 offset_right = 159.0
 offset_bottom = 136.0
-texture = ExtResource("5_aty5b")
+texture = ExtResource("5_suu2d")
 
 [node name="Star#3" type="TextureRect" parent="."]
 self_modulate = Color(0.111197, 0.111197, 0.111197, 1)
 layout_mode = 0
-offset_left = 876.0
-offset_top = 561.0
-offset_right = 1035.0
-offset_bottom = 697.0
-texture = ExtResource("5_aty5b")
+offset_left = 853.0
+offset_top = 547.0
+offset_right = 1012.0
+offset_bottom = 683.0
+scale = Vector2(1.3, 1.3)
+texture = ExtResource("5_suu2d")
 
 [node name="Star#6" type="TextureRect" parent="Star#3"]
 visible = false
+self_modulate = Color(0.941059, 0.874514, 0.330428, 1)
 layout_mode = 0
 offset_right = 159.0
 offset_bottom = 136.0
-texture = ExtResource("5_aty5b")
+texture = ExtResource("5_suu2d")
 
 [connection signal="pressed" from="ExitButton" to="." method="_on_exit_button_pressed"]

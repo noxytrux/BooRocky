@@ -4,11 +4,14 @@ class_name Baby extends ItemBase
 @onready var need_timer: Timer = $need_timer
 @onready var need_icon: Sprite2D = $need_icon
 @onready var progress_bar: ProgressBar = $ProgressBar
+@onready var progress_bar_need_bed: ProgressBar = $ProgressBarNeedBed
 @onready var round_manager: RoundManager = null
 @onready var satisfy_sound: AudioStreamPlayer2D = $satisfy_sound
 @onready var nope_sound: AudioStreamPlayer2D = $nope_sound
 @onready var need_sound: AudioStreamPlayer2D = $need_sound
 @onready var died_sound: AudioStreamPlayer2D = $died_sound
+@onready var find_bed_timer: Timer = $find_bed_timer
+@onready var need_bed_icon: Sprite2D = $need_bed_icon
 
 const DIAPER = preload("res://scenes/Items/DirtyPampers.tscn")
 const ADULT  = preload("res://scenes/adult.tscn")
@@ -21,7 +24,7 @@ const BUBBLE_HAPPY = preload("res://Assets/emoji_white_bubble/bubble_white_01_82
 const BUBBLE_DEAD = preload("res://Assets/emoji_white_bubble/bubble_white_01_77.png")
 
 const COOLDOWN_START = 5.0
-const MAX_SATISFACTION = 5
+const MAX_SATISFACTION = 3
 
 var canpickup:bool = true
 var dead:bool = false
@@ -71,6 +74,7 @@ func play_audio(sound:AudioStreamPlayer2D) -> void:
 func _ready() -> void:
 	need_icon.texture = BUBBLE_HAPPY
 	round_manager = get_tree().get_current_scene().get_child(0)
+	SetFindBedNeed(true);
 
 func _process(delta: float) -> void:
 	
@@ -78,6 +82,11 @@ func _process(delta: float) -> void:
 		var progress = (need_timer.time_left / need_timer.wait_time)
 		progress_bar.value = progress * 100.0
 		progress_bar.modulate = GlobalValues.progress_to_color(progress)
+		
+	if progress_bar_need_bed.visible:
+		var progress = (find_bed_timer.time_left / find_bed_timer.wait_time)
+		progress_bar_need_bed.value = progress * 100.0
+		progress_bar_need_bed.modulate = GlobalValues.progress_to_color(progress)
 		
 	if cooldown_need:
 		cooldown -= delta * animation_speed
@@ -132,9 +141,10 @@ func PickUp() -> void:
 	body.play("bed")
 	
 func PutDown() -> void:
+	SetFindBedNeed(false);
 	await get_tree().create_timer(1).timeout
 	
-	if current_need == BabyNeed.None:
+	if current_need == BabyNeed.None && !dead:
 		DetermineNeed()
 
 func Disposed() -> void:
@@ -199,6 +209,16 @@ func _on_need_timer_timeout() -> void:
 	if HasDiaper():
 		diaper.queue_free()
 	
+func _on_find_bed_timer_timeout() -> void:
+	round_manager.BabyDied()
+	dead = true
+	canpickup = true
+	current_need = BabyNeed.Died
+	UpdateNeedIcon()
+	SetFindBedNeed(false)
+	body.stop()
+	play_audio(died_sound)
+	
 func IsDisposed() -> bool:
 	return finished_dispose
 	
@@ -211,3 +231,12 @@ func HasDiaper() -> bool:
 func GetDiaper() -> ItemBase:
 	remove_child(diaper)
 	return diaper
+
+func SetFindBedNeed(state : bool) -> void:
+	if(state):
+		find_bed_timer.start()
+	else:
+		find_bed_timer.stop()
+	
+	need_bed_icon.visible = state
+	progress_bar_need_bed.visible = state
