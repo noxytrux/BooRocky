@@ -1,7 +1,8 @@
-[gd_scene load_steps=18 format=4 uid="uid://cjksq2k2yi2y5"]
+[gd_scene load_steps=21 format=4 uid="uid://cjksq2k2yi2y5"]
 
 [ext_resource type="Theme" uid="uid://bn7tf70nor1sb" path="res://gui_menu_theme.tres" id="1_1hetj"]
 [ext_resource type="Script" path="res://scripts/help.gd" id="1_lu8qc"]
+[ext_resource type="FontFile" uid="uid://ch34o33lt8ea4" path="res://Assets/Fonts/PixelOperator8.ttf" id="2_ciugm"]
 [ext_resource type="PackedScene" uid="uid://bhx84vdate55y" path="res://scenes/player_gfx.tscn" id="3_5ypyd"]
 [ext_resource type="Texture2D" uid="uid://cae3uqiiunj2a" path="res://Assets/Splashes/keys_splash.png" id="3_6pnho"]
 [ext_resource type="Texture2D" uid="uid://cjtvph0ia7vjl" path="res://Assets/atlas_32x.png" id="4_jb1yh"]
@@ -14,6 +15,7 @@
 [ext_resource type="Texture2D" uid="uid://bv6tyjsnp4lh4" path="res://Assets/emoji_white_bubble/bubble_white_01_68.png" id="11_m2x0u"]
 [ext_resource type="Texture2D" uid="uid://cfonk257efmg3" path="res://Assets/emoji_white_bubble/bubble_white_01_64.png" id="12_d2y76"]
 [ext_resource type="Texture2D" uid="uid://qeyk5kyfu8bb" path="res://Assets/emoji_white_bubble/bubble_white_01_77.png" id="13_xolh1"]
+[ext_resource type="LabelSettings" path="res://Assets/gui/label_player_style.tres" id="15_moqxg"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_fg1y1"]
 texture = ExtResource("4_jb1yh")
@@ -4688,6 +4690,12 @@ physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_fg1y1")
 sources/1 = SubResource("TileSetAtlasSource_avnuh")
 
+[sub_resource type="LabelSettings" id="LabelSettings_a6qrj"]
+line_spacing = 24.0
+font = ExtResource("2_ciugm")
+font_size = 48
+font_color = Color(0, 0, 0, 1)
+
 [node name="Help" type="Node2D"]
 process_mode = 3
 script = ExtResource("1_lu8qc")
@@ -4696,26 +4704,6 @@ script = ExtResource("1_lu8qc")
 offset_right = 1920.0
 offset_bottom = 1080.0
 color = Color(0.0546541, 0.424435, 0.30323, 1)
-
-[node name="BackButton" type="Button" parent="."]
-offset_left = 60.0
-offset_top = 60.0
-offset_right = 450.0
-offset_bottom = 160.0
-size_flags_horizontal = 0
-theme = ExtResource("1_1hetj")
-theme_override_font_sizes/font_size = 32
-text = "< BACK"
-
-[node name="ExitButton" type="Button" parent="."]
-offset_left = 60.0
-offset_top = 211.0
-offset_right = 450.0
-offset_bottom = 311.0
-size_flags_horizontal = 0
-theme = ExtResource("1_1hetj")
-theme_override_font_sizes/font_size = 32
-text = "EXIT TO MENU"
 
 [node name="Page1" type="Node2D" parent="."]
 
@@ -5045,7 +5033,8 @@ text = ">"
 visible = false
 
 [node name="KeysSplash" type="Sprite2D" parent="Page2"]
-position = Vector2(1003, 579)
+position = Vector2(960, 540.5)
+scale = Vector2(4, 3.9963)
 texture = ExtResource("3_6pnho")
 
 [node name="PrevPageButton" type="Button" parent="Page2"]
@@ -5058,10 +5047,150 @@ theme = ExtResource("1_1hetj")
 theme_override_font_sizes/font_size = 32
 text = "<"
 
-[connection signal="pressed" from="BackButton" to="." method="_on_back_button_pressed"]
-[connection signal="pressed" from="ExitButton" to="." method="_on_exit_button_pressed"]
+[node name="LabelPlayer1" type="Label" parent="Page2"]
+offset_left = 252.0
+offset_top = 461.0
+offset_right = 594.0
+offset_bottom = 519.0
+text = "PLAYER 1
+"
+label_settings = ExtResource("15_moqxg")
+horizontal_alignment = 1
+
+[node name="LabelPlayer2" type="Label" parent="Page2"]
+offset_left = 1285.0
+offset_top = 65.0
+offset_right = 1627.0
+offset_bottom = 113.0
+text = "PLAYER 2
+"
+label_settings = ExtResource("15_moqxg")
+horizontal_alignment = 1
+
+[node name="LabelPlayer34" type="Label" parent="Page2"]
+offset_left = 881.0
+offset_top = 575.0
+offset_right = 1331.0
+offset_bottom = 623.0
+text = "PLAYER 3 & 4"
+label_settings = ExtResource("15_moqxg")
+horizontal_alignment = 1
+
+[node name="TitleLabel" type="Label" parent="Page2"]
+offset_left = 733.0
+offset_top = 43.0
+offset_right = 1069.0
+offset_bottom = 91.0
+text = "CONTROLS
+"
+label_settings = SubResource("LabelSettings_a6qrj")
+horizontal_alignment = 1
+
+[node name="Label_P1_use" type="Label" parent="Page2"]
+offset_left = 203.0
+offset_top = 541.0
+offset_right = 329.0
+offset_bottom = 589.0
+text = "use"
+label_settings = SubResource("LabelSettings_a6qrj")
+horizontal_alignment = 1
+
+[node name="Label_P1_dash" type="Label" parent="Page2"]
+offset_left = 542.0
+offset_top = 533.0
+offset_right = 710.0
+offset_bottom = 581.0
+text = "dash"
+label_settings = SubResource("LabelSettings_a6qrj")
+horizontal_alignment = 1
+
+[node name="Label_P1_move" type="Label" parent="Page2"]
+offset_left = 385.0
+offset_top = 916.0
+offset_right = 565.0
+offset_bottom = 964.0
+text = "move"
+label_settings = SubResource("LabelSettings_a6qrj")
+horizontal_alignment = 1
+
+[node name="Label_P2_use" type="Label" parent="Page2"]
+offset_left = 915.0
+offset_top = 295.0
+offset_right = 1041.0
+offset_bottom = 343.0
+text = "use"
+label_settings = SubResource("LabelSettings_a6qrj")
+horizontal_alignment = 1
+
+[node name="Label_P2_dash" type="Label" parent="Page2"]
+offset_left = 1088.0
+offset_top = 295.0
+offset_right = 1256.0
+offset_bottom = 343.0
+text = "dash"
+label_settings = SubResource("LabelSettings_a6qrj")
+horizontal_alignment = 1
+
+[node name="Label_P2_move" type="Label" parent="Page2"]
+offset_left = 1381.0
+offset_top = 451.0
+offset_right = 1561.0
+offset_bottom = 499.0
+text = "move"
+label_settings = SubResource("LabelSettings_a6qrj")
+horizontal_alignment = 1
+
+[node name="Label_P34_use" type="Label" parent="Page2"]
+offset_left = 1473.0
+offset_top = 914.0
+offset_right = 1599.0
+offset_bottom = 962.0
+text = "use"
+label_settings = SubResource("LabelSettings_a6qrj")
+horizontal_alignment = 1
+
+[node name="Label_P34_dash" type="Label" parent="Page2"]
+offset_left = 1243.0
+offset_top = 816.0
+offset_right = 1411.0
+offset_bottom = 864.0
+text = "dash"
+label_settings = SubResource("LabelSettings_a6qrj")
+horizontal_alignment = 1
+
+[node name="Label_P34_move" type="Label" parent="Page2"]
+offset_left = 999.0
+offset_top = 858.0
+offset_right = 1179.0
+offset_bottom = 906.0
+text = "move"
+label_settings = SubResource("LabelSettings_a6qrj")
+horizontal_alignment = 1
+
+[node name="BackButton" type="Button" parent="."]
+offset_left = 60.0
+offset_top = 60.0
+offset_right = 450.0
+offset_bottom = 160.0
+size_flags_horizontal = 0
+theme = ExtResource("1_1hetj")
+theme_override_font_sizes/font_size = 32
+text = "< BACK"
+
+[node name="ExitButton" type="Button" parent="."]
+offset_left = 60.0
+offset_top = 211.0
+offset_right = 450.0
+offset_bottom = 311.0
+size_flags_horizontal = 0
+theme = ExtResource("1_1hetj")
+theme_override_font_sizes/font_size = 32
+text = "EXIT TO MENU"
+
 [connection signal="pressed" from="Page1/NextPageButton" to="." method="_on_next_page_button_pressed"]
 [connection signal="pressed" from="Page2/PrevPageButton" to="." method="_on_prev_page_button_pressed"]
+[connection signal="pressed" from="BackButton" to="." method="_on_back_button_pressed"]
+[connection signal="pressed" from="ExitButton" to="." method="_on_exit_button_pressed"]
 
 [editable path="Page1/PlayerParts"]
 [editable path="Page1/PlayerDirtyPampers"]
