@@ -19,7 +19,7 @@
 [ext_resource type="PackedScene" uid="uid://cmecyniwni6lo" path="res://scenes/Items/part.tscn" id="15_k6e2a"]
 [ext_resource type="PackedScene" uid="uid://bt3lycrlbp4ku" path="res://scenes/Items/substance.tscn" id="16_t22ny"]
 [ext_resource type="PackedScene" uid="uid://dbtbpadejolei" path="res://scenes/Items/toy.tscn" id="17_hdcir"]
-[ext_resource type="PackedScene" path="res://scenes/Exit.tscn" id="19_n0vps"]
+[ext_resource type="PackedScene" uid="uid://p06n5yppjq4b" path="res://scenes/Exit.tscn" id="19_n0vps"]
 [ext_resource type="FontFile" uid="uid://ch34o33lt8ea4" path="res://Assets/Fonts/PixelOperator8.ttf" id="21_a0613"]
 [ext_resource type="Script" path="res://scripts/level_gui.gd" id="21_p4x4h"]
 [ext_resource type="PackedScene" uid="uid://ctbntrkfakm8r" path="res://scenes/summary_panel.tscn" id="23_i4lyw"]
@@ -20197,6 +20197,17 @@ label_settings = SubResource("LabelSettings_dl23x")
 
 [node name="SummaryPanel" parent="." instance=ExtResource("23_i4lyw")]
 visible = false
+
+[node name="Label" type="Label" parent="."]
+offset_left = 17.0
+offset_top = 1013.0
+offset_right = 1878.0
+offset_bottom = 1074.0
+theme_override_fonts/font = ExtResource("21_a0613")
+theme_override_font_sizes/font_size = 48
+text = "Press to Q/>/X on gamepad JOIN "
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [connection signal="tree_entered" from="." to="." method="_on_tree_entered"]
 [connection signal="tree_exiting" from="." to="." method="_on_tree_exiting"]
