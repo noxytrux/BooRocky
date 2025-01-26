@@ -1,7 +1,7 @@
 class_name RoundManager extends Node
 
 @export var babyCountInRound : int
-@export var pointsThresholds = [0.5, 0.7, 1]
+@export var pointsThresholds = [0.2, 0.6, 0.9]
 var currentPoints : float
 var deadBabyCount : int
 var survivedBabyCount : int
