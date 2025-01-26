@@ -1,4 +1,4 @@
-[gd_scene load_steps=44 format=4 uid="uid://cocdtyhxx0dqo"]
+[gd_scene load_steps=45 format=4 uid="uid://cocdtyhxx0dqo"]
 
 [ext_resource type="Script" path="res://scripts/level.gd" id="1_3lawp"]
 [ext_resource type="Texture2D" uid="uid://cp2u4l81t38uc" path="res://Assets/Green.png" id="1_66r1e"]
@@ -23,6 +23,7 @@
 [ext_resource type="FontFile" uid="uid://ch34o33lt8ea4" path="res://Assets/Fonts/PixelOperator8.ttf" id="21_a0613"]
 [ext_resource type="Script" path="res://scripts/level_gui.gd" id="21_p4x4h"]
 [ext_resource type="PackedScene" uid="uid://ctbntrkfakm8r" path="res://scenes/summary_panel.tscn" id="23_i4lyw"]
+[ext_resource type="FontFile" uid="uid://domy2bxambts" path="res://Assets/Fonts/PixelOperator8-Bold.ttf" id="24_hw63j"]
 
 [sub_resource type="NavigationPolygon" id="NavigationPolygon_qxdem"]
 vertices = PackedVector2Array(8, 8, -8, 8, -8, -8, 8, -8)
@@ -20198,16 +20199,99 @@ label_settings = SubResource("LabelSettings_dl23x")
 [node name="SummaryPanel" parent="." instance=ExtResource("23_i4lyw")]
 visible = false
 
-[node name="Label" type="Label" parent="."]
-offset_left = 17.0
-offset_top = 1013.0
-offset_right = 1878.0
-offset_bottom = 1074.0
-theme_override_fonts/font = ExtResource("21_a0613")
-theme_override_font_sizes/font_size = 48
-text = "Press to Q/>/X on gamepad JOIN "
+[node name="JoinBaner" type="Node2D" parent="."]
+position = Vector2(100, 1092)
+
+[node name="Background" type="Sprite2D" parent="JoinBaner"]
+position = Vector2(99, 0)
+scale = Vector2(14, 5)
+texture = ExtResource("3_0h0ay")
+region_enabled = true
+region_rect = Rect2(0, 128, 32, 64)
+
+[node name="Label" type="Label" parent="JoinBaner"]
+offset_left = -117.0
+offset_top = -81.0
+offset_right = 318.0
+offset_bottom = -15.0
+theme_override_fonts/font = ExtResource("24_hw63j")
+theme_override_font_sizes/font_size = 24
+text = "JOIN 
+Press Q"
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="JoinBaner2" type="Node2D" parent="."]
+position = Vector2(600, 1092)
+
+[node name="Background" type="Sprite2D" parent="JoinBaner2"]
+position = Vector2(99, 0)
+scale = Vector2(14, 5)
+texture = ExtResource("3_0h0ay")
+region_enabled = true
+region_rect = Rect2(64, 128, 32, 64)
+
+[node name="Label" type="Label" parent="JoinBaner2"]
+offset_left = -117.0
+offset_top = -81.0
+offset_right = 318.0
+offset_bottom = -15.0
+theme_override_fonts/font = ExtResource("24_hw63j")
+theme_override_font_sizes/font_size = 24
+text = "JOIN 
+Press >"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="JoinBaner3" type="Node2D" parent="."]
+position = Vector2(1100, 1092)
+
+[node name="Background" type="Sprite2D" parent="JoinBaner3"]
+position = Vector2(99, 0)
+scale = Vector2(14, 5)
+texture = ExtResource("3_0h0ay")
+region_enabled = true
+region_rect = Rect2(128, 128, 32, 64)
+
+[node name="Label" type="Label" parent="JoinBaner3"]
+offset_left = -117.0
+offset_top = -81.0
+offset_right = 318.0
+offset_bottom = -15.0
+theme_override_fonts/font = ExtResource("24_hw63j")
+theme_override_font_sizes/font_size = 24
+text = "JOIN 
+Press X on gamepad1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="JoinBaner4" type="Node2D" parent="."]
+position = Vector2(1600, 1092)
+
+[node name="Background" type="Sprite2D" parent="JoinBaner4"]
+position = Vector2(99, 0)
+scale = Vector2(14, 5)
+texture = ExtResource("3_0h0ay")
+region_enabled = true
+region_rect = Rect2(96, 128, 32, 64)
+
+[node name="Label" type="Label" parent="JoinBaner4"]
+offset_left = -117.0
+offset_top = -81.0
+offset_right = 318.0
+offset_bottom = -15.0
+theme_override_fonts/font = ExtResource("24_hw63j")
+theme_override_font_sizes/font_size = 24
+text = "JOIN 
+Press X on gamepad2"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HideBanerTimer" type="Timer" parent="."]
+wait_time = 30.0
+one_shot = true
+autostart = true
+
 [connection signal="tree_entered" from="." to="." method="_on_tree_entered"]
 [connection signal="tree_exiting" from="." to="." method="_on_tree_exiting"]
+[connection signal="timeout" from="HideBanerTimer" to="." method="_on_hide_baner_timer_timeout"]
