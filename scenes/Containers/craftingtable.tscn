@@ -40,5 +40,5 @@ stream = ExtResource("2_sux3c")
 [node name="craft_sound" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("3_2hekh")
 
-[connection signal="timeout" from="CraftItemTimer" to="." method="_on_craft_item_timer_timeout"]
 [connection signal="timeout" from="CraftItemTimer" to="." method="_on_spawn_item_timer_timeout"]
+[connection signal="timeout" from="CraftItemTimer" to="." method="_on_craft_item_timer_timeout"]

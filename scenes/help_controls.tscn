@@ -1,10 +1,10 @@
-[gd_scene load_steps=7 format=3 uid="uid://dqd8o4bjlw2um"]
+[gd_scene load_steps=7 format=3 uid="uid://dwgmrllf4wdus"]
 
 [ext_resource type="Script" path="res://scripts/help.gd" id="1_dw5wf"]
-[ext_resource type="Texture2D" uid="uid://cae3uqiiunj2a" path="res://Assets/splashes/keys_splash.png" id="2_icjpe"]
+[ext_resource type="Texture2D" uid="uid://cae3uqiiunj2a" path="res://Assets/Splashes/keys_splash.png" id="2_icjpe"]
 [ext_resource type="Theme" uid="uid://bn7tf70nor1sb" path="res://gui_menu_theme.tres" id="3_6tu4p"]
 [ext_resource type="FontFile" uid="uid://ch34o33lt8ea4" path="res://Assets/Fonts/PixelOperator8.ttf" id="4_awsjd"]
-[ext_resource type="LabelSettings" uid="uid://0dwrdwxu8phg" path="res://Assets/gui/label_player_style.tres" id="5_3bpl2"]
+[ext_resource type="LabelSettings" path="res://Assets/gui/label_player_style.tres" id="5_3bpl2"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_2absf"]
 line_spacing = 24.0
