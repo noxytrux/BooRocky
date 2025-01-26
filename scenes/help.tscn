@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://cjksq2k2yi2y5"]
 
-[ext_resource type="Theme" uid="uid://d34bl3mi83oog" path="res://gui_menu_theme.tres" id="1_1hetj"]
+[ext_resource type="Theme" uid="uid://bn7tf70nor1sb" path="res://gui_menu_theme.tres" id="1_1hetj"]
 [ext_resource type="Script" path="res://scripts/help.gd" id="1_lu8qc"]
 [ext_resource type="FontFile" uid="uid://ch34o33lt8ea4" path="res://Assets/Fonts/PixelOperator8.ttf" id="2_ciugm"]
 
@@ -45,5 +45,48 @@ text = "HELP"
 label_settings = SubResource("LabelSettings_2absf")
 horizontal_alignment = 1
 
+[node name="Page1" type="Node2D" parent="."]
+
+[node name="TitleLabel2" type="Label" parent="Page1"]
+offset_left = 653.0
+offset_top = 564.0
+offset_right = 1295.0
+offset_bottom = 632.0
+text = "PAGE 1..."
+label_settings = SubResource("LabelSettings_2absf")
+horizontal_alignment = 1
+
+[node name="NextPageButton" type="Button" parent="Page1"]
+offset_left = 1681.0
+offset_top = 861.0
+offset_right = 1829.0
+offset_bottom = 1009.0
+size_flags_horizontal = 0
+theme = ExtResource("1_1hetj")
+text = ">"
+
+[node name="Page2" type="Node2D" parent="."]
+visible = false
+
+[node name="TitleLabel3" type="Label" parent="Page2"]
+offset_left = 653.0
+offset_top = 564.0
+offset_right = 1295.0
+offset_bottom = 632.0
+text = "PAGE 2..."
+label_settings = SubResource("LabelSettings_2absf")
+horizontal_alignment = 1
+
+[node name="PrevPageButton" type="Button" parent="Page2"]
+offset_left = 71.0
+offset_top = 861.0
+offset_right = 219.0
+offset_bottom = 1009.0
+size_flags_horizontal = 0
+theme = ExtResource("1_1hetj")
+text = "<"
+
 [connection signal="pressed" from="BackButton" to="." method="_on_back_button_pressed"]
 [connection signal="pressed" from="ExitButton" to="." method="_on_exit_button_pressed"]
+[connection signal="pressed" from="Page1/NextPageButton" to="." method="_on_next_page_button_pressed"]
+[connection signal="pressed" from="Page2/PrevPageButton" to="." method="_on_prev_page_button_pressed"]
