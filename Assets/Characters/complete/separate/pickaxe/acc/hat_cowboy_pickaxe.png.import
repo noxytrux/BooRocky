@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dax6fymxjpygj"
-path="res://.godot/imported/hat_cowboy_pickaxe.png-27ba4ddac42a6dab507f5799051945d9.ctex"
+path="res://.godot/imported/hat_cowboy_pickaxe.png-5f5edf5989594f66ece6b767f4c959ac.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/pickaxe/acc/hat_cowboy_pickaxe.png"
-dest_files=["res://.godot/imported/hat_cowboy_pickaxe.png-27ba4ddac42a6dab507f5799051945d9.ctex"]
+source_file="res://Assets/Characters/complete/separate/pickaxe/acc/hat_cowboy_pickaxe.png"
+dest_files=["res://.godot/imported/hat_cowboy_pickaxe.png-5f5edf5989594f66ece6b767f4c959ac.ctex"]
 
 [params]
 

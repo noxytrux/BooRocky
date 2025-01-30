@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://mv2n2bf1hv6v"
-path="res://.godot/imported/spaghetti_sword.png-745c1d37b160276b4537b858a2e07d82.ctex"
+path="res://.godot/imported/spaghetti_sword.png-8167588f57cee2a22497652c70e02a0f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/sword/clothes/spaghetti_sword.png"
-dest_files=["res://.godot/imported/spaghetti_sword.png-745c1d37b160276b4537b858a2e07d82.ctex"]
+source_file="res://Assets/Characters/complete/separate/sword/clothes/spaghetti_sword.png"
+dest_files=["res://.godot/imported/spaghetti_sword.png-8167588f57cee2a22497652c70e02a0f.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cxe1tylti4qtm"
-path="res://.godot/imported/basic_hoe.png-fe120d1ba9b651280e1bc904606060e9.ctex"
+path="res://.godot/imported/basic_hoe.png-deb1c906cdf3cfa40cc1a8c8304ec64e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/hoe/clothes/basic_hoe.png"
-dest_files=["res://.godot/imported/basic_hoe.png-fe120d1ba9b651280e1bc904606060e9.ctex"]
+source_file="res://Assets/Characters/complete/separate/hoe/clothes/basic_hoe.png"
+dest_files=["res://.godot/imported/basic_hoe.png-deb1c906cdf3cfa40cc1a8c8304ec64e.ctex"]
 
 [params]
 

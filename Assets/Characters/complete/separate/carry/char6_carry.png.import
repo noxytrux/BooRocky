@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://j0dtcly3jqfa"
-path="res://.godot/imported/char6_carry.png-3e4ba5411cf9a9b926099d5479e3508f.ctex"
+path="res://.godot/imported/char6_carry.png-d13af920bfbc6fa1a0f353b92c6f4dad.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/carry/char6_carry.png"
-dest_files=["res://.godot/imported/char6_carry.png-3e4ba5411cf9a9b926099d5479e3508f.ctex"]
+source_file="res://Assets/Characters/complete/separate/carry/char6_carry.png"
+dest_files=["res://.godot/imported/char6_carry.png-d13af920bfbc6fa1a0f353b92c6f4dad.ctex"]
 
 [params]
 

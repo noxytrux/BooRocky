@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dwbt87mbliyuu"
-path="res://.godot/imported/long_straight_pickaxe.png-635fcde356dfd802bc384bf96597e82b.ctex"
+path="res://.godot/imported/long_straight_pickaxe.png-35efde2ba0d329306c36fa0442c5f71c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/pickaxe/hair/long_straight_pickaxe.png"
-dest_files=["res://.godot/imported/long_straight_pickaxe.png-635fcde356dfd802bc384bf96597e82b.ctex"]
+source_file="res://Assets/Characters/complete/separate/pickaxe/hair/long_straight_pickaxe.png"
+dest_files=["res://.godot/imported/long_straight_pickaxe.png-35efde2ba0d329306c36fa0442c5f71c.ctex"]
 
 [params]
 

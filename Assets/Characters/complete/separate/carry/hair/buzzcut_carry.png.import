@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://duxkxhssd4um8"
-path="res://.godot/imported/buzzcut_carry.png-510faacc3bb8c097d403e540efc39bf7.ctex"
+path="res://.godot/imported/buzzcut_carry.png-2cd2da2714469c49892a6e06fceaade5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/carry/hair/buzzcut_carry.png"
-dest_files=["res://.godot/imported/buzzcut_carry.png-510faacc3bb8c097d403e540efc39bf7.ctex"]
+source_file="res://Assets/Characters/complete/separate/carry/hair/buzzcut_carry.png"
+dest_files=["res://.godot/imported/buzzcut_carry.png-2cd2da2714469c49892a6e06fceaade5.ctex"]
 
 [params]
 

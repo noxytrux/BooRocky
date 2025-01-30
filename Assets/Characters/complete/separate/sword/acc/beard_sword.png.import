@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dkqksxvdbkwih"
-path="res://.godot/imported/beard_sword.png-ace72dfb866901cf90aa2b978e026fd0.ctex"
+path="res://.godot/imported/beard_sword.png-d8668d4592a0ec9a0237ec2ec8cd3c10.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/sword/acc/beard_sword.png"
-dest_files=["res://.godot/imported/beard_sword.png-ace72dfb866901cf90aa2b978e026fd0.ctex"]
+source_file="res://Assets/Characters/complete/separate/sword/acc/beard_sword.png"
+dest_files=["res://.godot/imported/beard_sword.png-d8668d4592a0ec9a0237ec2ec8cd3c10.ctex"]
 
 [params]
 

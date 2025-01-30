@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cr48xtf22xphq"
-path="res://.godot/imported/hat_lucky_sword.png-f0b9017778e0ac6dee015cdcdd7c6c0c.ctex"
+path="res://.godot/imported/hat_lucky_sword.png-cd105e9cc675e34543629e2685a18b4f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/sword/acc/hat_lucky_sword.png"
-dest_files=["res://.godot/imported/hat_lucky_sword.png-f0b9017778e0ac6dee015cdcdd7c6c0c.ctex"]
+source_file="res://Assets/Characters/complete/separate/sword/acc/hat_lucky_sword.png"
+dest_files=["res://.godot/imported/hat_lucky_sword.png-cd105e9cc675e34543629e2685a18b4f.ctex"]
 
 [params]
 

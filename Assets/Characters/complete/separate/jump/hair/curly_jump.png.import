@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://lsd2wsmmt45w"
-path="res://.godot/imported/curly_jump.png-24cb2cc7b79f3aeeaf0545aa19f18393.ctex"
+path="res://.godot/imported/curly_jump.png-f86581aadf89514e4d2c891836b03bf7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/jump/hair/curly_jump.png"
-dest_files=["res://.godot/imported/curly_jump.png-24cb2cc7b79f3aeeaf0545aa19f18393.ctex"]
+source_file="res://Assets/Characters/complete/separate/jump/hair/curly_jump.png"
+dest_files=["res://.godot/imported/curly_jump.png-f86581aadf89514e4d2c891836b03bf7.ctex"]
 
 [params]
 

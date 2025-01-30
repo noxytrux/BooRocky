@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://kme8admtm38v"
-path="res://.godot/imported/lipstick_pickup.png-002f391bab7c038fc9af238114512fa5.ctex"
+path="res://.godot/imported/lipstick_pickup.png-ad28613cef76c3a57f0e528eb73c6048.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/pickup/eyes/lipstick_pickup.png"
-dest_files=["res://.godot/imported/lipstick_pickup.png-002f391bab7c038fc9af238114512fa5.ctex"]
+source_file="res://Assets/Characters/complete/separate/pickup/eyes/lipstick_pickup.png"
+dest_files=["res://.godot/imported/lipstick_pickup.png-ad28613cef76c3a57f0e528eb73c6048.ctex"]
 
 [params]
 

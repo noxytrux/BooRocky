@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b6gfujgk2yfyg"
-path="res://.godot/imported/earring_emerald_die.png-71aa1365bf592831428406b36409eeb3.ctex"
+path="res://.godot/imported/earring_emerald_die.png-74cf428bc9423615aadc597625cfbaea.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/die/acc/earring_emerald_die.png"
-dest_files=["res://.godot/imported/earring_emerald_die.png-71aa1365bf592831428406b36409eeb3.ctex"]
+source_file="res://Assets/Characters/complete/separate/die/acc/earring_emerald_die.png"
+dest_files=["res://.godot/imported/earring_emerald_die.png-74cf428bc9423615aadc597625cfbaea.ctex"]
 
 [params]
 

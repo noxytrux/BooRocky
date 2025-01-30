@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ddw0qp7s7pe7e"
-path="res://.godot/imported/curly_carry.png-c8ef2b952c65d62f57b0bc1381cbe928.ctex"
+path="res://.godot/imported/curly_carry.png-7a8b4058877c3da9f7ead071acc136b4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/carry/hair/curly_carry.png"
-dest_files=["res://.godot/imported/curly_carry.png-c8ef2b952c65d62f57b0bc1381cbe928.ctex"]
+source_file="res://Assets/Characters/complete/separate/carry/hair/curly_carry.png"
+dest_files=["res://.godot/imported/curly_carry.png-7a8b4058877c3da9f7ead071acc136b4.ctex"]
 
 [params]
 

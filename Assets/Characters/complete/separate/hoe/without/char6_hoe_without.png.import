@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://db22dvmm6nt4f"
-path="res://.godot/imported/char6_hoe_without.png-73d4767f308bcdd00a6aa044d7fabcb7.ctex"
+path="res://.godot/imported/char6_hoe_without.png-674ca42eb4b32d125db7a1e8b3d7291b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/hoe/without/char6_hoe_without.png"
-dest_files=["res://.godot/imported/char6_hoe_without.png-73d4767f308bcdd00a6aa044d7fabcb7.ctex"]
+source_file="res://Assets/Characters/complete/separate/hoe/without/char6_hoe_without.png"
+dest_files=["res://.godot/imported/char6_hoe_without.png-674ca42eb4b32d125db7a1e8b3d7291b.ctex"]
 
 [params]
 

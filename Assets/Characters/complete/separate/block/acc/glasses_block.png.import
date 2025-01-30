@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bknpjloa3u7km"
-path="res://.godot/imported/glasses_block.png-467251029045f7092a1326bb4e3f0b45.ctex"
+path="res://.godot/imported/glasses_block.png-5e0f54fc61cadc42cf77e7db3985f0ed.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/block/acc/glasses_block.png"
-dest_files=["res://.godot/imported/glasses_block.png-467251029045f7092a1326bb4e3f0b45.ctex"]
+source_file="res://Assets/Characters/complete/separate/block/acc/glasses_block.png"
+dest_files=["res://.godot/imported/glasses_block.png-5e0f54fc61cadc42cf77e7db3985f0ed.ctex"]
 
 [params]
 

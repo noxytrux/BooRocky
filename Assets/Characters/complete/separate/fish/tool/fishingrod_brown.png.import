@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bsw4mrvx41xs2"
-path="res://.godot/imported/fishingrod_brown.png-c75b75043add1c1f2664ebe9445ee231.ctex"
+path="res://.godot/imported/fishingrod_brown.png-ecab3e2188a2b0d627c2baed22a9147c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/fish/tool/fishingrod_brown.png"
-dest_files=["res://.godot/imported/fishingrod_brown.png-c75b75043add1c1f2664ebe9445ee231.ctex"]
+source_file="res://Assets/Characters/complete/separate/fish/tool/fishingrod_brown.png"
+dest_files=["res://.godot/imported/fishingrod_brown.png-ecab3e2188a2b0d627c2baed22a9147c.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ol748xuu44ig"
-path="res://.godot/imported/hat_witch_water.png-77f20e4694efc2d8cc353d2f2cd6feca.ctex"
+path="res://.godot/imported/hat_witch_water.png-83db530096350764b749781852a3a78f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/water/acc/hat_witch_water.png"
-dest_files=["res://.godot/imported/hat_witch_water.png-77f20e4694efc2d8cc353d2f2cd6feca.ctex"]
+source_file="res://Assets/Characters/complete/separate/water/acc/hat_witch_water.png"
+dest_files=["res://.godot/imported/hat_witch_water.png-83db530096350764b749781852a3a78f.ctex"]
 
 [params]
 

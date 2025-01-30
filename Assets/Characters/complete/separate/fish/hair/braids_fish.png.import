@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://f0uy1un258pi"
-path="res://.godot/imported/braids_fish.png-82cb326aaa1d27d716708b96ed6ef08a.ctex"
+path="res://.godot/imported/braids_fish.png-7b49bf00d329dfea843629c8f6166df3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/fish/hair/braids_fish.png"
-dest_files=["res://.godot/imported/braids_fish.png-82cb326aaa1d27d716708b96ed6ef08a.ctex"]
+source_file="res://Assets/Characters/complete/separate/fish/hair/braids_fish.png"
+dest_files=["res://.godot/imported/braids_fish.png-7b49bf00d329dfea843629c8f6166df3.ctex"]
 
 [params]
 

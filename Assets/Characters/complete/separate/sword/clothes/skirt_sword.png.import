@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bwv6i44krbod4"
-path="res://.godot/imported/skirt_sword.png-9877cdc0488152c32afabc0e5b334fe5.ctex"
+path="res://.godot/imported/skirt_sword.png-508bd333064169e1cf88c440b068829e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/sword/clothes/skirt_sword.png"
-dest_files=["res://.godot/imported/skirt_sword.png-9877cdc0488152c32afabc0e5b334fe5.ctex"]
+source_file="res://Assets/Characters/complete/separate/sword/clothes/skirt_sword.png"
+dest_files=["res://.godot/imported/skirt_sword.png-508bd333064169e1cf88c440b068829e.ctex"]
 
 [params]
 

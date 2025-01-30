@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dsp0av0egtqx5"
-path="res://.godot/imported/hat_lucky_block.png-9f0ef598d4e463c648ee8e12ad31ead5.ctex"
+path="res://.godot/imported/hat_lucky_block.png-c551c14233f96d6542f82d8b4f2f875c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/block/acc/hat_lucky_block.png"
-dest_files=["res://.godot/imported/hat_lucky_block.png-9f0ef598d4e463c648ee8e12ad31ead5.ctex"]
+source_file="res://Assets/Characters/complete/separate/block/acc/hat_lucky_block.png"
+dest_files=["res://.godot/imported/hat_lucky_block.png-c551c14233f96d6542f82d8b4f2f875c.ctex"]
 
 [params]
 

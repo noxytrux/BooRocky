@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c1jqcy5gnhk25"
-path="res://.godot/imported/long_straight_sword.png-ca34508b12d036ddde76f5629e52c5ba.ctex"
+path="res://.godot/imported/long_straight_sword.png-596ca03af16c9ad584a6c13c00f070ad.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/sword/hair/long_straight_sword.png"
-dest_files=["res://.godot/imported/long_straight_sword.png-ca34508b12d036ddde76f5629e52c5ba.ctex"]
+source_file="res://Assets/Characters/complete/separate/sword/hair/long_straight_sword.png"
+dest_files=["res://.godot/imported/long_straight_sword.png-596ca03af16c9ad584a6c13c00f070ad.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dg06mw48wo2i7"
-path="res://.godot/imported/wavy_axe.png-743b9f95b35cd8280ce440e390f464b6.ctex"
+path="res://.godot/imported/wavy_axe.png-c98914163a0b05e5f030355aeba37ab9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/axe/hair/wavy_axe.png"
-dest_files=["res://.godot/imported/wavy_axe.png-743b9f95b35cd8280ce440e390f464b6.ctex"]
+source_file="res://Assets/Characters/complete/separate/axe/hair/wavy_axe.png"
+dest_files=["res://.godot/imported/wavy_axe.png-c98914163a0b05e5f030355aeba37ab9.ctex"]
 
 [params]
 

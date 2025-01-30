@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ddu66wcrf44xm"
-path="res://.godot/imported/sporty_carry.png-44cf1675d5a011eac423661dc015c000.ctex"
+path="res://.godot/imported/sporty_carry.png-0a37f65869e8f610a9d4478f2b83dfcc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/carry/clothes/sporty_carry.png"
-dest_files=["res://.godot/imported/sporty_carry.png-44cf1675d5a011eac423661dc015c000.ctex"]
+source_file="res://Assets/Characters/complete/separate/carry/clothes/sporty_carry.png"
+dest_files=["res://.godot/imported/sporty_carry.png-0a37f65869e8f610a9d4478f2b83dfcc.ctex"]
 
 [params]
 

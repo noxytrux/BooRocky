@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://3eo1fye5h41j"
-path="res://.godot/imported/sailor_bow_jump.png-1a1f87c2b1d09a535d3c46c5cbe3bc59.ctex"
+path="res://.godot/imported/sailor_bow_jump.png-4626099a7333b23ccfac2feaf7dd43cf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/jump/clothes/sailor_bow_jump.png"
-dest_files=["res://.godot/imported/sailor_bow_jump.png-1a1f87c2b1d09a535d3c46c5cbe3bc59.ctex"]
+source_file="res://Assets/Characters/complete/separate/jump/clothes/sailor_bow_jump.png"
+dest_files=["res://.godot/imported/sailor_bow_jump.png-4626099a7333b23ccfac2feaf7dd43cf.ctex"]
 
 [params]
 

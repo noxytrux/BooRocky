@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bgintlejamw4m"
-path="res://.godot/imported/beard_jump.png-106a8287b594cba32a60ae4350aa0d1d.ctex"
+path="res://.godot/imported/beard_jump.png-9b3b5368063163aca7c1f8eabb8d09a7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/jump/acc/beard_jump.png"
-dest_files=["res://.godot/imported/beard_jump.png-106a8287b594cba32a60ae4350aa0d1d.ctex"]
+source_file="res://Assets/Characters/complete/separate/jump/acc/beard_jump.png"
+dest_files=["res://.godot/imported/beard_jump.png-9b3b5368063163aca7c1f8eabb8d09a7.ctex"]
 
 [params]
 

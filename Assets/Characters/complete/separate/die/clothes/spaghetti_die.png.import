@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dftpeh0uc4l48"
-path="res://.godot/imported/spaghetti_die.png-059617d1f75b8c86258e887ae84cb75d.ctex"
+path="res://.godot/imported/spaghetti_die.png-b23c6c2dec1c79009cbd96b7ae1922c1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/die/clothes/spaghetti_die.png"
-dest_files=["res://.godot/imported/spaghetti_die.png-059617d1f75b8c86258e887ae84cb75d.ctex"]
+source_file="res://Assets/Characters/complete/separate/die/clothes/spaghetti_die.png"
+dest_files=["res://.godot/imported/spaghetti_die.png-b23c6c2dec1c79009cbd96b7ae1922c1.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://brychvj3webg5"
-path="res://.godot/imported/hat_lucky_walk.png-e21cca12a98320b34122f9deee0a5471.ctex"
+path="res://.godot/imported/hat_lucky_walk.png-6ba54bf548906f0801867a28dbfea8fb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/walk/acc/hat_lucky_walk.png"
-dest_files=["res://.godot/imported/hat_lucky_walk.png-e21cca12a98320b34122f9deee0a5471.ctex"]
+source_file="res://Assets/Characters/complete/separate/walk/acc/hat_lucky_walk.png"
+dest_files=["res://.godot/imported/hat_lucky_walk.png-6ba54bf548906f0801867a28dbfea8fb.ctex"]
 
 [params]
 

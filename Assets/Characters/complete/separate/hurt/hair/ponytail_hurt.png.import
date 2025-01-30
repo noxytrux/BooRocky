@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dnp8f886kqbsy"
-path="res://.godot/imported/ponytail_hurt.png-9d2f8fdf1be6d13e6ab350f64d685687.ctex"
+path="res://.godot/imported/ponytail_hurt.png-d5e5b58c3401b235fdeb6960110874e2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/hurt/hair/ponytail_hurt.png"
-dest_files=["res://.godot/imported/ponytail_hurt.png-9d2f8fdf1be6d13e6ab350f64d685687.ctex"]
+source_file="res://Assets/Characters/complete/separate/hurt/hair/ponytail_hurt.png"
+dest_files=["res://.godot/imported/ponytail_hurt.png-d5e5b58c3401b235fdeb6960110874e2.ctex"]
 
 [params]
 

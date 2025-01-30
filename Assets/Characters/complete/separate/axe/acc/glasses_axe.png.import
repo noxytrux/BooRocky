@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bc4xl4a4juuwi"
-path="res://.godot/imported/glasses_axe.png-45b818934707bb96b7a77621049deaea.ctex"
+path="res://.godot/imported/glasses_axe.png-1cbe33d05905288ba5e225ac5421f406.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/axe/acc/glasses_axe.png"
-dest_files=["res://.godot/imported/glasses_axe.png-45b818934707bb96b7a77621049deaea.ctex"]
+source_file="res://Assets/Characters/complete/separate/axe/acc/glasses_axe.png"
+dest_files=["res://.godot/imported/glasses_axe.png-1cbe33d05905288ba5e225ac5421f406.ctex"]
 
 [params]
 

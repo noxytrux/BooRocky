@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://body0x7vnoxco"
-path="res://.godot/imported/witch_walk.png-b80c018bb8ac673524afa6d3ab28fa0d.ctex"
+path="res://.godot/imported/witch_walk.png-66a5b584d9fa439ab3dd121f331970f5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/walk/clothes/witch_walk.png"
-dest_files=["res://.godot/imported/witch_walk.png-b80c018bb8ac673524afa6d3ab28fa0d.ctex"]
+source_file="res://Assets/Characters/complete/separate/walk/clothes/witch_walk.png"
+dest_files=["res://.godot/imported/witch_walk.png-66a5b584d9fa439ab3dd121f331970f5.ctex"]
 
 [params]
 

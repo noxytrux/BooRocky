@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cbep333xghf4f"
-path="res://.godot/imported/hat_pumpkin_purple_walk.png-450d009944b4aa2b9d414ef5731f50d1.ctex"
+path="res://.godot/imported/hat_pumpkin_purple_walk.png-6c979fb82cb71818913521046870a039.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/walk/acc/hat_pumpkin_purple_walk.png"
-dest_files=["res://.godot/imported/hat_pumpkin_purple_walk.png-450d009944b4aa2b9d414ef5731f50d1.ctex"]
+source_file="res://Assets/Characters/complete/separate/walk/acc/hat_pumpkin_purple_walk.png"
+dest_files=["res://.godot/imported/hat_pumpkin_purple_walk.png-6c979fb82cb71818913521046870a039.ctex"]
 
 [params]
 

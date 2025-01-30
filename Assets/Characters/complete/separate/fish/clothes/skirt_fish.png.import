@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bo3v8pbni4jcj"
-path="res://.godot/imported/skirt_fish.png-0c67d5a07ef752d130ecde77b4fc62fe.ctex"
+path="res://.godot/imported/skirt_fish.png-67da4e50fdfc3accf33681dbc6b175bc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/fish/clothes/skirt_fish.png"
-dest_files=["res://.godot/imported/skirt_fish.png-0c67d5a07ef752d130ecde77b4fc62fe.ctex"]
+source_file="res://Assets/Characters/complete/separate/fish/clothes/skirt_fish.png"
+dest_files=["res://.godot/imported/skirt_fish.png-67da4e50fdfc3accf33681dbc6b175bc.ctex"]
 
 [params]
 

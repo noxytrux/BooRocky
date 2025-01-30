@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://kux0n1xdxxsv"
-path="res://.godot/imported/earring_emerald_fish.png-d3f8d6a36e64b0a1ba9b8696c8c85b97.ctex"
+path="res://.godot/imported/earring_emerald_fish.png-4054299c8d56ffa3dadaf95daed70982.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/fish/acc/earring_emerald_fish.png"
-dest_files=["res://.godot/imported/earring_emerald_fish.png-d3f8d6a36e64b0a1ba9b8696c8c85b97.ctex"]
+source_file="res://Assets/Characters/complete/separate/fish/acc/earring_emerald_fish.png"
+dest_files=["res://.godot/imported/earring_emerald_fish.png-4054299c8d56ffa3dadaf95daed70982.ctex"]
 
 [params]
 

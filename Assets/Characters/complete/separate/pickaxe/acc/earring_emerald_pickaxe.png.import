@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ed2spv7cgmcd"
-path="res://.godot/imported/earring_emerald_pickaxe.png-8ea050a07f11fca64b5b6e83c638203c.ctex"
+path="res://.godot/imported/earring_emerald_pickaxe.png-76637482ee4d83b1e0aef50a836baf7f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/pickaxe/acc/earring_emerald_pickaxe.png"
-dest_files=["res://.godot/imported/earring_emerald_pickaxe.png-8ea050a07f11fca64b5b6e83c638203c.ctex"]
+source_file="res://Assets/Characters/complete/separate/pickaxe/acc/earring_emerald_pickaxe.png"
+dest_files=["res://.godot/imported/earring_emerald_pickaxe.png-76637482ee4d83b1e0aef50a836baf7f.ctex"]
 
 [params]
 

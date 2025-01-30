@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cgtye5ncm75l5"
-path="res://.godot/imported/sporty_sword.png-6a9190b79e799f059b3a6b4e0903f421.ctex"
+path="res://.godot/imported/sporty_sword.png-89acfc7faa8839b36818a985e4a55a11.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/sword/clothes/sporty_sword.png"
-dest_files=["res://.godot/imported/sporty_sword.png-6a9190b79e799f059b3a6b4e0903f421.ctex"]
+source_file="res://Assets/Characters/complete/separate/sword/clothes/sporty_sword.png"
+dest_files=["res://.godot/imported/sporty_sword.png-89acfc7faa8839b36818a985e4a55a11.ctex"]
 
 [params]
 

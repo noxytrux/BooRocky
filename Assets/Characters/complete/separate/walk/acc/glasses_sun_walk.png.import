@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://2ycspifocl33"
-path="res://.godot/imported/glasses_sun_walk.png-9bd4f40e27728251eb0799a628aa9491.ctex"
+path="res://.godot/imported/glasses_sun_walk.png-ac369b50d443b4e52d586623bd278cf3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/walk/acc/glasses_sun_walk.png"
-dest_files=["res://.godot/imported/glasses_sun_walk.png-9bd4f40e27728251eb0799a628aa9491.ctex"]
+source_file="res://Assets/Characters/complete/separate/walk/acc/glasses_sun_walk.png"
+dest_files=["res://.godot/imported/glasses_sun_walk.png-ac369b50d443b4e52d586623bd278cf3.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://daqnk5kieqa5x"
-path="res://.godot/imported/beard_axe.png-84b6d4da58952b2436a773141b3c73ea.ctex"
+path="res://.godot/imported/beard_axe.png-9d76a133e05516337c1b46b5891348a6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/axe/acc/beard_axe.png"
-dest_files=["res://.godot/imported/beard_axe.png-84b6d4da58952b2436a773141b3c73ea.ctex"]
+source_file="res://Assets/Characters/complete/separate/axe/acc/beard_axe.png"
+dest_files=["res://.godot/imported/beard_axe.png-9d76a133e05516337c1b46b5891348a6.ctex"]
 
 [params]
 

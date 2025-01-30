@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://h5wwel5aj63j"
-path="res://.godot/imported/hat_lucky_carry.png-0be109dba4569f60244b8e63242398c4.ctex"
+path="res://.godot/imported/hat_lucky_carry.png-63837dfd4b95d871e21685889f9bb938.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/carry/acc/hat_lucky_carry.png"
-dest_files=["res://.godot/imported/hat_lucky_carry.png-0be109dba4569f60244b8e63242398c4.ctex"]
+source_file="res://Assets/Characters/complete/separate/carry/acc/hat_lucky_carry.png"
+dest_files=["res://.godot/imported/hat_lucky_carry.png-63837dfd4b95d871e21685889f9bb938.ctex"]
 
 [params]
 

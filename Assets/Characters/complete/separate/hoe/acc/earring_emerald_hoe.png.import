@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bpqqss4vhtroa"
-path="res://.godot/imported/earring_emerald_hoe.png-150784b6e12d586338d4f183ce9f958e.ctex"
+path="res://.godot/imported/earring_emerald_hoe.png-809193977d4d0ee09cca5c93c77ab82d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/hoe/acc/earring_emerald_hoe.png"
-dest_files=["res://.godot/imported/earring_emerald_hoe.png-150784b6e12d586338d4f183ce9f958e.ctex"]
+source_file="res://Assets/Characters/complete/separate/hoe/acc/earring_emerald_hoe.png"
+dest_files=["res://.godot/imported/earring_emerald_hoe.png-809193977d4d0ee09cca5c93c77ab82d.ctex"]
 
 [params]
 

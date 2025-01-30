@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bki2dg5ai0h63"
-path="res://.godot/imported/hat_witch_sword.png-c137dc7016759467e2ee43a68544ee9d.ctex"
+path="res://.godot/imported/hat_witch_sword.png-ed8385c00d2d4933c93df37c0b8898c6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/sword/acc/hat_witch_sword.png"
-dest_files=["res://.godot/imported/hat_witch_sword.png-c137dc7016759467e2ee43a68544ee9d.ctex"]
+source_file="res://Assets/Characters/complete/separate/sword/acc/hat_witch_sword.png"
+dest_files=["res://.godot/imported/hat_witch_sword.png-ed8385c00d2d4933c93df37c0b8898c6.ctex"]
 
 [params]
 

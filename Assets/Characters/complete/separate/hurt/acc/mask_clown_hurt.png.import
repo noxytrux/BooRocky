@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ba4vmbgfd1gpd"
-path="res://.godot/imported/mask_clown_hurt.png-2134fc865e1147dd819c8c422d24a2a9.ctex"
+path="res://.godot/imported/mask_clown_hurt.png-268a4d9676b16279ae72e04853eb4066.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/hurt/acc/mask_clown_hurt.png"
-dest_files=["res://.godot/imported/mask_clown_hurt.png-2134fc865e1147dd819c8c422d24a2a9.ctex"]
+source_file="res://Assets/Characters/complete/separate/hurt/acc/mask_clown_hurt.png"
+dest_files=["res://.godot/imported/mask_clown_hurt.png-268a4d9676b16279ae72e04853eb4066.ctex"]
 
 [params]
 

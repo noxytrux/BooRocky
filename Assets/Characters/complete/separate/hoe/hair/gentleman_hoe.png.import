@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bj0ohkafkmdxg"
-path="res://.godot/imported/gentleman_hoe.png-4f0cf63a9cd337364d1195ba5db4ed6d.ctex"
+path="res://.godot/imported/gentleman_hoe.png-3b3b1c5f49f01202975dd7b32088c523.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/hoe/hair/gentleman_hoe.png"
-dest_files=["res://.godot/imported/gentleman_hoe.png-4f0cf63a9cd337364d1195ba5db4ed6d.ctex"]
+source_file="res://Assets/Characters/complete/separate/hoe/hair/gentleman_hoe.png"
+dest_files=["res://.godot/imported/gentleman_hoe.png-3b3b1c5f49f01202975dd7b32088c523.ctex"]
 
 [params]
 

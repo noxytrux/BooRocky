@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b3q2qq1mhis5n"
-path="res://.godot/imported/char6_pickaxe_without.png-ebc08d874666b16adf4a971030b1ceee.ctex"
+path="res://.godot/imported/char6_pickaxe_without.png-27d7ac265bdc667c609a306f303f95e5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/pickaxe/without/char6_pickaxe_without.png"
-dest_files=["res://.godot/imported/char6_pickaxe_without.png-ebc08d874666b16adf4a971030b1ceee.ctex"]
+source_file="res://Assets/Characters/complete/separate/pickaxe/without/char6_pickaxe_without.png"
+dest_files=["res://.godot/imported/char6_pickaxe_without.png-27d7ac265bdc667c609a306f303f95e5.ctex"]
 
 [params]
 

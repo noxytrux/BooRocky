@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b4027genv2b7b"
-path="res://.godot/imported/spooky_pickaxe.png-edf834a9e835b3895d85ebb9cba91d6a.ctex"
+path="res://.godot/imported/spooky_pickaxe.png-9f3481729d399016d48f9173cdd61134.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/complete/separate/pickaxe/clothes/spooky_pickaxe.png"
-dest_files=["res://.godot/imported/spooky_pickaxe.png-edf834a9e835b3895d85ebb9cba91d6a.ctex"]
+source_file="res://Assets/Characters/complete/separate/pickaxe/clothes/spooky_pickaxe.png"
+dest_files=["res://.godot/imported/spooky_pickaxe.png-9f3481729d399016d48f9173cdd61134.ctex"]
 
 [params]
 
